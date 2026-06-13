@@ -1,6 +1,4 @@
 ```python
-from __future__ import annotations
-
 import json
 import re
 import sys
@@ -11,42 +9,29 @@ import requests
 
 
 PAGINA_PRONOSTICO = "https://ws2.smn.gob.ar/pronostico"
-API_PRONOSTICO = "https://ws1.smn.gob.ar/v1/forecast/location/map/2"
+API_BASE = "https://ws1.smn.gob.ar/v1"
+LOCATION_ID = 4864
 
 ARCHIVO_SALIDA = Path("docs/data/pronostico.json")
 
-TIMEOUT = 40
-
-HEADERS_WEB = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/126.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "es-AR,es;q=0.9,en;q=0.7",
-}
-
-HEADERS_API = {
-    "User-Agent": HEADERS_WEB["User-Agent"],
-    "Accept": "application/json",
-    "Origin": "https://ws2.smn.gob.ar",
-    "Referer": "https://ws2.smn.gob.ar/pronostico",
-}
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0 Safari/537.36"
+)
 
 
-def obtener_token(sesion: requests.Session) -> str:
-    """
-    Descarga la página pública del pronóstico y extrae el token temporal
-    que el propio sitio guarda en localStorage.
-    """
-    respuesta = sesion.get(
+def obtener_token(session: requests.Session) -> str:
+    respuesta = session.get(
         PAGINA_PRONOSTICO,
-        headers=HEADERS_WEB,
-        timeout=TIMEOUT,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml",
+        },
+        timeout=30,
     )
-    respuesta.raise_for_status()
 
+    respuesta.raise_for_status()
     html = respuesta.text
 
     patrones = [
@@ -56,142 +41,139 @@ def obtener_token(sesion: requests.Session) -> str:
 
     for patron in patrones:
         coincidencia = re.search(patron, html)
+
         if coincidencia:
             token = coincidencia.group(1).strip()
 
-            if token.count(".") == 2:
+            if token:
                 return token
 
     raise RuntimeError(
-        "No se pudo encontrar el token temporal en la página del pronóstico."
+        "No se pudo encontrar el token temporal en la página del SMN."
     )
 
 
 def descargar_pronostico(
-    sesion: requests.Session,
+    session: requests.Session,
     token: str,
-) -> list[dict]:
-    headers = {
-        **HEADERS_API,
-        "Authorization": f"JWT {token}",
-    }
+    location_id: int,
+) -> dict:
+    url = f"{API_BASE}/forecast/location/{location_id}"
 
-    respuesta = sesion.get(
-        API_PRONOSTICO,
-        headers=headers,
-        timeout=TIMEOUT,
+    respuesta = session.get(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "Authorization": f"JWT {token}",
+            "Origin": "https://ws2.smn.gob.ar",
+            "Referer": "https://ws2.smn.gob.ar/",
+        },
+        timeout=30,
     )
+
     respuesta.raise_for_status()
 
     datos = respuesta.json()
 
-    if not isinstance(datos, list):
-        raise RuntimeError(
-            "La API respondió, pero el contenido no es una lista de localidades."
-        )
+    if not isinstance(datos, dict):
+        raise RuntimeError("El SMN respondió con un formato inesperado.")
+
+    if "location" not in datos:
+        raise RuntimeError("La respuesta no contiene información de la localidad.")
+
+    if "forecast" not in datos:
+        raise RuntimeError("La respuesta no contiene el pronóstico.")
+
+    if not isinstance(datos["forecast"], list):
+        raise RuntimeError("El campo forecast no es una lista.")
+
+    if len(datos["forecast"]) == 0:
+        raise RuntimeError("El pronóstico recibido está vacío.")
 
     return datos
 
 
-def guardar_resultado(localidades: list[dict]) -> None:
-    ARCHIVO_SALIDA.parent.mkdir(parents=True, exist_ok=True)
+def preparar_salida(datos: dict) -> dict:
+    location = datos.get("location", {})
+    forecast = datos.get("forecast", [])
 
-    ahora = datetime.now(timezone.utc)
+    fechas = [
+        periodo.get("date")
+        for periodo in forecast
+        if isinstance(periodo, dict) and periodo.get("date")
+    ]
 
-    resultado = {
+    return {
         "source": "Servicio Meteorológico Nacional",
         "source_page": PAGINA_PRONOSTICO,
-        "source_url": API_PRONOSTICO,
-        "generated_at": ahora.isoformat(),
-        "status": "ok",
-        "count": len(localidades),
-        "locations": localidades,
-    }
-
-    ARCHIVO_SALIDA.write_text(
-        json.dumps(
-            resultado,
-            ensure_ascii=False,
-            indent=2,
-        )
-        + "\n",
-        encoding="utf-8",
-    )
-
-
-def guardar_error(mensaje: str) -> None:
-    """
-    Deja registrado el error sin inventar datos meteorológicos.
-    """
-    ARCHIVO_SALIDA.parent.mkdir(parents=True, exist_ok=True)
-
-    resultado = {
-        "source": "Servicio Meteorológico Nacional",
-        "source_page": PAGINA_PRONOSTICO,
-        "source_url": API_PRONOSTICO,
+        "source_api": f"{API_BASE}/forecast/location/{LOCATION_ID}",
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "status": "error",
-        "count": 0,
-        "error": mensaje,
-        "locations": [],
+        "status": "ok",
+        "location_id": LOCATION_ID,
+        "location": location,
+        "forecast_updated": datos.get("updated"),
+        "forecast_days": len(forecast),
+        "first_date": min(fechas) if fechas else None,
+        "last_date": max(fechas) if fechas else None,
+        "forecast": forecast,
     }
 
+
+def guardar_json(datos: dict) -> None:
+    ARCHIVO_SALIDA.parent.mkdir(parents=True, exist_ok=True)
+
+    contenido = json.dumps(
+        datos,
+        ensure_ascii=False,
+        indent=2,
+    )
+
     ARCHIVO_SALIDA.write_text(
-        json.dumps(
-            resultado,
-            ensure_ascii=False,
-            indent=2,
-        )
-        + "\n",
+        contenido + "\n",
         encoding="utf-8",
     )
 
 
-def main() -> int:
-    try:
-        with requests.Session() as sesion:
-            token = obtener_token(sesion)
-            localidades = descargar_pronostico(sesion, token)
-            guardar_resultado(localidades)
+def main() -> None:
+    print("Abriendo la página de pronóstico del SMN...")
 
-        print(
-            f"Pronóstico actualizado correctamente: "
-            f"{len(localidades)} localidades."
-        )
-        print(f"Archivo generado: {ARCHIVO_SALIDA}")
-        return 0
+    with requests.Session() as session:
+        token = obtener_token(session)
 
-    except requests.HTTPError as error:
-        codigo = (
-            error.response.status_code
-            if error.response is not None
-            else "desconocido"
+        print("Token temporal obtenido correctamente.")
+        print("Descargando pronóstico de Capital Federal...")
+
+        datos_originales = descargar_pronostico(
+            session,
+            token,
+            LOCATION_ID,
         )
 
-        mensaje = f"Error HTTP al consultar el SMN: {codigo}"
-        guardar_error(mensaje)
-        print(mensaje, file=sys.stderr)
-        return 1
+    datos_salida = preparar_salida(datos_originales)
+    guardar_json(datos_salida)
 
-    except requests.RequestException as error:
-        mensaje = f"Error de conexión con el SMN: {error}"
-        guardar_error(mensaje)
-        print(mensaje, file=sys.stderr)
-        return 1
-
-    except (ValueError, RuntimeError) as error:
-        mensaje = str(error)
-        guardar_error(mensaje)
-        print(mensaje, file=sys.stderr)
-        return 1
-
-    except Exception as error:
-        mensaje = f"Error inesperado: {error}"
-        guardar_error(mensaje)
-        print(mensaje, file=sys.stderr)
-        return 1
+    print(f"Archivo generado: {ARCHIVO_SALIDA}")
+    print(f"Localidad: {datos_salida['location'].get('name')}")
+    print(f"Días recibidos: {datos_salida['forecast_days']}")
+    print(
+        "Período:",
+        datos_salida["first_date"],
+        "a",
+        datos_salida["last_date"],
+    )
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        main()
+    except requests.HTTPError as error:
+        print(f"Error HTTP consultando el SMN: {error}", file=sys.stderr)
+        sys.exit(1)
+    except requests.RequestException as error:
+        print(f"Error de conexión con el SMN: {error}", file=sys.stderr)
+        sys.exit(1)
+    except Exception as error:
+        print(f"Error: {error}", file=sys.stderr)
+        sys.exit(1)
 ```
