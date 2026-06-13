@@ -1,8 +1,15 @@
 {
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws.smn.gob.ar/map_items/weather",
-  "generated_at": "2026-06-13T04:52:33.462251+00:00",
+  "generated_at": "2026-06-13T04:58:48.707922+00:00",
+  "status": "stale",
+  "is_current": false,
+  "max_age_hours": 6,
+  "latest_observation": "2022-07-26T21:00:00+00:00",
+  "latest_observation_age_hours": 34015.98,
   "count": 218,
+  "current_count": 0,
+  "warning": "La fuente respondió correctamente, pero las observaciones son antiguas y no deben mostrarse como estado actual.",
   "stations": [
     {
       "_id": "609de837818e15902c75353b",
@@ -28,7 +35,10 @@
         "wing_deg": "Sur",
         "tempDesc": "16ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c751200",
@@ -54,7 +64,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "25.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753576",
@@ -80,7 +93,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "1.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753577",
@@ -106,7 +122,10 @@
         "wing_deg": "Norte",
         "tempDesc": "0.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753578",
@@ -132,7 +151,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "1.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536d6",
@@ -158,7 +180,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "-4.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753712",
@@ -184,7 +209,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "-14ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T09:00:00+00:00",
+      "age_hours": 34027.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c7",
@@ -210,7 +238,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c8",
@@ -236,7 +267,10 @@
         "wing_deg": "Calma",
         "tempDesc": "9.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c9",
@@ -262,7 +296,10 @@
         "wing_deg": "Este",
         "tempDesc": "3.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536ca",
@@ -288,7 +325,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536cb",
@@ -314,7 +354,10 @@
         "wing_deg": "Este",
         "tempDesc": "8.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536cc",
@@ -340,7 +383,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "26.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536ce",
@@ -366,7 +412,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "26.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536d1",
@@ -392,7 +441,10 @@
         "wing_deg": "Norte",
         "tempDesc": "29.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536d2",
@@ -418,7 +470,10 @@
         "wing_deg": "Norte",
         "tempDesc": "29.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536d3",
@@ -444,7 +499,10 @@
         "wing_deg": "Este",
         "tempDesc": "21.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536d9",
@@ -470,7 +528,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536db",
@@ -496,7 +557,10 @@
         "wing_deg": "Calma",
         "tempDesc": "24.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536e1",
@@ -522,7 +586,10 @@
         "wing_deg": "Calma",
         "tempDesc": "24.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536e2",
@@ -548,7 +615,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "-0.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536f5",
@@ -574,7 +644,10 @@
         "wing_deg": "Este",
         "tempDesc": "18.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75370a",
@@ -600,7 +673,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "21.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75370b",
@@ -626,7 +702,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "18ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75370c",
@@ -652,7 +731,10 @@
         "wing_deg": "Norte",
         "tempDesc": "0.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75370d",
@@ -678,7 +760,10 @@
         "wing_deg": "Norte",
         "tempDesc": "23ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75370f",
@@ -704,7 +789,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "6.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-15T00:00:00+00:00",
+      "age_hours": 34300.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753710",
@@ -730,7 +818,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "-4.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T12:00:00+00:00",
+      "age_hours": 34024.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753719",
@@ -756,7 +847,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "0.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753750",
@@ -782,7 +876,10 @@
         "wing_deg": "Este",
         "tempDesc": "13ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7537a4",
@@ -808,7 +905,10 @@
         "wing_deg": "Este",
         "tempDesc": "15.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7537a5",
@@ -834,7 +934,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7537aa",
@@ -860,7 +963,10 @@
         "wing_deg": "Este",
         "tempDesc": "20.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7537ab",
@@ -886,7 +992,10 @@
         "wing_deg": "Sur",
         "tempDesc": "7.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75353d",
@@ -912,7 +1021,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "17.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75353f",
@@ -938,7 +1050,10 @@
         "wing_deg": "Este",
         "tempDesc": "17.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753540",
@@ -964,7 +1079,10 @@
         "wing_deg": "Calma",
         "tempDesc": "18.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753541",
@@ -990,7 +1108,10 @@
         "wing_deg": "Calma",
         "tempDesc": "18.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753542",
@@ -1016,7 +1137,10 @@
         "wing_deg": "Calma",
         "tempDesc": "18.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753543",
@@ -1042,7 +1166,10 @@
         "wing_deg": "Sur",
         "tempDesc": "15.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753545",
@@ -1068,7 +1195,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "12.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753546",
@@ -1094,7 +1224,10 @@
         "wing_deg": "Este",
         "tempDesc": "13ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753547",
@@ -1120,7 +1253,10 @@
         "wing_deg": "Este",
         "tempDesc": "12.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753548",
@@ -1146,7 +1282,10 @@
         "wing_deg": "Este",
         "tempDesc": "12.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753549",
@@ -1172,7 +1311,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "12.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75354a",
@@ -1198,7 +1340,10 @@
         "wing_deg": "Este",
         "tempDesc": "15.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75354b",
@@ -1224,7 +1369,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "12.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75354c",
@@ -1250,7 +1398,10 @@
         "wing_deg": "Sur",
         "tempDesc": "10.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75354d",
@@ -1276,7 +1427,10 @@
         "wing_deg": "Este",
         "tempDesc": "19.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75354e",
@@ -1302,7 +1456,10 @@
         "wing_deg": "Sur",
         "tempDesc": "12ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75354f",
@@ -1328,7 +1485,10 @@
         "wing_deg": "Sur",
         "tempDesc": "10.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753550",
@@ -1354,7 +1514,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "14.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753551",
@@ -1380,7 +1543,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "9.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753552",
@@ -1406,7 +1572,10 @@
         "wing_deg": "Este",
         "tempDesc": "12.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753553",
@@ -1432,7 +1601,10 @@
         "wing_deg": "Este",
         "tempDesc": "23.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753554",
@@ -1458,7 +1630,10 @@
         "wing_deg": "Sur",
         "tempDesc": "21.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753556",
@@ -1484,7 +1659,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "21.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753557",
@@ -1510,7 +1688,10 @@
         "wing_deg": "Este",
         "tempDesc": "12.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753558",
@@ -1536,7 +1717,10 @@
         "wing_deg": "Este",
         "tempDesc": "19.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753559",
@@ -1562,7 +1746,10 @@
         "wing_deg": "Este",
         "tempDesc": "20.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75355a",
@@ -1588,7 +1775,10 @@
         "wing_deg": "Este",
         "tempDesc": "20.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75355b",
@@ -1614,7 +1804,10 @@
         "wing_deg": "Este",
         "tempDesc": "22ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75355c",
@@ -1640,7 +1833,10 @@
         "wing_deg": "Este",
         "tempDesc": "22ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75355d",
@@ -1666,7 +1862,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "21.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75355e",
@@ -1692,7 +1891,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "20.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75355f",
@@ -1718,7 +1920,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "21.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753560",
@@ -1744,7 +1949,10 @@
         "wing_deg": "Este",
         "tempDesc": "19.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753561",
@@ -1770,7 +1978,10 @@
         "wing_deg": "Este",
         "tempDesc": "19.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753562",
@@ -1796,7 +2007,10 @@
         "wing_deg": "Este",
         "tempDesc": "18.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753563",
@@ -1822,7 +2036,10 @@
         "wing_deg": "Este",
         "tempDesc": "18.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753564",
@@ -1848,7 +2065,10 @@
         "wing_deg": "Este",
         "tempDesc": "20.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753565",
@@ -1874,7 +2094,10 @@
         "wing_deg": "Sur",
         "tempDesc": "25ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753566",
@@ -1900,7 +2123,10 @@
         "wing_deg": "Sur",
         "tempDesc": "26.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753568",
@@ -1926,7 +2152,10 @@
         "wing_deg": "Sur",
         "tempDesc": "26.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753569",
@@ -1952,7 +2181,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "26.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75356a",
@@ -1978,7 +2210,10 @@
         "wing_deg": "Sur",
         "tempDesc": "25ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75356d",
@@ -2004,7 +2239,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "20.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75356e",
@@ -2030,7 +2268,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75356f",
@@ -2056,7 +2297,10 @@
         "wing_deg": "Este",
         "tempDesc": "31.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753570",
@@ -2082,7 +2326,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753571",
@@ -2108,7 +2355,10 @@
         "wing_deg": "Este",
         "tempDesc": "31.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753572",
@@ -2134,7 +2384,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753573",
@@ -2160,7 +2413,10 @@
         "wing_deg": "Sur",
         "tempDesc": "7.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753574",
@@ -2186,7 +2442,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "0.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753579",
@@ -2212,7 +2471,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75357b",
@@ -2238,7 +2500,10 @@
         "wing_deg": "Sur",
         "tempDesc": "17.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75357c",
@@ -2264,7 +2529,10 @@
         "wing_deg": "Sur",
         "tempDesc": "18.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75357d",
@@ -2290,7 +2558,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "32ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75357e",
@@ -2316,7 +2587,10 @@
         "wing_deg": "Sur",
         "tempDesc": "32.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75357f",
@@ -2342,7 +2616,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "25ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753580",
@@ -2368,7 +2645,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "25ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753581",
@@ -2394,7 +2674,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "25ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753582",
@@ -2420,7 +2703,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "22.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753583",
@@ -2446,7 +2732,10 @@
         "wing_deg": "Sur",
         "tempDesc": "17.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753584",
@@ -2472,7 +2761,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "22.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753585",
@@ -2498,7 +2790,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "18ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753588",
@@ -2524,7 +2819,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "18ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75358a",
@@ -2550,7 +2848,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75358b",
@@ -2576,7 +2877,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "18ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75358c",
@@ -2602,7 +2906,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "15.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75358d",
@@ -2628,7 +2935,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75358e",
@@ -2654,7 +2964,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75358f",
@@ -2680,7 +2993,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "15.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753590",
@@ -2706,7 +3022,10 @@
         "wing_deg": "Norte",
         "tempDesc": "26.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753591",
@@ -2732,7 +3051,10 @@
         "wing_deg": "Este",
         "tempDesc": "28.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753592",
@@ -2758,7 +3080,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "30.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753593",
@@ -2784,7 +3109,10 @@
         "wing_deg": "Norte",
         "tempDesc": "31.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753594",
@@ -2810,7 +3138,10 @@
         "wing_deg": "Este",
         "tempDesc": "25.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753595",
@@ -2836,7 +3167,10 @@
         "wing_deg": "Este",
         "tempDesc": "26.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753596",
@@ -2862,7 +3196,10 @@
         "wing_deg": "Norte",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753598",
@@ -2888,7 +3225,10 @@
         "wing_deg": "Norte",
         "tempDesc": "25.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753599",
@@ -2914,7 +3254,10 @@
         "wing_deg": "Este",
         "tempDesc": "23.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75359a",
@@ -2940,7 +3283,10 @@
         "wing_deg": "Este",
         "tempDesc": "28.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75359b",
@@ -2966,7 +3312,10 @@
         "wing_deg": "Este",
         "tempDesc": "23.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75359c",
@@ -2992,7 +3341,10 @@
         "wing_deg": "Norte",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75359d",
@@ -3018,7 +3370,10 @@
         "wing_deg": "Este",
         "tempDesc": "23.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75359e",
@@ -3044,7 +3399,10 @@
         "wing_deg": "Este",
         "tempDesc": "23.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75359f",
@@ -3070,7 +3428,10 @@
         "wing_deg": "Norte",
         "tempDesc": "34ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535a0",
@@ -3096,7 +3457,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535a1",
@@ -3122,7 +3486,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535a2",
@@ -3148,7 +3515,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "21.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535a5",
@@ -3174,7 +3544,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535a6",
@@ -3200,7 +3573,10 @@
         "wing_deg": "Sur",
         "tempDesc": "7.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535aa",
@@ -3226,7 +3602,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "18.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535b1",
@@ -3252,7 +3631,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535b5",
@@ -3278,7 +3660,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535b6",
@@ -3304,7 +3689,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535b7",
@@ -3330,7 +3718,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535b8",
@@ -3356,7 +3747,10 @@
         "wing_deg": "Sur",
         "tempDesc": "11.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535b9",
@@ -3382,7 +3776,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535ba",
@@ -3408,7 +3805,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535bb",
@@ -3434,7 +3834,10 @@
         "wing_deg": "Sur",
         "tempDesc": "8.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535bc",
@@ -3460,7 +3863,10 @@
         "wing_deg": "Sur",
         "tempDesc": "11.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535bd",
@@ -3486,7 +3892,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "24.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535be",
@@ -3512,7 +3921,10 @@
         "wing_deg": "Calma",
         "tempDesc": "10ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T12:00:00+00:00",
+      "age_hours": 34024.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535bf",
@@ -3538,7 +3950,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "26.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535c0",
@@ -3564,7 +3979,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "26.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535c1",
@@ -3590,7 +4008,10 @@
         "wing_deg": "Sudoeste",
         "tempDesc": "10ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535c2",
@@ -3616,7 +4037,10 @@
         "wing_deg": "Calma",
         "tempDesc": "18.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535c3",
@@ -3642,7 +4066,10 @@
         "wing_deg": "Calma",
         "tempDesc": "18.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535c4",
@@ -3668,7 +4095,10 @@
         "wing_deg": "Calma",
         "tempDesc": "11.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535c6",
@@ -3694,7 +4124,10 @@
         "wing_deg": "Sur",
         "tempDesc": "12.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535cc",
@@ -3720,7 +4153,10 @@
         "wing_deg": "Calma",
         "tempDesc": "26.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7535d7",
@@ -3746,7 +4182,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753670",
@@ -3772,7 +4211,10 @@
         "wing_deg": "Norte",
         "tempDesc": "31.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536b8",
@@ -3798,7 +4240,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "3.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536b9",
@@ -3824,7 +4269,10 @@
         "wing_deg": "Este",
         "tempDesc": "13ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536ba",
@@ -3850,7 +4298,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "20.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536bb",
@@ -3876,7 +4327,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "16ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536bc",
@@ -3902,7 +4356,10 @@
         "wing_deg": "Calma",
         "tempDesc": "19ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-02-12T00:00:00+00:00",
+      "age_hours": 37972.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536be",
@@ -3928,7 +4385,10 @@
         "wing_deg": "Calma",
         "tempDesc": "19ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-02-12T00:00:00+00:00",
+      "age_hours": 37972.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c0",
@@ -3954,7 +4414,10 @@
         "wing_deg": "Este",
         "tempDesc": "13ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c2",
@@ -3980,7 +4443,10 @@
         "wing_deg": "Este",
         "tempDesc": "8.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c3",
@@ -4006,7 +4472,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c4",
@@ -4032,7 +4501,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "30.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c5",
@@ -4058,7 +4530,10 @@
         "wing_deg": "Calma",
         "tempDesc": "9.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7536c6",
@@ -4084,7 +4559,10 @@
         "wing_deg": "Este",
         "tempDesc": "29.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7512fe",
@@ -4110,7 +4588,10 @@
         "wing_deg": "Norte",
         "tempDesc": "35ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7513f6",
@@ -4136,7 +4617,10 @@
         "wing_deg": "Sur",
         "tempDesc": "18.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7514cc",
@@ -4162,7 +4646,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "19.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2021-05-30T17:00:00+00:00",
+      "age_hours": 44147.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7514da",
@@ -4188,7 +4675,10 @@
         "wing_deg": "Sur",
         "tempDesc": "21.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7515fd",
@@ -4214,7 +4704,10 @@
         "wing_deg": "Este",
         "tempDesc": "28.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c751712",
@@ -4240,7 +4733,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c751904",
@@ -4266,7 +4762,10 @@
         "wing_deg": "Sur",
         "tempDesc": "21.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c751b66",
@@ -4292,7 +4791,10 @@
         "wing_deg": "Sur",
         "tempDesc": "8.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c751f72",
@@ -4318,7 +4820,10 @@
         "wing_deg": "Este",
         "tempDesc": "19.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75345b",
@@ -4344,7 +4849,10 @@
         "wing_deg": "Este",
         "tempDesc": "21.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753468",
@@ -4370,7 +4878,10 @@
         "wing_deg": "Este",
         "tempDesc": "20.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7534fc",
@@ -4396,7 +4907,10 @@
         "wing_deg": "Sur",
         "tempDesc": "8.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c7534fe",
@@ -4422,7 +4936,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "10ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753500",
@@ -4448,7 +4965,10 @@
         "wing_deg": "Sur",
         "tempDesc": "8.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753501",
@@ -4474,7 +4994,10 @@
         "wing_deg": "Sur",
         "tempDesc": "8.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753502",
@@ -4500,7 +5023,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "9.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753503",
@@ -4526,7 +5052,10 @@
         "wing_deg": "Calma",
         "tempDesc": "4.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753504",
@@ -4552,7 +5081,10 @@
         "wing_deg": "Sur",
         "tempDesc": "32.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753505",
@@ -4578,7 +5110,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "25.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753506",
@@ -4604,7 +5139,10 @@
         "wing_deg": "Este",
         "tempDesc": "3.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753509",
@@ -4630,7 +5168,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "17.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75350a",
@@ -4656,7 +5197,10 @@
         "wing_deg": "Sur",
         "tempDesc": "12ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75350b",
@@ -4682,7 +5226,10 @@
         "wing_deg": "Norte",
         "tempDesc": "33.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75350c",
@@ -4708,7 +5255,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "26ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75350d",
@@ -4734,7 +5284,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "13.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75350e",
@@ -4760,7 +5313,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "26ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75350f",
@@ -4786,7 +5342,10 @@
         "wing_deg": "Sur",
         "tempDesc": "12.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753510",
@@ -4812,7 +5371,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "13.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753511",
@@ -4838,7 +5400,10 @@
         "wing_deg": "Sur",
         "tempDesc": "12.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753512",
@@ -4864,7 +5429,10 @@
         "wing_deg": "Norte",
         "tempDesc": "1.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753513",
@@ -4890,7 +5458,10 @@
         "wing_deg": "Sur",
         "tempDesc": "12ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753514",
@@ -4916,7 +5487,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753515",
@@ -4942,7 +5516,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "3.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753516",
@@ -4968,7 +5545,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "1.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753517",
@@ -4994,7 +5574,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "2.7ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753518",
@@ -5020,7 +5603,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "3.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753519",
@@ -5046,7 +5632,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "-0.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75351a",
@@ -5072,7 +5661,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "3.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75351b",
@@ -5098,7 +5690,10 @@
         "wing_deg": "Sur",
         "tempDesc": "23.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75351d",
@@ -5124,7 +5719,10 @@
         "wing_deg": "Sudeste",
         "tempDesc": "10ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75351e",
@@ -5150,7 +5748,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "30.1ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75351f",
@@ -5176,7 +5777,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "28ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753520",
@@ -5202,7 +5806,10 @@
         "wing_deg": "Norte",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753522",
@@ -5228,7 +5835,10 @@
         "wing_deg": "Noroeste",
         "tempDesc": "28ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753523",
@@ -5254,7 +5864,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "32ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753525",
@@ -5280,7 +5893,10 @@
         "wing_deg": "Norte",
         "tempDesc": "26.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753526",
@@ -5306,7 +5922,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "32ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753527",
@@ -5332,7 +5951,10 @@
         "wing_deg": "Este",
         "tempDesc": "28.9ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753528",
@@ -5358,7 +5980,10 @@
         "wing_deg": "Sur",
         "tempDesc": "23.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75352a",
@@ -5384,7 +6009,10 @@
         "wing_deg": "Sur",
         "tempDesc": "23ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75352b",
@@ -5410,7 +6038,10 @@
         "wing_deg": "Noreste",
         "tempDesc": "27.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75352d",
@@ -5436,7 +6067,10 @@
         "wing_deg": "Sur",
         "tempDesc": "23ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753530",
@@ -5462,7 +6096,10 @@
         "wing_deg": "Norte",
         "tempDesc": "26.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753531",
@@ -5488,7 +6125,10 @@
         "wing_deg": "Norte",
         "tempDesc": "29.2ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753532",
@@ -5514,7 +6154,10 @@
         "wing_deg": "Sur",
         "tempDesc": "26.6ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753534",
@@ -5540,7 +6183,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "30.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753535",
@@ -5566,7 +6212,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "30.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753537",
@@ -5592,7 +6241,10 @@
         "wing_deg": "Norte",
         "tempDesc": "19.5ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T20:00:00+00:00",
+      "age_hours": 34016.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753539",
@@ -5618,7 +6270,10 @@
         "wing_deg": "Sur",
         "tempDesc": "15.8ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T18:00:00+00:00",
+      "age_hours": 34018.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c75353a",
@@ -5644,7 +6299,10 @@
         "wing_deg": "Sur",
         "tempDesc": "13.3ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     },
     {
       "_id": "609de837818e15902c753575",
@@ -5670,7 +6328,10 @@
         "wing_deg": "Oeste",
         "tempDesc": "1.4ºC"
       },
-      "forecast": null
+      "forecast": null,
+      "observation_time": "2022-07-26T21:00:00+00:00",
+      "age_hours": 34015.98,
+      "is_current": false
     }
   ]
 }
