@@ -7,262 +7,414 @@
 
   <title>Clima Argentina</title>
 
+<meta
+name="description"
+content="Pronóstico meteorológico para Argentina basado en información del Servicio Meteorológico Nacional."
+
+>
+
   <style>
+    :root {
+      color-scheme: dark;
+
+      --fondo-superior: #173f70;
+      --fondo-inferior: #07182c;
+      --panel: rgba(8, 25, 45, 0.92);
+      --panel-secundario: rgba(20, 48, 80, 0.85);
+      --borde: rgba(151, 190, 230, 0.22);
+      --azul: #59a9ff;
+      --azul-claro: #9ed0ff;
+      --texto: #f4f8ff;
+      --texto-secundario: #b9d3ef;
+      --amarillo: #ffc857;
+      --verde: #6ee7a8;
+      --rojo: #ff8080;
+      --sombra: 0 20px 55px rgba(0, 0, 0, 0.3);
+    }
+
     * {
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
-      margin: 0;
       min-height: 100vh;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #f4f8ff;
+      margin: 0;
+      font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      color: var(--texto);
       background:
+        radial-gradient(
+          circle at top,
+          rgba(57, 123, 195, 0.28),
+          transparent 40%
+        ),
         linear-gradient(
           180deg,
-          #173a68 0%,
-          #102e52 55%,
-          #0c223c 100%
+          var(--fondo-superior) 0%,
+          var(--fondo-inferior) 100%
         );
     }
 
-    .contenedor-principal {
-      width: min(1180px, calc(100% - 32px));
+    button,
+    input {
+      font: inherit;
+    }
+
+    .pagina {
+      width: min(1250px, calc(100% - 30px));
       margin: 0 auto;
-      padding: 55px 0 80px;
+      padding: 50px 0 45px;
     }
 
     .encabezado {
-      margin-bottom: 32px;
+      margin-bottom: 28px;
       text-align: center;
     }
 
     .encabezado h1 {
       margin: 0;
-      font-size: clamp(2.3rem, 6vw, 4rem);
-      line-height: 1.1;
+      font-size: clamp(2.4rem, 7vw, 4.2rem);
+      line-height: 1;
+      letter-spacing: -0.04em;
     }
 
     .encabezado p {
-      margin: 14px 0 0;
-      color: #b9d2f3;
-      font-size: 1rem;
-    }
-
-    .panel {
-      padding: 18px;
-      border: 1px solid #344c68;
-      border-radius: 20px;
-      background: rgba(11, 27, 46, 0.92);
-      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
-    }
-
-    .controles {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 12px;
-    }
-
-    .buscador {
-      width: 100%;
-      padding: 15px 16px;
-      border: 1px solid #344c68;
-      border-radius: 12px;
-      outline: none;
-      color: #ffffff;
-      background: #172c46;
-      font-size: 1rem;
-    }
-
-    .buscador:focus {
-      border-color: #58a7ff;
-      box-shadow: 0 0 0 3px rgba(88, 167, 255, 0.17);
-    }
-
-    .boton {
-      padding: 0 22px;
-      border: 0;
-      border-radius: 12px;
-      cursor: pointer;
-      background: #58a7ff;
-      color: #05182c;
-      font-size: 0.95rem;
-      font-weight: 700;
-    }
-
-    .boton:hover {
-      background: #80bcff;
-    }
-
-    .estado {
-      margin-top: 15px;
-      padding: 14px;
-      border: 1px solid #46627f;
-      border-radius: 12px;
-      color: #dbeaff;
-      background: rgba(55, 88, 124, 0.18);
-      line-height: 1.5;
-    }
-
-    .estado-cargando {
-      border-color: #4f81b5;
-    }
-
-    .estado-actual {
-      border-color: #24a56a;
-      color: #c9ffe3;
-      background: rgba(36, 165, 106, 0.13);
-    }
-
-    .estado-antiguo {
-      border-color: #b78b38;
-      color: #ffe7a7;
-      background: rgba(183, 139, 56, 0.13);
-    }
-
-    .estado-error {
-      border-color: #d75a64;
-      color: #ffd2d6;
-      background: rgba(215, 90, 100, 0.13);
-    }
-
-    .resumen {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      margin-top: 16px;
-    }
-
-    .resumen-item {
-      padding: 17px 12px;
-      border: 1px solid #344c68;
-      border-radius: 13px;
-      text-align: center;
-      background: #172c46;
-    }
-
-    .resumen-numero {
-      display: block;
-      margin-bottom: 6px;
-      font-size: 1.45rem;
-      font-weight: 700;
-    }
-
-    .resumen-etiqueta {
-      color: #b9d2f3;
-      font-size: 0.82rem;
-    }
-
-    .mensaje-sin-datos {
-      margin-top: 24px;
-      padding: 32px 24px;
-      border: 1px solid #b78b38;
-      border-radius: 16px;
-      text-align: center;
-      background: rgba(11, 27, 46, 0.9);
-    }
-
-    .mensaje-sin-datos h2 {
-      margin: 0 0 14px;
-      font-size: 1.65rem;
-    }
-
-    .mensaje-sin-datos p {
-      max-width: 700px;
-      margin: 9px auto;
-      color: #d1e3f7;
-      line-height: 1.6;
-    }
-
-    .lista-estaciones {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 16px;
-      margin-top: 24px;
-    }
-
-    .tarjeta {
-      padding: 18px;
-      border: 1px solid #344c68;
-      border-radius: 16px;
-      background: rgba(11, 27, 46, 0.94);
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
-    }
-
-    .tarjeta h2 {
-      margin: 0;
+      margin: 16px 0 0;
+      color: var(--azul-claro);
       font-size: 1.05rem;
     }
 
-    .provincia {
-      min-height: 38px;
-      margin: 7px 0 18px;
-      color: #b9d2f3;
-      font-size: 0.88rem;
-      line-height: 1.35;
+    .panel {
+      border: 1px solid var(--borde);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: var(--sombra);
     }
 
-    .temperatura {
-      margin-bottom: 9px;
-      color: #58a7ff;
-      font-size: 2.35rem;
-      font-weight: 800;
+    .resumen {
+      padding: 20px;
     }
 
-    .descripcion {
-      min-height: 42px;
-      margin-bottom: 15px;
+    .barra-superior {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .ubicacion {
+      min-width: 0;
+    }
+
+    .ubicacion-etiqueta {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--azul-claro);
+      font-size: 0.8rem;
       font-weight: 700;
-      line-height: 1.35;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
     }
 
-    .detalles {
+    .ubicacion h2 {
+      margin: 0;
+      font-size: clamp(1.25rem, 4vw, 1.9rem);
+    }
+
+    .ubicacion p {
+      margin: 5px 0 0;
+      color: var(--texto-secundario);
+    }
+
+    .boton-actualizar {
+      flex-shrink: 0;
+      min-height: 46px;
+      padding: 0 20px;
+      border: 0;
+      border-radius: 13px;
+      color: #031324;
+      background: var(--azul);
+      font-weight: 800;
+      cursor: pointer;
+      transition:
+        transform 0.15s ease,
+        filter 0.15s ease;
+    }
+
+    .boton-actualizar:hover {
+      filter: brightness(1.08);
+      transform: translateY(-1px);
+    }
+
+    .boton-actualizar:disabled {
+      cursor: wait;
+      filter: grayscale(0.4);
+      opacity: 0.7;
+      transform: none;
+    }
+
+    .estado {
+      margin-top: 18px;
+      padding: 13px 15px;
+      border: 1px solid var(--borde);
+      border-radius: 13px;
+      color: var(--texto-secundario);
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .estado-cargando {
+      color: var(--azul-claro);
+    }
+
+    .estado-correcto {
+      color: var(--verde);
+      border-color: rgba(110, 231, 168, 0.4);
+    }
+
+    .estado-error {
+      color: var(--rojo);
+      border-color: rgba(255, 128, 128, 0.45);
+    }
+
+    .actual {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .actual-principal,
+    .actual-detalles {
+      padding: 20px;
+      border: 1px solid var(--borde);
+      border-radius: 17px;
+      background: var(--panel-secundario);
+    }
+
+    .actual-periodo {
+      color: var(--azul-claro);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .actual-contenido {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 12px;
+    }
+
+    .actual-icono {
+      width: 90px;
+      text-align: center;
+      font-size: 4.7rem;
+      line-height: 1;
+    }
+
+    .actual-temperatura {
+      font-size: clamp(3.4rem, 10vw, 5.4rem);
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.06em;
+    }
+
+    .actual-descripcion {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .actual-rango {
+      margin-top: 7px;
+      color: var(--texto-secundario);
+    }
+
+    .detalle-fila {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--borde);
+    }
+
+    .detalle-fila:last-child {
+      border-bottom: 0;
+    }
+
+    .detalle-fila span:first-child {
+      color: var(--texto-secundario);
+    }
+
+    .detalle-fila strong {
+      text-align: right;
+    }
+
+    .seccion-pronostico {
+      margin-top: 28px;
+    }
+
+    .seccion-titulo {
+      margin: 0 0 16px;
+      font-size: 1.55rem;
+    }
+
+    .pronostico {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 17px;
+    }
+
+    .dia {
+      overflow: hidden;
+      border: 1px solid var(--borde);
+      border-radius: 19px;
+      background: var(--panel);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+    }
+
+    .dia-encabezado {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 18px;
+      background: rgba(74, 137, 204, 0.14);
+      border-bottom: 1px solid var(--borde);
+    }
+
+    .dia-fecha {
+      margin: 0;
+      font-size: 1.15rem;
+      text-transform: capitalize;
+    }
+
+    .dia-rango {
+      flex-shrink: 0;
+      color: var(--azul-claro);
+      font-size: 1.2rem;
+      font-weight: 900;
+    }
+
+    .periodos {
+      display: grid;
+      gap: 1px;
+      background: var(--borde);
+    }
+
+    .periodo {
+      padding: 17px;
+      background: rgba(7, 24, 44, 0.97);
+    }
+
+    .periodo-superior {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .periodo-nombre {
+      color: var(--azul-claro);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .periodo-temperatura {
+      font-size: 1.45rem;
+      font-weight: 900;
+    }
+
+    .periodo-clima {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin-top: 12px;
+    }
+
+    .periodo-icono {
+      min-width: 35px;
+      font-size: 2rem;
+      line-height: 1;
+      text-align: center;
+    }
+
+    .periodo-descripcion {
+      font-weight: 750;
+    }
+
+    .datos-periodo {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 9px;
-      color: #c7dcf5;
-      font-size: 0.82rem;
-      line-height: 1.35;
+      gap: 8px 14px;
+      margin-top: 14px;
+      color: var(--texto-secundario);
+      font-size: 0.88rem;
     }
 
-    .observacion {
-      margin-top: 14px;
-      padding-top: 12px;
-      border-top: 1px solid #344c68;
-      color: #a9c5e6;
-      font-size: 0.74rem;
+    .datos-periodo strong {
+      color: var(--texto);
+    }
+
+    .sin-periodos {
+      padding: 20px;
+      color: var(--texto-secundario);
+    }
+
+    .pie {
+      margin-top: 30px;
+      padding: 20px;
+      color: var(--texto-secundario);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .pie a {
+      color: var(--azul-claro);
     }
 
     .oculto {
-      display: none;
+      display: none !important;
     }
 
-    @media (max-width: 950px) {
-      .lista-estaciones {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 650px) {
-      .contenedor-principal {
-        width: min(100% - 20px, 1180px);
-        padding-top: 35px;
+    @media (max-width: 760px) {
+      .pagina {
+        width: min(100% - 20px, 1250px);
+        padding-top: 32px;
       }
 
-      .controles {
+      .barra-superior {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .boton-actualizar {
+        width: 100%;
+      }
+
+      .actual {
         grid-template-columns: 1fr;
       }
 
-      .boton {
-        min-height: 48px;
+      .actual-contenido {
+        gap: 10px;
       }
 
-      .resumen {
-        grid-template-columns: 1fr;
-      }
-
-      .lista-estaciones {
-        grid-template-columns: 1fr;
+      .actual-icono {
+        width: 70px;
+        font-size: 3.8rem;
       }
     }
   </style>
@@ -270,240 +422,499 @@
 </head>
 
 <body>
-  <main class="contenedor-principal">
+  <main class="pagina">
     <header class="encabezado">
       <h1>Clima Argentina</h1>
-      <p>Información meteorológica organizada por localidad</p>
+      <p>Pronóstico meteorológico organizado por localidad</p>
     </header>
 
 ```
-<section class="panel">
-  <div class="controles">
-    <input
-      id="buscador"
-      class="buscador"
-      type="search"
-      placeholder="Buscar localidad o provincia..."
-      autocomplete="off"
-      disabled
-    >
+<section class="panel resumen">
+  <div class="barra-superior">
+    <div class="ubicacion">
+      <span class="ubicacion-etiqueta">Localidad seleccionada</span>
+      <h2 id="nombre-localidad">Cargando localidad…</h2>
+      <p id="provincia-localidad"></p>
+    </div>
 
-    <button id="boton-actualizar" class="boton" type="button">
+    <button
+      id="boton-actualizar"
+      class="boton-actualizar"
+      type="button"
+    >
       Actualizar
     </button>
   </div>
 
-  <div id="estado" class="estado estado-cargando">
-    Cargando información meteorológica...
+  <div
+    id="estado"
+    class="estado estado-cargando"
+    role="status"
+    aria-live="polite"
+  >
+    Cargando pronóstico actualizado…
   </div>
 
-  <div class="resumen">
-    <div class="resumen-item">
-      <span id="cantidad-recibida" class="resumen-numero">—</span>
-      <span class="resumen-etiqueta">localidades recibidas</span>
-    </div>
+  <div id="actual" class="actual oculto">
+    <article class="actual-principal">
+      <div id="actual-periodo" class="actual-periodo">
+        Pronóstico actual
+      </div>
 
-    <div class="resumen-item">
-      <span id="cantidad-actual" class="resumen-numero">—</span>
-      <span class="resumen-etiqueta">observaciones actuales</span>
-    </div>
+      <div class="actual-contenido">
+        <div id="actual-icono" class="actual-icono">🌤️</div>
 
-    <div class="resumen-item">
-      <span id="fecha-generacion" class="resumen-numero">—</span>
-      <span class="resumen-etiqueta">generación del archivo</span>
-    </div>
+        <div>
+          <div id="actual-temperatura" class="actual-temperatura">
+            --°
+          </div>
+
+          <div id="actual-descripcion" class="actual-descripcion">
+            Sin información
+          </div>
+
+          <div id="actual-rango" class="actual-rango"></div>
+        </div>
+      </div>
+    </article>
+
+    <article id="actual-detalles" class="actual-detalles"></article>
   </div>
 </section>
 
-<section id="mensaje-sin-datos" class="mensaje-sin-datos oculto">
-  <h2>Datos actuales no disponibles</h2>
-
-  <p>
-    La fuente consultada respondió correctamente, pero las observaciones
-    recibidas corresponden a julio de 2022.
-  </p>
-
-  <p>
-    Esas temperaturas fueron ocultadas para evitar presentar información
-    histórica como si fuera el estado meteorológico actual.
-  </p>
+<section class="seccion-pronostico">
+  <h2 class="seccion-titulo">Pronóstico extendido</h2>
+  <div id="pronostico" class="pronostico"></div>
 </section>
 
-<section
-  id="lista-estaciones"
-  class="lista-estaciones"
-  aria-live="polite"
-></section>
+<footer class="panel pie">
+  <div>
+    Información obtenida del
+    <a
+      href="https://www.smn.gob.ar/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Servicio Meteorológico Nacional
+    </a>.
+  </div>
+
+  <div id="fecha-generacion" style="margin-top: 6px;"></div>
+</footer>
 ```
 
   </main>
 
   <script>
-    const URL_DATOS = "./data/estado_actual.json";
+    const URL_PRONOSTICO = "./data/pronostico.json";
 
-    const estado = document.getElementById("estado");
-    const buscador = document.getElementById("buscador");
+    const PERIODOS = [
+      {
+        clave: "early_morning",
+        nombre: "Madrugada"
+      },
+      {
+        clave: "morning",
+        nombre: "Mañana"
+      },
+      {
+        clave: "afternoon",
+        nombre: "Tarde"
+      },
+      {
+        clave: "night",
+        nombre: "Noche"
+      }
+    ];
+
+    const nombreLocalidad = document.getElementById("nombre-localidad");
+    const provinciaLocalidad = document.getElementById("provincia-localidad");
     const botonActualizar = document.getElementById("boton-actualizar");
-    const listaEstaciones = document.getElementById("lista-estaciones");
-    const mensajeSinDatos = document.getElementById("mensaje-sin-datos");
-
-    const cantidadRecibida = document.getElementById("cantidad-recibida");
-    const cantidadActual = document.getElementById("cantidad-actual");
+    const estado = document.getElementById("estado");
+    const actual = document.getElementById("actual");
+    const actualPeriodo = document.getElementById("actual-periodo");
+    const actualIcono = document.getElementById("actual-icono");
+    const actualTemperatura = document.getElementById("actual-temperatura");
+    const actualDescripcion = document.getElementById("actual-descripcion");
+    const actualRango = document.getElementById("actual-rango");
+    const actualDetalles = document.getElementById("actual-detalles");
+    const contenedorPronostico = document.getElementById("pronostico");
     const fechaGeneracion = document.getElementById("fecha-generacion");
 
-    let estacionesActuales = [];
+    function escaparHTML(valor) {
+      return String(valor ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
 
     function formatearFecha(fechaISO) {
+      const fecha = new Date(`${fechaISO}T12:00:00`);
+
+      return new Intl.DateTimeFormat("es-AR", {
+        weekday: "long",
+        day: "numeric",
+        month: "long"
+      }).format(fecha);
+    }
+
+    function formatearFechaHora(fechaISO) {
       if (!fechaISO) {
-        return "Sin fecha";
+        return "Fecha de generación no disponible";
       }
 
       const fecha = new Date(fechaISO);
 
-      if (Number.isNaN(fecha.getTime())) {
-        return "Fecha inválida";
-      }
-
       return new Intl.DateTimeFormat("es-AR", {
         dateStyle: "short",
-        timeStyle: "short"
+        timeStyle: "short",
+        timeZone: "America/Argentina/Buenos_Aires"
       }).format(fecha);
     }
 
-    function mostrarValor(valor, unidad = "") {
-      if (valor === null || valor === undefined || valor === "") {
-        return "Sin dato";
+    function formatearRango(rango, unidad = "") {
+      if (!Array.isArray(rango) || rango.length === 0) {
+        return "No informado";
       }
 
-      return `${valor}${unidad}`;
+      const valores = rango.filter(
+        valor => valor !== null && valor !== undefined
+      );
+
+      if (valores.length === 0) {
+        return "No informado";
+      }
+
+      if (valores.length === 1 || valores[0] === valores[1]) {
+        return `${valores[0]}${unidad}`;
+      }
+
+      return `${valores[0]}–${valores[1]}${unidad}`;
     }
 
-    function crearTarjeta(estacion) {
-      const weather = estacion.weather || {};
+    function obtenerIcono(descripcion) {
+      const texto = String(descripcion ?? "").toLowerCase();
 
-      const articulo = document.createElement("article");
-      articulo.className = "tarjeta";
+      if (
+        texto.includes("tormenta") ||
+        texto.includes("eléctr")
+      ) {
+        return "⛈️";
+      }
 
-      articulo.innerHTML = `
-        <h2>${estacion.name || "Localidad sin nombre"}</h2>
+      if (
+        texto.includes("nieve") ||
+        texto.includes("nevada")
+      ) {
+        return "🌨️";
+      }
 
-        <p class="provincia">
-          ${estacion.province || "Provincia sin informar"}
-        </p>
+      if (
+        texto.includes("lluvia") ||
+        texto.includes("llovizna")
+      ) {
+        return "🌧️";
+      }
 
-        <div class="temperatura">
-          ${mostrarValor(weather.temp, " °C")}
-        </div>
+      if (
+        texto.includes("niebla") ||
+        texto.includes("neblina") ||
+        texto.includes("bruma")
+      ) {
+        return "🌫️";
+      }
 
-        <div class="descripcion">
-          ${weather.description || "Estado no informado"}
-        </div>
+      if (
+        texto.includes("despejado")
+      ) {
+        return "☀️";
+      }
 
-        <div class="detalles">
-          <span>
-            Humedad:
-            ${mostrarValor(weather.humidity, "%")}
-          </span>
+      if (
+        texto.includes("ligeramente nublado") ||
+        texto.includes("algo nublado") ||
+        texto.includes("parcialmente nublado")
+      ) {
+        return "🌤️";
+      }
 
-          <span>
-            Viento:
-            ${mostrarValor(weather.wind_speed, " km/h")}
-          </span>
+      if (
+        texto.includes("mayormente nublado") ||
+        texto.includes("nublado") ||
+        texto.includes("cubierto")
+      ) {
+        return "☁️";
+      }
 
-          <span>
-            Dirección:
-            ${mostrarValor(weather.wing_deg)}
-          </span>
+      return "🌡️";
+    }
 
-          <span>
-            Presión:
-            ${mostrarValor(weather.pressure, " hPa")}
-          </span>
+    function obtenerPeriodoActual(dia) {
+      const horaArgentina = Number(
+        new Intl.DateTimeFormat("es-AR", {
+          hour: "2-digit",
+          hourCycle: "h23",
+          timeZone: "America/Argentina/Buenos_Aires"
+        }).format(new Date())
+      );
 
-          <span>
-            Visibilidad:
-            ${mostrarValor(weather.visibility, " km")}
-          </span>
+      let preferido;
 
-          <span>
-            ID:
-            ${mostrarValor(estacion.lid)}
-          </span>
-        </div>
+      if (horaArgentina < 6) {
+        preferido = "early_morning";
+      } else if (horaArgentina < 12) {
+        preferido = "morning";
+      } else if (horaArgentina < 18) {
+        preferido = "afternoon";
+      } else {
+        preferido = "night";
+      }
 
-        <div class="observacion">
-          Observación:
-          ${formatearFecha(estacion.observation_time)}
+      const orden = [
+        preferido,
+        "early_morning",
+        "morning",
+        "afternoon",
+        "night"
+      ];
+
+      const clavesSinRepetir = [...new Set(orden)];
+
+      for (const clave of clavesSinRepetir) {
+        if (dia?.[clave]) {
+          const configuracion = PERIODOS.find(
+            periodo => periodo.clave === clave
+          );
+
+          return {
+            clave,
+            nombre: configuracion?.nombre ?? "Pronóstico",
+            datos: dia[clave]
+          };
+        }
+      }
+
+      return null;
+    }
+
+    function crearFilaDetalle(nombre, valor) {
+      return `
+        <div class="detalle-fila">
+          <span>${escaparHTML(nombre)}</span>
+          <strong>${escaparHTML(valor)}</strong>
         </div>
       `;
-
-      return articulo;
     }
 
-    function renderizarEstaciones(estaciones) {
-      listaEstaciones.innerHTML = "";
+    function renderizarActual(dia) {
+      const periodo = obtenerPeriodoActual(dia);
 
-      if (!Array.isArray(estaciones) || estaciones.length === 0) {
-        listaEstaciones.classList.add("oculto");
+      if (!periodo) {
+        actual.classList.add("oculto");
         return;
       }
 
-      listaEstaciones.classList.remove("oculto");
+      const datos = periodo.datos;
+      const descripcion =
+        datos.weather?.description ?? "Sin descripción";
 
-      const fragmento = document.createDocumentFragment();
+      actualPeriodo.textContent = periodo.nombre;
+      actualIcono.textContent = obtenerIcono(descripcion);
+      actualTemperatura.textContent =
+        datos.temperature !== null &&
+        datos.temperature !== undefined
+          ? `${datos.temperature}°`
+          : "--°";
 
-      estaciones.forEach((estacion) => {
-        fragmento.appendChild(crearTarjeta(estacion));
-      });
+      actualDescripcion.textContent = descripcion;
 
-      listaEstaciones.appendChild(fragmento);
+      actualRango.textContent =
+        `Mínima ${dia.temp_min ?? "--"}° · ` +
+        `Máxima ${dia.temp_max ?? "--"}°`;
+
+      const lluvia = formatearRango(
+        datos.rain_prob_range,
+        "%"
+      );
+
+      const viento = datos.wind
+        ? `${formatearRango(datos.wind.speed_range, " km/h")} ${
+            datos.wind.direction
+              ? `del ${datos.wind.direction}`
+              : ""
+          }`
+        : "No informado";
+
+      const rafagas = formatearRango(
+        datos.gust_range,
+        " km/h"
+      );
+
+      actualDetalles.innerHTML = [
+        crearFilaDetalle(
+          "Probabilidad de precipitación",
+          lluvia
+        ),
+        crearFilaDetalle(
+          "Humedad",
+          datos.humidity !== null &&
+          datos.humidity !== undefined
+            ? `${datos.humidity}%`
+            : "No informada"
+        ),
+        crearFilaDetalle("Viento", viento),
+        crearFilaDetalle("Ráfagas", rafagas),
+        crearFilaDetalle(
+          "Visibilidad",
+          datos.visibility ?? "No informada"
+        )
+      ].join("");
+
+      actual.classList.remove("oculto");
     }
 
-    function filtrarEstaciones() {
-      const texto = buscador.value
-        .trim()
-        .toLocaleLowerCase("es");
+    function crearPeriodo(periodo, nombrePeriodo) {
+      const descripcion =
+        periodo.weather?.description ?? "Sin descripción";
 
-      if (!texto) {
-        renderizarEstaciones(estacionesActuales);
-        return;
-      }
+      const viento = periodo.wind
+        ? `${formatearRango(
+            periodo.wind.speed_range,
+            " km/h"
+          )} ${periodo.wind.direction ?? ""}`
+        : "No informado";
 
-      const resultado = estacionesActuales.filter((estacion) => {
-        const nombre = String(estacion.name || "")
-          .toLocaleLowerCase("es");
+      const lluvia = formatearRango(
+        periodo.rain_prob_range,
+        "%"
+      );
 
-        const provincia = String(estacion.province || "")
-          .toLocaleLowerCase("es");
+      const humedad =
+        periodo.humidity !== null &&
+        periodo.humidity !== undefined
+          ? `${periodo.humidity}%`
+          : "No informada";
 
-        return nombre.includes(texto) || provincia.includes(texto);
-      });
+      return `
+        <div class="periodo">
+          <div class="periodo-superior">
+            <span class="periodo-nombre">
+              ${escaparHTML(nombrePeriodo)}
+            </span>
 
-      renderizarEstaciones(resultado);
+            <span class="periodo-temperatura">
+              ${
+                periodo.temperature !== null &&
+                periodo.temperature !== undefined
+                  ? `${escaparHTML(periodo.temperature)}°`
+                  : "--°"
+              }
+            </span>
+          </div>
+
+          <div class="periodo-clima">
+            <span class="periodo-icono">
+              ${obtenerIcono(descripcion)}
+            </span>
+
+            <span class="periodo-descripcion">
+              ${escaparHTML(descripcion)}
+            </span>
+          </div>
+
+          <div class="datos-periodo">
+            <span>
+              Lluvia:
+              <strong>${escaparHTML(lluvia)}</strong>
+            </span>
+
+            <span>
+              Humedad:
+              <strong>${escaparHTML(humedad)}</strong>
+            </span>
+
+            <span>
+              Viento:
+              <strong>${escaparHTML(viento)}</strong>
+            </span>
+
+            <span>
+              Visibilidad:
+              <strong>
+                ${escaparHTML(
+                  periodo.visibility ?? "No informada"
+                )}
+              </strong>
+            </span>
+          </div>
+        </div>
+      `;
     }
 
-    function limpiarClasesEstado() {
+    function crearDia(dia) {
+      const periodosDisponibles = PERIODOS
+        .filter(periodo => dia[periodo.clave])
+        .map(periodo =>
+          crearPeriodo(
+            dia[periodo.clave],
+            periodo.nombre
+          )
+        )
+        .join("");
+
+      return `
+        <article class="dia">
+          <header class="dia-encabezado">
+            <h3 class="dia-fecha">
+              ${escaparHTML(formatearFecha(dia.date))}
+            </h3>
+
+            <div class="dia-rango">
+              ${escaparHTML(dia.temp_min ?? "--")}° /
+              ${escaparHTML(dia.temp_max ?? "--")}°
+            </div>
+          </header>
+
+          <div class="periodos">
+            ${
+              periodosDisponibles ||
+              `
+                <div class="sin-periodos">
+                  No hay períodos disponibles para este día.
+                </div>
+              `
+            }
+          </div>
+        </article>
+      `;
+    }
+
+    function mostrarEstado(mensaje, tipo) {
+      estado.textContent = mensaje;
+
       estado.classList.remove(
         "estado-cargando",
-        "estado-actual",
-        "estado-antiguo",
+        "estado-correcto",
         "estado-error"
       );
+
+      estado.classList.add(`estado-${tipo}`);
     }
 
-    async function cargarDatos() {
-      limpiarClasesEstado();
-      estado.classList.add("estado-cargando");
-      estado.textContent = "Cargando información meteorológica...";
+    async function cargarPronostico() {
+      botonActualizar.disabled = true;
+      botonActualizar.textContent = "Actualizando…";
 
-      buscador.disabled = true;
-      mensajeSinDatos.classList.add("oculto");
-      listaEstaciones.classList.add("oculto");
-      listaEstaciones.innerHTML = "";
+      mostrarEstado(
+        "Cargando pronóstico actualizado…",
+        "cargando"
+      );
 
       try {
         const respuesta = await fetch(
-          `${URL_DATOS}?actualizacion=${Date.now()}`,
+          `${URL_PRONOSTICO}?v=${Date.now()}`,
           {
             cache: "no-store"
           }
@@ -511,82 +922,77 @@
 
         if (!respuesta.ok) {
           throw new Error(
-            `No se pudo cargar el archivo. Código HTTP ${respuesta.status}.`
+            `El servidor respondió ${respuesta.status}`
           );
         }
 
         const datos = await respuesta.json();
 
-        cantidadRecibida.textContent =
-          Number.isFinite(Number(datos.count))
-            ? datos.count
-            : Array.isArray(datos.stations)
-              ? datos.stations.length
-              : 0;
+        if (
+          !datos.location ||
+          !Array.isArray(datos.forecast) ||
+          datos.forecast.length === 0
+        ) {
+          throw new Error(
+            "El archivo no contiene un pronóstico válido."
+          );
+        }
 
-        cantidadActual.textContent =
-          Number.isFinite(Number(datos.current_count))
-            ? datos.current_count
-            : 0;
+        nombreLocalidad.textContent =
+          datos.location.name ?? "Localidad";
+
+        provinciaLocalidad.textContent = [
+          datos.location.department,
+          datos.location.province
+        ]
+          .filter(Boolean)
+          .filter(
+            (valor, indice, lista) =>
+              lista.indexOf(valor) === indice
+          )
+          .join(" · ");
+
+        renderizarActual(datos.forecast[0]);
+
+        contenedorPronostico.innerHTML =
+          datos.forecast
+            .map(crearDia)
+            .join("");
 
         fechaGeneracion.textContent =
-          formatearFecha(datos.generated_at);
+          `Archivo actualizado: ${formatearFechaHora(
+            datos.generated_at
+          )}`;
 
-        estacionesActuales = Array.isArray(datos.stations)
-          ? datos.stations.filter(
-              (estacion) => estacion.is_current === true
-            )
-          : [];
-
-        limpiarClasesEstado();
-
-        if (
-          datos.is_current === true &&
-          estacionesActuales.length > 0
-        ) {
-          estado.classList.add("estado-actual");
-          estado.textContent =
-            "Datos meteorológicos actuales disponibles.";
-
-          buscador.disabled = false;
-          mensajeSinDatos.classList.add("oculto");
-
-          renderizarEstaciones(estacionesActuales);
-        } else {
-          estado.classList.add("estado-antiguo");
-          estado.textContent =
-            datos.warning ||
-            "La fuente respondió, pero no contiene observaciones actuales.";
-
-          buscador.disabled = true;
-          mensajeSinDatos.classList.remove("oculto");
-          listaEstaciones.classList.add("oculto");
-          listaEstaciones.innerHTML = "";
-        }
+        mostrarEstado(
+          `Pronóstico actualizado correctamente. ` +
+          `${datos.forecast.length} días disponibles.`,
+          "correcto"
+        );
       } catch (error) {
         console.error(error);
 
-        cantidadRecibida.textContent = "0";
-        cantidadActual.textContent = "0";
-        fechaGeneracion.textContent = "Sin datos";
+        actual.classList.add("oculto");
+        contenedorPronostico.innerHTML = "";
 
-        limpiarClasesEstado();
-        estado.classList.add("estado-error");
-        estado.textContent =
-          "No fue posible cargar la información meteorológica.";
+        mostrarEstado(
+          `No se pudo cargar el pronóstico: ${error.message}`,
+          "error"
+        );
 
-        buscador.disabled = true;
-        mensajeSinDatos.classList.remove("oculto");
-        listaEstaciones.classList.add("oculto");
-        listaEstaciones.innerHTML = "";
+        fechaGeneracion.textContent = "";
+      } finally {
+        botonActualizar.disabled = false;
+        botonActualizar.textContent = "Actualizar";
       }
     }
 
-    buscador.addEventListener("input", filtrarEstaciones);
+    botonActualizar.addEventListener(
+      "click",
+      cargarPronostico
+    );
 
-    botonActualizar.addEventListener("click", cargarDatos);
-
-    cargarDatos();
+    cargarPronostico();
   </script>
 
 </body>
