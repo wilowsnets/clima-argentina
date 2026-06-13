@@ -16,7 +16,7 @@ jobs:
 actualizar:
 runs-on: ubuntu-latest
 
-```
+
 steps:
   - name: Descargar repositorio
     uses: actions/checkout@v4
