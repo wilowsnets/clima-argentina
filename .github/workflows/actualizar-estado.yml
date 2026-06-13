@@ -1,5 +1,5 @@
 {
-"name": "Actualizar datos meteorológicos",
+"name": "Actualizar datos meteorologicos",
 "on": {
 "workflow_dispatch": {},
 "schedule": [
@@ -32,23 +32,23 @@
 },
 {
 "name": "Instalar dependencias",
-"run": "python -m pip install --upgrade pip\npip install -r requirements.txt"
+"run": "python -m pip install --upgrade pip && pip install -r requirements.txt"
 },
 {
-"name": "Actualizar estado meteorológico",
+"name": "Actualizar estado meteorologico",
 "run": "python scripts/actualizar_estado.py"
 },
 {
-"name": "Actualizar pronóstico",
+"name": "Actualizar pronostico",
 "run": "python scripts/actualizar_pronostico.py"
 },
 {
 "name": "Verificar archivos generados",
-"run": "echo "Contenido de docs/data:"\nls -lah docs/data\ntest -f docs/data/estado_actual.json\ntest -f docs/data/pronostico.json"
+"run": "echo Contenido-de-docs-data && ls -lah docs/data && test -f docs/data/estado_actual.json && test -f docs/data/pronostico.json"
 },
 {
 "name": "Guardar cambios",
-"run": "git config user.name "github-actions[bot]"\ngit config user.email "41898282+github-actions[bot]@users.noreply.github.com"\ngit add docs/data/estado_actual.json docs/data/pronostico.json\nif git diff --cached --quiet; then\n  echo "No hubo cambios para guardar."\nelse\n  git commit -m "Actualizar datos meteorológicos"\n  git push\nfi"
+"run": "git config user.name github-actions-bot && git config user.email [41898282+github-actions-bot@users.noreply.github.com](mailto:41898282+github-actions-bot@users.noreply.github.com) && git add docs/data/estado_actual.json docs/data/pronostico.json && (git diff --cached --quiet || (git commit -m Actualizar-datos-meteorologicos && git push))"
 }
 ]
 }
