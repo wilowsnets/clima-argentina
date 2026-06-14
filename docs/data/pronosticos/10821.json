@@ -1,14 +1,14 @@
 {
   "updated": "2026-06-14T05:45:48-03:00",
   "location": {
-    "id": 4864,
-    "name": "Ciudad Autónoma de Buenos Aires",
+    "id": 10821,
+    "name": "Aeroparque Buenos Aires",
     "department": "CABA",
     "province": "CABA",
-    "type": "Ciudad",
+    "type": "",
     "coord": {
-      "lon": -58.4258,
-      "lat": -34.6217
+      "lon": -58.4187,
+      "lat": -34.5619
     }
   },
   "type": "location",
@@ -476,13 +476,13 @@
     }
   ],
   "catalog_location": {
-    "id": 4864,
-    "name": "Capital Federal",
+    "id": 10821,
+    "name": "Aeroparque Buenos Aires",
     "province": "Capital Federal",
-    "lat": -34.62170792,
-    "lon": -58.42575836
+    "lat": -34.558889,
+    "lon": -58.416389
   },
   "source": "Servicio Meteorológico Nacional",
-  "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4864",
-  "generated_at": "2026-06-14T20:18:44.844152+00:00"
+  "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10821",
+  "generated_at": "2026-06-14T20:18:44.475082+00:00"
 }
