@@ -14,7 +14,6 @@ OUTPUT_FILE = Path("docs/data/localidades.json")
 
 
 def texto_ordenable(valor: str) -> str:
-    """Elimina acentos y convierte el texto a minúsculas para ordenar."""
     normalizado = unicodedata.normalize("NFD", valor)
     sin_acentos = "".join(
         caracter
@@ -39,18 +38,13 @@ def convertir_decimal(valor: Any) -> float | None:
 
 
 def descargar_localidades() -> list[dict[str, Any]]:
-    headers = {
-        "Accept": "application/json",
-        "User-Agent": (
-            "Mozilla/5.0 clima-argentina "
-            "(catalogo publico de localidades meteorologicas)"
-        ),
-    }
-
     respuesta = requests.get(
         SOURCE_URL,
-        headers=headers,
-        timeout=30,
+        headers={
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 clima-argentina",
+        },
+        timeout=60,
     )
     respuesta.raise_for_status()
 
@@ -80,7 +74,7 @@ def limpiar_localidades(
         if localidad_id is None or not nombre:
             continue
 
-        localidad = {
+        localidades_por_id[localidad_id] = {
             "id": localidad_id,
             "name": nombre,
             "province": provincia,
@@ -95,8 +89,6 @@ def limpiar_localidades(
             ),
         }
 
-        localidades_por_id[localidad_id] = localidad
-
     localidades = list(localidades_por_id.values())
 
     localidades.sort(
@@ -110,13 +102,20 @@ def limpiar_localidades(
     return localidades
 
 
-def guardar_archivo(localidades: list[dict[str, Any]]) -> None:
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+def guardar_archivo(
+    localidades: list[dict[str, Any]],
+) -> None:
+    OUTPUT_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     resultado = {
         "source": "Servicio Meteorológico Nacional",
         "source_url": SOURCE_URL,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
         "count": len(localidades),
         "warning": (
             "Este archivo utiliza solamente los identificadores, "
@@ -138,42 +137,21 @@ def guardar_archivo(localidades: list[dict[str, Any]]) -> None:
 
 
 def main() -> None:
+    print("Descargando catálogo de localidades...")
     registros = descargar_localidades()
+
+    print("Limpiando catálogo...")
     localidades = limpiar_localidades(registros)
 
     if len(localidades) < 50:
         raise RuntimeError(
-            f"Solo se encontraron {len(localidades)} localidades. "
-            "La respuesta parece incompleta."
+            f"Solo se encontraron {len(localidades)} localidades."
         )
 
     guardar_archivo(localidades)
 
-    print(
-        f"Archivo generado correctamente: {OUTPUT_FILE} "
-        f"({len(localidades)} localidades)"
-    )
-
-    ezeiza = next(
-        (
-            localidad
-            for localidad in localidades
-            if localidad["id"] == 4841
-        ),
-        None,
-    )
-
-    capital_federal = next(
-        (
-            localidad
-            for localidad in localidades
-            if localidad["id"] == 4864
-        ),
-        None,
-    )
-
-    print(f"Ezeiza: {ezeiza}")
-    print(f"Capital Federal: {capital_federal}")
+    print(f"Archivo generado: {OUTPUT_FILE}")
+    print(f"Localidades encontradas: {len(localidades)}")
 
 
 if __name__ == "__main__":
