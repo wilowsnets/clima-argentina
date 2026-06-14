@@ -1,0 +1,2189 @@
+{
+  "source": "Servicio Meteorológico Nacional",
+  "source_url": "https://ws.smn.gob.ar/map_items/weather",
+  "generated_at": "2026-06-14T19:47:03.269256+00:00",
+  "count": 218,
+  "warning": "Este archivo utiliza solamente los identificadores, nombres y coordenadas de la fuente histórica. Los datos meteorológicos antiguos no fueron incluidos.",
+  "localities": [
+    {
+      "id": 3989,
+      "name": "9 de Julio",
+      "province": "Buenos Aires",
+      "lat": -35.44531631,
+      "lon": -60.88668442,
+      "zoom": 2,
+      "forecast_reference_id": 3989,
+      "station_number": 87550
+    },
+    {
+      "id": 4871,
+      "name": "Avellaneda",
+      "province": "Buenos Aires",
+      "lat": -34.65918732,
+      "lon": -58.36936951,
+      "zoom": 2,
+      "forecast_reference_id": 4871,
+      "station_number": 87582
+    },
+    {
+      "id": 4116,
+      "name": "Azul",
+      "province": "Buenos Aires",
+      "lat": -36.78702927,
+      "lon": -59.86066818,
+      "zoom": 2,
+      "forecast_reference_id": 4116,
+      "station_number": 87641
+    },
+    {
+      "id": 4558,
+      "name": "Bahía Blanca",
+      "province": "Buenos Aires",
+      "lat": -38.71467972,
+      "lon": -62.2790451,
+      "zoom": 2,
+      "forecast_reference_id": 4558,
+      "station_number": 87750
+    },
+    {
+      "id": 4318,
+      "name": "Balcarce",
+      "province": "Buenos Aires",
+      "lat": -37.85528946,
+      "lon": -58.25904465,
+      "zoom": 2,
+      "forecast_reference_id": 4318,
+      "station_number": 87692
+    },
+    {
+      "id": 10615,
+      "name": "Banfield",
+      "province": "Buenos Aires",
+      "lat": -34.74139301,
+      "lon": -58.39554061,
+      "zoom": 2,
+      "forecast_reference_id": 10615,
+      "station_number": 87576
+    },
+    {
+      "id": 4561,
+      "name": "Benito Juárez",
+      "province": "Buenos Aires",
+      "lat": -37.67188644,
+      "lon": -59.8055191,
+      "zoom": 2,
+      "forecast_reference_id": 4561,
+      "station_number": 87649
+    },
+    {
+      "id": 10643,
+      "name": "Campo de Mayo",
+      "province": "Buenos Aires",
+      "lat": -34.54426575,
+      "lon": -58.68375824,
+      "zoom": 2,
+      "forecast_reference_id": 4852,
+      "station_number": 87570
+    },
+    {
+      "id": 4547,
+      "name": "Carmen de Patagones",
+      "province": "Buenos Aires",
+      "lat": -40.79159164,
+      "lon": -62.99021149,
+      "zoom": 2,
+      "forecast_reference_id": 4547,
+      "station_number": 87791
+    },
+    {
+      "id": 4716,
+      "name": "Chacabuco",
+      "province": "Buenos Aires",
+      "lat": -34.64027786,
+      "lon": -60.47129822,
+      "zoom": 2,
+      "forecast_reference_id": 4716,
+      "station_number": 87548
+    },
+    {
+      "id": 3808,
+      "name": "Chascomus",
+      "province": "Buenos Aires",
+      "lat": -35.57215118,
+      "lon": -58.00617599,
+      "zoom": 2,
+      "forecast_reference_id": 3808,
+      "station_number": 87593
+    },
+    {
+      "id": 4843,
+      "name": "Ciudad Evita",
+      "province": "Buenos Aires",
+      "lat": -34.71332932,
+      "lon": -58.56261444,
+      "zoom": 2,
+      "forecast_reference_id": 4843,
+      "station_number": 87574
+    },
+    {
+      "id": 10647,
+      "name": "Ciudad Jardin Lomas del Palomar",
+      "province": "Buenos Aires",
+      "lat": -34.60309219,
+      "lon": -58.59416925,
+      "zoom": 2,
+      "forecast_reference_id": 10630,
+      "station_number": 87571
+    },
+    {
+      "id": 4232,
+      "name": "Coronel Pringles",
+      "province": "Buenos Aires",
+      "lat": -37.98218918,
+      "lon": -61.35739136,
+      "zoom": 2,
+      "forecast_reference_id": 4232,
+      "station_number": 87683
+    },
+    {
+      "id": 4350,
+      "name": "Coronel Suarez",
+      "province": "Buenos Aires",
+      "lat": -37.4548378,
+      "lon": -61.9367485,
+      "zoom": 2,
+      "forecast_reference_id": 4350,
+      "station_number": 87637
+    },
+    {
+      "id": 4146,
+      "name": "Dolores",
+      "province": "Buenos Aires",
+      "lat": -36.31482697,
+      "lon": -57.68048859,
+      "zoom": 2,
+      "forecast_reference_id": 4146,
+      "station_number": 87648
+    },
+    {
+      "id": 4828,
+      "name": "Don Torcuato",
+      "province": "Buenos Aires",
+      "lat": -34.48587799,
+      "lon": -58.64838409,
+      "zoom": 2,
+      "forecast_reference_id": 4828,
+      "station_number": 87570
+    },
+    {
+      "id": 10630,
+      "name": "El Palomar",
+      "province": "Buenos Aires",
+      "lat": -34.61008641,
+      "lon": -58.61242872,
+      "zoom": 2,
+      "forecast_reference_id": 10630,
+      "station_number": 87571
+    },
+    {
+      "id": 3834,
+      "name": "General Villegas",
+      "province": "Buenos Aires",
+      "lat": -35.03488922,
+      "lon": -62.99647522,
+      "zoom": 2,
+      "forecast_reference_id": 3834,
+      "station_number": 87532
+    },
+    {
+      "id": 4841,
+      "name": "José María Ezeiza",
+      "province": "Buenos Aires",
+      "lat": -34.86038589,
+      "lon": -58.52195358,
+      "zoom": 2,
+      "forecast_reference_id": 4841,
+      "station_number": 87576
+    },
+    {
+      "id": 4712,
+      "name": "Junín",
+      "province": "Buenos Aires",
+      "lat": -34.58358383,
+      "lon": -60.94085312,
+      "zoom": 2,
+      "forecast_reference_id": 4712,
+      "station_number": 87548
+    },
+    {
+      "id": 4856,
+      "name": "La Plata",
+      "province": "Buenos Aires",
+      "lat": -34.92014313,
+      "lon": -57.94528961,
+      "zoom": 1,
+      "forecast_reference_id": 4856,
+      "station_number": 87593
+    },
+    {
+      "id": 4129,
+      "name": "Las Flores",
+      "province": "Buenos Aires",
+      "lat": -36.01638794,
+      "lon": -59.10038376,
+      "zoom": 2,
+      "forecast_reference_id": 4129,
+      "station_number": 87563
+    },
+    {
+      "id": 4875,
+      "name": "Lomas de Zamora",
+      "province": "Buenos Aires",
+      "lat": -34.7586441,
+      "lon": -58.40148926,
+      "zoom": 2,
+      "forecast_reference_id": 4875,
+      "station_number": 87576
+    },
+    {
+      "id": 4144,
+      "name": "Maipú",
+      "province": "Buenos Aires",
+      "lat": -36.85823822,
+      "lon": -57.87769699,
+      "zoom": 2,
+      "forecast_reference_id": 4144,
+      "station_number": 87648
+    },
+    {
+      "id": 4317,
+      "name": "Mar del Plata",
+      "province": "Buenos Aires",
+      "lat": -37.97247314,
+      "lon": -57.59349823,
+      "zoom": 2,
+      "forecast_reference_id": 4317,
+      "station_number": 87692
+    },
+    {
+      "id": 4814,
+      "name": "Mariano Moreno",
+      "province": "Buenos Aires",
+      "lat": -34.6475029,
+      "lon": -58.78604889,
+      "zoom": 2,
+      "forecast_reference_id": 4814,
+      "station_number": 87573
+    },
+    {
+      "id": 4851,
+      "name": "Merlo",
+      "province": "Buenos Aires",
+      "lat": -34.66880417,
+      "lon": -58.71593094,
+      "zoom": 2,
+      "forecast_reference_id": 4851,
+      "station_number": 87573
+    },
+    {
+      "id": 4487,
+      "name": "Miramar",
+      "province": "Buenos Aires",
+      "lat": -38.26976013,
+      "lon": -57.84612274,
+      "zoom": 2,
+      "forecast_reference_id": 4487,
+      "station_number": 87692
+    },
+    {
+      "id": 4443,
+      "name": "Monte Hermoso",
+      "province": "Buenos Aires",
+      "lat": -38.98323441,
+      "lon": -61.30081558,
+      "zoom": 2,
+      "forecast_reference_id": 4443,
+      "station_number": 87750
+    },
+    {
+      "id": 4848,
+      "name": "Morón",
+      "province": "Buenos Aires",
+      "lat": -34.63464355,
+      "lon": -58.62742615,
+      "zoom": 2,
+      "forecast_reference_id": 4848,
+      "station_number": 87574
+    },
+    {
+      "id": 4504,
+      "name": "Necochea",
+      "province": "Buenos Aires",
+      "lat": -38.54522324,
+      "lon": -58.73424911,
+      "zoom": 2,
+      "forecast_reference_id": 4504,
+      "station_number": 87692
+    },
+    {
+      "id": 4202,
+      "name": "Olavarría",
+      "province": "Buenos Aires",
+      "lat": -36.8962059,
+      "lon": -60.3198967,
+      "zoom": 2,
+      "forecast_reference_id": 4202,
+      "station_number": 87643
+    },
+    {
+      "id": 3884,
+      "name": "Pehuajó",
+      "province": "Buenos Aires",
+      "lat": -35.81163406,
+      "lon": -61.89644241,
+      "zoom": 2,
+      "forecast_reference_id": 3884,
+      "station_number": 87544
+    },
+    {
+      "id": 4617,
+      "name": "Pergamino",
+      "province": "Buenos Aires",
+      "lat": -33.89677429,
+      "lon": -60.56956482,
+      "zoom": 2,
+      "forecast_reference_id": 4617,
+      "station_number": 87548
+    },
+    {
+      "id": 4338,
+      "name": "Pigüé",
+      "province": "Buenos Aires",
+      "lat": -37.60546494,
+      "lon": -62.4029007,
+      "zoom": 2,
+      "forecast_reference_id": 4338,
+      "station_number": 87679
+    },
+    {
+      "id": 4298,
+      "name": "Pinamar",
+      "province": "Buenos Aires",
+      "lat": -37.11458969,
+      "lon": -56.86851501,
+      "zoom": 2,
+      "forecast_reference_id": 4298,
+      "station_number": 87663
+    },
+    {
+      "id": 3833,
+      "name": "Punta Indio",
+      "province": "Buenos Aires",
+      "lat": -35.27056885,
+      "lon": -57.25535583,
+      "zoom": 2,
+      "forecast_reference_id": 3833,
+      "station_number": 87596
+    },
+    {
+      "id": 4863,
+      "name": "Quilmes",
+      "province": "Buenos Aires",
+      "lat": -34.70489502,
+      "lon": -58.24424744,
+      "zoom": 2,
+      "forecast_reference_id": 4863,
+      "station_number": 87582
+    },
+    {
+      "id": 10819,
+      "name": "San Andrés",
+      "province": "Buenos Aires",
+      "lat": -34.564,
+      "lon": -58.541,
+      "zoom": 2,
+      "forecast_reference_id": 10819,
+      "station_number": 87585
+    },
+    {
+      "id": 4771,
+      "name": "San Antonio de Areco",
+      "province": "Buenos Aires",
+      "lat": -34.25044632,
+      "lon": -59.47258759,
+      "zoom": 2,
+      "forecast_reference_id": 4771,
+      "station_number": 87572
+    },
+    {
+      "id": 4164,
+      "name": "San Bernardo",
+      "province": "Buenos Aires",
+      "lat": -36.69836044,
+      "lon": -56.67993927,
+      "zoom": 2,
+      "forecast_reference_id": 4164,
+      "station_number": 87663
+    },
+    {
+      "id": 4176,
+      "name": "San Carlos de Bolívar",
+      "province": "Buenos Aires",
+      "lat": -36.23136139,
+      "lon": -61.1148262,
+      "zoom": 2,
+      "forecast_reference_id": 4176,
+      "station_number": 87640
+    },
+    {
+      "id": 4153,
+      "name": "San Clemente del Tuyú",
+      "province": "Buenos Aires",
+      "lat": -36.35927582,
+      "lon": -56.72302246,
+      "zoom": 2,
+      "forecast_reference_id": 4153,
+      "station_number": 87648
+    },
+    {
+      "id": 4750,
+      "name": "San Fernando",
+      "province": "Buenos Aires",
+      "lat": -34.44762421,
+      "lon": -58.55633163,
+      "zoom": 2,
+      "forecast_reference_id": 4750,
+      "station_number": 87553
+    },
+    {
+      "id": 4743,
+      "name": "San Isidro",
+      "province": "Buenos Aires",
+      "lat": -34.47210312,
+      "lon": -58.51338959,
+      "zoom": 2,
+      "forecast_reference_id": 4743,
+      "station_number": 87553
+    },
+    {
+      "id": 4852,
+      "name": "San Miguel",
+      "province": "Buenos Aires",
+      "lat": -34.54426575,
+      "lon": -58.74044037,
+      "zoom": 2,
+      "forecast_reference_id": 4852,
+      "station_number": 87572
+    },
+    {
+      "id": 4569,
+      "name": "San Pedro",
+      "province": "Buenos Aires",
+      "lat": -33.68278503,
+      "lon": -59.67208481,
+      "zoom": 2,
+      "forecast_reference_id": 4569,
+      "station_number": 87497
+    },
+    {
+      "id": 4159,
+      "name": "Santa Teresita",
+      "province": "Buenos Aires",
+      "lat": -36.53770828,
+      "lon": -56.69633102,
+      "zoom": 2,
+      "forecast_reference_id": 4159,
+      "station_number": 87663
+    },
+    {
+      "id": 4265,
+      "name": "Tandil",
+      "province": "Buenos Aires",
+      "lat": -37.31096268,
+      "lon": -59.13938522,
+      "zoom": 2,
+      "forecast_reference_id": 4265,
+      "station_number": 87645
+    },
+    {
+      "id": 4846,
+      "name": "Tigre",
+      "province": "Buenos Aires",
+      "lat": -34.41580963,
+      "lon": -58.59275436,
+      "zoom": 2,
+      "forecast_reference_id": 4846,
+      "station_number": 87553
+    },
+    {
+      "id": 3864,
+      "name": "Trenque Lauquen",
+      "province": "Buenos Aires",
+      "lat": -35.97356033,
+      "lon": -62.73426056,
+      "zoom": 2,
+      "forecast_reference_id": 3864,
+      "station_number": 87540
+    },
+    {
+      "id": 4462,
+      "name": "Tres Arroyos",
+      "province": "Buenos Aires",
+      "lat": -38.38358688,
+      "lon": -60.27342987,
+      "zoom": 2,
+      "forecast_reference_id": 4462,
+      "station_number": 87688
+    },
+    {
+      "id": 4299,
+      "name": "Villa Gesell",
+      "province": "Buenos Aires",
+      "lat": -37.25163391,
+      "lon": -56.96981838,
+      "zoom": 2,
+      "forecast_reference_id": 4299,
+      "station_number": 87663
+    },
+    {
+      "id": 4749,
+      "name": "Zárate",
+      "province": "Buenos Aires",
+      "lat": -34.09710693,
+      "lon": -59.0237236,
+      "zoom": 2,
+      "forecast_reference_id": 4749,
+      "station_number": 87572
+    },
+    {
+      "id": 10821,
+      "name": "Aeroparque Buenos Aires",
+      "province": "Capital Federal",
+      "lat": -34.558889,
+      "lon": -58.416389,
+      "zoom": 2,
+      "forecast_reference_id": 10821,
+      "station_number": 87582
+    },
+    {
+      "id": 4864,
+      "name": "Capital Federal",
+      "province": "Capital Federal",
+      "lat": -34.62170792,
+      "lon": -58.42575836,
+      "zoom": 1,
+      "forecast_reference_id": 4864,
+      "station_number": 87585
+    },
+    {
+      "id": 5026,
+      "name": "Andalgalá",
+      "province": "Catamarca",
+      "lat": -27.58099937,
+      "lon": -66.31768799,
+      "zoom": 2,
+      "forecast_reference_id": 5026,
+      "station_number": 87222
+    },
+    {
+      "id": 5002,
+      "name": "Belén",
+      "province": "Catamarca",
+      "lat": -27.65381432,
+      "lon": -67.02497864,
+      "zoom": 2,
+      "forecast_reference_id": 5002,
+      "station_number": 87211
+    },
+    {
+      "id": 5149,
+      "name": "San Fernando del Valle de Catamarca",
+      "province": "Catamarca",
+      "lat": -28.45181656,
+      "lon": -65.7408371,
+      "zoom": 1,
+      "forecast_reference_id": 5149,
+      "station_number": 87222
+    },
+    {
+      "id": 4941,
+      "name": "Santa María",
+      "province": "Catamarca",
+      "lat": -26.69398117,
+      "lon": -66.04747009,
+      "zoom": 2,
+      "forecast_reference_id": 4941,
+      "station_number": 87121
+    },
+    {
+      "id": 5257,
+      "name": "Tinogasta",
+      "province": "Catamarca",
+      "lat": -28.06189346,
+      "lon": -67.5644455,
+      "zoom": 2,
+      "forecast_reference_id": 5257,
+      "station_number": 87211
+    },
+    {
+      "id": 5548,
+      "name": "General José de San Martín",
+      "province": "Chaco",
+      "lat": -26.54045677,
+      "lon": -59.33821106,
+      "zoom": 2,
+      "forecast_reference_id": 5548,
+      "station_number": 87155
+    },
+    {
+      "id": 5717,
+      "name": "Presidencia Roque Sáenz Peña",
+      "province": "Chaco",
+      "lat": -26.78947067,
+      "lon": -60.44746017,
+      "zoom": 2,
+      "forecast_reference_id": 5717,
+      "station_number": 87148
+    },
+    {
+      "id": 5648,
+      "name": "Resistencia",
+      "province": "Chaco",
+      "lat": -27.45546341,
+      "lon": -58.99566269,
+      "zoom": 1,
+      "forecast_reference_id": 5648,
+      "station_number": 87155
+    },
+    {
+      "id": 5582,
+      "name": "Villa Ángela",
+      "province": "Chaco",
+      "lat": -27.57705879,
+      "lon": -60.72607803,
+      "zoom": 2,
+      "forecast_reference_id": 5582,
+      "station_number": 87148
+    },
+    {
+      "id": 5874,
+      "name": "Comodoro Rivadavia",
+      "province": "Chubut",
+      "lat": -45.87866156,
+      "lon": -67.52872314,
+      "zoom": 2,
+      "forecast_reference_id": 5874,
+      "station_number": 87860
+    },
+    {
+      "id": 5756,
+      "name": "Esquel",
+      "province": "Chubut",
+      "lat": -42.90359116,
+      "lon": -71.31885529,
+      "zoom": 2,
+      "forecast_reference_id": 5756,
+      "station_number": 87803
+    },
+    {
+      "id": 5810,
+      "name": "Paso de Indios",
+      "province": "Chubut",
+      "lat": -43.86515808,
+      "lon": -69.04329681,
+      "zoom": 2,
+      "forecast_reference_id": 5810,
+      "station_number": 87814
+    },
+    {
+      "id": 5884,
+      "name": "Puerto Madryn",
+      "province": "Chubut",
+      "lat": -42.76913452,
+      "lon": -65.04391479,
+      "zoom": 2,
+      "forecast_reference_id": 5884,
+      "station_number": 87823
+    },
+    {
+      "id": 5888,
+      "name": "Rawson",
+      "province": "Chubut",
+      "lat": -43.29879761,
+      "lon": -65.09370422,
+      "zoom": 1,
+      "forecast_reference_id": 5888,
+      "station_number": 87828
+    },
+    {
+      "id": 5886,
+      "name": "Trelew",
+      "province": "Chubut",
+      "lat": -43.25348663,
+      "lon": -65.3081131,
+      "zoom": 2,
+      "forecast_reference_id": 5886,
+      "station_number": 87828
+    },
+    {
+      "id": 6852,
+      "name": "Almafuerte",
+      "province": "Córdoba",
+      "lat": -32.19477463,
+      "lon": -64.25388336,
+      "zoom": 2,
+      "forecast_reference_id": 6852,
+      "station_number": 87349
+    },
+    {
+      "id": 6387,
+      "name": "Alta Gracia",
+      "province": "Córdoba",
+      "lat": -31.65444946,
+      "lon": -64.43473816,
+      "zoom": 2,
+      "forecast_reference_id": 6387,
+      "station_number": 87345
+    },
+    {
+      "id": 6834,
+      "name": "Bell Ville",
+      "province": "Córdoba",
+      "lat": -32.62358093,
+      "lon": -62.68688202,
+      "zoom": 2,
+      "forecast_reference_id": 6834,
+      "station_number": 87467
+    },
+    {
+      "id": 6425,
+      "name": "Córdoba",
+      "province": "Córdoba",
+      "lat": -31.39884377,
+      "lon": -64.20745087,
+      "zoom": 1,
+      "forecast_reference_id": 6425,
+      "station_number": 87345
+    },
+    {
+      "id": 7063,
+      "name": "Coronel Moldes",
+      "province": "Córdoba",
+      "lat": -33.62342834,
+      "lon": -64.60393524,
+      "zoom": 2,
+      "forecast_reference_id": 7063,
+      "station_number": 87453
+    },
+    {
+      "id": 6370,
+      "name": "Cosquin",
+      "province": "Córdoba",
+      "lat": -31.24463654,
+      "lon": -64.46657562,
+      "zoom": 2,
+      "forecast_reference_id": 6370,
+      "station_number": 87344
+    },
+    {
+      "id": 6110,
+      "name": "Cruz del Eje",
+      "province": "Córdoba",
+      "lat": -30.72043419,
+      "lon": -64.80755615,
+      "zoom": 2,
+      "forecast_reference_id": 6110,
+      "station_number": 87344
+    },
+    {
+      "id": 7015,
+      "name": "La Carlota",
+      "province": "Córdoba",
+      "lat": -33.42341232,
+      "lon": -63.29754639,
+      "zoom": 2,
+      "forecast_reference_id": 7015,
+      "station_number": 87534
+    },
+    {
+      "id": 7099,
+      "name": "Laboulaye",
+      "province": "Córdoba",
+      "lat": -34.12000656,
+      "lon": -63.38900757,
+      "zoom": 2,
+      "forecast_reference_id": 7099,
+      "station_number": 87534
+    },
+    {
+      "id": 6826,
+      "name": "Marcos Juárez",
+      "province": "Córdoba",
+      "lat": -32.69905472,
+      "lon": -62.10639191,
+      "zoom": 2,
+      "forecast_reference_id": 6826,
+      "station_number": 87467
+    },
+    {
+      "id": 6698,
+      "name": "Mina Clavero",
+      "province": "Córdoba",
+      "lat": -31.72859617,
+      "lon": -64.99982965,
+      "zoom": 2,
+      "forecast_reference_id": 6698,
+      "station_number": 87328
+    },
+    {
+      "id": 10820,
+      "name": "Pilar Observatorio",
+      "province": "Córdoba",
+      "lat": -31.683333,
+      "lon": -63.9,
+      "zoom": 2,
+      "forecast_reference_id": 10820,
+      "station_number": 87349
+    },
+    {
+      "id": 7007,
+      "name": "Río Cuarto",
+      "province": "Córdoba",
+      "lat": -33.1322937,
+      "lon": -64.35366821,
+      "zoom": 2,
+      "forecast_reference_id": 7007,
+      "station_number": 87453
+    },
+    {
+      "id": 6887,
+      "name": "Río Tercero",
+      "province": "Córdoba",
+      "lat": -32.17317581,
+      "lon": -64.11588287,
+      "zoom": 2,
+      "forecast_reference_id": 6887,
+      "station_number": 87349
+    },
+    {
+      "id": 6565,
+      "name": "San Francisco",
+      "province": "Córdoba",
+      "lat": -31.43204117,
+      "lon": -62.08318329,
+      "zoom": 2,
+      "forecast_reference_id": 6565,
+      "station_number": 87360
+    },
+    {
+      "id": 6002,
+      "name": "Villa de María",
+      "province": "Córdoba",
+      "lat": -29.90564728,
+      "lon": -63.72361755,
+      "zoom": 2,
+      "forecast_reference_id": 6002,
+      "station_number": 87244
+    },
+    {
+      "id": 6594,
+      "name": "Villa Dolores",
+      "province": "Córdoba",
+      "lat": -31.94628906,
+      "lon": -65.19020844,
+      "zoom": 2,
+      "forecast_reference_id": 6594,
+      "station_number": 87328
+    },
+    {
+      "id": 6706,
+      "name": "Villa General Belgrano",
+      "province": "Córdoba",
+      "lat": -31.9677025,
+      "lon": -64.55392111,
+      "zoom": 2,
+      "forecast_reference_id": 6706,
+      "station_number": 87328
+    },
+    {
+      "id": 7142,
+      "name": "Villa Huidobro",
+      "province": "Córdoba",
+      "lat": -34.84141922,
+      "lon": -64.58737946,
+      "zoom": 2,
+      "forecast_reference_id": 7142,
+      "station_number": 87532
+    },
+    {
+      "id": 6901,
+      "name": "Villa María",
+      "province": "Córdoba",
+      "lat": -32.41200256,
+      "lon": -63.23983002,
+      "zoom": 2,
+      "forecast_reference_id": 6901,
+      "station_number": 87349
+    },
+    {
+      "id": 7236,
+      "name": "Corrientes",
+      "province": "Corrientes",
+      "lat": -27.47005272,
+      "lon": -58.82712555,
+      "zoom": 1,
+      "forecast_reference_id": 7236,
+      "station_number": 87166
+    },
+    {
+      "id": 7438,
+      "name": "Curuzú Cuatiá",
+      "province": "Corrientes",
+      "lat": -29.78941154,
+      "lon": -58.05887222,
+      "zoom": 2,
+      "forecast_reference_id": 7438,
+      "station_number": 87281
+    },
+    {
+      "id": 7223,
+      "name": "Empedrado",
+      "province": "Corrientes",
+      "lat": -27.95345344,
+      "lon": -58.80745369,
+      "zoom": 2,
+      "forecast_reference_id": 7223,
+      "station_number": 87166
+    },
+    {
+      "id": 7363,
+      "name": "Goya",
+      "province": "Corrientes",
+      "lat": -29.13188362,
+      "lon": -59.25866318,
+      "zoom": 2,
+      "forecast_reference_id": 7363,
+      "station_number": 87270
+    },
+    {
+      "id": 7151,
+      "name": "Ituzaingo",
+      "province": "Corrientes",
+      "lat": -27.58389854,
+      "lon": -56.68310547,
+      "zoom": 2,
+      "forecast_reference_id": 7151,
+      "station_number": 87173
+    },
+    {
+      "id": 7416,
+      "name": "Mercedes",
+      "province": "Corrientes",
+      "lat": -29.18217659,
+      "lon": -58.07847214,
+      "zoom": 2,
+      "forecast_reference_id": 7438,
+      "station_number": 87281
+    },
+    {
+      "id": 7499,
+      "name": "Monte Caseros",
+      "province": "Corrientes",
+      "lat": -30.25114822,
+      "lon": -57.64074707,
+      "zoom": 2,
+      "forecast_reference_id": 7499,
+      "station_number": 87393
+    },
+    {
+      "id": 7446,
+      "name": "Paso de Los Libres",
+      "province": "Corrientes",
+      "lat": -29.71175385,
+      "lon": -57.09205246,
+      "zoom": 2,
+      "forecast_reference_id": 7446,
+      "station_number": 87289
+    },
+    {
+      "id": 7836,
+      "name": "Colón",
+      "province": "Entre Ríos",
+      "lat": -32.22237396,
+      "lon": -58.14226151,
+      "zoom": 2,
+      "forecast_reference_id": 7836,
+      "station_number": 87497
+    },
+    {
+      "id": 7831,
+      "name": "Concepción del Uruguay",
+      "province": "Entre Ríos",
+      "lat": -32.47491837,
+      "lon": -58.24339294,
+      "zoom": 2,
+      "forecast_reference_id": 7831,
+      "station_number": 87497
+    },
+    {
+      "id": 7706,
+      "name": "Concordia",
+      "province": "Entre Ríos",
+      "lat": -31.38008881,
+      "lon": -58.01988602,
+      "zoom": 2,
+      "forecast_reference_id": 7706,
+      "station_number": 87395
+    },
+    {
+      "id": 7852,
+      "name": "Gualeguay",
+      "province": "Entre Ríos",
+      "lat": -33.15135193,
+      "lon": -59.31877518,
+      "zoom": 2,
+      "forecast_reference_id": 7852,
+      "station_number": 87497
+    },
+    {
+      "id": 7851,
+      "name": "Gualeguaychú",
+      "province": "Entre Ríos",
+      "lat": -33.0111084,
+      "lon": -58.50944519,
+      "zoom": 2,
+      "forecast_reference_id": 7851,
+      "station_number": 87497
+    },
+    {
+      "id": 7533,
+      "name": "La Paz",
+      "province": "Entre Ríos",
+      "lat": -30.74363518,
+      "lon": -59.64457321,
+      "zoom": 2,
+      "forecast_reference_id": 7533,
+      "station_number": 87374
+    },
+    {
+      "id": 7641,
+      "name": "Paraná",
+      "province": "Entre Ríos",
+      "lat": -31.73918724,
+      "lon": -60.52070999,
+      "zoom": 1,
+      "forecast_reference_id": 7641,
+      "station_number": 87374
+    },
+    {
+      "id": 8247,
+      "name": "Clorinda",
+      "province": "Formosa",
+      "lat": -25.28298084,
+      "lon": -57.7201772,
+      "zoom": 2,
+      "forecast_reference_id": 8247,
+      "station_number": 87162
+    },
+    {
+      "id": 8296,
+      "name": "Formosa",
+      "province": "Formosa",
+      "lat": -26.17586414,
+      "lon": -58.172627,
+      "zoom": 1,
+      "forecast_reference_id": 8296,
+      "station_number": 87162
+    },
+    {
+      "id": 8088,
+      "name": "Las Lomitas",
+      "province": "Formosa",
+      "lat": -24.70675746,
+      "lon": -60.60166982,
+      "zoom": 2,
+      "forecast_reference_id": 8088,
+      "station_number": 87078
+    },
+    {
+      "id": 8207,
+      "name": "Pirané",
+      "province": "Formosa",
+      "lat": -25.73078481,
+      "lon": -59.11330516,
+      "zoom": 2,
+      "forecast_reference_id": 8207,
+      "station_number": 87162
+    },
+    {
+      "id": 8480,
+      "name": "Humahuaca",
+      "province": "Jujuy",
+      "lat": -23.21184349,
+      "lon": -65.35055542,
+      "zoom": 2,
+      "forecast_reference_id": 8480,
+      "station_number": 87016
+    },
+    {
+      "id": 8368,
+      "name": "La Quiaca",
+      "province": "Jujuy",
+      "lat": -22.10247023,
+      "lon": -65.59802993,
+      "zoom": 2,
+      "forecast_reference_id": 8368,
+      "station_number": 87007
+    },
+    {
+      "id": 8764,
+      "name": "Libertador Gral San Martín",
+      "province": "Jujuy",
+      "lat": -23.81659126,
+      "lon": -64.79302216,
+      "zoom": 2,
+      "forecast_reference_id": 8764,
+      "station_number": 87046
+    },
+    {
+      "id": 8578,
+      "name": "Palpala",
+      "province": "Jujuy",
+      "lat": -24.25157166,
+      "lon": -65.20394897,
+      "zoom": 2,
+      "forecast_reference_id": 8578,
+      "station_number": 87046
+    },
+    {
+      "id": 8567,
+      "name": "Perico",
+      "province": "Jujuy",
+      "lat": -24.38298642,
+      "lon": -65.11437967,
+      "zoom": 2,
+      "forecast_reference_id": 8567,
+      "station_number": 87046
+    },
+    {
+      "id": 8623,
+      "name": "San Pedro de Jujuy",
+      "province": "Jujuy",
+      "lat": -24.223032,
+      "lon": -64.85923004,
+      "zoom": 2,
+      "forecast_reference_id": 8623,
+      "station_number": 87046
+    },
+    {
+      "id": 8618,
+      "name": "San Salvador de Jujuy",
+      "province": "Jujuy",
+      "lat": -24.19619179,
+      "lon": -65.2943573,
+      "zoom": 1,
+      "forecast_reference_id": 8618,
+      "station_number": 87046
+    },
+    {
+      "id": 8866,
+      "name": "25 de Mayo",
+      "province": "La Pampa",
+      "lat": -37.77246094,
+      "lon": -67.71451569,
+      "zoom": 2,
+      "forecast_reference_id": 8866,
+      "station_number": 87719
+    },
+    {
+      "id": 8786,
+      "name": "Eduardo Castex",
+      "province": "La Pampa",
+      "lat": -35.91563797,
+      "lon": -64.29443359,
+      "zoom": 2,
+      "forecast_reference_id": 8786,
+      "station_number": 87532
+    },
+    {
+      "id": 8873,
+      "name": "General Acha",
+      "province": "La Pampa",
+      "lat": -37.37308121,
+      "lon": -64.59938812,
+      "zoom": 2,
+      "forecast_reference_id": 8873,
+      "station_number": 87623
+    },
+    {
+      "id": 8803,
+      "name": "General Pico",
+      "province": "La Pampa",
+      "lat": -35.65878677,
+      "lon": -63.75950241,
+      "zoom": 2,
+      "forecast_reference_id": 8803,
+      "station_number": 87532
+    },
+    {
+      "id": 8808,
+      "name": "Intendente Alvear",
+      "province": "La Pampa",
+      "lat": -35.23781967,
+      "lon": -63.59208298,
+      "zoom": 2,
+      "forecast_reference_id": 8808,
+      "station_number": 87532
+    },
+    {
+      "id": 8861,
+      "name": "Santa Rosa",
+      "province": "La Pampa",
+      "lat": -36.63605499,
+      "lon": -64.29059601,
+      "zoom": 1,
+      "forecast_reference_id": 8861,
+      "station_number": 87623
+    },
+    {
+      "id": 8817,
+      "name": "Victorica",
+      "province": "La Pampa",
+      "lat": -36.21860123,
+      "lon": -65.43605804,
+      "zoom": 2,
+      "forecast_reference_id": 8786,
+      "station_number": 87616
+    },
+    {
+      "id": 9281,
+      "name": "Aimogasta",
+      "province": "La Rioja",
+      "lat": -28.5604229,
+      "lon": -66.80749512,
+      "zoom": 2,
+      "forecast_reference_id": 9281,
+      "station_number": 87217
+    },
+    {
+      "id": 9117,
+      "name": "Chamical",
+      "province": "La Rioja",
+      "lat": -30.36098099,
+      "lon": -66.31256866,
+      "zoom": 2,
+      "forecast_reference_id": 9117,
+      "station_number": 87320
+    },
+    {
+      "id": 9254,
+      "name": "Chepes",
+      "province": "La Rioja",
+      "lat": -31.33757782,
+      "lon": -66.59257507,
+      "zoom": 2,
+      "forecast_reference_id": 9254,
+      "station_number": 87322
+    },
+    {
+      "id": 8969,
+      "name": "Chilecito",
+      "province": "La Rioja",
+      "lat": -29.16159439,
+      "lon": -67.49515533,
+      "zoom": 2,
+      "forecast_reference_id": 8969,
+      "station_number": 87213
+    },
+    {
+      "id": 8994,
+      "name": "La Rioja",
+      "province": "La Rioja",
+      "lat": -29.41323662,
+      "lon": -66.84742737,
+      "zoom": 1,
+      "forecast_reference_id": 8994,
+      "station_number": 87217
+    },
+    {
+      "id": 9560,
+      "name": "General Alvear",
+      "province": "Mendoza",
+      "lat": -34.9721489,
+      "lon": -67.68930054,
+      "zoom": 2,
+      "forecast_reference_id": 9560,
+      "station_number": 87509
+    },
+    {
+      "id": 9296,
+      "name": "Malargüe",
+      "province": "Mendoza",
+      "lat": -35.47263257,
+      "lon": -69.5844391,
+      "zoom": 2,
+      "forecast_reference_id": 9296,
+      "station_number": 87506
+    },
+    {
+      "id": 9378,
+      "name": "Mendoza",
+      "province": "Mendoza",
+      "lat": -32.87529755,
+      "lon": -68.84480286,
+      "zoom": 1,
+      "forecast_reference_id": 9378,
+      "station_number": 87420
+    },
+    {
+      "id": 9360,
+      "name": "Punta de Vacas",
+      "province": "Mendoza",
+      "lat": -32.85335922,
+      "lon": -69.76081085,
+      "zoom": 2,
+      "forecast_reference_id": 9360,
+      "station_number": 87405
+    },
+    {
+      "id": 9534,
+      "name": "San Carlos",
+      "province": "Mendoza",
+      "lat": -33.77414322,
+      "lon": -69.04284668,
+      "zoom": 2,
+      "forecast_reference_id": 9534,
+      "station_number": 87412
+    },
+    {
+      "id": 9450,
+      "name": "San Martín",
+      "province": "Mendoza",
+      "lat": -33.08354568,
+      "lon": -68.46781158,
+      "zoom": 2,
+      "forecast_reference_id": 9450,
+      "station_number": 87416
+    },
+    {
+      "id": 9553,
+      "name": "San Rafael",
+      "province": "Mendoza",
+      "lat": -34.60757828,
+      "lon": -68.32798004,
+      "zoom": 2,
+      "forecast_reference_id": 9553,
+      "station_number": 87509
+    },
+    {
+      "id": 9539,
+      "name": "Tunuyan",
+      "province": "Mendoza",
+      "lat": -33.58210373,
+      "lon": -69.02268982,
+      "zoom": 2,
+      "forecast_reference_id": 9539,
+      "station_number": 87412
+    },
+    {
+      "id": 9352,
+      "name": "Uspallata",
+      "province": "Mendoza",
+      "lat": -32.59169906,
+      "lon": -69.34659024,
+      "zoom": 2,
+      "forecast_reference_id": 9352,
+      "station_number": 87405
+    },
+    {
+      "id": 9629,
+      "name": "Apóstoles",
+      "province": "Misiones",
+      "lat": -27.91513062,
+      "lon": -55.75431442,
+      "zoom": 2,
+      "forecast_reference_id": 9629,
+      "station_number": 87178
+    },
+    {
+      "id": 9589,
+      "name": "Bernardo de Irigoyen",
+      "province": "Misiones",
+      "lat": -26.25229612,
+      "lon": -53.64705502,
+      "zoom": 2,
+      "forecast_reference_id": 9589,
+      "station_number": 87163
+    },
+    {
+      "id": 9655,
+      "name": "Eldorado",
+      "province": "Misiones",
+      "lat": -26.40148163,
+      "lon": -54.62450409,
+      "zoom": 2,
+      "forecast_reference_id": 9655,
+      "station_number": 87097
+    },
+    {
+      "id": 9743,
+      "name": "Oberá",
+      "province": "Misiones",
+      "lat": -27.48634911,
+      "lon": -55.12044907,
+      "zoom": 2,
+      "forecast_reference_id": 9743,
+      "station_number": 87187
+    },
+    {
+      "id": 9598,
+      "name": "Posadas",
+      "province": "Misiones",
+      "lat": -27.37967491,
+      "lon": -55.89886856,
+      "zoom": 1,
+      "forecast_reference_id": 9598,
+      "station_number": 87178
+    },
+    {
+      "id": 9585,
+      "name": "Puerto Iguazú",
+      "province": "Misiones",
+      "lat": -25.61044502,
+      "lon": -54.57235336,
+      "zoom": 2,
+      "forecast_reference_id": 9585,
+      "station_number": 87097
+    },
+    {
+      "id": 10025,
+      "name": "Chapelco",
+      "province": "Neuquén",
+      "lat": -40.13136292,
+      "lon": -71.19941711,
+      "zoom": 2,
+      "forecast_reference_id": 10025,
+      "station_number": 87761
+    },
+    {
+      "id": 9949,
+      "name": "Cutral Co",
+      "province": "Neuquén",
+      "lat": -38.93712234,
+      "lon": -69.22969055,
+      "zoom": 2,
+      "forecast_reference_id": 9949,
+      "station_number": 87715
+    },
+    {
+      "id": 9903,
+      "name": "Neuquén",
+      "province": "Neuquén",
+      "lat": -38.95428467,
+      "lon": -68.07512665,
+      "zoom": 1,
+      "forecast_reference_id": 9903,
+      "station_number": 87715
+    },
+    {
+      "id": 10026,
+      "name": "San Martín de Los Andes",
+      "province": "Neuquén",
+      "lat": -40.15504074,
+      "lon": -71.353302,
+      "zoom": 2,
+      "forecast_reference_id": 10026,
+      "station_number": 87761
+    },
+    {
+      "id": 10015,
+      "name": "Villa La Angostura",
+      "province": "Neuquén",
+      "lat": -40.76431981,
+      "lon": -71.64148846,
+      "zoom": 2,
+      "forecast_reference_id": 10015,
+      "station_number": 87765
+    },
+    {
+      "id": 9933,
+      "name": "Zapala",
+      "province": "Neuquén",
+      "lat": -38.89790344,
+      "lon": -70.06330872,
+      "zoom": 2,
+      "forecast_reference_id": 9933,
+      "station_number": 87761
+    },
+    {
+      "id": 30,
+      "name": "Choele Choel",
+      "province": "Río Negro",
+      "lat": -39.29313955,
+      "lon": -65.65817703,
+      "zoom": 2,
+      "forecast_reference_id": 30,
+      "station_number": 87736
+    },
+    {
+      "id": 19,
+      "name": "Cipolletti",
+      "province": "Río Negro",
+      "lat": -38.93338776,
+      "lon": -67.99762726,
+      "zoom": 2,
+      "forecast_reference_id": 19,
+      "station_number": 87719
+    },
+    {
+      "id": 133,
+      "name": "El Bolsón",
+      "province": "Río Negro",
+      "lat": -41.96834183,
+      "lon": -71.53554535,
+      "zoom": 2,
+      "forecast_reference_id": 133,
+      "station_number": 87800
+    },
+    {
+      "id": 60,
+      "name": "General Roca",
+      "province": "Río Negro",
+      "lat": -39.02801895,
+      "lon": -67.57389069,
+      "zoom": 2,
+      "forecast_reference_id": 60,
+      "station_number": 87719
+    },
+    {
+      "id": 169,
+      "name": "Maquinchao",
+      "province": "Río Negro",
+      "lat": -41.24903107,
+      "lon": -68.70127869,
+      "zoom": 2,
+      "forecast_reference_id": 169,
+      "station_number": 87774
+    },
+    {
+      "id": 29,
+      "name": "Río Colorado",
+      "province": "Río Negro",
+      "lat": -38.99683032,
+      "lon": -64.09385713,
+      "zoom": 2,
+      "forecast_reference_id": 29,
+      "station_number": 87736
+    },
+    {
+      "id": 117,
+      "name": "San Antonio Oeste",
+      "province": "Río Negro",
+      "lat": -40.73238754,
+      "lon": -64.94474792,
+      "zoom": 2,
+      "forecast_reference_id": 117,
+      "station_number": 87784
+    },
+    {
+      "id": 137,
+      "name": "San Carlos de Bariloche",
+      "province": "Río Negro",
+      "lat": -41.15048981,
+      "lon": -71.29316711,
+      "zoom": 2,
+      "forecast_reference_id": 137,
+      "station_number": 87765
+    },
+    {
+      "id": 132,
+      "name": "Viedma",
+      "province": "Río Negro",
+      "lat": -40.81296539,
+      "lon": -62.99342346,
+      "zoom": 1,
+      "forecast_reference_id": 132,
+      "station_number": 87791
+    },
+    {
+      "id": 47,
+      "name": "Villa Regina",
+      "province": "Río Negro",
+      "lat": -39.10035706,
+      "lon": -67.08444214,
+      "zoom": 2,
+      "forecast_reference_id": 47,
+      "station_number": 87719
+    },
+    {
+      "id": 1018,
+      "name": "Metán",
+      "province": "Salta",
+      "lat": -25.50115967,
+      "lon": -64.97684479,
+      "zoom": 2,
+      "forecast_reference_id": 1018,
+      "station_number": 87047
+    },
+    {
+      "id": 794,
+      "name": "Rivadavia",
+      "province": "Salta",
+      "lat": -24.18393099,
+      "lon": -62.88651112,
+      "zoom": 2,
+      "forecast_reference_id": 794,
+      "station_number": 87065
+    },
+    {
+      "id": 454,
+      "name": "Salta",
+      "province": "Salta",
+      "lat": -24.82840729,
+      "lon": -65.42250824,
+      "zoom": 1,
+      "forecast_reference_id": 454,
+      "station_number": 87047
+    },
+    {
+      "id": 365,
+      "name": "San Ramón de La Nueva Orán",
+      "province": "Salta",
+      "lat": -23.13144112,
+      "lon": -64.32727814,
+      "zoom": 2,
+      "forecast_reference_id": 365,
+      "station_number": 87016
+    },
+    {
+      "id": 291,
+      "name": "Tartagal",
+      "province": "Salta",
+      "lat": -22.51148033,
+      "lon": -63.79915237,
+      "zoom": 2,
+      "forecast_reference_id": 291,
+      "station_number": 87022
+    },
+    {
+      "id": 1449,
+      "name": "Caucete",
+      "province": "San Juan",
+      "lat": -31.65113872,
+      "lon": -68.28041136,
+      "zoom": 2,
+      "forecast_reference_id": 1449,
+      "station_number": 87311
+    },
+    {
+      "id": 1298,
+      "name": "San José de Jachal",
+      "province": "San Juan",
+      "lat": -30.23957634,
+      "lon": -68.74830627,
+      "zoom": 2,
+      "forecast_reference_id": 1298,
+      "station_number": 87305
+    },
+    {
+      "id": 1425,
+      "name": "San Juan",
+      "province": "San Juan",
+      "lat": -31.51893234,
+      "lon": -68.51115417,
+      "zoom": 1,
+      "forecast_reference_id": 1425,
+      "station_number": 87311
+    },
+    {
+      "id": 1769,
+      "name": "Justo Daract",
+      "province": "San Luis",
+      "lat": -33.85821533,
+      "lon": -65.18560028,
+      "zoom": 2,
+      "forecast_reference_id": 1769,
+      "station_number": 87448
+    },
+    {
+      "id": 1758,
+      "name": "La Toma",
+      "province": "San Luis",
+      "lat": -33.05532455,
+      "lon": -65.61416626,
+      "zoom": 2,
+      "forecast_reference_id": 1758,
+      "station_number": 87436
+    },
+    {
+      "id": 1670,
+      "name": "Merlo",
+      "province": "San Luis",
+      "lat": -32.34375,
+      "lon": -65.01524353,
+      "zoom": 2,
+      "forecast_reference_id": 1670,
+      "station_number": 87444
+    },
+    {
+      "id": 1712,
+      "name": "San Luis",
+      "province": "San Luis",
+      "lat": -33.30386734,
+      "lon": -66.33309174,
+      "zoom": 1,
+      "forecast_reference_id": 1712,
+      "station_number": 87436
+    },
+    {
+      "id": 1656,
+      "name": "Santa Rosa del Conlara",
+      "province": "San Luis",
+      "lat": -32.3414917,
+      "lon": -65.19670868,
+      "zoom": 2,
+      "forecast_reference_id": 1656,
+      "station_number": 87444
+    },
+    {
+      "id": 1754,
+      "name": "Villa Reynolds",
+      "province": "San Luis",
+      "lat": -33.72087308,
+      "lon": -65.38409248,
+      "zoom": 2,
+      "forecast_reference_id": 1754,
+      "station_number": 87448
+    },
+    {
+      "id": 1808,
+      "name": "Caleta Olivia",
+      "province": "Santa Cruz",
+      "lat": -46.44820786,
+      "lon": -67.5220871,
+      "zoom": 2,
+      "forecast_reference_id": 1808,
+      "station_number": 87860
+    },
+    {
+      "id": 1840,
+      "name": "El Calafate",
+      "province": "Santa Cruz",
+      "lat": -50.34061394,
+      "lon": -72.26842674,
+      "zoom": 2,
+      "forecast_reference_id": 1840,
+      "station_number": 87904
+    },
+    {
+      "id": 1827,
+      "name": "Gobernador Gregores",
+      "province": "Santa Cruz",
+      "lat": -48.7517395,
+      "lon": -70.24363708,
+      "zoom": 2,
+      "forecast_reference_id": 1827,
+      "station_number": 87880
+    },
+    {
+      "id": 1795,
+      "name": "Perito Moreno",
+      "province": "Santa Cruz",
+      "lat": -46.59955597,
+      "lon": -70.91318512,
+      "zoom": 2,
+      "forecast_reference_id": 1795,
+      "station_number": 87852
+    },
+    {
+      "id": 1857,
+      "name": "Puerto Deseado",
+      "province": "Santa Cruz",
+      "lat": -47.75159836,
+      "lon": -65.89685059,
+      "zoom": 2,
+      "forecast_reference_id": 1857,
+      "station_number": 87896
+    },
+    {
+      "id": 1860,
+      "name": "Puerto San Julián",
+      "province": "Santa Cruz",
+      "lat": -49.3070488,
+      "lon": -67.72885132,
+      "zoom": 2,
+      "forecast_reference_id": 1860,
+      "station_number": 87909
+    },
+    {
+      "id": 1865,
+      "name": "Puerto Santa Cruz",
+      "province": "Santa Cruz",
+      "lat": -50.02256012,
+      "lon": -68.52765656,
+      "zoom": 2,
+      "forecast_reference_id": 1865,
+      "station_number": 87912
+    },
+    {
+      "id": 1868,
+      "name": "Río Gallegos",
+      "province": "Santa Cruz",
+      "lat": -51.61967087,
+      "lon": -69.22193909,
+      "zoom": 1,
+      "forecast_reference_id": 1868,
+      "station_number": 87925
+    },
+    {
+      "id": 1844,
+      "name": "Yacimientos Río Turbio",
+      "province": "Santa Cruz",
+      "lat": -51.53855114,
+      "lon": -72.33593163,
+      "zoom": 2,
+      "forecast_reference_id": 1840,
+      "station_number": 87916
+    },
+    {
+      "id": 2368,
+      "name": "Casilda",
+      "province": "Santa Fe",
+      "lat": -33.0473671,
+      "lon": -61.16872025,
+      "zoom": 2,
+      "forecast_reference_id": 2368,
+      "station_number": 87480
+    },
+    {
+      "id": 1967,
+      "name": "Ceres",
+      "province": "Santa Fe",
+      "lat": -29.87953377,
+      "lon": -61.94578934,
+      "zoom": 2,
+      "forecast_reference_id": 1967,
+      "station_number": 87257
+    },
+    {
+      "id": 2250,
+      "name": "El Trebol",
+      "province": "Santa Fe",
+      "lat": -32.19298553,
+      "lon": -61.70098877,
+      "zoom": 2,
+      "forecast_reference_id": 2250,
+      "station_number": 87470
+    },
+    {
+      "id": 2248,
+      "name": "Las Rosas",
+      "province": "Santa Fe",
+      "lat": -32.47670746,
+      "lon": -61.58155441,
+      "zoom": 2,
+      "forecast_reference_id": 2248,
+      "station_number": 87470
+    },
+    {
+      "id": 2410,
+      "name": "Melincué",
+      "province": "Santa Fe",
+      "lat": -33.65584564,
+      "lon": -61.45549774,
+      "zoom": 2,
+      "forecast_reference_id": 2410,
+      "station_number": 87468
+    },
+    {
+      "id": 2199,
+      "name": "Rafaela",
+      "province": "Santa Fe",
+      "lat": -31.24871826,
+      "lon": -61.484478,
+      "zoom": 2,
+      "forecast_reference_id": 2199,
+      "station_number": 87360
+    },
+    {
+      "id": 2006,
+      "name": "Reconquista",
+      "province": "Santa Fe",
+      "lat": -29.14628029,
+      "lon": -59.64865112,
+      "zoom": 2,
+      "forecast_reference_id": 2006,
+      "station_number": 87270
+    },
+    {
+      "id": 2278,
+      "name": "Rosario",
+      "province": "Santa Fe",
+      "lat": -32.94351578,
+      "lon": -60.64033508,
+      "zoom": 2,
+      "forecast_reference_id": 2278,
+      "station_number": 87480
+    },
+    {
+      "id": 2077,
+      "name": "San Cristóbal",
+      "province": "Santa Fe",
+      "lat": -30.3101902,
+      "lon": -61.23562241,
+      "zoom": 2,
+      "forecast_reference_id": 2077,
+      "station_number": 87356
+    },
+    {
+      "id": 2062,
+      "name": "San Javier",
+      "province": "Santa Fe",
+      "lat": -30.57825661,
+      "lon": -59.93152237,
+      "zoom": 2,
+      "forecast_reference_id": 2062,
+      "station_number": 87374
+    },
+    {
+      "id": 2195,
+      "name": "Santa Fe",
+      "province": "Santa Fe",
+      "lat": -31.63770103,
+      "lon": -60.70919418,
+      "zoom": 1,
+      "forecast_reference_id": 2195,
+      "station_number": 87371
+    },
+    {
+      "id": 2124,
+      "name": "Sastre",
+      "province": "Santa Fe",
+      "lat": -31.76698685,
+      "lon": -61.82943726,
+      "zoom": 2,
+      "forecast_reference_id": 2124,
+      "station_number": 87360
+    },
+    {
+      "id": 2168,
+      "name": "Sauce Viejo",
+      "province": "Santa Fe",
+      "lat": -31.77149459,
+      "lon": -60.83609586,
+      "zoom": 2,
+      "forecast_reference_id": 2195,
+      "station_number": 87371
+    },
+    {
+      "id": 2060,
+      "name": "Sunchales",
+      "province": "Santa Fe",
+      "lat": -30.94293594,
+      "lon": -61.56054306,
+      "zoom": 2,
+      "forecast_reference_id": 2060,
+      "station_number": 87356
+    },
+    {
+      "id": 1960,
+      "name": "Tostado",
+      "province": "Santa Fe",
+      "lat": -29.23046112,
+      "lon": -61.77229691,
+      "zoom": 2,
+      "forecast_reference_id": 1960,
+      "station_number": 87257
+    },
+    {
+      "id": 2317,
+      "name": "Venado Tuerto",
+      "province": "Santa Fe",
+      "lat": -33.74375534,
+      "lon": -61.97003174,
+      "zoom": 2,
+      "forecast_reference_id": 2317,
+      "station_number": 87468
+    },
+    {
+      "id": 3574,
+      "name": "Añatuya",
+      "province": "Santiago del Estero",
+      "lat": -28.45646286,
+      "lon": -62.82564163,
+      "zoom": 2,
+      "forecast_reference_id": 3574,
+      "station_number": 87129
+    },
+    {
+      "id": 3327,
+      "name": "Frias",
+      "province": "Santiago del Estero",
+      "lat": -28.63246346,
+      "lon": -65.12717438,
+      "zoom": 2,
+      "forecast_reference_id": 3327,
+      "station_number": 87222
+    },
+    {
+      "id": 2954,
+      "name": "Santiago del Estero",
+      "province": "Santiago del Estero",
+      "lat": -27.79167557,
+      "lon": -64.26761627,
+      "zoom": 1,
+      "forecast_reference_id": 2954,
+      "station_number": 87129
+    },
+    {
+      "id": 2819,
+      "name": "Termas de Río Hondo",
+      "province": "Santiago del Estero",
+      "lat": -27.49892807,
+      "lon": -64.86672211,
+      "zoom": 2,
+      "forecast_reference_id": 2819,
+      "station_number": 87127
+    },
+    {
+      "id": 10806,
+      "name": "Base Belgrano II",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -77.852,
+      "lon": -34.551,
+      "zoom": 1,
+      "forecast_reference_id": 10806,
+      "station_number": 89034
+    },
+    {
+      "id": 10811,
+      "name": "Base Carlini",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -62.233,
+      "lon": -58.667,
+      "zoom": 1,
+      "forecast_reference_id": 10811,
+      "station_number": 89053
+    },
+    {
+      "id": 10810,
+      "name": "Base Esperanza",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -63.4,
+      "lon": -56.984,
+      "zoom": 1,
+      "forecast_reference_id": 10810,
+      "station_number": 88963
+    },
+    {
+      "id": 10818,
+      "name": "Base Marambio",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -64.233333,
+      "lon": -56.633333,
+      "zoom": 1,
+      "forecast_reference_id": 10818,
+      "station_number": 89055
+    },
+    {
+      "id": 10814,
+      "name": "Base Orcadas",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -60.734,
+      "lon": -44.734,
+      "zoom": 1,
+      "forecast_reference_id": 10814,
+      "station_number": 88968
+    },
+    {
+      "id": 10817,
+      "name": "Base San Martín",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -68.133,
+      "lon": -67.1,
+      "zoom": 1,
+      "forecast_reference_id": 10817,
+      "station_number": 89066
+    },
+    {
+      "id": 5971,
+      "name": "Puerto Argentino",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -51.69422913,
+      "lon": -57.85905838,
+      "zoom": 1,
+      "forecast_reference_id": 5971,
+      "station_number": 88889
+    },
+    {
+      "id": 5912,
+      "name": "Río Grande",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -53.78948593,
+      "lon": -67.70848083,
+      "zoom": 2,
+      "forecast_reference_id": 5912,
+      "station_number": 87934
+    },
+    {
+      "id": 5905,
+      "name": "Tolhuin",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -54.49865355,
+      "lon": -67.18571464,
+      "zoom": 2,
+      "forecast_reference_id": 5905,
+      "station_number": 87938
+    },
+    {
+      "id": 5908,
+      "name": "Ushuaia",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "lat": -54.81582642,
+      "lon": -68.32913208,
+      "zoom": 1,
+      "forecast_reference_id": 5908,
+      "station_number": 87938
+    },
+    {
+      "id": 10290,
+      "name": "Aguilares",
+      "province": "Tucumán",
+      "lat": -27.42748451,
+      "lon": -65.61722565,
+      "zoom": 2,
+      "forecast_reference_id": 10290,
+      "station_number": 87127
+    },
+    {
+      "id": 10287,
+      "name": "Concepción",
+      "province": "Tucumán",
+      "lat": -27.33919716,
+      "lon": -65.58698273,
+      "zoom": 2,
+      "forecast_reference_id": 10287,
+      "station_number": 87127
+    },
+    {
+      "id": 10118,
+      "name": "San Miguel de Tucumán",
+      "province": "Tucumán",
+      "lat": -26.82396126,
+      "lon": -65.20252991,
+      "zoom": 1,
+      "forecast_reference_id": 10118,
+      "station_number": 87121
+    },
+    {
+      "id": 10120,
+      "name": "Tafí Viejo",
+      "province": "Tucumán",
+      "lat": -26.73637199,
+      "lon": -65.25849152,
+      "zoom": 2,
+      "forecast_reference_id": 10120,
+      "station_number": 87121
+    }
+  ]
+}
