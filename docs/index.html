@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -7,11 +6,10 @@
 
   <title>Clima Argentina</title>
 
-<meta
-name="description"
-content="Pronóstico meteorológico para Argentina basado en información del Servicio Meteorológico Nacional."
-
->
+  <meta
+    name="description"
+    content="Pronóstico meteorológico para localidades de Argentina con datos del Servicio Meteorológico Nacional."
+  >
 
   <style>
     :root {
@@ -19,16 +17,15 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
 
       --fondo-superior: #173f70;
       --fondo-inferior: #07182c;
-      --panel: rgba(8, 25, 45, 0.92);
-      --panel-secundario: rgba(20, 48, 80, 0.85);
-      --borde: rgba(151, 190, 230, 0.22);
+      --panel: rgba(8, 25, 45, 0.94);
+      --panel-secundario: rgba(20, 48, 80, 0.88);
+      --borde: rgba(151, 190, 230, 0.23);
       --azul: #59a9ff;
       --azul-claro: #9ed0ff;
       --texto: #f4f8ff;
       --texto-secundario: #b9d3ef;
-      --amarillo: #ffc857;
       --verde: #6ee7a8;
-      --rojo: #ff8080;
+      --rojo: #ff8d8d;
       --sombra: 0 20px 55px rgba(0, 0, 0, 0.3);
     }
 
@@ -72,11 +69,11 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
     .pagina {
       width: min(1250px, calc(100% - 30px));
       margin: 0 auto;
-      padding: 50px 0 45px;
+      padding: 42px 0 45px;
     }
 
     .encabezado {
-      margin-bottom: 28px;
+      margin-bottom: 24px;
       text-align: center;
     }
 
@@ -88,7 +85,7 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
     }
 
     .encabezado p {
-      margin: 16px 0 0;
+      margin: 15px 0 0;
       color: var(--azul-claro);
       font-size: 1.05rem;
     }
@@ -98,6 +95,127 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
       border-radius: 22px;
       background: var(--panel);
       box-shadow: var(--sombra);
+    }
+
+    .buscador-panel {
+      position: relative;
+      z-index: 20;
+      margin-bottom: 18px;
+      padding: 20px;
+    }
+
+    .buscador-etiqueta {
+      display: block;
+      margin-bottom: 9px;
+      color: var(--azul-claro);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .buscador-fila {
+      display: flex;
+      gap: 10px;
+    }
+
+    .buscador-contenedor {
+      position: relative;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .buscador-input {
+      width: 100%;
+      min-height: 50px;
+      padding: 0 48px 0 15px;
+      border: 1px solid var(--borde);
+      border-radius: 14px;
+      outline: none;
+      color: var(--texto);
+      background: rgba(255, 255, 255, 0.055);
+      transition:
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+    }
+
+    .buscador-input:focus {
+      border-color: var(--azul);
+      box-shadow: 0 0 0 3px rgba(89, 169, 255, 0.16);
+    }
+
+    .buscador-icono {
+      position: absolute;
+      top: 50%;
+      right: 16px;
+      color: var(--texto-secundario);
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    .sugerencias {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      max-height: 360px;
+      border: 1px solid var(--borde);
+      border-radius: 15px;
+      background: #091d34;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
+      overflow-y: auto;
+    }
+
+    .sugerencia {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 13px 15px;
+      border: 0;
+      border-bottom: 1px solid var(--borde);
+      color: var(--texto);
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .sugerencia:last-child {
+      border-bottom: 0;
+    }
+
+    .sugerencia:hover,
+    .sugerencia.activa {
+      background: rgba(89, 169, 255, 0.14);
+    }
+
+    .sugerencia-nombre {
+      font-weight: 800;
+    }
+
+    .sugerencia-provincia {
+      color: var(--texto-secundario);
+      font-size: 0.88rem;
+    }
+
+    .sugerencia-id {
+      flex-shrink: 0;
+      color: var(--azul-claro);
+      font-size: 0.78rem;
+    }
+
+    .sin-resultados {
+      padding: 16px;
+      color: var(--texto-secundario);
+      text-align: center;
+    }
+
+    .contador-localidades {
+      margin-top: 10px;
+      color: var(--texto-secundario);
+      font-size: 0.88rem;
     }
 
     .resumen {
@@ -182,7 +300,7 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
 
     .estado-error {
       color: var(--rojo);
-      border-color: rgba(255, 128, 128, 0.45);
+      border-color: rgba(255, 141, 141, 0.45);
     }
 
     .actual {
@@ -392,9 +510,10 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
     @media (max-width: 760px) {
       .pagina {
         width: min(100% - 20px, 1250px);
-        padding-top: 32px;
+        padding-top: 28px;
       }
 
+      .buscador-fila,
       .barra-superior {
         align-items: stretch;
         flex-direction: column;
@@ -416,130 +535,171 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
         width: 70px;
         font-size: 3.8rem;
       }
+
+      .datos-periodo {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
-
 </head>
 
 <body>
   <main class="pagina">
     <header class="encabezado">
       <h1>Clima Argentina</h1>
-      <p>Pronóstico meteorológico organizado por localidad</p>
+      <p>Pronóstico meteorológico por localidad</p>
     </header>
 
-```
-<section class="panel resumen">
-  <div class="barra-superior">
-    <div class="ubicacion">
-      <span class="ubicacion-etiqueta">Localidad seleccionada</span>
-      <h2 id="nombre-localidad">Cargando localidad…</h2>
-      <p id="provincia-localidad"></p>
-    </div>
+    <section class="panel buscador-panel">
+      <label class="buscador-etiqueta" for="buscar-localidad">
+        Buscar localidad
+      </label>
 
-    <button
-      id="boton-actualizar"
-      class="boton-actualizar"
-      type="button"
-    >
-      Actualizar
-    </button>
-  </div>
+      <div class="buscador-fila">
+        <div class="buscador-contenedor">
+          <input
+            id="buscar-localidad"
+            class="buscador-input"
+            type="search"
+            placeholder="Ejemplo: Ezeiza, Córdoba, Ushuaia..."
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="sugerencias"
+            aria-expanded="false"
+          >
 
-  <div
-    id="estado"
-    class="estado estado-cargando"
-    role="status"
-    aria-live="polite"
-  >
-    Cargando pronóstico actualizado…
-  </div>
+          <span class="buscador-icono" aria-hidden="true">⌕</span>
 
-  <div id="actual" class="actual oculto">
-    <article class="actual-principal">
-      <div id="actual-periodo" class="actual-periodo">
-        Pronóstico actual
-      </div>
-
-      <div class="actual-contenido">
-        <div id="actual-icono" class="actual-icono">🌤️</div>
-
-        <div>
-          <div id="actual-temperatura" class="actual-temperatura">
-            --°
-          </div>
-
-          <div id="actual-descripcion" class="actual-descripcion">
-            Sin información
-          </div>
-
-          <div id="actual-rango" class="actual-rango"></div>
+          <div
+            id="sugerencias"
+            class="sugerencias oculto"
+            role="listbox"
+          ></div>
         </div>
       </div>
-    </article>
 
-    <article id="actual-detalles" class="actual-detalles"></article>
-  </div>
-</section>
+      <div id="contador-localidades" class="contador-localidades">
+        Cargando localidades disponibles…
+      </div>
+    </section>
 
-<section class="seccion-pronostico">
-  <h2 class="seccion-titulo">Pronóstico extendido</h2>
-  <div id="pronostico" class="pronostico"></div>
-</section>
+    <section class="panel resumen">
+      <div class="barra-superior">
+        <div class="ubicacion">
+          <span class="ubicacion-etiqueta">Localidad seleccionada</span>
+          <h2 id="nombre-localidad">Cargando localidad…</h2>
+          <p id="provincia-localidad"></p>
+        </div>
 
-<footer class="panel pie">
-  <div>
-    Información obtenida del
-    <a
-      href="https://www.smn.gob.ar/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Servicio Meteorológico Nacional
-    </a>.
-  </div>
+        <button
+          id="boton-actualizar"
+          class="boton-actualizar"
+          type="button"
+        >
+          Actualizar
+        </button>
+      </div>
 
-  <div id="fecha-generacion" style="margin-top: 6px;"></div>
-</footer>
-```
+      <div
+        id="estado"
+        class="estado estado-cargando"
+        role="status"
+        aria-live="polite"
+      >
+        Cargando pronóstico actualizado…
+      </div>
 
+      <div id="actual" class="actual oculto">
+        <article class="actual-principal">
+          <div id="actual-periodo" class="actual-periodo">
+            Pronóstico actual
+          </div>
+
+          <div class="actual-contenido">
+            <div id="actual-icono" class="actual-icono">🌤️</div>
+
+            <div>
+              <div id="actual-temperatura" class="actual-temperatura">
+                --°
+              </div>
+
+              <div id="actual-descripcion" class="actual-descripcion">
+                Sin información
+              </div>
+
+              <div id="actual-rango" class="actual-rango"></div>
+            </div>
+          </div>
+        </article>
+
+        <article id="actual-detalles" class="actual-detalles"></article>
+      </div>
+    </section>
+
+    <section class="seccion-pronostico">
+      <h2 class="seccion-titulo">Pronóstico extendido</h2>
+      <div id="pronostico" class="pronostico"></div>
+    </section>
+
+    <footer class="panel pie">
+      <div>
+        Información obtenida del
+        <a
+          href="https://www.smn.gob.ar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Servicio Meteorológico Nacional
+        </a>.
+      </div>
+
+      <div id="fecha-generacion" style="margin-top: 6px;"></div>
+    </footer>
   </main>
 
   <script>
-    const URL_PRONOSTICO = "./data/pronostico.json";
+    const URL_INDICE = "./data/pronosticos/index.json";
+    const CARPETA_PRONOSTICOS = "./data/pronosticos";
+    const ID_PREDETERMINADO = 4864;
+    const CLAVE_LOCALIDAD = "climaArgentinaLocalidad";
 
     const PERIODOS = [
-      {
-        clave: "early_morning",
-        nombre: "Madrugada"
-      },
-      {
-        clave: "morning",
-        nombre: "Mañana"
-      },
-      {
-        clave: "afternoon",
-        nombre: "Tarde"
-      },
-      {
-        clave: "night",
-        nombre: "Noche"
-      }
+      { clave: "early_morning", nombre: "Madrugada" },
+      { clave: "morning", nombre: "Mañana" },
+      { clave: "afternoon", nombre: "Tarde" },
+      { clave: "night", nombre: "Noche" }
     ];
 
+    const buscarLocalidad = document.getElementById("buscar-localidad");
+    const sugerencias = document.getElementById("sugerencias");
+    const contadorLocalidades = document.getElementById(
+      "contador-localidades"
+    );
+
     const nombreLocalidad = document.getElementById("nombre-localidad");
-    const provinciaLocalidad = document.getElementById("provincia-localidad");
+    const provinciaLocalidad = document.getElementById(
+      "provincia-localidad"
+    );
     const botonActualizar = document.getElementById("boton-actualizar");
     const estado = document.getElementById("estado");
     const actual = document.getElementById("actual");
     const actualPeriodo = document.getElementById("actual-periodo");
     const actualIcono = document.getElementById("actual-icono");
-    const actualTemperatura = document.getElementById("actual-temperatura");
-    const actualDescripcion = document.getElementById("actual-descripcion");
+    const actualTemperatura = document.getElementById(
+      "actual-temperatura"
+    );
+    const actualDescripcion = document.getElementById(
+      "actual-descripcion"
+    );
     const actualRango = document.getElementById("actual-rango");
     const actualDetalles = document.getElementById("actual-detalles");
     const contenedorPronostico = document.getElementById("pronostico");
     const fechaGeneracion = document.getElementById("fecha-generacion");
+
+    let localidadesDisponibles = [];
+    let localidadActualId = ID_PREDETERMINADO;
+    let resultadosActuales = [];
+    let indiceActivo = -1;
 
     function escaparHTML(valor) {
       return String(valor ?? "")
@@ -548,6 +708,14 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
+    }
+
+    function normalizarTexto(valor) {
+      return String(valor ?? "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim();
     }
 
     function formatearFecha(fechaISO) {
@@ -574,6 +742,21 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
       }).format(fecha);
     }
 
+    function obtenerFechaArgentina() {
+      const partes = new Intl.DateTimeFormat("en-CA", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        timeZone: "America/Argentina/Buenos_Aires"
+      }).formatToParts(new Date());
+
+      const mapa = Object.fromEntries(
+        partes.map(parte => [parte.type, parte.value])
+      );
+
+      return `${mapa.year}-${mapa.month}-${mapa.day}`;
+    }
+
     function formatearRango(rango, unidad = "") {
       if (!Array.isArray(rango) || rango.length === 0) {
         return "No informado";
@@ -595,26 +778,17 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
     }
 
     function obtenerIcono(descripcion) {
-      const texto = String(descripcion ?? "").toLowerCase();
+      const texto = normalizarTexto(descripcion);
 
-      if (
-        texto.includes("tormenta") ||
-        texto.includes("eléctr")
-      ) {
+      if (texto.includes("tormenta") || texto.includes("electr")) {
         return "⛈️";
       }
 
-      if (
-        texto.includes("nieve") ||
-        texto.includes("nevada")
-      ) {
+      if (texto.includes("nieve") || texto.includes("nevada")) {
         return "🌨️";
       }
 
-      if (
-        texto.includes("lluvia") ||
-        texto.includes("llovizna")
-      ) {
+      if (texto.includes("lluvia") || texto.includes("llovizna")) {
         return "🌧️";
       }
 
@@ -626,9 +800,7 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
         return "🌫️";
       }
 
-      if (
-        texto.includes("despejado")
-      ) {
+      if (texto.includes("despejado")) {
         return "☀️";
       }
 
@@ -680,9 +852,7 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
         "night"
       ];
 
-      const clavesSinRepetir = [...new Set(orden)];
-
-      for (const clave of clavesSinRepetir) {
+      for (const clave of [...new Set(orden)]) {
         if (dia?.[clave]) {
           const configuracion = PERIODOS.find(
             periodo => periodo.clave === clave
@@ -722,6 +892,7 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
 
       actualPeriodo.textContent = periodo.nombre;
       actualIcono.textContent = obtenerIcono(descripcion);
+
       actualTemperatura.textContent =
         datos.temperature !== null &&
         datos.temperature !== undefined
@@ -740,11 +911,10 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
       );
 
       const viento = datos.wind
-        ? `${formatearRango(datos.wind.speed_range, " km/h")} ${
-            datos.wind.direction
-              ? `del ${datos.wind.direction}`
-              : ""
-          }`
+        ? `${formatearRango(
+            datos.wind.speed_range,
+            " km/h"
+          )}${datos.wind.direction ? ` del ${datos.wind.direction}` : ""}`
         : "No informado";
 
       const rafagas = formatearRango(
@@ -783,7 +953,7 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
         ? `${formatearRango(
             periodo.wind.speed_range,
             " km/h"
-          )} ${periodo.wind.direction ?? ""}`
+          )}${periodo.wind.direction ? ` ${periodo.wind.direction}` : ""}`
         : "No informado";
 
       const lluvia = formatearRango(
@@ -903,7 +1073,200 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
       estado.classList.add(`estado-${tipo}`);
     }
 
-    async function cargarPronostico() {
+    function ocultarSugerencias() {
+      sugerencias.classList.add("oculto");
+      buscarLocalidad.setAttribute("aria-expanded", "false");
+      indiceActivo = -1;
+    }
+
+    function seleccionarLocalidad(localidad) {
+      buscarLocalidad.value = "";
+      ocultarSugerencias();
+      cargarPronostico(localidad.id, false);
+    }
+
+    function renderizarSugerencias(resultados) {
+      resultadosActuales = resultados;
+      indiceActivo = -1;
+
+      if (resultados.length === 0) {
+        sugerencias.innerHTML = `
+          <div class="sin-resultados">
+            No se encontraron localidades disponibles.
+          </div>
+        `;
+      } else {
+        sugerencias.innerHTML = resultados
+          .map(
+            (localidad, indice) => `
+              <button
+                class="sugerencia"
+                type="button"
+                role="option"
+                data-indice="${indice}"
+              >
+                <span>
+                  <span class="sugerencia-nombre">
+                    ${escaparHTML(localidad.name)}
+                  </span>
+                  <br>
+                  <span class="sugerencia-provincia">
+                    ${escaparHTML(localidad.province)}
+                  </span>
+                </span>
+
+                <span class="sugerencia-id">
+                  ID ${escaparHTML(localidad.id)}
+                </span>
+              </button>
+            `
+          )
+          .join("");
+      }
+
+      sugerencias.classList.remove("oculto");
+      buscarLocalidad.setAttribute("aria-expanded", "true");
+
+      sugerencias
+        .querySelectorAll(".sugerencia")
+        .forEach(boton => {
+          boton.addEventListener("click", () => {
+            const indice = Number(boton.dataset.indice);
+            seleccionarLocalidad(resultadosActuales[indice]);
+          });
+        });
+    }
+
+    function buscarCoincidencias(consulta) {
+      const texto = normalizarTexto(consulta);
+
+      if (!texto) {
+        return localidadesDisponibles.slice(0, 12);
+      }
+
+      return localidadesDisponibles
+        .filter(localidad => {
+          const nombre = normalizarTexto(localidad.name);
+          const provincia = normalizarTexto(localidad.province);
+          const combinado = `${nombre} ${provincia}`;
+
+          return (
+            nombre.includes(texto) ||
+            provincia.includes(texto) ||
+            combinado.includes(texto)
+          );
+        })
+        .slice(0, 12);
+    }
+
+    function actualizarSeleccionTeclado() {
+      const botones = sugerencias.querySelectorAll(".sugerencia");
+
+      botones.forEach((boton, indice) => {
+        boton.classList.toggle(
+          "activa",
+          indice === indiceActivo
+        );
+      });
+
+      if (indiceActivo >= 0 && botones[indiceActivo]) {
+        botones[indiceActivo].scrollIntoView({
+          block: "nearest"
+        });
+      }
+    }
+
+    function obtenerIdInicial() {
+      const parametros = new URLSearchParams(window.location.search);
+      const idURL = Number(parametros.get("id"));
+
+      if (
+        Number.isInteger(idURL) &&
+        localidadesDisponibles.some(
+          localidad => localidad.id === idURL
+        )
+      ) {
+        return idURL;
+      }
+
+      const idGuardado = Number(
+        localStorage.getItem(CLAVE_LOCALIDAD)
+      );
+
+      if (
+        Number.isInteger(idGuardado) &&
+        localidadesDisponibles.some(
+          localidad => localidad.id === idGuardado
+        )
+      ) {
+        return idGuardado;
+      }
+
+      if (
+        localidadesDisponibles.some(
+          localidad => localidad.id === ID_PREDETERMINADO
+        )
+      ) {
+        return ID_PREDETERMINADO;
+      }
+
+      return localidadesDisponibles[0]?.id;
+    }
+
+    async function cargarIndice() {
+      const respuesta = await fetch(
+        `${URL_INDICE}?v=${Date.now()}`,
+        { cache: "no-store" }
+      );
+
+      if (!respuesta.ok) {
+        throw new Error(
+          `No se pudo cargar el índice de localidades (${respuesta.status}).`
+        );
+      }
+
+      const datos = await respuesta.json();
+      const disponibles = Array.isArray(datos.available)
+        ? datos.available
+        : [];
+
+      localidadesDisponibles = disponibles
+        .map(localidad => ({
+          id: Number(localidad.id),
+          name: String(localidad.name ?? "").trim(),
+          province: String(localidad.province ?? "").trim(),
+          file: String(localidad.file ?? "")
+        }))
+        .filter(
+          localidad =>
+            Number.isInteger(localidad.id) &&
+            localidad.name &&
+            localidad.file
+        )
+        .sort((a, b) =>
+          `${a.province} ${a.name}`.localeCompare(
+            `${b.province} ${b.name}`,
+            "es",
+            { sensitivity: "base" }
+          )
+        );
+
+      if (localidadesDisponibles.length === 0) {
+        throw new Error(
+          "El índice no contiene pronósticos disponibles."
+        );
+      }
+
+      contadorLocalidades.textContent =
+        `${localidadesDisponibles.length} localidades con pronóstico disponible.`;
+    }
+
+    async function cargarPronostico(
+      localidadId = localidadActualId,
+      forzarActualizacion = false
+    ) {
+      localidadActualId = Number(localidadId);
+
       botonActualizar.disabled = true;
       botonActualizar.textContent = "Actualizando…";
 
@@ -913,16 +1276,28 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
       );
 
       try {
+        const localidadIndice = localidadesDisponibles.find(
+          localidad => localidad.id === localidadActualId
+        );
+
+        if (!localidadIndice) {
+          throw new Error(
+            "La localidad seleccionada no está disponible."
+          );
+        }
+
+        const version = forzarActualizacion
+          ? Date.now()
+          : "actual";
+
         const respuesta = await fetch(
-          `${URL_PRONOSTICO}?v=${Date.now()}`,
-          {
-            cache: "no-store"
-          }
+          `${CARPETA_PRONOSTICOS}/${localidadIndice.file}?v=${version}`,
+          { cache: "no-store" }
         );
 
         if (!respuesta.ok) {
           throw new Error(
-            `El servidor respondió ${respuesta.status}`
+            `El archivo respondió ${respuesta.status}.`
           );
         }
 
@@ -938,8 +1313,26 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
           );
         }
 
+        localidadActualId = Number(datos.location.id);
+
+        localStorage.setItem(
+          CLAVE_LOCALIDAD,
+          String(localidadActualId)
+        );
+
+        const nuevaURL = new URL(window.location.href);
+        nuevaURL.searchParams.set(
+          "id",
+          String(localidadActualId)
+        );
+        window.history.replaceState(
+          {},
+          "",
+          nuevaURL
+        );
+
         nombreLocalidad.textContent =
-          datos.location.name ?? "Localidad";
+          datos.location.name ?? localidadIndice.name;
 
         provinciaLocalidad.textContent = [
           datos.location.department,
@@ -952,7 +1345,14 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
           )
           .join(" · ");
 
-        renderizarActual(datos.forecast[0]);
+        const fechaHoy = obtenerFechaArgentina();
+
+        const diaActual =
+          datos.forecast.find(
+            dia => dia.date === fechaHoy
+          ) ?? datos.forecast[0];
+
+        renderizarActual(diaActual);
 
         contenedorPronostico.innerHTML =
           datos.forecast
@@ -987,13 +1387,100 @@ content="Pronóstico meteorológico para Argentina basado en información del Se
       }
     }
 
-    botonActualizar.addEventListener(
-      "click",
-      cargarPronostico
-    );
+    buscarLocalidad.addEventListener("input", () => {
+      renderizarSugerencias(
+        buscarCoincidencias(buscarLocalidad.value)
+      );
+    });
 
-    cargarPronostico();
+    buscarLocalidad.addEventListener("focus", () => {
+      renderizarSugerencias(
+        buscarCoincidencias(buscarLocalidad.value)
+      );
+    });
+
+    buscarLocalidad.addEventListener("keydown", evento => {
+      if (sugerencias.classList.contains("oculto")) {
+        return;
+      }
+
+      if (evento.key === "ArrowDown") {
+        evento.preventDefault();
+
+        indiceActivo = Math.min(
+          indiceActivo + 1,
+          resultadosActuales.length - 1
+        );
+
+        actualizarSeleccionTeclado();
+      }
+
+      if (evento.key === "ArrowUp") {
+        evento.preventDefault();
+
+        indiceActivo = Math.max(
+          indiceActivo - 1,
+          0
+        );
+
+        actualizarSeleccionTeclado();
+      }
+
+      if (
+        evento.key === "Enter" &&
+        indiceActivo >= 0 &&
+        resultadosActuales[indiceActivo]
+      ) {
+        evento.preventDefault();
+        seleccionarLocalidad(
+          resultadosActuales[indiceActivo]
+        );
+      }
+
+      if (evento.key === "Escape") {
+        ocultarSugerencias();
+      }
+    });
+
+    document.addEventListener("click", evento => {
+      if (
+        !evento.target.closest(".buscador-contenedor")
+      ) {
+        ocultarSugerencias();
+      }
+    });
+
+    botonActualizar.addEventListener("click", () => {
+      cargarPronostico(localidadActualId, true);
+    });
+
+    async function iniciar() {
+      try {
+        await cargarIndice();
+
+        const idInicial = obtenerIdInicial();
+
+        if (!idInicial) {
+          throw new Error(
+            "No hay ninguna localidad disponible."
+          );
+        }
+
+        await cargarPronostico(idInicial, false);
+      } catch (error) {
+        console.error(error);
+
+        contadorLocalidades.textContent =
+          "No se pudo cargar la lista de localidades.";
+
+        mostrarEstado(
+          `No se pudo iniciar la página: ${error.message}`,
+          "error"
+        );
+      }
+    }
+
+    iniciar();
   </script>
-
 </body>
 </html>
