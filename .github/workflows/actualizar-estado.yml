@@ -3,7 +3,7 @@ name: Actualizar datos meteorológicos
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "15 */3 * * *"
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Descargar repositorio
@@ -31,26 +31,46 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests
 
-      - name: Actualizar pronóstico
-        run: |
-          python scripts/actualizar_pronostico.py
-
       - name: Actualizar catálogo de localidades
         run: |
           python scripts/actualizar_localidades.py
 
-      - name: Guardar archivos actualizados
+      - name: Actualizar pronósticos
+        run: |
+          python scripts/actualizar_pronostico.py
+
+      - name: Verificar archivos generados
+        run: |
+          test -f docs/data/localidades.json
+          test -f docs/data/pronostico.json
+          test -f docs/data/pronosticos/index.json
+          echo "Cantidad de archivos de pronóstico:"
+          find docs/data/pronosticos -maxdepth 1 -type f | wc -l
+          echo "Resumen:"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          ruta = Path("docs/data/pronosticos/index.json")
+          datos = json.loads(ruta.read_text(encoding="utf-8"))
+
+          print("Catálogo:", datos.get("catalog_count"))
+          print("Disponibles:", datos.get("available_count"))
+          print("Fallidos:", datos.get("failed_count"))
+          PY
+
+      - name: Guardar todos los archivos actualizados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/data/
+          git add -A docs/data
 
           if git diff --cached --quiet; then
             echo "No hay cambios nuevos para guardar."
             exit 0
           fi
 
-          git commit -m "Actualizar pronóstico y localidades"
+          git commit -m "Actualizar pronósticos y localidades"
           git pull --rebase
           git push
