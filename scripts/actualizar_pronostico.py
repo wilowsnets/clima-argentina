@@ -2,16 +2,27 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
+from typing import Any
+
+import requests
 
 
 PAGINA_PRONOSTICO = "https://ws2.smn.gob.ar/pronostico"
-URL_PRONOSTICO = "https://ws1.smn.gob.ar/v1/forecast/location/4864"
-ARCHIVO_SALIDA = Path("docs/data/pronostico.json")
+URL_PRONOSTICO = "https://ws1.smn.gob.ar/v1/forecast/location/{localidad_id}"
+
+ARCHIVO_LOCALIDADES = Path("docs/data/localidades.json")
+CARPETA_PRONOSTICOS = Path("docs/data/pronosticos")
+CARPETA_TEMPORAL = Path("docs/data/pronosticos_tmp")
+ARCHIVO_RESUMEN = CARPETA_PRONOSTICOS / "index.json"
+ARCHIVO_CABA = Path("docs/data/pronostico.json")
+
+ID_CABA = 4864
+PAUSA_ENTRE_PEDIDOS = 0.20
 
 ENCABEZADOS_BASE = {
     "User-Agent": (
@@ -19,108 +30,288 @@ ENCABEZADOS_BASE = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0 Safari/537.36"
     ),
-    "Accept": "application/json,text/html;q=0.9,*/*;q=0.8",
     "Accept-Language": "es-AR,es;q=0.9",
 }
 
 
-def descargar(url: str, encabezados: dict[str, str]) -> str:
-    solicitud = Request(url, headers=encabezados)
-    with urlopen(solicitud, timeout=30) as respuesta:
-        return respuesta.read().decode("utf-8", errors="replace")
+def escribir_json(ruta: Path, datos: Any) -> None:
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    temporal = ruta.with_suffix(ruta.suffix + ".tmp")
+
+    temporal.write_text(
+        json.dumps(datos, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    temporal.replace(ruta)
 
 
-def obtener_token(html: str) -> str:
+def cargar_localidades() -> list[dict[str, Any]]:
+    if not ARCHIVO_LOCALIDADES.exists():
+        raise RuntimeError(
+            f"No existe {ARCHIVO_LOCALIDADES}. "
+            "Ejecutá primero scripts/actualizar_localidades.py."
+        )
+
+    contenido = json.loads(
+        ARCHIVO_LOCALIDADES.read_text(encoding="utf-8")
+    )
+    localidades = contenido.get("localities")
+
+    if not isinstance(localidades, list) or not localidades:
+        raise RuntimeError(
+            "El archivo de localidades no contiene una lista válida."
+        )
+
+    resultado: list[dict[str, Any]] = []
+
+    for localidad in localidades:
+        if not isinstance(localidad, dict):
+            continue
+
+        try:
+            localidad_id = int(localidad.get("id"))
+        except (TypeError, ValueError):
+            continue
+
+        nombre = str(localidad.get("name") or "").strip()
+        provincia = str(localidad.get("province") or "").strip()
+
+        if not nombre:
+            continue
+
+        resultado.append(
+            {
+                **localidad,
+                "id": localidad_id,
+                "name": nombre,
+                "province": provincia,
+            }
+        )
+
+    if not resultado:
+        raise RuntimeError("No se encontraron localidades utilizables.")
+
+    return resultado
+
+
+def obtener_token(sesion: requests.Session) -> str:
+    respuesta = sesion.get(
+        PAGINA_PRONOSTICO,
+        headers={
+            **ENCABEZADOS_BASE,
+            "Accept": "text/html,application/xhtml+xml",
+        },
+        timeout=30,
+    )
+    respuesta.raise_for_status()
+
     patrones = [
         r'''localStorage\.setItem\(\s*["']token["']\s*,\s*["']([^"']+)["']\s*\)''',
         r'''localStorage\.setItem\(\s*`token`\s*,\s*`([^`]+)`\s*\)''',
     ]
 
     for patron in patrones:
-        coincidencia = re.search(patron, html)
+        coincidencia = re.search(patron, respuesta.text)
         if coincidencia:
             token = coincidencia.group(1).strip()
             if token.count(".") == 2:
                 return token
 
     raise RuntimeError(
-        "No se pudo encontrar el token temporal en la página del pronóstico."
+        "No se pudo encontrar el token temporal del SMN."
     )
 
 
-def obtener_pronostico(token: str) -> dict:
-    encabezados = {
-        **ENCABEZADOS_BASE,
-        "Accept": "application/json",
-        "Authorization": f"JWT {token}",
-        "Origin": "https://ws2.smn.gob.ar",
-        "Referer": "https://ws2.smn.gob.ar/",
-    }
+def descargar_pronostico(
+    sesion: requests.Session,
+    token: str,
+    localidad_id: int,
+) -> dict[str, Any]:
+    url = URL_PRONOSTICO.format(localidad_id=localidad_id)
 
-    contenido = descargar(URL_PRONOSTICO, encabezados)
-    datos = json.loads(contenido)
+    respuesta = sesion.get(
+        url,
+        headers={
+            **ENCABEZADOS_BASE,
+            "Accept": "application/json",
+            "Authorization": f"JWT {token}",
+            "Origin": "https://ws2.smn.gob.ar",
+            "Referer": "https://ws2.smn.gob.ar/",
+        },
+        timeout=30,
+    )
+
+    if respuesta.status_code in (401, 403):
+        raise PermissionError(
+            f"El token fue rechazado para la localidad {localidad_id}."
+        )
+
+    respuesta.raise_for_status()
+    datos = respuesta.json()
 
     if not isinstance(datos, dict):
-        raise RuntimeError("La respuesta del pronóstico no es un objeto JSON válido.")
+        raise RuntimeError("La respuesta no es un objeto JSON.")
 
-    if not isinstance(datos.get("forecast"), list):
-        raise RuntimeError("La respuesta no contiene la lista forecast.")
-
-    if len(datos["forecast"]) == 0:
-        raise RuntimeError("El pronóstico recibido está vacío.")
+    pronostico = datos.get("forecast")
+    if not isinstance(pronostico, list) or not pronostico:
+        raise RuntimeError(
+            "La respuesta no contiene un pronóstico válido."
+        )
 
     return datos
 
 
-def guardar_pronostico(datos: dict) -> None:
-    datos["source"] = "Servicio Meteorológico Nacional"
-    datos["source_url"] = URL_PRONOSTICO
-    datos["generated_at"] = datetime.now(timezone.utc).isoformat()
+def preparar_salida(
+    datos: dict[str, Any],
+    localidad_catalogo: dict[str, Any],
+    localidad_id: int,
+) -> dict[str, Any]:
+    return {
+        **datos,
+        "catalog_location": {
+            "id": localidad_id,
+            "name": localidad_catalogo.get("name"),
+            "province": localidad_catalogo.get("province"),
+            "lat": localidad_catalogo.get("lat"),
+            "lon": localidad_catalogo.get("lon"),
+        },
+        "source": "Servicio Meteorológico Nacional",
+        "source_url": URL_PRONOSTICO.format(
+            localidad_id=localidad_id
+        ),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
 
-    ARCHIVO_SALIDA.parent.mkdir(parents=True, exist_ok=True)
-    archivo_temporal = ARCHIVO_SALIDA.with_suffix(".json.tmp")
 
-    archivo_temporal.write_text(
-        json.dumps(datos, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+def preparar_carpeta_temporal() -> None:
+    if CARPETA_TEMPORAL.exists():
+        shutil.rmtree(CARPETA_TEMPORAL)
 
-    archivo_temporal.replace(ARCHIVO_SALIDA)
+    CARPETA_TEMPORAL.mkdir(parents=True, exist_ok=True)
+
+
+def publicar_carpeta_temporal() -> None:
+    if CARPETA_PRONOSTICOS.exists():
+        shutil.rmtree(CARPETA_PRONOSTICOS)
+
+    CARPETA_TEMPORAL.replace(CARPETA_PRONOSTICOS)
 
 
 def main() -> None:
-    print("Descargando página del pronóstico...")
-    html = descargar(PAGINA_PRONOSTICO, ENCABEZADOS_BASE)
+    localidades = cargar_localidades()
+    preparar_carpeta_temporal()
 
-    print("Obteniendo token temporal...")
-    token = obtener_token(html)
+    sesion = requests.Session()
 
-    print("Descargando pronóstico de Capital Federal...")
-    datos = obtener_pronostico(token)
+    print("Obteniendo token temporal del SMN...")
+    token = obtener_token(sesion)
 
-    guardar_pronostico(datos)
+    disponibles: list[dict[str, Any]] = []
+    errores: list[dict[str, Any]] = []
+    datos_caba: dict[str, Any] | None = None
+    total = len(localidades)
 
-    localidad = datos.get("location", {}).get("name", "Localidad desconocida")
-    cantidad_dias = len(datos.get("forecast", []))
+    for numero, localidad in enumerate(localidades, start=1):
+        localidad_id = int(localidad["id"])
+        nombre = str(localidad["name"])
+        provincia = str(localidad.get("province") or "")
 
-    print(f"Pronóstico guardado para: {localidad}")
-    print(f"Días recibidos: {cantidad_dias}")
-    print(f"Archivo generado: {ARCHIVO_SALIDA}")
+        print(
+            f"[{numero}/{total}] Descargando {nombre}, "
+            f"{provincia} (ID {localidad_id})..."
+        )
+
+        try:
+            try:
+                datos = descargar_pronostico(
+                    sesion,
+                    token,
+                    localidad_id,
+                )
+            except PermissionError:
+                print("  El token venció. Obteniendo uno nuevo...")
+                token = obtener_token(sesion)
+                datos = descargar_pronostico(
+                    sesion,
+                    token,
+                    localidad_id,
+                )
+
+            salida = preparar_salida(
+                datos,
+                localidad,
+                localidad_id,
+            )
+
+            escribir_json(
+                CARPETA_TEMPORAL / f"{localidad_id}.json",
+                salida,
+            )
+
+            if localidad_id == ID_CABA:
+                datos_caba = salida
+
+            disponibles.append(
+                {
+                    "id": localidad_id,
+                    "name": nombre,
+                    "province": provincia,
+                    "file": f"{localidad_id}.json",
+                    "days": len(salida.get("forecast", [])),
+                }
+            )
+
+        except Exception as error:
+            mensaje = str(error)
+            print(f"  No disponible: {mensaje}")
+
+            errores.append(
+                {
+                    "id": localidad_id,
+                    "name": nombre,
+                    "province": provincia,
+                    "error": mensaje,
+                }
+            )
+
+        time.sleep(PAUSA_ENTRE_PEDIDOS)
+
+    resumen = {
+        "source": "Servicio Meteorológico Nacional",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "catalog_count": total,
+        "available_count": len(disponibles),
+        "failed_count": len(errores),
+        "available": disponibles,
+        "failed": errores,
+    }
+
+    escribir_json(CARPETA_TEMPORAL / "index.json", resumen)
+
+    if len(disponibles) < 20:
+        shutil.rmtree(CARPETA_TEMPORAL, ignore_errors=True)
+        raise RuntimeError(
+            "Se descargaron menos de 20 pronósticos. "
+            "La respuesta del SMN parece bloqueada o incompleta."
+        )
+
+    publicar_carpeta_temporal()
+
+    if datos_caba is not None:
+        escribir_json(ARCHIVO_CABA, datos_caba)
+
+    print("")
+    print("Proceso terminado.")
+    print(f"Localidades del catálogo: {total}")
+    print(f"Pronósticos disponibles: {len(disponibles)}")
+    print(f"Pronósticos no disponibles: {len(errores)}")
+    print(f"Resumen: {ARCHIVO_RESUMEN}")
 
 
 if __name__ == "__main__":
     try:
         main()
-
-    except HTTPError as error:
-        detalle = error.read().decode("utf-8", errors="replace")
-        print(f"Error HTTP {error.code}: {detalle}", file=sys.stderr)
-        sys.exit(1)
-
-    except URLError as error:
-        print(f"Error de conexión: {error}", file=sys.stderr)
-        sys.exit(1)
-
     except Exception as error:
-        print(f"Error: {error}", file=sys.stderr)
+        print(f"Error general: {error}", file=sys.stderr)
         sys.exit(1)
