@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 9450,
     "name": "San Martín",
@@ -20,31 +20,7 @@
       "humidity_min": 55.0,
       "humidity_max": 87.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 87.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 55.0,
         "rain_prob_range": [
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9450",
-  "generated_at": "2026-06-15T12:43:32.259085+00:00"
+  "generated_at": "2026-06-15T19:10:37.500653+00:00"
 }

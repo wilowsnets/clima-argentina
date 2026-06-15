@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 8567,
     "name": "Perico",
@@ -20,31 +20,7 @@
       "humidity_min": 42.0,
       "humidity_max": 95.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 86.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lloviznas",
-          "id": 71
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 42.0,
         "rain_prob_range": [
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8567",
-  "generated_at": "2026-06-15T12:43:22.109867+00:00"
+  "generated_at": "2026-06-15T19:10:28.639473+00:00"
 }

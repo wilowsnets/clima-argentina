@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 9589,
     "name": "Bernardo de Irigoyen",
@@ -20,31 +20,7 @@
       "humidity_min": 72.0,
       "humidity_max": 98.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 92.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Buena",
-        "rain06h": 0.3,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 135.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 72.0,
         "rain_prob_range": [
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9589",
-  "generated_at": "2026-06-15T12:43:34.496888+00:00"
+  "generated_at": "2026-06-15T19:10:39.495960+00:00"
 }

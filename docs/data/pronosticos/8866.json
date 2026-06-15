@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 8866,
     "name": "25 de Mayo",
@@ -20,31 +20,7 @@
       "humidity_min": 44.0,
       "humidity_max": 70.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 53.0,
         "rain_prob_range": [
@@ -521,5 +497,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8866",
-  "generated_at": "2026-06-15T12:43:24.425760+00:00"
+  "generated_at": "2026-06-15T19:10:30.639442+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 5810,
     "name": "Paso de Indios",
@@ -20,31 +20,7 @@
       "humidity_min": 46.0,
       "humidity_max": 71.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 71.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 58.0,
         "rain_prob_range": [
@@ -536,5 +512,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5810",
-  "generated_at": "2026-06-15T12:42:59.993928+00:00"
+  "generated_at": "2026-06-15T19:10:09.214452+00:00"
 }

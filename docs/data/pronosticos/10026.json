@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 10026,
     "name": "San Martín de Los Andes",
@@ -20,31 +20,7 @@
       "humidity_min": 75.0,
       "humidity_max": 94.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 94.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 81.0,
         "rain_prob_range": [
@@ -524,5 +500,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10026",
-  "generated_at": "2026-06-15T12:43:38.523587+00:00"
+  "generated_at": "2026-06-15T19:10:43.197077+00:00"
 }

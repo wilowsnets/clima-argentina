@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 10861,
     "name": "Isla de los Estados",
@@ -20,34 +20,7 @@
       "humidity_min": 69.0,
       "humidity_max": 95.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 94.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 3.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.6,
-        "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            51,
-            59
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 95.0,
         "rain_prob_range": [
@@ -62,8 +35,8 @@
         "visibility": "Muy mala",
         "rain06h": 0.4,
         "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
+          "description": "Lluvias fuertes",
+          "id": 83
         },
         "wind": {
           "direction": "O",
@@ -83,15 +56,15 @@
           70
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 1.0,
         "visibility": "Muy mala",
         "rain06h": 2.3,
         "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
+          "description": "Lluvias fuertes",
+          "id": 83
         },
         "wind": {
           "direction": "SO",
@@ -542,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10861",
-  "generated_at": "2026-06-15T12:44:09.950735+00:00"
+  "generated_at": "2026-06-15T19:11:11.069157+00:00"
 }

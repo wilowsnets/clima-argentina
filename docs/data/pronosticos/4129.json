@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 4129,
     "name": "Las Flores",
@@ -20,31 +20,7 @@
       "humidity_min": 55.0,
       "humidity_max": 85.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 85.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -2.0,
-        "visibility": "Buena",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 55.0,
         "rain_prob_range": [
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4129",
-  "generated_at": "2026-06-15T12:42:23.143779+00:00"
+  "generated_at": "2026-06-15T19:09:06.239162+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 1754,
     "name": "Villa Reynolds",
@@ -20,31 +20,7 @@
       "humidity_min": 59.0,
       "humidity_max": 91.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 91.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 59.0,
         "rain_prob_range": [
@@ -273,7 +249,7 @@
         "humidity": 76.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 8.0,
@@ -298,7 +274,7 @@
         "humidity": 52.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 16.0,
@@ -382,21 +358,21 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": -1.0,
-      "temp_max": 15.0,
+      "temp_min": 4.0,
+      "temp_max": 17.0,
       "humidity_min": 46.0,
-      "humidity_max": 46.0,
+      "humidity_max": 48.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 48.0,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 4.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -416,15 +392,15 @@
         "humidity": 46.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -441,8 +417,8 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": -2.0,
-      "temp_max": 13.0,
+      "temp_min": 5.0,
+      "temp_max": 15.0,
       "humidity_min": 79.0,
       "humidity_max": 94.0,
       "early_morning": null,
@@ -450,10 +426,10 @@
         "humidity": 94.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 4.6,
         "weather": {
@@ -478,7 +454,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1754",
-  "generated_at": "2026-06-15T12:43:53.169921+00:00"
+  "generated_at": "2026-06-15T19:10:56.289454+00:00"
 }

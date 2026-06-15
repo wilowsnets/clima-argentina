@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 4144,
     "name": "Maipú",
@@ -20,31 +20,7 @@
       "humidity_min": 56.0,
       "humidity_max": 93.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 93.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -3.0,
-        "visibility": "Buena",
-        "rain06h": 0.3,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 56.0,
         "rain_prob_range": [
@@ -527,5 +503,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4144",
-  "generated_at": "2026-06-15T12:42:25.916476+00:00"
+  "generated_at": "2026-06-15T19:09:08.690491+00:00"
 }

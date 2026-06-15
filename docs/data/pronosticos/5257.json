@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 5257,
     "name": "Tinogasta",
@@ -20,31 +20,7 @@
       "humidity_min": 37.0,
       "humidity_max": 75.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 74.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 37.0,
         "rain_prob_range": [
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5257",
-  "generated_at": "2026-06-15T12:42:55.907688+00:00"
+  "generated_at": "2026-06-15T19:10:05.179683+00:00"
 }

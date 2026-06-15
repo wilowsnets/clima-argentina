@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T07:37:04-03:00",
+  "updated": "2026-06-15T13:07:07-03:00",
   "location": {
     "id": 5971,
     "name": "Puerto Argentino",
@@ -20,34 +20,7 @@
       "humidity_min": 70.0,
       "humidity_max": 92.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.4,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            51,
-            59
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 92.0,
         "rain_prob_range": [
@@ -227,9 +200,9 @@
     {
       "date": "2026-06-17",
       "temp_min": 0.0,
-      "temp_max": 3.0,
+      "temp_max": 5.0,
       "humidity_min": 59.0,
-      "humidity_max": 70.0,
+      "humidity_max": 83.0,
       "early_morning": null,
       "morning": {
         "humidity": 70.0,
@@ -548,5 +521,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5971",
-  "generated_at": "2026-06-15T12:44:10.400559+00:00"
+  "generated_at": "2026-06-15T19:11:11.461809+00:00"
 }

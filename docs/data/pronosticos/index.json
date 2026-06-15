@@ -1,12 +1,12 @@
 {
   "source": "Servicio Meteorológico Nacional",
-  "generated_at": "2026-06-15T12:44:14.264434+00:00",
+  "generated_at": "2026-06-15T19:11:14.971044+00:00",
   "catalog_count": 297,
-  "available_count": 291,
-  "failed_count": 6,
+  "available_count": 290,
+  "failed_count": 7,
   "locations_using_reference_count": 0,
-  "unique_forecast_ids_downloaded": 291,
-  "http_forecast_requests": 291,
+  "unique_forecast_ids_downloaded": 290,
+  "http_forecast_requests": 290,
   "available": [
     {
       "id": 3989,
@@ -1582,21 +1582,6 @@
       "forecast_location_id": 10584,
       "used_reference": false,
       "station_name": "AEROPARQUE AERO"
-    },
-    {
-      "id": 4265,
-      "name": "Tandil",
-      "department": null,
-      "province": "Buenos Aires",
-      "area": null,
-      "lat": -37.31096268,
-      "lon": -59.13938522,
-      "file": "4265.json",
-      "days": 7,
-      "forecast_reference_id": 4265,
-      "forecast_location_id": 4265,
-      "used_reference": false,
-      "station_name": null
     },
     {
       "id": 10609,
@@ -4375,6 +4360,20 @@
     }
   ],
   "failed": [
+    {
+      "id": 4265,
+      "name": "Tandil",
+      "department": null,
+      "province": "Buenos Aires",
+      "forecast_reference_id": 4265,
+      "attempts": [
+        {
+          "id": 4265,
+          "error": "HTTPSConnectionPool(host='ws1.smn.gob.ar', port=443): Read timed out. (read timeout=30)",
+          "cached": false
+        }
+      ]
+    },
     {
       "id": 10806,
       "name": "Base Belgrano II",
