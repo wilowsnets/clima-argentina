@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -1.0,
-      "temp_max": 9.0,
-      "humidity_min": 49.0,
-      "humidity_max": 100.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 49.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 3.0,
       "temp_max": 14.0,
@@ -582,11 +547,18 @@
   "catalog_location": {
     "id": 5810,
     "name": "Paso de Indios",
+    "department": null,
     "province": "Chubut",
     "lat": -43.86515808,
-    "lon": -69.04329681
+    "lon": -69.04329681,
+    "area": null,
+    "station_name": null,
+    "station_number": 87814,
+    "forecast_reference_id": 5810,
+    "forecast_location_id": 5810,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5810",
-  "generated_at": "2026-06-14T22:22:07.679007+00:00"
+  "generated_at": "2026-06-15T04:34:19.769998+00:00"
 }

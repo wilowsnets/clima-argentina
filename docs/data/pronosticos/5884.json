@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 1.0,
-      "temp_max": 8.0,
-      "humidity_min": 50.0,
-      "humidity_max": 87.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 57.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 6.0,
       "temp_max": 16.0,
@@ -582,11 +547,18 @@
   "catalog_location": {
     "id": 5884,
     "name": "Puerto Madryn",
+    "department": null,
     "province": "Chubut",
     "lat": -42.76913452,
-    "lon": -65.04391479
+    "lon": -65.04391479,
+    "area": null,
+    "station_name": null,
+    "station_number": 87823,
+    "forecast_reference_id": 5884,
+    "forecast_location_id": 5884,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5884",
-  "generated_at": "2026-06-14T22:22:08.164024+00:00"
+  "generated_at": "2026-06-15T04:34:20.176591+00:00"
 }

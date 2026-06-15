@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 11.0,
-      "temp_max": 14.0,
-      "humidity_min": 58.0,
-      "humidity_max": 83.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 9.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 8578,
     "name": "Palpala",
+    "department": null,
     "province": "Jujuy",
     "lat": -24.25157166,
-    "lon": -65.20394897
+    "lon": -65.20394897,
+    "area": null,
+    "station_name": null,
+    "station_number": 87046,
+    "forecast_reference_id": 8578,
+    "forecast_location_id": 8578,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8578",
-  "generated_at": "2026-06-14T22:22:28.701194+00:00"
+  "generated_at": "2026-06-15T04:34:38.575332+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -1.0,
-      "temp_max": 12.0,
-      "humidity_min": 54.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 57.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -2.0,
       "temp_max": 17.0,
@@ -564,11 +529,18 @@
   "catalog_location": {
     "id": 7099,
     "name": "Laboulaye",
+    "department": null,
     "province": "Córdoba",
     "lat": -34.12000656,
-    "lon": -63.38900757
+    "lon": -63.38900757,
+    "area": null,
+    "station_name": null,
+    "station_number": 87534,
+    "forecast_reference_id": 7099,
+    "forecast_location_id": 7099,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7099",
-  "generated_at": "2026-06-14T22:22:13.129751+00:00"
+  "generated_at": "2026-06-15T04:34:24.962634+00:00"
 }

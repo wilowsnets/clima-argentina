@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 4.0,
-      "temp_max": 14.0,
-      "humidity_min": 42.0,
-      "humidity_max": 86.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 42.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 0.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 1425,
     "name": "San Juan",
+    "department": null,
     "province": "San Juan",
     "lat": -31.51893234,
-    "lon": -68.51115417
+    "lon": -68.51115417,
+    "area": null,
+    "station_name": null,
+    "station_number": 87311,
+    "forecast_reference_id": 1425,
+    "forecast_location_id": 1425,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1425",
-  "generated_at": "2026-06-14T22:22:53.744533+00:00"
+  "generated_at": "2026-06-15T04:35:04.649060+00:00"
 }

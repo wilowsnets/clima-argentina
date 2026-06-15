@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 10.0,
-      "temp_max": 17.0,
-      "humidity_min": 41.0,
-      "humidity_max": 91.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 84.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 12.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 8.0,
       "temp_max": 16.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 9629,
     "name": "Apóstoles",
+    "department": null,
     "province": "Misiones",
     "lat": -27.91513062,
-    "lon": -55.75431442
+    "lon": -55.75431442,
+    "area": null,
+    "station_name": null,
+    "station_number": 87178,
+    "forecast_reference_id": 9629,
+    "forecast_location_id": 9629,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9629",
-  "generated_at": "2026-06-14T22:22:40.296041+00:00"
+  "generated_at": "2026-06-15T04:34:49.584953+00:00"
 }

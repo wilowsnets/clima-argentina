@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 1.0,
-      "temp_max": 10.0,
-      "humidity_min": 73.0,
-      "humidity_max": 92.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 4743,
     "name": "San Isidro",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -34.47210312,
-    "lon": -58.51338959
+    "lon": -58.51338959,
+    "area": null,
+    "station_name": null,
+    "station_number": 87553,
+    "forecast_reference_id": 4743,
+    "forecast_location_id": 4743,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4743",
-  "generated_at": "2026-06-14T22:21:57.128568+00:00"
+  "generated_at": "2026-06-15T04:34:05.429830+00:00"
 }

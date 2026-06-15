@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -1.0,
-      "temp_max": 10.0,
-      "humidity_min": 53.0,
-      "humidity_max": 87.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 53.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -3.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 4814,
     "name": "Mariano Moreno",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -34.6475029,
-    "lon": -58.78604889
+    "lon": -58.78604889,
+    "area": null,
+    "station_name": null,
+    "station_number": 87573,
+    "forecast_reference_id": 4814,
+    "forecast_location_id": 4814,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4814",
-  "generated_at": "2026-06-14T22:21:48.320067+00:00"
+  "generated_at": "2026-06-15T04:33:52.680634+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -2.0,
-      "temp_max": 11.0,
-      "humidity_min": 58.0,
-      "humidity_max": 81.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 58.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 0.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 9539,
     "name": "Tunuyan",
+    "department": null,
     "province": "Mendoza",
     "lat": -33.58210373,
-    "lon": -69.02268982
+    "lon": -69.02268982,
+    "area": null,
+    "station_name": null,
+    "station_number": 87412,
+    "forecast_reference_id": 9539,
+    "forecast_location_id": 9539,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9539",
-  "generated_at": "2026-06-14T22:22:39.354833+00:00"
+  "generated_at": "2026-06-15T04:34:48.797075+00:00"
 }

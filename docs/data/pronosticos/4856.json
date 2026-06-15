@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 0.0,
-      "temp_max": 10.0,
-      "humidity_min": 55.0,
-      "humidity_max": 90.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 55.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -2.0,
       "temp_max": 14.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 4856,
     "name": "La Plata",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -34.92014313,
-    "lon": -57.94528961
+    "lon": -57.94528961,
+    "area": null,
+    "station_name": null,
+    "station_number": 87593,
+    "forecast_reference_id": 4856,
+    "forecast_location_id": 4856,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4856",
-  "generated_at": "2026-06-14T22:21:46.014578+00:00"
+  "generated_at": "2026-06-15T04:33:46.714427+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -1.0,
-      "temp_max": 11.0,
-      "humidity_min": 35.0,
-      "humidity_max": 90.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 35.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 1.0,
       "temp_max": 14.0,
@@ -570,11 +535,18 @@
   "catalog_location": {
     "id": 47,
     "name": "Villa Regina",
+    "department": null,
     "province": "Río Negro",
     "lat": -39.10035706,
-    "lon": -67.08444214
+    "lon": -67.08444214,
+    "area": null,
+    "station_name": null,
+    "station_number": 87719,
+    "forecast_reference_id": 47,
+    "forecast_location_id": 47,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/47",
-  "generated_at": "2026-06-14T22:22:50.015324+00:00"
+  "generated_at": "2026-06-15T04:34:59.426195+00:00"
 }

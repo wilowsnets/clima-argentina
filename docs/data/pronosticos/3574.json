@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 9.0,
-      "temp_max": 12.0,
-      "humidity_min": 61.0,
-      "humidity_max": 81.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 74.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 112.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 5.0,
       "temp_max": 18.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 3574,
     "name": "Añatuya",
+    "department": null,
     "province": "Santiago del Estero",
     "lat": -28.45646286,
-    "lon": -62.82564163
+    "lon": -62.82564163,
+    "area": null,
+    "station_name": null,
+    "station_number": 87129,
+    "forecast_reference_id": 3574,
+    "forecast_location_id": 3574,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3574",
-  "generated_at": "2026-06-14T22:23:08.453891+00:00"
+  "generated_at": "2026-06-15T04:35:17.950162+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -4.0,
-      "temp_max": 8.0,
-      "humidity_min": 83.0,
-      "humidity_max": 100.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 98.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 9.0,
@@ -570,11 +535,18 @@
   "catalog_location": {
     "id": 137,
     "name": "San Carlos de Bariloche",
+    "department": null,
     "province": "Río Negro",
     "lat": -41.15048981,
-    "lon": -71.29316711
+    "lon": -71.29316711,
+    "area": null,
+    "station_name": null,
+    "station_number": 87765,
+    "forecast_reference_id": 137,
+    "forecast_location_id": 137,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/137",
-  "generated_at": "2026-06-14T22:22:49.106297+00:00"
+  "generated_at": "2026-06-15T04:34:58.637159+00:00"
 }

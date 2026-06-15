@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -4.0,
-      "temp_max": 12.0,
-      "humidity_min": 57.0,
-      "humidity_max": 94.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 62.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -3.0,
       "temp_max": 16.0,
@@ -570,11 +535,18 @@
   "catalog_location": {
     "id": 8817,
     "name": "Victorica",
+    "department": null,
     "province": "La Pampa",
     "lat": -36.21860123,
-    "lon": -65.43605804
+    "lon": -65.43605804,
+    "area": null,
+    "station_name": null,
+    "station_number": 87616,
+    "forecast_reference_id": 8786,
+    "forecast_location_id": 8817,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8817",
-  "generated_at": "2026-06-14T22:22:33.397697+00:00"
+  "generated_at": "2026-06-15T04:34:43.644964+00:00"
 }

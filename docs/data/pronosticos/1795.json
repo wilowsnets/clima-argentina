@@ -14,44 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 2.0,
-      "temp_max": 7.0,
-      "humidity_min": 64.0,
-      "humidity_max": 78.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 78.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 2.0,
       "temp_max": 5.0,
@@ -591,11 +553,18 @@
   "catalog_location": {
     "id": 1795,
     "name": "Perito Moreno",
+    "department": null,
     "province": "Santa Cruz",
     "lat": -46.59955597,
-    "lon": -70.91318512
+    "lon": -70.91318512,
+    "area": null,
+    "station_name": null,
+    "station_number": 87852,
+    "forecast_reference_id": 1795,
+    "forecast_location_id": 1795,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1795",
-  "generated_at": "2026-06-14T22:22:58.362024+00:00"
+  "generated_at": "2026-06-15T04:35:09.048440+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 6.0,
-      "temp_max": 12.0,
-      "humidity_min": 65.0,
-      "humidity_max": 91.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 74.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 135.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 14.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 7706,
     "name": "Concordia",
+    "department": null,
     "province": "Entre Ríos",
     "lat": -31.38008881,
-    "lon": -58.01988602
+    "lon": -58.01988602,
+    "area": null,
+    "station_name": null,
+    "station_number": 87395,
+    "forecast_reference_id": 7706,
+    "forecast_location_id": 7706,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7706",
-  "generated_at": "2026-06-14T22:22:23.238880+00:00"
+  "generated_at": "2026-06-15T04:34:33.793952+00:00"
 }

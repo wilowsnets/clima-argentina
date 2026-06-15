@@ -14,44 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -12.0,
-      "temp_max": -2.0,
-      "humidity_min": 27.0,
-      "humidity_max": 65.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 27.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": -3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -8.0,
       "temp_max": -2.0,
@@ -597,11 +559,18 @@
   "catalog_location": {
     "id": 9360,
     "name": "Punta de Vacas",
+    "department": null,
     "province": "Mendoza",
     "lat": -32.85335922,
-    "lon": -69.76081085
+    "lon": -69.76081085,
+    "area": null,
+    "station_name": null,
+    "station_number": 87405,
+    "forecast_reference_id": 9360,
+    "forecast_location_id": 9360,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9360",
-  "generated_at": "2026-06-14T22:22:37.583553+00:00"
+  "generated_at": "2026-06-15T04:34:47.192383+00:00"
 }

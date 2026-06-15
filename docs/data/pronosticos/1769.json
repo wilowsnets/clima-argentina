@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 2.0,
-      "temp_max": 14.0,
-      "humidity_min": 42.0,
-      "humidity_max": 91.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 42.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 1.0,
       "temp_max": 14.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 1769,
     "name": "Justo Daract",
+    "department": null,
     "province": "San Luis",
     "lat": -33.85821533,
-    "lon": -65.18560028
+    "lon": -65.18560028,
+    "area": null,
+    "station_name": null,
+    "station_number": 87448,
+    "forecast_reference_id": 1769,
+    "forecast_location_id": 1769,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1769",
-  "generated_at": "2026-06-14T22:22:54.182370+00:00"
+  "generated_at": "2026-06-15T04:35:05.068940+00:00"
 }

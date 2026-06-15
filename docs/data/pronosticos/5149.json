@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 9.0,
-      "temp_max": 14.0,
-      "humidity_min": 88.0,
-      "humidity_max": 97.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 94.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 8.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 5149,
     "name": "San Fernando del Valle de Catamarca",
+    "department": null,
     "province": "Catamarca",
     "lat": -28.45181656,
-    "lon": -65.7408371
+    "lon": -65.7408371,
+    "area": null,
+    "station_name": null,
+    "station_number": 87222,
+    "forecast_reference_id": 5149,
+    "forecast_location_id": 5149,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5149",
-  "generated_at": "2026-06-14T22:22:03.485098+00:00"
+  "generated_at": "2026-06-15T04:34:15.386588+00:00"
 }

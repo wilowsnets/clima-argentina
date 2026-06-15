@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 12.0,
-      "temp_max": 18.0,
-      "humidity_min": 70.0,
-      "humidity_max": 88.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 75.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 13.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 7.0,
       "temp_max": 17.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 5648,
     "name": "Resistencia",
+    "department": null,
     "province": "Chaco",
     "lat": -27.45546341,
-    "lon": -58.99566269
+    "lon": -58.99566269,
+    "area": null,
+    "station_name": null,
+    "station_number": 87155,
+    "forecast_reference_id": 5648,
+    "forecast_location_id": 5648,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5648",
-  "generated_at": "2026-06-14T22:22:05.816540+00:00"
+  "generated_at": "2026-06-15T04:34:17.382684+00:00"
 }

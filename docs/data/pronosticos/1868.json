@@ -14,44 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 5.0,
-      "temp_max": 8.0,
-      "humidity_min": 40.0,
-      "humidity_max": 82.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          88,
-          97
-        ],
-        "temperature": 6.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            51,
-            59
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 5.0,
       "temp_max": 9.0,
@@ -597,11 +559,18 @@
   "catalog_location": {
     "id": 1868,
     "name": "Río Gallegos",
+    "department": null,
     "province": "Santa Cruz",
     "lat": -51.61967087,
-    "lon": -69.22193909
+    "lon": -69.22193909,
+    "area": null,
+    "station_name": null,
+    "station_number": 87925,
+    "forecast_reference_id": 1868,
+    "forecast_location_id": 1868,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1868",
-  "generated_at": "2026-06-14T22:23:00.212273+00:00"
+  "generated_at": "2026-06-15T04:35:10.651840+00:00"
 }

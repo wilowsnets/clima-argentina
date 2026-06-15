@@ -14,44 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 4.0,
-      "temp_max": 8.0,
-      "humidity_min": 66.0,
-      "humidity_max": 77.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 7.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 7.0,
       "temp_max": 10.0,
@@ -597,11 +559,18 @@
   "catalog_location": {
     "id": 1865,
     "name": "Puerto Santa Cruz",
+    "department": null,
     "province": "Santa Cruz",
     "lat": -50.02256012,
-    "lon": -68.52765656
+    "lon": -68.52765656,
+    "area": null,
+    "station_name": null,
+    "station_number": 87912,
+    "forecast_reference_id": 1865,
+    "forecast_location_id": 1865,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1865",
-  "generated_at": "2026-06-14T22:22:59.747029+00:00"
+  "generated_at": "2026-06-15T04:35:10.252106+00:00"
 }

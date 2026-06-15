@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 1.0,
-      "temp_max": 12.0,
-      "humidity_min": 48.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 48.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 17.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 6901,
     "name": "Villa María",
+    "department": null,
     "province": "Córdoba",
     "lat": -32.41200256,
-    "lon": -63.23983002
+    "lon": -63.23983002,
+    "area": null,
+    "station_name": null,
+    "station_number": 87349,
+    "forecast_reference_id": 6901,
+    "forecast_location_id": 6901,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6901",
-  "generated_at": "2026-06-14T22:22:18.300850+00:00"
+  "generated_at": "2026-06-15T04:34:29.371440+00:00"
 }

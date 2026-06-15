@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 3.0,
-      "temp_max": 12.0,
-      "humidity_min": 49.0,
-      "humidity_max": 86.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 49.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 2.0,
       "temp_max": 15.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 4864,
     "name": "Capital Federal",
+    "department": null,
     "province": "Capital Federal",
     "lat": -34.62170792,
-    "lon": -58.42575836
+    "lon": -58.42575836,
+    "area": null,
+    "station_name": null,
+    "station_number": 87585,
+    "forecast_reference_id": 4864,
+    "forecast_location_id": 4864,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4864",
-  "generated_at": "2026-06-14T22:22:02.074988+00:00"
+  "generated_at": "2026-06-15T04:34:14.216111+00:00"
 }

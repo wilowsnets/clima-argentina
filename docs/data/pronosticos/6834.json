@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 1.0,
-      "temp_max": 12.0,
-      "humidity_min": 48.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 48.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 17.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 6834,
     "name": "Bell Ville",
+    "department": null,
     "province": "Córdoba",
     "lat": -32.62358093,
-    "lon": -62.68688202
+    "lon": -62.68688202,
+    "area": null,
+    "station_name": null,
+    "station_number": 87467,
+    "forecast_reference_id": 6834,
+    "forecast_location_id": 6834,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6834",
-  "generated_at": "2026-06-14T22:22:10.387280+00:00"
+  "generated_at": "2026-06-15T04:34:22.555793+00:00"
 }

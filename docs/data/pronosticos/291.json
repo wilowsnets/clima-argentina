@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 13.0,
-      "temp_max": 16.0,
-      "humidity_min": 57.0,
-      "humidity_max": 96.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 96.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 14.0,
-        "visibility": "Regular",
-        "rain06h": 0.5,
-        "weather": {
-          "description": "Lloviznas",
-          "id": 71
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 11.0,
       "temp_max": 18.0,
@@ -564,11 +529,18 @@
   "catalog_location": {
     "id": 291,
     "name": "Tartagal",
+    "department": null,
     "province": "Salta",
     "lat": -22.51148033,
-    "lon": -63.79915237
+    "lon": -63.79915237,
+    "area": null,
+    "station_name": null,
+    "station_number": 87022,
+    "forecast_reference_id": 291,
+    "forecast_location_id": 291,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/291",
-  "generated_at": "2026-06-14T22:22:52.368700+00:00"
+  "generated_at": "2026-06-15T04:35:03.459372+00:00"
 }

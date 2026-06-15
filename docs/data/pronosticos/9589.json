@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 9.0,
-      "temp_max": 16.0,
-      "humidity_min": 41.0,
-      "humidity_max": 98.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 98.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 12.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 8.0,
       "temp_max": 17.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 9589,
     "name": "Bernardo de Irigoyen",
+    "department": null,
     "province": "Misiones",
     "lat": -26.25229612,
-    "lon": -53.64705502
+    "lon": -53.64705502,
+    "area": null,
+    "station_name": null,
+    "station_number": 87163,
+    "forecast_reference_id": 9589,
+    "forecast_location_id": 9589,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9589",
-  "generated_at": "2026-06-14T22:22:40.730157+00:00"
+  "generated_at": "2026-06-15T04:34:49.986694+00:00"
 }

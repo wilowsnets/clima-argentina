@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -2.0,
-      "temp_max": 11.0,
-      "humidity_min": 56.0,
-      "humidity_max": 88.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 56.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -2.0,
       "temp_max": 16.0,
@@ -564,11 +529,18 @@
   "catalog_location": {
     "id": 3834,
     "name": "General Villegas",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -35.03488922,
-    "lon": -62.99647522
+    "lon": -62.99647522,
+    "area": null,
+    "station_name": null,
+    "station_number": 87532,
+    "forecast_reference_id": 3834,
+    "forecast_location_id": 3834,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3834",
-  "generated_at": "2026-06-14T22:21:44.674491+00:00"
+  "generated_at": "2026-06-15T04:33:41.141908+00:00"
 }

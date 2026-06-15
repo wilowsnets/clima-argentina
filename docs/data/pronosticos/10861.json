@@ -1,0 +1,573 @@
+{
+  "updated": "2026-06-14T17:13:23-03:00",
+  "location": {
+    "id": 10861,
+    "name": "Isla de los Estados",
+    "department": null,
+    "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "type": null,
+    "coord": {
+      "lon": -64.3909,
+      "lat": -54.7975
+    }
+  },
+  "type": "location",
+  "forecast": [
+    {
+      "date": "2026-06-15",
+      "temp_min": 1.0,
+      "temp_max": 3.0,
+      "humidity_min": 69.0,
+      "humidity_max": 95.0,
+      "early_morning": {
+        "humidity": 83.0,
+        "rain_prob_range": [
+          40,
+          70
+        ],
+        "gust_range": [
+          79,
+          87
+        ],
+        "temperature": 3.0,
+        "visibility": "Muy mala",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Lluvias fuertes",
+          "id": 83
+        },
+        "wind": {
+          "direction": "O",
+          "deg": 270.0,
+          "speed_range": [
+            51,
+            59
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "morning": {
+        "humidity": 94.0,
+        "rain_prob_range": [
+          40,
+          70
+        ],
+        "gust_range": [
+          79,
+          87
+        ],
+        "temperature": 1.0,
+        "visibility": "Muy mala",
+        "rain06h": 0.6,
+        "weather": {
+          "description": "Nevadas fuertes",
+          "id": 85
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            51,
+            59
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 95.0,
+        "rain_prob_range": [
+          40,
+          70
+        ],
+        "gust_range": [
+          79,
+          87
+        ],
+        "temperature": 2.0,
+        "visibility": "Muy mala",
+        "rain06h": 0.4,
+        "weather": {
+          "description": "Nevadas fuertes",
+          "id": 85
+        },
+        "wind": {
+          "direction": "O",
+          "deg": 270.0,
+          "speed_range": [
+            51,
+            59
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": {
+        "humidity": 69.0,
+        "rain_prob_range": [
+          40,
+          70
+        ],
+        "gust_range": [
+          60,
+          69
+        ],
+        "temperature": 3.0,
+        "visibility": "Muy mala",
+        "rain06h": 2.3,
+        "weather": {
+          "description": "Nevadas fuertes",
+          "id": 85
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            42,
+            50
+          ]
+        },
+        "river": null,
+        "border": null
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "temp_min": 0.0,
+      "temp_max": 3.0,
+      "humidity_min": 61.0,
+      "humidity_max": 95.0,
+      "early_morning": {
+        "humidity": 61.0,
+        "rain_prob_range": [
+          40,
+          70
+        ],
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 0.0,
+        "visibility": "Mala",
+        "rain06h": 0.9,
+        "weather": {
+          "description": "Nevadas",
+          "id": 79
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            42,
+            50
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "morning": {
+        "humidity": 92.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 0.0,
+        "visibility": "Mala",
+        "rain06h": 2.4,
+        "weather": {
+          "description": "Nevadas",
+          "id": 79
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            42,
+            50
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 76.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          60,
+          69
+        ],
+        "temperature": 3.0,
+        "visibility": "Regular",
+        "rain06h": 3.1,
+        "weather": {
+          "description": "Lluvias y nevadas",
+          "id": 77
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            42,
+            50
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": {
+        "humidity": 95.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": null,
+        "temperature": 0.0,
+        "visibility": "Regular",
+        "rain06h": 0.2,
+        "weather": {
+          "description": "Lluvias y nevadas",
+          "id": 77
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "temp_min": -2.0,
+      "temp_max": 2.0,
+      "humidity_min": 92.0,
+      "humidity_max": 96.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 92.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": null,
+        "temperature": -2.0,
+        "visibility": "Regular",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Lluvias y nevadas",
+          "id": 77
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 96.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 2.0,
+        "visibility": "Buena",
+        "rain06h": 3.1,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
+    },
+    {
+      "date": "2026-06-18",
+      "temp_min": -1.0,
+      "temp_max": 3.0,
+      "humidity_min": 86.0,
+      "humidity_max": 99.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 99.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": -1.0,
+        "visibility": "Buena",
+        "rain06h": 1.1,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 86.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 3.0,
+        "visibility": "Buena",
+        "rain06h": 0.2,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
+    },
+    {
+      "date": "2026-06-19",
+      "temp_min": 0.0,
+      "temp_max": 4.0,
+      "humidity_min": 94.0,
+      "humidity_max": 97.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 94.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 0.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 22.5,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 97.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 4.0,
+        "visibility": "Buena",
+        "rain06h": 0.1,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 337.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
+    },
+    {
+      "date": "2026-06-20",
+      "temp_min": 1.0,
+      "temp_max": 3.0,
+      "humidity_min": 81.0,
+      "humidity_max": 91.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 81.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 1.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NE",
+          "deg": 67.5,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 91.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 3.0,
+        "visibility": "Buena",
+        "rain06h": 0.1,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NE",
+          "deg": 67.5,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
+    },
+    {
+      "date": "2026-06-21",
+      "temp_min": 2.0,
+      "temp_max": 4.0,
+      "humidity_min": 79.0,
+      "humidity_max": 79.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 2.0,
+        "visibility": "Buena",
+        "rain06h": null,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NE",
+          "deg": 67.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 79.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 4.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 22.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
+    }
+  ],
+  "catalog_location": {
+    "id": 10861,
+    "name": "Isla de los Estados",
+    "department": null,
+    "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "lat": -54.7975,
+    "lon": -64.3909,
+    "area": "Tierra del Fuego",
+    "station_name": "RIO GRANDE B.A.",
+    "station_number": 87934,
+    "forecast_reference_id": 5908,
+    "forecast_location_id": 10861,
+    "used_reference": false
+  },
+  "source": "Servicio Meteorológico Nacional",
+  "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10861",
+  "generated_at": "2026-06-15T04:35:21.946419+00:00"
+}

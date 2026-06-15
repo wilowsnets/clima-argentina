@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 2.0,
-      "temp_max": 13.0,
-      "humidity_min": 43.0,
-      "humidity_max": 98.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 43.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 5.0,
       "temp_max": 14.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 1712,
     "name": "San Luis",
+    "department": null,
     "province": "San Luis",
     "lat": -33.30386734,
-    "lon": -66.33309174
+    "lon": -66.33309174,
+    "area": null,
+    "station_name": null,
+    "station_number": 87436,
+    "forecast_reference_id": 1712,
+    "forecast_location_id": 1712,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1712",
-  "generated_at": "2026-06-14T22:22:55.494692+00:00"
+  "generated_at": "2026-06-15T04:35:06.258335+00:00"
 }

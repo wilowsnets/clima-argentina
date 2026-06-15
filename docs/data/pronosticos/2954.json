@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 11.0,
-      "temp_max": 13.0,
-      "humidity_min": 59.0,
-      "humidity_max": 72.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 6.0,
       "temp_max": 18.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 2954,
     "name": "Santiago del Estero",
+    "department": null,
     "province": "Santiago del Estero",
     "lat": -27.79167557,
-    "lon": -64.26761627
+    "lon": -64.26761627,
+    "area": null,
+    "station_name": null,
+    "station_number": 87129,
+    "forecast_reference_id": 2954,
+    "forecast_location_id": 2954,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2954",
-  "generated_at": "2026-06-14T22:23:09.342309+00:00"
+  "generated_at": "2026-06-15T04:35:18.746286+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 0.0,
-      "temp_max": 9.0,
-      "humidity_min": 61.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 61.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -2.0,
       "temp_max": 14.0,
@@ -573,11 +538,18 @@
   "catalog_location": {
     "id": 4164,
     "name": "San Bernardo",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -36.69836044,
-    "lon": -56.67993927
+    "lon": -56.67993927,
+    "area": null,
+    "station_name": null,
+    "station_number": 87663,
+    "forecast_reference_id": 4164,
+    "forecast_location_id": 4164,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4164",
-  "generated_at": "2026-06-14T22:21:55.214901+00:00"
+  "generated_at": "2026-06-15T04:34:03.834078+00:00"
 }

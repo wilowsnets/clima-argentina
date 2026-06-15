@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -4.0,
-      "temp_max": 9.0,
-      "humidity_min": 74.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -3.0,
       "temp_max": 14.0,
@@ -564,11 +529,18 @@
   "catalog_location": {
     "id": 4561,
     "name": "Benito Juárez",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -37.67188644,
-    "lon": -59.8055191
+    "lon": -59.8055191,
+    "area": null,
+    "station_name": null,
+    "station_number": 87649,
+    "forecast_reference_id": 4561,
+    "forecast_location_id": 4561,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4561",
-  "generated_at": "2026-06-14T22:21:39.205986+00:00"
+  "generated_at": "2026-06-15T04:33:29.362430+00:00"
 }

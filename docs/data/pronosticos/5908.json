@@ -14,44 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 4.0,
-      "temp_max": 6.0,
-      "humidity_min": 70.0,
-      "humidity_max": 94.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 94.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.8,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 1.0,
       "temp_max": 3.0,
@@ -594,11 +556,18 @@
   "catalog_location": {
     "id": 5908,
     "name": "Ushuaia",
+    "department": null,
     "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
     "lat": -54.81582642,
-    "lon": -68.32913208
+    "lon": -68.32913208,
+    "area": null,
+    "station_name": null,
+    "station_number": 87938,
+    "forecast_reference_id": 5908,
+    "forecast_location_id": 5908,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5908",
-  "generated_at": "2026-06-14T22:23:14.386765+00:00"
+  "generated_at": "2026-06-15T04:35:23.544447+00:00"
 }

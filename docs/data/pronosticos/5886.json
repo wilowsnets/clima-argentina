@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -1.0,
-      "temp_max": 10.0,
-      "humidity_min": 36.0,
-      "humidity_max": 82.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 52.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 5.0,
       "temp_max": 16.0,
@@ -585,11 +550,18 @@
   "catalog_location": {
     "id": 5886,
     "name": "Trelew",
+    "department": null,
     "province": "Chubut",
     "lat": -43.25348663,
-    "lon": -65.3081131
+    "lon": -65.3081131,
+    "area": null,
+    "station_name": null,
+    "station_number": 87828,
+    "forecast_reference_id": 5886,
+    "forecast_location_id": 5886,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5886",
-  "generated_at": "2026-06-14T22:22:09.071337+00:00"
+  "generated_at": "2026-06-15T04:34:20.961144+00:00"
 }

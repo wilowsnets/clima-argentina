@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 6.0,
-      "temp_max": 9.0,
-      "humidity_min": 68.0,
-      "humidity_max": 87.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 68.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 90.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 16.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 2250,
     "name": "El Trebol",
+    "department": null,
     "province": "Santa Fe",
     "lat": -32.19298553,
-    "lon": -61.70098877
+    "lon": -61.70098877,
+    "area": null,
+    "station_name": null,
+    "station_number": 87470,
+    "forecast_reference_id": 2250,
+    "forecast_location_id": 2250,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2250",
-  "generated_at": "2026-06-14T22:23:02.045410+00:00"
+  "generated_at": "2026-06-15T04:35:12.255132+00:00"
 }

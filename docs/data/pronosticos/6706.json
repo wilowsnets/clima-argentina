@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 5.0,
-      "temp_max": 9.0,
-      "humidity_min": 64.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 1.0,
       "temp_max": 18.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 6706,
     "name": "Villa General Belgrano",
+    "department": null,
     "province": "Córdoba",
     "lat": -31.9677025,
-    "lon": -64.55392111
+    "lon": -64.55392111,
+    "area": null,
+    "station_name": null,
+    "station_number": 87328,
+    "forecast_reference_id": 6706,
+    "forecast_location_id": 6706,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6706",
-  "generated_at": "2026-06-14T22:22:17.367878+00:00"
+  "generated_at": "2026-06-15T04:34:28.579794+00:00"
 }

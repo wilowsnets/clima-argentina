@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 0.0,
-      "temp_max": 12.0,
-      "humidity_min": 44.0,
-      "humidity_max": 88.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 44.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 2.0,
       "temp_max": 14.0,
@@ -576,11 +541,18 @@
   "catalog_location": {
     "id": 117,
     "name": "San Antonio Oeste",
+    "department": null,
     "province": "Río Negro",
     "lat": -40.73238754,
-    "lon": -64.94474792
+    "lon": -64.94474792,
+    "area": null,
+    "station_name": null,
+    "station_number": 87784,
+    "forecast_reference_id": 117,
+    "forecast_location_id": 117,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/117",
-  "generated_at": "2026-06-14T22:22:48.624096+00:00"
+  "generated_at": "2026-06-15T04:34:58.241626+00:00"
 }

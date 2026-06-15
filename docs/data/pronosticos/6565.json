@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 6.0,
-      "temp_max": 9.0,
-      "humidity_min": 63.0,
-      "humidity_max": 92.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 63.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 2.0,
       "temp_max": 17.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 6565,
     "name": "San Francisco",
+    "department": null,
     "province": "Córdoba",
     "lat": -31.43204117,
-    "lon": -62.08318329
+    "lon": -62.08318329,
+    "area": null,
+    "station_name": null,
+    "station_number": 87360,
+    "forecast_reference_id": 6565,
+    "forecast_location_id": 6565,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6565",
-  "generated_at": "2026-06-14T22:22:15.970117+00:00"
+  "generated_at": "2026-06-15T04:34:27.366639+00:00"
 }

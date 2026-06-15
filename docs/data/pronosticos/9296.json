@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -3.0,
-      "temp_max": 9.0,
-      "humidity_min": 56.0,
-      "humidity_max": 89.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 0.0,
       "temp_max": 14.0,
@@ -564,11 +529,18 @@
   "catalog_location": {
     "id": 9296,
     "name": "Malargüe",
+    "department": null,
     "province": "Mendoza",
     "lat": -35.47263257,
-    "lon": -69.5844391
+    "lon": -69.5844391,
+    "area": null,
+    "station_name": null,
+    "station_number": 87506,
+    "forecast_reference_id": 9296,
+    "forecast_location_id": 9296,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-06-14T22:22:36.679254+00:00"
+  "generated_at": "2026-06-15T04:34:46.407543+00:00"
 }

@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -2.0,
-      "temp_max": 9.0,
-      "humidity_min": 59.0,
-      "humidity_max": 93.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 59.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -4.0,
       "temp_max": 14.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 4129,
     "name": "Las Flores",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -36.01638794,
-    "lon": -59.10038376
+    "lon": -59.10038376,
+    "area": null,
+    "station_name": null,
+    "station_number": 87563,
+    "forecast_reference_id": 4129,
+    "forecast_location_id": 4129,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4129",
-  "generated_at": "2026-06-14T22:21:46.472273+00:00"
+  "generated_at": "2026-06-15T04:33:47.502644+00:00"
 }

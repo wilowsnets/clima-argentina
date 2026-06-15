@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 0.0,
-      "temp_max": 12.0,
-      "humidity_min": 43.0,
-      "humidity_max": 88.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 43.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 1.0,
       "temp_max": 14.0,
@@ -573,11 +538,18 @@
   "catalog_location": {
     "id": 30,
     "name": "Choele Choel",
+    "department": null,
     "province": "Río Negro",
     "lat": -39.29313955,
-    "lon": -65.65817703
+    "lon": -65.65817703,
+    "area": null,
+    "station_name": null,
+    "station_number": 87736,
+    "forecast_reference_id": 30,
+    "forecast_location_id": 30,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/30",
-  "generated_at": "2026-06-14T22:22:45.858131+00:00"
+  "generated_at": "2026-06-15T04:34:55.110014+00:00"
 }

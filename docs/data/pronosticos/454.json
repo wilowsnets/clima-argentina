@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 10.0,
-      "temp_max": 14.0,
-      "humidity_min": 67.0,
-      "humidity_max": 87.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 8.0,
       "temp_max": 12.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 454,
     "name": "Salta",
+    "department": null,
     "province": "Salta",
     "lat": -24.82840729,
-    "lon": -65.42250824
+    "lon": -65.42250824,
+    "area": null,
+    "station_name": null,
+    "station_number": 87047,
+    "forecast_reference_id": 454,
+    "forecast_location_id": 454,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/454",
-  "generated_at": "2026-06-14T22:22:51.429405+00:00"
+  "generated_at": "2026-06-15T04:35:02.271981+00:00"
 }

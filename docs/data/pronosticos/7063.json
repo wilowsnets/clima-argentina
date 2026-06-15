@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 1.0,
-      "temp_max": 9.0,
-      "humidity_min": 55.0,
-      "humidity_max": 90.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 71.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -1.0,
       "temp_max": 18.0,
@@ -564,11 +529,18 @@
   "catalog_location": {
     "id": 7063,
     "name": "Coronel Moldes",
+    "department": null,
     "province": "Córdoba",
     "lat": -33.62342834,
-    "lon": -64.60393524
+    "lon": -64.60393524,
+    "area": null,
+    "station_name": null,
+    "station_number": 87453,
+    "forecast_reference_id": 7063,
+    "forecast_location_id": 7063,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7063",
-  "generated_at": "2026-06-14T22:22:11.280456+00:00"
+  "generated_at": "2026-06-15T04:34:23.351800+00:00"
 }

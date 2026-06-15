@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 2.0,
-      "temp_max": 10.0,
-      "humidity_min": 63.0,
-      "humidity_max": 87.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 63.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -2.0,
       "temp_max": 14.0,
@@ -576,11 +541,18 @@
   "catalog_location": {
     "id": 4487,
     "name": "Miramar",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -38.26976013,
-    "lon": -57.84612274
+    "lon": -57.84612274,
+    "area": null,
+    "station_name": null,
+    "station_number": 87692,
+    "forecast_reference_id": 4487,
+    "forecast_location_id": 4487,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4487",
-  "generated_at": "2026-06-14T22:21:49.260486+00:00"
+  "generated_at": "2026-06-15T04:33:53.859158+00:00"
 }

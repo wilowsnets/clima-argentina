@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 4.0,
-      "temp_max": 9.0,
-      "humidity_min": 64.0,
-      "humidity_max": 88.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 2.0,
       "temp_max": 18.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 6370,
     "name": "Cosquin",
+    "department": null,
     "province": "Córdoba",
     "lat": -31.24463654,
-    "lon": -64.46657562
+    "lon": -64.46657562,
+    "area": null,
+    "station_name": null,
+    "station_number": 87344,
+    "forecast_reference_id": 6370,
+    "forecast_location_id": 6370,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6370",
-  "generated_at": "2026-06-14T22:22:11.727362+00:00"
+  "generated_at": "2026-06-15T04:34:23.750146+00:00"
 }

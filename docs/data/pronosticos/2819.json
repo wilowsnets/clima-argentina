@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 10.0,
-      "temp_max": 15.0,
-      "humidity_min": 55.0,
-      "humidity_max": 79.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 75.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 12.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 90.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 7.0,
       "temp_max": 16.0,
@@ -561,11 +526,18 @@
   "catalog_location": {
     "id": 2819,
     "name": "Termas de Río Hondo",
+    "department": null,
     "province": "Santiago del Estero",
     "lat": -27.49892807,
-    "lon": -64.86672211
+    "lon": -64.86672211,
+    "area": null,
+    "station_name": null,
+    "station_number": 87127,
+    "forecast_reference_id": 2819,
+    "forecast_location_id": 2819,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2819",
-  "generated_at": "2026-06-14T22:23:09.828873+00:00"
+  "generated_at": "2026-06-15T04:35:19.158621+00:00"
 }

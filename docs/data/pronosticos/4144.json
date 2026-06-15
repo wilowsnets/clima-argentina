@@ -14,41 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": -4.0,
-      "temp_max": 10.0,
-      "humidity_min": 71.0,
-      "humidity_max": 89.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 71.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": -3.0,
       "temp_max": 14.0,
@@ -573,11 +538,18 @@
   "catalog_location": {
     "id": 4144,
     "name": "Maipú",
+    "department": null,
     "province": "Buenos Aires",
     "lat": -36.85823822,
-    "lon": -57.87769699
+    "lon": -57.87769699,
+    "area": null,
+    "station_name": null,
+    "station_number": 87648,
+    "forecast_reference_id": 4144,
+    "forecast_location_id": 4144,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4144",
-  "generated_at": "2026-06-14T22:21:47.389623+00:00"
+  "generated_at": "2026-06-15T04:33:49.893856+00:00"
 }

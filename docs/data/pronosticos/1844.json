@@ -14,44 +14,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-14",
-      "temp_min": 5.0,
-      "temp_max": 6.0,
-      "humidity_min": 40.0,
-      "humidity_max": 88.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 88.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-15",
       "temp_min": 2.0,
       "temp_max": 5.0,
@@ -588,11 +550,18 @@
   "catalog_location": {
     "id": 1844,
     "name": "Yacimientos Río Turbio",
+    "department": null,
     "province": "Santa Cruz",
     "lat": -51.53855114,
-    "lon": -72.33593163
+    "lon": -72.33593163,
+    "area": null,
+    "station_name": null,
+    "station_number": 87916,
+    "forecast_reference_id": 1840,
+    "forecast_location_id": 1844,
+    "used_reference": false
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1844",
-  "generated_at": "2026-06-14T22:23:00.647909+00:00"
+  "generated_at": "2026-06-15T04:35:11.060462+00:00"
 }
