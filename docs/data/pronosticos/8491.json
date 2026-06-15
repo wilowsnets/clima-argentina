@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 8491,
     "name": "Tilcara",
@@ -16,34 +16,10 @@
     {
       "date": "2026-06-15",
       "temp_min": -1.0,
-      "temp_max": 21.0,
+      "temp_max": 20.0,
       "humidity_min": 7.0,
       "humidity_max": 11.0,
-      "early_morning": {
-        "humidity": 8.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 11.0,
         "rain_prob_range": [
@@ -52,11 +28,11 @@
         ],
         "gust_range": null,
         "temperature": -1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "O",
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 21.0,
+        "temperature": 20.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -270,8 +246,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "O",
@@ -359,15 +335,15 @@
         "humidity": 34.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "O",
@@ -394,8 +370,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -545,5 +521,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8491",
-  "generated_at": "2026-06-15T05:27:53.725287+00:00"
+  "generated_at": "2026-06-15T12:43:23.962584+00:00"
 }

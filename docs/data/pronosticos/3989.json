@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 3989,
     "name": "9 de Julio",
@@ -19,31 +19,7 @@
       "temp_max": 15.0,
       "humidity_min": 55.0,
       "humidity_max": 94.0,
-      "early_morning": {
-        "humidity": 64.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
@@ -249,8 +225,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "E",
+          "deg": 90.0,
           "speed_range": [
             7,
             12
@@ -274,11 +250,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -297,7 +273,7 @@
         "humidity": 74.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 7.0,
@@ -367,11 +343,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3989",
-  "generated_at": "2026-06-15T05:26:38.672521+00:00"
+  "generated_at": "2026-06-15T12:41:59.264288+00:00"
 }

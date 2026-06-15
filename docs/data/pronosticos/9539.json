@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 9539,
     "name": "Tunuyan",
@@ -19,31 +19,7 @@
       "temp_max": 15.0,
       "humidity_min": 43.0,
       "humidity_max": 77.0,
-      "early_morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 77.0,
         "rain_prob_range": [
@@ -105,8 +81,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -137,8 +113,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NE",
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9539",
-  "generated_at": "2026-06-15T05:28:01.984329+00:00"
+  "generated_at": "2026-06-15T12:43:33.148511+00:00"
 }

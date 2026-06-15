@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 6698,
     "name": "Mina Clavero",
@@ -19,31 +19,7 @@
       "temp_max": 18.0,
       "humidity_min": 57.0,
       "humidity_max": 83.0,
-      "early_morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 82.0,
         "rain_prob_range": [
@@ -52,11 +28,11 @@
         ],
         "gust_range": null,
         "temperature": 2.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "N",
@@ -297,7 +273,7 @@
         "humidity": 75.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 8.0,
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6698",
-  "generated_at": "2026-06-15T05:27:38.675016+00:00"
+  "generated_at": "2026-06-15T12:43:06.764908+00:00"
 }

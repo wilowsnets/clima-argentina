@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 4716,
     "name": "Chacabuco",
@@ -19,31 +19,7 @@
       "temp_max": 15.0,
       "humidity_min": 48.0,
       "humidity_max": 93.0,
-      "early_morning": {
-        "humidity": 61.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 93.0,
         "rain_prob_range": [
@@ -250,10 +226,10 @@
         },
         "wind": {
           "direction": "E",
-          "deg": 112.5,
+          "deg": 90.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -274,8 +250,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
             13,
             22
@@ -367,11 +343,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4716",
-  "generated_at": "2026-06-15T05:26:46.296629+00:00"
+  "generated_at": "2026-06-15T12:42:07.732487+00:00"
 }

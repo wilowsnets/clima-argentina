@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 5884,
     "name": "Puerto Madryn",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-15",
-      "temp_min": 6.0,
-      "temp_max": 16.0,
+      "temp_min": 3.0,
+      "temp_max": 15.0,
       "humidity_min": 53.0,
       "humidity_max": 75.0,
-      "early_morning": {
-        "humidity": 53.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 75.0,
         "rain_prob_range": [
@@ -54,7 +30,7 @@
           51,
           59
         ],
-        "temperature": 6.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -79,7 +55,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -104,12 +80,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "O",
@@ -126,7 +102,7 @@
     {
       "date": "2026-06-16",
       "temp_min": 6.0,
-      "temp_max": 14.0,
+      "temp_max": 12.0,
       "humidity_min": 42.0,
       "humidity_max": 73.0,
       "early_morning": {
@@ -140,8 +116,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "O",
@@ -189,7 +165,7 @@
           42,
           50
         ],
-        "temperature": 14.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -560,5 +536,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5884",
-  "generated_at": "2026-06-15T05:27:33.089250+00:00"
+  "generated_at": "2026-06-15T12:43:00.480223+00:00"
 }

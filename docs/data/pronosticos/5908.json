@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 5908,
     "name": "Ushuaia",
@@ -16,37 +16,10 @@
     {
       "date": "2026-06-15",
       "temp_min": 1.0,
-      "temp_max": 3.0,
+      "temp_max": 6.0,
       "humidity_min": 69.0,
       "humidity_max": 95.0,
-      "early_morning": {
-        "humidity": 83.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 3.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias fuertes",
-          "id": 83
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            51,
-            59
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
@@ -57,7 +30,7 @@
           79,
           87
         ],
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Muy mala",
         "rain06h": 0.6,
         "weather": {
@@ -85,7 +58,7 @@
           79,
           87
         ],
-        "temperature": 2.0,
+        "temperature": 3.0,
         "visibility": "Muy mala",
         "rain06h": 0.4,
         "weather": {
@@ -113,7 +86,7 @@
           60,
           69
         ],
-        "temperature": 3.0,
+        "temperature": 1.0,
         "visibility": "Muy mala",
         "rain06h": 2.3,
         "weather": {
@@ -135,7 +108,7 @@
     {
       "date": "2026-06-16",
       "temp_min": 0.0,
-      "temp_max": 3.0,
+      "temp_max": 2.0,
       "humidity_min": 61.0,
       "humidity_max": 95.0,
       "early_morning": {
@@ -204,7 +177,7 @@
           60,
           69
         ],
-        "temperature": 3.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 3.1,
         "weather": {
@@ -309,8 +282,8 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": -1.0,
-      "temp_max": 3.0,
+      "temp_min": 0.0,
+      "temp_max": 5.0,
       "humidity_min": 86.0,
       "humidity_max": 99.0,
       "early_morning": null,
@@ -324,7 +297,7 @@
           42,
           50
         ],
-        "temperature": -1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 1.1,
         "weather": {
@@ -352,7 +325,7 @@
           42,
           50
         ],
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
@@ -569,5 +542,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5908",
-  "generated_at": "2026-06-15T05:28:35.879067+00:00"
+  "generated_at": "2026-06-15T12:44:11.793926+00:00"
 }

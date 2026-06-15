@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 5810,
     "name": "Paso de Indios",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-15",
-      "temp_min": 3.0,
+      "temp_min": 2.0,
       "temp_max": 14.0,
       "humidity_min": 46.0,
       "humidity_max": 71.0,
-      "early_morning": {
-        "humidity": 46.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 71.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -101,7 +77,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -123,7 +99,7 @@
     {
       "date": "2026-06-16",
       "temp_min": 2.0,
-      "temp_max": 11.0,
+      "temp_max": 10.0,
       "humidity_min": 36.0,
       "humidity_max": 61.0,
       "early_morning": {
@@ -183,7 +159,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -560,5 +536,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5810",
-  "generated_at": "2026-06-15T05:27:32.681197+00:00"
+  "generated_at": "2026-06-15T12:42:59.993928+00:00"
 }

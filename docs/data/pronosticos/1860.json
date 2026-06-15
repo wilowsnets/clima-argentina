@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 1860,
     "name": "Puerto San Julián",
@@ -15,38 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-15",
-      "temp_min": 8.0,
+      "temp_min": 7.0,
       "temp_max": 11.0,
       "humidity_min": 59.0,
       "humidity_max": 77.0,
-      "early_morning": {
-        "humidity": 67.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 9.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 77.0,
         "rain_prob_range": [
@@ -57,7 +30,7 @@
           70,
           78
         ],
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -113,7 +86,7 @@
           51,
           59
         ],
-        "temperature": 9.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -135,7 +108,7 @@
     {
       "date": "2026-06-16",
       "temp_min": 2.0,
-      "temp_max": 9.0,
+      "temp_max": 8.0,
       "humidity_min": 65.0,
       "humidity_max": 72.0,
       "early_morning": {
@@ -204,7 +177,7 @@
           51,
           59
         ],
-        "temperature": 9.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -581,5 +554,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1860",
-  "generated_at": "2026-06-15T05:28:22.298324+00:00"
+  "generated_at": "2026-06-15T12:43:56.436918+00:00"
 }

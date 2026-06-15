@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 5756,
     "name": "Esquel",
@@ -16,34 +16,10 @@
     {
       "date": "2026-06-15",
       "temp_min": 0.0,
-      "temp_max": 8.0,
+      "temp_max": 9.0,
       "humidity_min": 78.0,
       "humidity_max": 98.0,
-      "early_morning": {
-        "humidity": 78.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 98.0,
         "rain_prob_range": [
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -101,7 +77,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -123,7 +99,7 @@
     {
       "date": "2026-06-16",
       "temp_min": -1.0,
-      "temp_max": 8.0,
+      "temp_max": 7.0,
       "humidity_min": 42.0,
       "humidity_max": 88.0,
       "early_morning": {
@@ -183,7 +159,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -551,5 +527,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5756",
-  "generated_at": "2026-06-15T05:27:31.894219+00:00"
+  "generated_at": "2026-06-15T12:42:59.066051+00:00"
 }

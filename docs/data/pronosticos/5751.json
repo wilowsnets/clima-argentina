@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:13:23-03:00",
+  "updated": "2026-06-15T07:37:04-03:00",
   "location": {
     "id": 5751,
     "name": "Lago Puelo",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-15",
-      "temp_min": -1.0,
-      "temp_max": 7.0,
+      "temp_min": -2.0,
+      "temp_max": 8.0,
       "humidity_min": 95.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 99.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Mala",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Niebla",
-          "id": 67
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -101,7 +77,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -123,7 +99,7 @@
     {
       "date": "2026-06-16",
       "temp_min": 1.0,
-      "temp_max": 10.0,
+      "temp_max": 9.0,
       "humidity_min": 71.0,
       "humidity_max": 99.0,
       "early_morning": {
@@ -183,7 +159,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -289,7 +265,7 @@
     {
       "date": "2026-06-18",
       "temp_min": -1.0,
-      "temp_max": 5.0,
+      "temp_max": 6.0,
       "humidity_min": 83.0,
       "humidity_max": 100.0,
       "early_morning": null,
@@ -325,7 +301,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -548,5 +524,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5751",
-  "generated_at": "2026-06-15T05:27:32.288689+00:00"
+  "generated_at": "2026-06-15T12:42:59.518739+00:00"
 }
