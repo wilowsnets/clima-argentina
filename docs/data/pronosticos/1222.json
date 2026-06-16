@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:13:46-03:00",
+  "updated": "2026-06-16T00:41:40-03:00",
   "location": {
     "id": 1222,
     "name": "Cafayate",
@@ -13,41 +13,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-15",
-      "temp_min": 5.0,
-      "temp_max": 19.0,
-      "humidity_min": 5.0,
-      "humidity_max": 30.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 30.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-16",
       "temp_min": 5.0,
@@ -580,5 +545,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1222",
-  "generated_at": "2026-06-15T23:10:46.988481+00:00"
+  "generated_at": "2026-06-16T05:32:23.014340+00:00"
 }

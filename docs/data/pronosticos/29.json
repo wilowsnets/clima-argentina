@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:13:46-03:00",
+  "updated": "2026-06-16T00:41:40-03:00",
   "location": {
     "id": 29,
     "name": "Río Colorado",
@@ -13,41 +13,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-15",
-      "temp_min": 0.0,
-      "temp_max": 14.0,
-      "humidity_min": 29.0,
-      "humidity_max": 69.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 29.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-16",
       "temp_min": 3.0,
@@ -589,5 +554,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/29",
-  "generated_at": "2026-06-15T23:10:43.912907+00:00"
+  "generated_at": "2026-06-16T05:32:20.429766+00:00"
 }

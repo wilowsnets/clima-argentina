@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:13:46-03:00",
+  "updated": "2026-06-16T00:41:40-03:00",
   "location": {
     "id": 4865,
     "name": "Olivos",
@@ -13,41 +13,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-15",
-      "temp_min": 0.0,
-      "temp_max": 15.0,
-      "humidity_min": 63.0,
-      "humidity_max": 90.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-16",
       "temp_min": 5.0,
@@ -574,5 +539,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4865",
-  "generated_at": "2026-06-15T23:09:16.652450+00:00"
+  "generated_at": "2026-06-16T05:31:17.495588+00:00"
 }

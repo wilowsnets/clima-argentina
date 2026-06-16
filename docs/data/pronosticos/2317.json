@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:13:46-03:00",
+  "updated": "2026-06-16T00:41:40-03:00",
   "location": {
     "id": 2317,
     "name": "Venado Tuerto",
@@ -13,41 +13,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-15",
-      "temp_min": -2.0,
-      "temp_max": 16.0,
-      "humidity_min": 51.0,
-      "humidity_max": 91.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 84.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 12.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-16",
       "temp_min": 3.0,
@@ -577,5 +542,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2317",
-  "generated_at": "2026-06-15T23:11:08.629940+00:00"
+  "generated_at": "2026-06-16T05:32:41.534763+00:00"
 }

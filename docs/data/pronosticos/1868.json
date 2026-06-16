@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:13:46-03:00",
+  "updated": "2026-06-16T00:41:40-03:00",
   "location": {
     "id": 1868,
     "name": "Río Gallegos",
@@ -13,44 +13,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-15",
-      "temp_min": 5.0,
-      "temp_max": 8.0,
-      "humidity_min": 66.0,
-      "humidity_max": 83.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 71.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            51,
-            59
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-16",
       "temp_min": 4.0,
@@ -598,5 +560,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1868",
-  "generated_at": "2026-06-15T23:11:00.257675+00:00"
+  "generated_at": "2026-06-16T05:32:34.333784+00:00"
 }

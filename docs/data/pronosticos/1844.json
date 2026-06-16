@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:13:46-03:00",
+  "updated": "2026-06-16T00:41:40-03:00",
   "location": {
     "id": 1844,
     "name": "Río Turbio",
@@ -13,44 +13,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-15",
-      "temp_min": 2.0,
-      "temp_max": 5.0,
-      "humidity_min": 77.0,
-      "humidity_max": 87.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 87.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 2.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.8,
-        "weather": {
-          "description": "Lluvias fuertes",
-          "id": 83
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-16",
       "temp_min": -1.0,
@@ -589,5 +551,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1844",
-  "generated_at": "2026-06-15T23:11:00.713262+00:00"
+  "generated_at": "2026-06-16T05:32:34.734475+00:00"
 }
