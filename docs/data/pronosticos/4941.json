@@ -3,13 +3,10 @@
   "location": {
     "id": 4941,
     "name": "Santa María",
-    "department": "Santa María",
+    "department": null,
     "province": "Catamarca",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -66.0475,
-      "lat": -26.694
-    }
+    "lat": -26.69398117,
+    "lon": -66.04747009
   },
   "type": "location",
   "forecast": [
@@ -53,7 +50,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -74,8 +71,8 @@
     },
     {
       "date": "2026-06-17",
-      "temp_min": 4.0,
-      "temp_max": 14.0,
+      "temp_min": 6.0,
+      "temp_max": 15.0,
       "humidity_min": 32.0,
       "humidity_max": 49.0,
       "early_morning": {
@@ -110,7 +107,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -181,7 +178,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 7.0,
+      "temp_min": 4.0,
       "temp_max": 15.0,
       "humidity_min": 27.0,
       "humidity_max": 49.0,
@@ -193,7 +190,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -300,7 +297,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 1.0,
-      "temp_max": 16.0,
+      "temp_max": 13.0,
       "humidity_min": 26.0,
       "humidity_max": 58.0,
       "early_morning": null,
@@ -336,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +356,7 @@
     {
       "date": "2026-06-21",
       "temp_min": 3.0,
-      "temp_max": 14.0,
+      "temp_max": 12.0,
       "humidity_min": 6.0,
       "humidity_max": 23.0,
       "early_morning": null,
@@ -395,7 +392,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -417,8 +414,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 5.0,
-      "temp_max": 16.0,
+      "temp_min": 3.0,
+      "temp_max": 12.0,
       "humidity_min": 16.0,
       "humidity_max": 16.0,
       "early_morning": null,
@@ -429,7 +426,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -454,7 +451,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4941,
+    "name": "Santa María",
+    "department": "Santa María",
+    "province": "Catamarca",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -66.0475,
+      "lat": -26.694
+    }
+  },
   "catalog_location": {
     "id": 4941,
     "name": "Santa María",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4941,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4941",
-  "generated_at": "2026-06-16T17:21:13.351153+00:00"
+  "generated_at": "2026-06-16T20:14:28.843241+00:00"
 }

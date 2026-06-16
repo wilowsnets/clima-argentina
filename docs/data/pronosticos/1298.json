@@ -3,13 +3,10 @@
   "location": {
     "id": 1298,
     "name": "San José de Jachal",
-    "department": "Jachal",
+    "department": null,
     "province": "San Juan",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -68.7483,
-      "lat": -30.2396
-    }
+    "lat": -30.23957634,
+    "lon": -68.74830627
   },
   "type": "location",
   "forecast": [
@@ -484,6 +481,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1298,
+    "name": "San José de Jachal",
+    "department": "Jachal",
+    "province": "San Juan",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -68.7483,
+      "lat": -30.2396
+    }
+  },
   "catalog_location": {
     "id": 1298,
     "name": "San José de Jachal",
@@ -498,7 +506,9 @@
     "forecast_location_id": 1298,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1298",
-  "generated_at": "2026-06-16T17:22:02.377214+00:00"
+  "generated_at": "2026-06-16T20:15:17.275207+00:00"
 }

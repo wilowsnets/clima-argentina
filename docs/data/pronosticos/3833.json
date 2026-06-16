@@ -3,13 +3,10 @@
   "location": {
     "id": 3833,
     "name": "Punta Indio",
-    "department": "Punta Indio",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Caserío",
-    "coord": {
-      "lon": -57.2554,
-      "lat": -35.2706
-    }
+    "lat": -35.27056885,
+    "lon": -57.25535583
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 3833,
+    "name": "Punta Indio",
+    "department": "Punta Indio",
+    "province": "Buenos Aires",
+    "type": "Caserío",
+    "coord": {
+      "lon": -57.2554,
+      "lat": -35.2706
+    }
+  },
   "catalog_location": {
     "id": 3833,
     "name": "Punta Indio",
@@ -492,7 +500,9 @@
     "forecast_location_id": 3833,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3833",
-  "generated_at": "2026-06-16T17:20:56.926384+00:00"
+  "generated_at": "2026-06-16T20:14:12.782923+00:00"
 }

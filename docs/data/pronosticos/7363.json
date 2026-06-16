@@ -3,13 +3,10 @@
   "location": {
     "id": 7363,
     "name": "Goya",
-    "department": "Goya",
+    "department": null,
     "province": "Corrientes",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -59.2587,
-      "lat": -29.1319
-    }
+    "lat": -29.13188362,
+    "lon": -59.25866318
   },
   "type": "location",
   "forecast": [
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 6.0,
-      "temp_max": 19.0,
+      "temp_max": 18.0,
       "humidity_min": 53.0,
       "humidity_max": 77.0,
       "early_morning": {
@@ -86,11 +83,11 @@
         ],
         "gust_range": null,
         "temperature": 7.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Niebla",
+          "id": 67
         },
         "wind": {
           "direction": "NE",
@@ -111,11 +108,11 @@
         ],
         "gust_range": null,
         "temperature": 6.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Niebla",
+          "id": 67
         },
         "wind": {
           "direction": "E",
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 19.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -160,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -184,21 +181,21 @@
       "temp_min": 11.0,
       "temp_max": 17.0,
       "humidity_min": 48.0,
-      "humidity_max": 74.0,
+      "humidity_max": 99.0,
       "early_morning": null,
       "morning": {
         "humidity": 74.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 11.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "NE",
@@ -214,8 +211,8 @@
       "afternoon": {
         "humidity": 48.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": null,
         "temperature": 17.0,
@@ -248,16 +245,16 @@
       "morning": {
         "humidity": 98.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": null,
         "temperature": 15.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 10.1,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -288,8 +285,8 @@
           "direction": "S",
           "deg": 202.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -299,7 +296,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 13.0,
+      "temp_min": 9.0,
       "temp_max": 17.0,
       "humidity_min": 95.0,
       "humidity_max": 98.0,
@@ -311,7 +308,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.8,
         "weather": {
@@ -319,8 +316,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             7,
             12
@@ -340,12 +337,12 @@
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             7,
             12
@@ -361,10 +358,10 @@
       "temp_min": 13.0,
       "temp_max": 18.0,
       "humidity_min": 72.0,
-      "humidity_max": 72.0,
+      "humidity_max": 94.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 94.0,
         "rain_prob_range": [
           0,
           0
@@ -372,14 +369,14 @@
         "gust_range": null,
         "temperature": 13.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
         },
         "wind": {
-          "direction": "NE",
-          "deg": 67.5,
+          "direction": "E",
+          "deg": 90.0,
           "speed_range": [
             7,
             12
@@ -403,8 +400,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "NE",
-          "deg": 67.5,
+          "direction": "SE",
+          "deg": 135.0,
           "speed_range": [
             13,
             22
@@ -420,28 +417,28 @@
       "temp_min": 8.0,
       "temp_max": 16.0,
       "humidity_min": 65.0,
-      "humidity_max": 65.0,
+      "humidity_max": 88.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 88.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 8.0,
-        "visibility": "Buena",
-        "rain06h": null,
+        "visibility": "Regular",
+        "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -458,8 +455,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SE",
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7363,
+    "name": "Goya",
+    "department": "Goya",
+    "province": "Corrientes",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -59.2587,
+      "lat": -29.1319
+    }
+  },
   "catalog_location": {
     "id": 7363,
     "name": "Goya",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7363,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7363",
-  "generated_at": "2026-06-16T17:21:29.005944+00:00"
+  "generated_at": "2026-06-16T20:14:44.235093+00:00"
 }

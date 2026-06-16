@@ -5,11 +5,8 @@
     "name": "Ezpeleta",
     "department": "Quilmes",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.2358,
-      "lat": -34.7506
-    }
+    "lat": -34.7506,
+    "lon": -58.2358
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10633,
+    "name": "Ezpeleta",
+    "department": "Quilmes",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.2358,
+      "lat": -34.7506
+    }
+  },
   "catalog_location": {
     "id": 10633,
     "name": "Ezpeleta",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10633,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10633",
-  "generated_at": "2026-06-16T17:20:35.880471+00:00"
+  "generated_at": "2026-06-16T20:13:52.052545+00:00"
 }

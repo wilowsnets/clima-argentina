@@ -3,13 +3,10 @@
   "location": {
     "id": 19,
     "name": "Cipolletti",
-    "department": "General Roca",
+    "department": null,
     "province": "Río Negro",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -67.9976,
-      "lat": -38.9334
-    }
+    "lat": -38.93338776,
+    "lon": -67.99762726
   },
   "type": "location",
   "forecast": [
@@ -499,6 +496,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 19,
+    "name": "Cipolletti",
+    "department": "General Roca",
+    "province": "Río Negro",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -67.9976,
+      "lat": -38.9334
+    }
+  },
   "catalog_location": {
     "id": 19,
     "name": "Cipolletti",
@@ -513,7 +521,9 @@
     "forecast_location_id": 19,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/19",
-  "generated_at": "2026-06-16T17:21:53.957807+00:00"
+  "generated_at": "2026-06-16T20:15:09.166443+00:00"
 }

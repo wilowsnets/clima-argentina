@@ -3,13 +3,10 @@
   "location": {
     "id": 10630,
     "name": "El Palomar",
-    "department": "Moron",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.6124,
-      "lat": -34.6101
-    }
+    "lat": -34.61008641,
+    "lon": -58.61242872
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10630,
+    "name": "El Palomar",
+    "department": "Moron",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.6124,
+      "lat": -34.6101
+    }
+  },
   "catalog_location": {
     "id": 10630,
     "name": "El Palomar",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10630,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10630",
-  "generated_at": "2026-06-16T17:20:35.471557+00:00"
+  "generated_at": "2026-06-16T20:13:51.617574+00:00"
 }

@@ -5,11 +5,8 @@
     "name": "Longchamps",
     "department": "Almirante Brown",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.3884,
-      "lat": -34.8539
-    }
+    "lat": -34.8539,
+    "lon": -58.3884
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10579,
+    "name": "Longchamps",
+    "department": "Almirante Brown",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.3884,
+      "lat": -34.8539
+    }
+  },
   "catalog_location": {
     "id": 10579,
     "name": "Longchamps",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10579,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10579",
-  "generated_at": "2026-06-16T17:20:45.342697+00:00"
+  "generated_at": "2026-06-16T20:14:01.333996+00:00"
 }

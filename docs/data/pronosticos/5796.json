@@ -5,11 +5,8 @@
     "name": "Trevelín",
     "department": "Futaleufú",
     "province": "Chubut",
-    "type": "Localidad",
-    "coord": {
-      "lon": -71.4633,
-      "lat": -43.0914
-    }
+    "lat": -43.0914,
+    "lon": -71.4633
   },
   "type": "location",
   "forecast": [
@@ -499,6 +496,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5796,
+    "name": "Trevelín",
+    "department": "Futaleufú",
+    "province": "Chubut",
+    "type": "Localidad",
+    "coord": {
+      "lon": -71.4633,
+      "lat": -43.0914
+    }
+  },
   "catalog_location": {
     "id": 5796,
     "name": "Trevelín",
@@ -513,7 +521,9 @@
     "forecast_location_id": 5796,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5796",
-  "generated_at": "2026-06-16T17:21:19.123211+00:00"
+  "generated_at": "2026-06-16T20:14:34.508593+00:00"
 }

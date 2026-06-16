@@ -5,11 +5,8 @@
     "name": "Santa Clara del Mar",
     "department": "Mar Chiquita",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -57.5067,
-      "lat": -37.8351
-    }
+    "lat": -37.8351,
+    "lon": -57.5067
   },
   "type": "location",
   "forecast": [
@@ -487,6 +484,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4312,
+    "name": "Santa Clara del Mar",
+    "department": "Mar Chiquita",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -57.5067,
+      "lat": -37.8351
+    }
+  },
   "catalog_location": {
     "id": 4312,
     "name": "Santa Clara del Mar",
@@ -501,7 +509,9 @@
     "forecast_location_id": 4312,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4312",
-  "generated_at": "2026-06-16T17:21:04.366930+00:00"
+  "generated_at": "2026-06-16T20:14:20.026561+00:00"
 }

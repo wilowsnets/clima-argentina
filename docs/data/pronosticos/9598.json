@@ -3,13 +3,10 @@
   "location": {
     "id": 9598,
     "name": "Posadas",
-    "department": "Capital",
+    "department": null,
     "province": "Misiones",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -55.8989,
-      "lat": -27.3797
-    }
+    "lat": -27.37967491,
+    "lon": -55.89886856
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9598,
+    "name": "Posadas",
+    "department": "Capital",
+    "province": "Misiones",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -55.8989,
+      "lat": -27.3797
+    }
+  },
   "catalog_location": {
     "id": 9598,
     "name": "Posadas",
@@ -489,7 +497,9 @@
     "forecast_location_id": 9598,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9598",
-  "generated_at": "2026-06-16T17:21:49.482747+00:00"
+  "generated_at": "2026-06-16T20:15:04.733988+00:00"
 }

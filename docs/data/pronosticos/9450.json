@@ -3,13 +3,10 @@
   "location": {
     "id": 9450,
     "name": "San Martín",
-    "department": "San Martín",
+    "department": null,
     "province": "Mendoza",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -68.4678,
-      "lat": -33.0835
-    }
+    "lat": -33.08354568,
+    "lon": -68.46781158
   },
   "type": "location",
   "forecast": [
@@ -181,7 +178,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 9.0,
+      "temp_min": 6.0,
       "temp_max": 17.0,
       "humidity_min": 58.0,
       "humidity_max": 94.0,
@@ -193,7 +190,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -300,7 +297,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 3.0,
-      "temp_max": 17.0,
+      "temp_max": 14.0,
       "humidity_min": 49.0,
       "humidity_max": 77.0,
       "early_morning": null,
@@ -336,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +356,7 @@
     {
       "date": "2026-06-21",
       "temp_min": 4.0,
-      "temp_max": 15.0,
+      "temp_max": 13.0,
       "humidity_min": 72.0,
       "humidity_max": 87.0,
       "early_morning": null,
@@ -395,7 +392,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
@@ -417,8 +414,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 9.0,
-      "temp_max": 15.0,
+      "temp_min": 4.0,
+      "temp_max": 13.0,
       "humidity_min": 46.0,
       "humidity_max": 46.0,
       "early_morning": null,
@@ -429,7 +426,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -454,7 +451,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9450,
+    "name": "San Martín",
+    "department": "San Martín",
+    "province": "Mendoza",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -68.4678,
+      "lat": -33.0835
+    }
+  },
   "catalog_location": {
     "id": 9450,
     "name": "San Martín",
@@ -489,7 +497,9 @@
     "forecast_location_id": 9450,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9450",
-  "generated_at": "2026-06-16T17:21:46.233664+00:00"
+  "generated_at": "2026-06-16T20:15:01.513170+00:00"
 }

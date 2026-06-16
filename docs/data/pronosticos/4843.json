@@ -3,13 +3,10 @@
   "location": {
     "id": 4843,
     "name": "Ciudad Evita",
-    "department": "La Matanza",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5626,
-      "lat": -34.7133
-    }
+    "lat": -34.71332932,
+    "lon": -58.56261444
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4843,
+    "name": "Ciudad Evita",
+    "department": "La Matanza",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5626,
+      "lat": -34.7133
+    }
+  },
   "catalog_location": {
     "id": 4843,
     "name": "Ciudad Evita",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4843,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4843",
-  "generated_at": "2026-06-16T17:20:30.934748+00:00"
+  "generated_at": "2026-06-16T20:13:47.195279+00:00"
 }

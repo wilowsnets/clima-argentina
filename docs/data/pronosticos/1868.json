@@ -3,13 +3,10 @@
   "location": {
     "id": 1868,
     "name": "Río Gallegos",
-    "department": "Güer Aike",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -69.2219,
-      "lat": -51.6197
-    }
+    "lat": -51.61967087,
+    "lon": -69.22193909
   },
   "type": "location",
   "forecast": [
@@ -77,8 +74,8 @@
     },
     {
       "date": "2026-06-17",
-      "temp_min": 1.0,
-      "temp_max": 5.0,
+      "temp_min": 2.0,
+      "temp_max": 6.0,
       "humidity_min": 62.0,
       "humidity_max": 90.0,
       "early_morning": {
@@ -91,7 +88,7 @@
           42,
           50
         ],
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -116,7 +113,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -141,7 +138,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.9,
         "weather": {
@@ -166,7 +163,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -187,8 +184,8 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 0.0,
-      "temp_max": 6.0,
+      "temp_min": 2.0,
+      "temp_max": 7.0,
       "humidity_min": 83.0,
       "humidity_max": 89.0,
       "early_morning": null,
@@ -230,7 +227,7 @@
           51,
           59
         ],
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.8,
         "weather": {
@@ -252,8 +249,8 @@
     },
     {
       "date": "2026-06-19",
-      "temp_min": -1.0,
-      "temp_max": 6.0,
+      "temp_min": 3.0,
+      "temp_max": 7.0,
       "humidity_min": 72.0,
       "humidity_max": 89.0,
       "early_morning": null,
@@ -264,7 +261,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -292,12 +289,12 @@
           42,
           50
         ],
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "NE",
@@ -373,10 +370,10 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 1.0,
-      "temp_max": 6.0,
+      "temp_min": 3.0,
+      "temp_max": 7.0,
       "humidity_min": 67.0,
-      "humidity_max": 87.0,
+      "humidity_max": 67.0,
       "early_morning": null,
       "morning": {
         "humidity": 87.0,
@@ -388,7 +385,7 @@
           51,
           59
         ],
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
@@ -413,7 +410,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -435,7 +432,7 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 1.0,
+      "temp_min": 2.0,
       "temp_max": 6.0,
       "humidity_min": 61.0,
       "humidity_max": 74.0,
@@ -447,7 +444,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -496,6 +493,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1868,
+    "name": "Río Gallegos",
+    "department": "Güer Aike",
+    "province": "Santa Cruz",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -69.2219,
+      "lat": -51.6197
+    }
+  },
   "catalog_location": {
     "id": 1868,
     "name": "Río Gallegos",
@@ -510,7 +518,9 @@
     "forecast_location_id": 1868,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1868",
-  "generated_at": "2026-06-16T17:22:08.995139+00:00"
+  "generated_at": "2026-06-16T20:15:23.759282+00:00"
 }

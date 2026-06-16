@@ -3,13 +3,10 @@
   "location": {
     "id": 7706,
     "name": "Concordia",
-    "department": "Concordia",
+    "department": null,
     "province": "Entre Ríos",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.0199,
-      "lat": -31.3801
-    }
+    "lat": -31.38008881,
+    "lon": -58.01988602
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7706,
+    "name": "Concordia",
+    "department": "Concordia",
+    "province": "Entre Ríos",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.0199,
+      "lat": -31.3801
+    }
+  },
   "catalog_location": {
     "id": 7706,
     "name": "Concordia",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7706,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7706",
-  "generated_at": "2026-06-16T17:21:31.908240+00:00"
+  "generated_at": "2026-06-16T20:14:47.088026+00:00"
 }

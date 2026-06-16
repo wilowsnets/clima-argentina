@@ -3,13 +3,10 @@
   "location": {
     "id": 5886,
     "name": "Trelew",
-    "department": "Rawson",
+    "department": null,
     "province": "Chubut",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.3081,
-      "lat": -43.2535
-    }
+    "lat": -43.25348663,
+    "lon": -65.3081131
   },
   "type": "location",
   "forecast": [
@@ -89,8 +86,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "N",
@@ -110,8 +107,8 @@
           0
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 2.0,
         "visibility": "Buena",
@@ -122,7 +119,7 @@
         },
         "wind": {
           "direction": "N",
-          "deg": 0.1,
+          "deg": 22.5,
           "speed_range": [
             32,
             41
@@ -138,8 +135,8 @@
           0
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 13.0,
         "visibility": "Buena",
@@ -177,8 +174,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
             42,
             50
@@ -202,10 +199,10 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
-        "temperature": 8.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -230,19 +227,19 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          60,
+          69
         ],
         "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             32,
             41
@@ -271,15 +268,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -292,8 +289,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 11.0,
         "visibility": "Buena",
@@ -303,8 +300,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             23,
             31
@@ -329,8 +326,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          42,
+          50
         ],
         "temperature": 4.0,
         "visibility": "Buena",
@@ -341,10 +338,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -357,8 +354,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 13.0,
         "visibility": "Buena",
@@ -369,10 +366,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -385,21 +382,18 @@
       "temp_min": 4.0,
       "temp_max": 10.0,
       "humidity_min": 40.0,
-      "humidity_max": 71.0,
+      "humidity_max": 40.0,
       "early_morning": null,
       "morning": {
-        "humidity": 71.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           10
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 4.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -408,8 +402,8 @@
           "direction": "SO",
           "deg": 247.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -418,26 +412,26 @@
       "afternoon": {
         "humidity": 40.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 10.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SO",
           "deg": 247.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -456,22 +450,19 @@
         "humidity": 66.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             23,
             31
@@ -486,10 +477,7 @@
           0,
           10
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.1,
@@ -498,8 +486,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             32,
             41
@@ -511,6 +499,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5886,
+    "name": "Trelew",
+    "department": "Rawson",
+    "province": "Chubut",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.3081,
+      "lat": -43.2535
+    }
+  },
   "catalog_location": {
     "id": 5886,
     "name": "Trelew",
@@ -525,7 +524,9 @@
     "forecast_location_id": 5886,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5886",
-  "generated_at": "2026-06-16T17:21:18.690102+00:00"
+  "generated_at": "2026-06-16T20:14:34.094270+00:00"
 }

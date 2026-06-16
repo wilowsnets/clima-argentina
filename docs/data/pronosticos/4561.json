@@ -3,13 +3,10 @@
   "location": {
     "id": 4561,
     "name": "Benito Juárez",
-    "department": "Benito Juárez",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -59.8055,
-      "lat": -37.6719
-    }
+    "lat": -37.67188644,
+    "lon": -59.8055191
   },
   "type": "location",
   "forecast": [
@@ -484,6 +481,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4561,
+    "name": "Benito Juárez",
+    "department": "Benito Juárez",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -59.8055,
+      "lat": -37.6719
+    }
+  },
   "catalog_location": {
     "id": 4561,
     "name": "Benito Juárez",
@@ -498,7 +506,9 @@
     "forecast_location_id": 4561,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4561",
-  "generated_at": "2026-06-16T17:20:25.644491+00:00"
+  "generated_at": "2026-06-16T20:13:41.906227+00:00"
 }

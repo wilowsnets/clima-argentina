@@ -3,13 +3,10 @@
   "location": {
     "id": 7438,
     "name": "Curuzú Cuatiá",
-    "department": "Curuzú Cuatiá",
+    "department": null,
     "province": "Corrientes",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.0589,
-      "lat": -29.7894
-    }
+    "lat": -29.78941154,
+    "lon": -58.05887222
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7438,
+    "name": "Curuzú Cuatiá",
+    "department": "Curuzú Cuatiá",
+    "province": "Corrientes",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.0589,
+      "lat": -29.7894
+    }
+  },
   "catalog_location": {
     "id": 7438,
     "name": "Curuzú Cuatiá",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7438,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7438",
-  "generated_at": "2026-06-16T17:21:28.215412+00:00"
+  "generated_at": "2026-06-16T20:14:43.402042+00:00"
 }

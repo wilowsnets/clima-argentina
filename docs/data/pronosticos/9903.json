@@ -3,13 +3,10 @@
   "location": {
     "id": 9903,
     "name": "Neuquén",
-    "department": "Confluencia",
+    "department": null,
     "province": "Neuquén",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -68.0751,
-      "lat": -38.9543
-    }
+    "lat": -38.95428467,
+    "lon": -68.07512665
   },
   "type": "location",
   "forecast": [
@@ -499,6 +496,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9903,
+    "name": "Neuquén",
+    "department": "Confluencia",
+    "province": "Neuquén",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -68.0751,
+      "lat": -38.9543
+    }
+  },
   "catalog_location": {
     "id": 9903,
     "name": "Neuquén",
@@ -513,7 +521,9 @@
     "forecast_location_id": 9903,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9903",
-  "generated_at": "2026-06-16T17:21:51.545915+00:00"
+  "generated_at": "2026-06-16T20:15:06.741807+00:00"
 }

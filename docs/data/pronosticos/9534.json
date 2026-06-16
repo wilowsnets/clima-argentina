@@ -3,13 +3,10 @@
   "location": {
     "id": 9534,
     "name": "San Carlos",
-    "department": "San Carlos",
+    "department": null,
     "province": "Mendoza",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -69.0428,
-      "lat": -33.7741
-    }
+    "lat": -33.77414322,
+    "lon": -69.04284668
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9534,
+    "name": "San Carlos",
+    "department": "San Carlos",
+    "province": "Mendoza",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -69.0428,
+      "lat": -33.7741
+    }
+  },
   "catalog_location": {
     "id": 9534,
     "name": "San Carlos",
@@ -489,7 +497,9 @@
     "forecast_location_id": 9534,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9534",
-  "generated_at": "2026-06-16T17:21:45.820985+00:00"
+  "generated_at": "2026-06-16T20:15:01.104159+00:00"
 }

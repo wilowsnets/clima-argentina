@@ -3,13 +3,10 @@
   "location": {
     "id": 2317,
     "name": "Venado Tuerto",
-    "department": "General López",
+    "department": null,
     "province": "Santa Fe",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -61.97,
-      "lat": -33.7438
-    }
+    "lat": -33.74375534,
+    "lon": -61.97003174
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 2317,
+    "name": "Venado Tuerto",
+    "department": "General López",
+    "province": "Santa Fe",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -61.97,
+      "lat": -33.7438
+    }
+  },
   "catalog_location": {
     "id": 2317,
     "name": "Venado Tuerto",
@@ -492,7 +500,9 @@
     "forecast_location_id": 2317,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2317",
-  "generated_at": "2026-06-16T17:22:15.976361+00:00"
+  "generated_at": "2026-06-16T20:15:30.660703+00:00"
 }

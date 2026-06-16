@@ -3,13 +3,10 @@
   "location": {
     "id": 7446,
     "name": "Paso de Los Libres",
-    "department": "Paso de Los Libres",
+    "department": null,
     "province": "Corrientes",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -57.0921,
-      "lat": -29.7118
-    }
+    "lat": -29.71175385,
+    "lon": -57.09205246
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7446,
+    "name": "Paso de Los Libres",
+    "department": "Paso de Los Libres",
+    "province": "Corrientes",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -57.0921,
+      "lat": -29.7118
+    }
+  },
   "catalog_location": {
     "id": 7446,
     "name": "Paso de Los Libres",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7446,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7446",
-  "generated_at": "2026-06-16T17:21:30.692859+00:00"
+  "generated_at": "2026-06-16T20:14:45.887332+00:00"
 }

@@ -3,13 +3,10 @@
   "location": {
     "id": 7641,
     "name": "Paraná",
-    "department": "Paraná",
+    "department": null,
     "province": "Entre Ríos",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -60.5207,
-      "lat": -31.7392
-    }
+    "lat": -31.73918724,
+    "lon": -60.52070999
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7641,
+    "name": "Paraná",
+    "department": "Paraná",
+    "province": "Entre Ríos",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -60.5207,
+      "lat": -31.7392
+    }
+  },
   "catalog_location": {
     "id": 7641,
     "name": "Paraná",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7641,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7641",
-  "generated_at": "2026-06-16T17:21:33.538989+00:00"
+  "generated_at": "2026-06-16T20:14:48.689440+00:00"
 }

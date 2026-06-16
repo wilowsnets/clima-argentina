@@ -3,13 +3,10 @@
   "location": {
     "id": 8368,
     "name": "La Quiaca",
-    "department": "Yavi",
+    "department": null,
     "province": "Jujuy",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.598,
-      "lat": -22.1025
-    }
+    "lat": -22.10247023,
+    "lon": -65.59802993
   },
   "type": "location",
   "forecast": [
@@ -490,6 +487,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 8368,
+    "name": "La Quiaca",
+    "department": "Yavi",
+    "province": "Jujuy",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.598,
+      "lat": -22.1025
+    }
+  },
   "catalog_location": {
     "id": 8368,
     "name": "La Quiaca",
@@ -504,7 +512,9 @@
     "forecast_location_id": 8368,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8368",
-  "generated_at": "2026-06-16T17:21:35.950477+00:00"
+  "generated_at": "2026-06-16T20:14:51.102241+00:00"
 }

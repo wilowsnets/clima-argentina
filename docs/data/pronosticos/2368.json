@@ -3,13 +3,10 @@
   "location": {
     "id": 2368,
     "name": "Casilda",
-    "department": "Caseros",
+    "department": null,
     "province": "Santa Fe",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -61.1687,
-      "lat": -33.0474
-    }
+    "lat": -33.0473671,
+    "lon": -61.16872025
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 2368,
+    "name": "Casilda",
+    "department": "Caseros",
+    "province": "Santa Fe",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -61.1687,
+      "lat": -33.0474
+    }
+  },
   "catalog_location": {
     "id": 2368,
     "name": "Casilda",
@@ -492,7 +500,9 @@
     "forecast_location_id": 2368,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2368",
-  "generated_at": "2026-06-16T17:22:09.789877+00:00"
+  "generated_at": "2026-06-16T20:15:24.569909+00:00"
 }

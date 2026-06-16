@@ -3,13 +3,10 @@
   "location": {
     "id": 9296,
     "name": "Malargüe",
-    "department": "Malargüe",
+    "department": null,
     "province": "Mendoza",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -69.5844,
-      "lat": -35.4726
-    }
+    "lat": -35.47263257,
+    "lon": -69.5844391
   },
   "type": "location",
   "forecast": [
@@ -181,7 +178,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 2.0,
+      "temp_min": 1.0,
       "temp_max": 13.0,
       "humidity_min": 17.0,
       "humidity_max": 57.0,
@@ -193,7 +190,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -300,7 +297,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 0.0,
-      "temp_max": 14.0,
+      "temp_max": 11.0,
       "humidity_min": 31.0,
       "humidity_max": 47.0,
       "early_morning": null,
@@ -336,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +356,7 @@
     {
       "date": "2026-06-21",
       "temp_min": -1.0,
-      "temp_max": 12.0,
+      "temp_max": 10.0,
       "humidity_min": 31.0,
       "humidity_max": 51.0,
       "early_morning": null,
@@ -395,7 +392,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -417,8 +414,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 0.0,
-      "temp_max": 8.0,
+      "temp_min": -1.0,
+      "temp_max": 10.0,
       "humidity_min": 34.0,
       "humidity_max": 47.0,
       "early_morning": null,
@@ -429,7 +426,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -454,7 +451,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9296,
+    "name": "Malargüe",
+    "department": "Malargüe",
+    "province": "Mendoza",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -69.5844,
+      "lat": -35.4726
+    }
+  },
   "catalog_location": {
     "id": 9296,
     "name": "Malargüe",
@@ -489,7 +497,9 @@
     "forecast_location_id": 9296,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-06-16T17:21:44.652332+00:00"
+  "generated_at": "2026-06-16T20:14:59.897918+00:00"
 }

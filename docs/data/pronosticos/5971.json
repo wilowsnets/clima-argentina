@@ -3,13 +3,10 @@
   "location": {
     "id": 5971,
     "name": "Puerto Argentino",
-    "department": "Islas Malvinas",
+    "department": null,
     "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -57.8591,
-      "lat": -51.6942
-    }
+    "lat": -51.69422913,
+    "lon": -57.85905838
   },
   "type": "location",
   "forecast": [
@@ -80,8 +77,8 @@
     },
     {
       "date": "2026-06-17",
-      "temp_min": 0.0,
-      "temp_max": 3.0,
+      "temp_min": 2.0,
+      "temp_max": 4.0,
       "humidity_min": 59.0,
       "humidity_max": 83.0,
       "early_morning": {
@@ -94,7 +91,7 @@
           42,
           50
         ],
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -122,7 +119,7 @@
           51,
           59
         ],
-        "temperature": 0.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -150,7 +147,7 @@
           51,
           59
         ],
-        "temperature": 3.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -178,7 +175,7 @@
           42,
           50
         ],
-        "temperature": 2.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -199,7 +196,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 1.0,
+      "temp_min": 2.0,
       "temp_max": 6.0,
       "humidity_min": 74.0,
       "humidity_max": 89.0,
@@ -214,7 +211,7 @@
           42,
           50
         ],
-        "temperature": 6.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -323,7 +320,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": -1.0,
+      "temp_min": 0.0,
       "temp_max": 3.0,
       "humidity_min": 67.0,
       "humidity_max": 72.0,
@@ -338,7 +335,7 @@
           60,
           69
         ],
-        "temperature": -1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -388,10 +385,10 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 1.0,
-      "temp_max": 5.0,
+      "temp_min": 4.0,
+      "temp_max": 6.0,
       "humidity_min": 70.0,
-      "humidity_max": 71.0,
+      "humidity_max": 70.0,
       "early_morning": null,
       "morning": {
         "humidity": 71.0,
@@ -403,7 +400,7 @@
           42,
           50
         ],
-        "temperature": 1.0,
+        "temperature": 4.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -431,7 +428,7 @@
           42,
           50
         ],
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -511,6 +508,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5971,
+    "name": "Puerto Argentino",
+    "department": "Islas Malvinas",
+    "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -57.8591,
+      "lat": -51.6942
+    }
+  },
   "catalog_location": {
     "id": 5971,
     "name": "Puerto Argentino",
@@ -525,7 +533,9 @@
     "forecast_location_id": 5971,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5971",
-  "generated_at": "2026-06-16T17:22:20.941976+00:00"
+  "generated_at": "2026-06-16T20:15:41.572440+00:00"
 }

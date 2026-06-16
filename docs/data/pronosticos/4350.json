@@ -3,13 +3,10 @@
   "location": {
     "id": 4350,
     "name": "Coronel Suarez",
-    "department": "Coronel Suarez",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -61.9367,
-      "lat": -37.4548
-    }
+    "lat": -37.4548378,
+    "lon": -61.9367485
   },
   "type": "location",
   "forecast": [
@@ -487,6 +484,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4350,
+    "name": "Coronel Suarez",
+    "department": "Coronel Suarez",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -61.9367,
+      "lat": -37.4548
+    }
+  },
   "catalog_location": {
     "id": 4350,
     "name": "Coronel Suarez",
@@ -501,7 +509,9 @@
     "forecast_location_id": 4350,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4350",
-  "generated_at": "2026-06-16T17:20:33.334588+00:00"
+  "generated_at": "2026-06-16T20:13:49.615690+00:00"
 }

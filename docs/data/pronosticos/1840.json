@@ -3,13 +3,10 @@
   "location": {
     "id": 1840,
     "name": "El Calafate",
-    "department": "Lago Argentino",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Localidad",
-    "coord": {
-      "lon": -72.2684,
-      "lat": -50.3406
-    }
+    "lat": -50.34061394,
+    "lon": -72.26842674
   },
   "type": "location",
   "forecast": [
@@ -487,6 +484,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1840,
+    "name": "El Calafate",
+    "department": "Lago Argentino",
+    "province": "Santa Cruz",
+    "type": "Localidad",
+    "coord": {
+      "lon": -72.2684,
+      "lat": -50.3406
+    }
+  },
   "catalog_location": {
     "id": 1840,
     "name": "El Calafate",
@@ -501,7 +509,9 @@
     "forecast_location_id": 1840,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1840",
-  "generated_at": "2026-06-16T17:22:06.103739+00:00"
+  "generated_at": "2026-06-16T20:15:20.924000+00:00"
 }

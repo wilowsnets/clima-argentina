@@ -3,13 +3,10 @@
   "location": {
     "id": 1808,
     "name": "Caleta Olivia",
-    "department": "Deseado",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -67.5221,
-      "lat": -46.4482
-    }
+    "lat": -46.44820786,
+    "lon": -67.5220871
   },
   "type": "location",
   "forecast": [
@@ -505,6 +502,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1808,
+    "name": "Caleta Olivia",
+    "department": "Deseado",
+    "province": "Santa Cruz",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -67.5221,
+      "lat": -46.4482
+    }
+  },
   "catalog_location": {
     "id": 1808,
     "name": "Caleta Olivia",
@@ -519,7 +527,9 @@
     "forecast_location_id": 1808,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1808",
-  "generated_at": "2026-06-16T17:22:05.707596+00:00"
+  "generated_at": "2026-06-16T20:15:20.516685+00:00"
 }

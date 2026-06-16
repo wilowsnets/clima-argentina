@@ -3,13 +3,10 @@
   "location": {
     "id": 137,
     "name": "San Carlos de Bariloche",
-    "department": "Bariloche",
+    "department": null,
     "province": "Río Negro",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -71.2932,
-      "lat": -41.1505
-    }
+    "lat": -41.15048981,
+    "lon": -71.29316711
   },
   "type": "location",
   "forecast": [
@@ -496,6 +493,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 137,
+    "name": "San Carlos de Bariloche",
+    "department": "Bariloche",
+    "province": "Río Negro",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -71.2932,
+      "lat": -41.1505
+    }
+  },
   "catalog_location": {
     "id": 137,
     "name": "San Carlos de Bariloche",
@@ -510,7 +518,9 @@
     "forecast_location_id": 137,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/137",
-  "generated_at": "2026-06-16T17:21:56.930296+00:00"
+  "generated_at": "2026-06-16T20:15:12.042236+00:00"
 }

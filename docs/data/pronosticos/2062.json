@@ -3,13 +3,10 @@
   "location": {
     "id": 2062,
     "name": "San Javier",
-    "department": "San Javier",
+    "department": null,
     "province": "Santa Fe",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -59.9315,
-      "lat": -30.5783
-    }
+    "lat": -30.57825661,
+    "lon": -59.93152237
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 2062,
+    "name": "San Javier",
+    "department": "San Javier",
+    "province": "Santa Fe",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -59.9315,
+      "lat": -30.5783
+    }
+  },
   "catalog_location": {
     "id": 2062,
     "name": "San Javier",
@@ -489,7 +497,9 @@
     "forecast_location_id": 2062,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2062",
-  "generated_at": "2026-06-16T17:22:13.461522+00:00"
+  "generated_at": "2026-06-16T20:15:28.228899+00:00"
 }

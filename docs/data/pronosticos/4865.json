@@ -5,11 +5,8 @@
     "name": "Olivos",
     "department": "Vicente López",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.4805,
-      "lat": -34.5054
-    }
+    "lat": -34.5054,
+    "lon": -58.4805
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4865,
+    "name": "Olivos",
+    "department": "Vicente López",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.4805,
+      "lat": -34.5054
+    }
+  },
   "catalog_location": {
     "id": 4865,
     "name": "Olivos",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4865,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4865",
-  "generated_at": "2026-06-16T17:20:53.589027+00:00"
+  "generated_at": "2026-06-16T20:14:09.487886+00:00"
 }

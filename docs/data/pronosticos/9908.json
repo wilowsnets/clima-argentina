@@ -5,11 +5,8 @@
     "name": "Villa Pehuenia",
     "department": "Aluminé",
     "province": "Neuquén",
-    "type": "Caserío",
-    "coord": {
-      "lon": -71.1691,
-      "lat": -38.8884
-    }
+    "lat": -38.8884,
+    "lon": -71.1691
   },
   "type": "location",
   "forecast": [
@@ -490,6 +487,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9908,
+    "name": "Villa Pehuenia",
+    "department": "Aluminé",
+    "province": "Neuquén",
+    "type": "Caserío",
+    "coord": {
+      "lon": -71.1691,
+      "lat": -38.8884
+    }
+  },
   "catalog_location": {
     "id": 9908,
     "name": "Villa Pehuenia",
@@ -504,7 +512,9 @@
     "forecast_location_id": 9908,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9908",
-  "generated_at": "2026-06-16T17:21:52.775014+00:00"
+  "generated_at": "2026-06-16T20:15:07.941539+00:00"
 }

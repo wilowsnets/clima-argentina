@@ -3,13 +3,10 @@
   "location": {
     "id": 5648,
     "name": "Resistencia",
-    "department": "San Fernando",
+    "department": null,
     "province": "Chaco",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.9957,
-      "lat": -27.4555
-    }
+    "lat": -27.45546341,
+    "lon": -58.99566269
   },
   "type": "location",
   "forecast": [
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 7.0,
-      "temp_max": 20.0,
+      "temp_max": 19.0,
       "humidity_min": 54.0,
       "humidity_max": 79.0,
       "early_morning": {
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 20.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -160,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -193,7 +190,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -299,7 +296,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 13.0,
+      "temp_min": 10.0,
       "temp_max": 18.0,
       "humidity_min": 81.0,
       "humidity_max": 85.0,
@@ -311,7 +308,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -418,7 +415,7 @@
     {
       "date": "2026-06-22",
       "temp_min": 9.0,
-      "temp_max": 18.0,
+      "temp_max": 19.0,
       "humidity_min": 60.0,
       "humidity_max": 88.0,
       "early_morning": null,
@@ -454,7 +451,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5648,
+    "name": "Resistencia",
+    "department": "San Fernando",
+    "province": "Chaco",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.9957,
+      "lat": -27.4555
+    }
+  },
   "catalog_location": {
     "id": 5648,
     "name": "Resistencia",
@@ -489,7 +497,9 @@
     "forecast_location_id": 5648,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5648",
-  "generated_at": "2026-06-16T17:21:14.990599+00:00"
+  "generated_at": "2026-06-16T20:14:30.448313+00:00"
 }

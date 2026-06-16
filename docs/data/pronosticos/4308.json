@@ -2,14 +2,11 @@
   "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 4308,
-    "name": "Mar de Las Pampas",
+    "name": "Mar de las Pampas",
     "department": "Villa Gesell",
     "province": "Buenos Aires",
-    "type": "Paraje",
-    "coord": {
-      "lon": -57.0143,
-      "lat": -37.3163
-    }
+    "lat": -37.3163,
+    "lon": -57.0143
   },
   "type": "location",
   "forecast": [
@@ -78,7 +75,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 5.0,
-      "temp_max": 12.0,
+      "temp_max": 11.0,
       "humidity_min": 54.0,
       "humidity_max": 83.0,
       "early_morning": {
@@ -138,12 +135,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NE",
@@ -163,7 +160,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -258,15 +255,15 @@
         "humidity": 84.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "O",
@@ -290,15 +287,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -308,7 +305,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 8.0,
+      "temp_min": 5.0,
       "temp_max": 12.0,
       "humidity_min": 78.0,
       "humidity_max": 92.0,
@@ -320,7 +317,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -329,7 +326,7 @@
         },
         "wind": {
           "direction": "NO",
-          "deg": 337.5,
+          "deg": 315.0,
           "speed_range": [
             13,
             22
@@ -387,11 +384,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -412,8 +409,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
             13,
             22
@@ -429,10 +426,10 @@
       "temp_min": 6.0,
       "temp_max": 12.0,
       "humidity_min": 70.0,
-      "humidity_max": 70.0,
+      "humidity_max": 73.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 73.0,
         "rain_prob_range": [
           0,
           0
@@ -440,17 +437,17 @@
         "gust_range": null,
         "temperature": 6.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -471,11 +468,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 180.0,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -484,6 +481,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4308,
+    "name": "Mar de Las Pampas",
+    "department": "Villa Gesell",
+    "province": "Buenos Aires",
+    "type": "Paraje",
+    "coord": {
+      "lon": -57.0143,
+      "lat": -37.3163
+    }
+  },
   "catalog_location": {
     "id": 4308,
     "name": "Mar de las Pampas",
@@ -498,7 +506,9 @@
     "forecast_location_id": 4308,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4308",
-  "generated_at": "2026-06-16T17:20:47.828402+00:00"
+  "generated_at": "2026-06-16T20:14:03.805269+00:00"
 }

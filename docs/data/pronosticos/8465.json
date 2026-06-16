@@ -5,11 +5,8 @@
     "name": "Purmamarca",
     "department": "Tumbaya",
     "province": "Jujuy",
-    "type": "Caserío",
-    "coord": {
-      "lon": -65.5014,
-      "lat": -23.7509
-    }
+    "lat": -23.7509,
+    "lon": -65.5014
   },
   "type": "location",
   "forecast": [
@@ -481,6 +478,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 8465,
+    "name": "Purmamarca",
+    "department": "Tumbaya",
+    "province": "Jujuy",
+    "type": "Caserío",
+    "coord": {
+      "lon": -65.5014,
+      "lat": -23.7509
+    }
+  },
   "catalog_location": {
     "id": 8465,
     "name": "Purmamarca",
@@ -495,7 +503,9 @@
     "forecast_location_id": 8465,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8465",
-  "generated_at": "2026-06-16T17:21:37.598867+00:00"
+  "generated_at": "2026-06-16T20:14:52.714326+00:00"
 }

@@ -3,13 +3,10 @@
   "location": {
     "id": 4558,
     "name": "Bahía Blanca",
-    "department": "Bahía Blanca",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -62.279,
-      "lat": -38.7147
-    }
+    "lat": -38.71467972,
+    "lon": -62.2790451
   },
   "type": "location",
   "forecast": [
@@ -487,6 +484,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4558,
+    "name": "Bahía Blanca",
+    "department": "Bahía Blanca",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -62.279,
+      "lat": -38.7147
+    }
+  },
   "catalog_location": {
     "id": 4558,
     "name": "Bahía Blanca",
@@ -501,7 +509,9 @@
     "forecast_location_id": 4558,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4558",
-  "generated_at": "2026-06-16T17:20:24.417293+00:00"
+  "generated_at": "2026-06-16T20:13:40.681471+00:00"
 }

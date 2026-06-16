@@ -3,13 +3,10 @@
   "location": {
     "id": 1018,
     "name": "Metán",
-    "department": "Metán",
+    "department": null,
     "province": "Salta",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -64.9768,
-      "lat": -25.5012
-    }
+    "lat": -25.50115967,
+    "lon": -64.97684479
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1018,
+    "name": "Metán",
+    "department": "Metán",
+    "province": "Salta",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -64.9768,
+      "lat": -25.5012
+    }
+  },
   "catalog_location": {
     "id": 1018,
     "name": "Metán",
@@ -489,7 +497,9 @@
     "forecast_location_id": 1018,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1018",
-  "generated_at": "2026-06-16T17:21:59.503921+00:00"
+  "generated_at": "2026-06-16T20:15:14.455970+00:00"
 }

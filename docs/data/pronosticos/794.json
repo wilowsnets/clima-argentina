@@ -3,13 +3,10 @@
   "location": {
     "id": 794,
     "name": "Rivadavia",
-    "department": "Rivadavia",
+    "department": null,
     "province": "Salta",
-    "type": "Localidad",
-    "coord": {
-      "lon": -62.8865,
-      "lat": -24.1839
-    }
+    "lat": -24.18393099,
+    "lon": -62.88651112
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 794,
+    "name": "Rivadavia",
+    "department": "Rivadavia",
+    "province": "Salta",
+    "type": "Localidad",
+    "coord": {
+      "lon": -62.8865,
+      "lat": -24.1839
+    }
+  },
   "catalog_location": {
     "id": 794,
     "name": "Rivadavia",
@@ -489,7 +497,9 @@
     "forecast_location_id": 794,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/794",
-  "generated_at": "2026-06-16T17:21:59.896553+00:00"
+  "generated_at": "2026-06-16T20:15:14.864468+00:00"
 }

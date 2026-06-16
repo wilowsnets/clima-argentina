@@ -3,13 +3,10 @@
   "location": {
     "id": 4846,
     "name": "Tigre",
-    "department": "Tigre",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5928,
-      "lat": -34.4158
-    }
+    "lat": -34.41580963,
+    "lon": -58.59275436
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4846,
+    "name": "Tigre",
+    "department": "Tigre",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5928,
+      "lat": -34.4158
+    }
+  },
   "catalog_location": {
     "id": 4846,
     "name": "Tigre",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4846,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4846",
-  "generated_at": "2026-06-16T17:21:06.815775+00:00"
+  "generated_at": "2026-06-16T20:14:22.436928+00:00"
 }

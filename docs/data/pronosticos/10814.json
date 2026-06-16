@@ -1,0 +1,48 @@
+{
+  "location": {
+    "id": 10814,
+    "name": "Base Orcadas",
+    "department": null,
+    "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "lat": -60.734,
+    "lon": -44.734
+  },
+  "forecast": [],
+  "current_conditions": {
+    "date": "2026-06-16T15:00:00-03:00",
+    "humidity": 100.0,
+    "pressure": 977.3,
+    "feels_like": -28.1,
+    "temperature": -15.8,
+    "visibility": 18.0,
+    "weather": {
+      "description": "Cubierto con ventisca baja",
+      "id": 96
+    },
+    "wind": {
+      "direction": "Sur",
+      "deg": 180.0,
+      "speed": 38.0
+    },
+    "station_id": 88968
+  },
+  "catalog_location": {
+    "id": 10814,
+    "name": "Base Orcadas",
+    "department": null,
+    "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "lat": -60.734,
+    "lon": -44.734,
+    "area": null,
+    "station_name": null,
+    "station_number": 88968,
+    "forecast_reference_id": 10814,
+    "forecast_location_id": null,
+    "used_reference": false
+  },
+  "data_status": "observation_only",
+  "observation_source_type": "ws1_current_weather_api",
+  "source": "Servicio Meteorológico Nacional",
+  "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10814",
+  "generated_at": "2026-06-16T20:15:39.371087+00:00"
+}

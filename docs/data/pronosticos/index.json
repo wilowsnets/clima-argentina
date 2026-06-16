@@ -1,12 +1,17 @@
 {
   "source": "Servicio Meteorológico Nacional",
-  "generated_at": "2026-06-16T17:22:24.402790+00:00",
+  "generated_at": "2026-06-16T20:15:45.027745+00:00",
   "catalog_count": 297,
-  "available_count": 291,
-  "failed_count": 6,
+  "available_count": 297,
+  "forecast_available_count": 291,
+  "observation_only_count": 6,
+  "failed_count": 0,
+  "preserved_previous_count": 0,
   "locations_using_reference_count": 0,
-  "unique_forecast_ids_downloaded": 291,
-  "http_forecast_requests": 291,
+  "legacy_forecast_count": 0,
+  "http_modern_forecast_requests": 291,
+  "http_legacy_forecast_requests": 0,
+  "http_current_weather_requests": 6,
   "available": [
     {
       "id": 3989,
@@ -18,9 +23,13 @@
       "lon": -60.88668442,
       "file": "3989.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3989,
       "forecast_location_id": 3989,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -33,9 +42,13 @@
       "lon": -58.3959,
       "file": "10552.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10552,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -48,9 +61,13 @@
       "lon": -56.6844,
       "file": "4161.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4161,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -63,9 +80,13 @@
       "lon": -58.5138,
       "file": "10604.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10604,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -78,9 +99,13 @@
       "lon": -58.36936951,
       "file": "4871.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4871,
       "forecast_location_id": 4871,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -93,9 +118,13 @@
       "lon": -59.86066818,
       "file": "4116.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4116,
       "forecast_location_id": 4116,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -108,9 +137,13 @@
       "lon": -62.2790451,
       "file": "4558.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4558,
       "forecast_location_id": 4558,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -123,9 +156,13 @@
       "lon": -58.25904465,
       "file": "4318.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4318,
       "forecast_location_id": 4318,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -138,9 +175,13 @@
       "lon": -58.39554061,
       "file": "10615.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10615,
       "forecast_location_id": 10615,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -153,9 +194,13 @@
       "lon": -59.8055191,
       "file": "4561.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4561,
       "forecast_location_id": 4561,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -168,9 +213,13 @@
       "lon": -58.2038,
       "file": "4869.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 4869,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "AEROPARQUE AERO"
     },
     {
@@ -183,9 +232,13 @@
       "lon": -58.5616,
       "file": "10639.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4750,
       "forecast_location_id": 10639,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SAN FERNANDO AERO"
     },
     {
@@ -198,9 +251,13 @@
       "lon": -58.3913,
       "file": "10578.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10578,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -213,9 +270,13 @@
       "lon": -58.68375824,
       "file": "10643.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4852,
       "forecast_location_id": 10643,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -228,9 +289,13 @@
       "lon": -58.5085,
       "file": "10595.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10595,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -243,9 +308,13 @@
       "lon": -56.9079,
       "file": "4302.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4299,
       "forecast_location_id": 4302,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -258,9 +327,13 @@
       "lon": -62.99021149,
       "file": "4547.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4547,
       "forecast_location_id": 4547,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -273,9 +346,13 @@
       "lon": -58.5792,
       "file": "4835.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4835,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL PALOMAR AERO"
     },
     {
@@ -288,9 +365,13 @@
       "lon": -58.6427,
       "file": "10629.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 10629,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "MORON AERO"
     },
     {
@@ -303,9 +384,13 @@
       "lon": -60.47129822,
       "file": "4716.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4716,
       "forecast_location_id": 4716,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -318,9 +403,13 @@
       "lon": -57.7137,
       "file": "4882.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4317,
       "forecast_location_id": 4882,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "MAR DEL PLATA AERO"
     },
     {
@@ -333,9 +422,13 @@
       "lon": -58.00617599,
       "file": "3808.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3808,
       "forecast_location_id": 3808,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -348,9 +441,13 @@
       "lon": -58.56261444,
       "file": "4843.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4843,
       "forecast_location_id": 4843,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -363,9 +460,13 @@
       "lon": -58.59416925,
       "file": "10647.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10630,
       "forecast_location_id": 10647,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -378,9 +479,13 @@
       "lon": -58.5397,
       "file": "10648.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10648,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -393,9 +498,13 @@
       "lon": -60.0898,
       "file": "4464.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4504,
       "forecast_location_id": 4464,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "TRES ARROYOS"
     },
     {
@@ -408,9 +517,13 @@
       "lon": -58.3384,
       "file": "10580.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10580,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -423,9 +536,13 @@
       "lon": -61.35739136,
       "file": "4232.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4232,
       "forecast_location_id": 4232,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -438,9 +555,13 @@
       "lon": -61.9367485,
       "file": "4350.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4350,
       "forecast_location_id": 4350,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -453,9 +574,13 @@
       "lon": -56.6855,
       "file": "4163.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4163,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -468,9 +593,13 @@
       "lon": -56.6915,
       "file": "4160.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4160,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -483,9 +612,13 @@
       "lon": -57.68048859,
       "file": "4146.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4146,
       "forecast_location_id": 4146,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -498,9 +631,13 @@
       "lon": -58.64838409,
       "file": "4828.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4828,
       "forecast_location_id": 4828,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -513,9 +650,13 @@
       "lon": -58.61242872,
       "file": "10630.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10630,
       "forecast_location_id": 10630,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -528,9 +669,13 @@
       "lon": -58.2358,
       "file": "10633.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10633,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "AEROPARQUE AERO"
     },
     {
@@ -543,9 +688,13 @@
       "lon": -58.2741,
       "file": "4874.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 4874,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -558,9 +707,13 @@
       "lon": -58.5293,
       "file": "4834.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4834,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL PALOMAR AERO"
     },
     {
@@ -573,9 +726,13 @@
       "lon": -62.99647522,
       "file": "3834.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3834,
       "forecast_location_id": 3834,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -588,9 +745,13 @@
       "lon": -58.38,
       "file": "10586.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10586,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "AEROPARQUE AERO"
     },
     {
@@ -603,9 +764,13 @@
       "lon": -58.3848,
       "file": "10577.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10577,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -618,9 +783,13 @@
       "lon": -58.6364,
       "file": "4842.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 4842,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -633,9 +802,13 @@
       "lon": -58.7125,
       "file": "4823.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4823,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "CAMPO DE MAYO"
     },
     {
@@ -648,9 +821,13 @@
       "lon": -58.5885,
       "file": "4830.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 4830,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -663,9 +840,13 @@
       "lon": -58.6032,
       "file": "10631.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 10631,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL PALOMAR AERO"
     },
     {
@@ -678,9 +859,13 @@
       "lon": -58.6378,
       "file": "4849.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4849,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL PALOMAR AERO"
     },
     {
@@ -693,9 +878,13 @@
       "lon": -58.5888,
       "file": "10605.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10605,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -708,9 +897,13 @@
       "lon": -58.6873,
       "file": "4850.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4850,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "MORON AERO"
     },
     {
@@ -723,9 +916,13 @@
       "lon": -58.75,
       "file": "4853.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4853,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "CAMPO DE MAYO"
     },
     {
@@ -738,9 +935,13 @@
       "lon": -58.52195358,
       "file": "4841.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 4841,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -753,9 +954,13 @@
       "lon": -60.94085312,
       "file": "4712.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4712,
       "forecast_location_id": 4712,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -768,9 +973,13 @@
       "lon": -56.6837,
       "file": "4162.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4162,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -783,9 +992,13 @@
       "lon": -57.94528961,
       "file": "4856.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4856,
       "forecast_location_id": 4856,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -798,9 +1011,13 @@
       "lon": -58.3898,
       "file": "4862.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 4862,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "BUENOS AIRES OBSERVATORIO"
     },
     {
@@ -813,9 +1030,13 @@
       "lon": -59.10038376,
       "file": "4129.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4129,
       "forecast_location_id": 4129,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -828,9 +1049,13 @@
       "lon": -56.696,
       "file": "4154.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4154,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -843,9 +1068,13 @@
       "lon": -58.433,
       "file": "10616.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10616,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -858,9 +1087,13 @@
       "lon": -58.40148926,
       "file": "4875.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 4875,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -873,9 +1106,13 @@
       "lon": -58.3884,
       "file": "10579.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10579,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -888,9 +1125,13 @@
       "lon": -58.4488,
       "file": "10596.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10596,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -903,9 +1144,13 @@
       "lon": -57.87769699,
       "file": "4144.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4144,
       "forecast_location_id": 4144,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -918,9 +1163,13 @@
       "lon": -57.0255,
       "file": "4301.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4299,
       "forecast_location_id": 4301,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -933,9 +1182,13 @@
       "lon": -57.4254,
       "file": "4307.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4317,
       "forecast_location_id": 4307,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "MAR DEL PLATA AERO"
     },
     {
@@ -948,9 +1201,13 @@
       "lon": -56.6794,
       "file": "4165.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4165,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -963,9 +1220,13 @@
       "lon": -57.0143,
       "file": "4308.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4299,
       "forecast_location_id": 4308,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -978,9 +1239,13 @@
       "lon": -57.59349823,
       "file": "4317.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4317,
       "forecast_location_id": 4317,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -993,9 +1258,13 @@
       "lon": -56.6899,
       "file": "4158.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4158,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -1008,9 +1277,13 @@
       "lon": -58.78604889,
       "file": "4814.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 4814,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1023,9 +1296,13 @@
       "lon": -58.4977,
       "file": "10640.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4750,
       "forecast_location_id": 10640,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SAN FERNANDO AERO"
     },
     {
@@ -1038,9 +1315,13 @@
       "lon": -58.71593094,
       "file": "4851.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4851,
       "forecast_location_id": 4851,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1053,9 +1334,13 @@
       "lon": -57.84612274,
       "file": "4487.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4487,
       "forecast_location_id": 4487,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1068,9 +1353,13 @@
       "lon": -58.4786,
       "file": "4872.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 4872,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1083,9 +1372,13 @@
       "lon": -61.30081558,
       "file": "4443.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4443,
       "forecast_location_id": 4443,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1098,9 +1391,13 @@
       "lon": -58.62742615,
       "file": "4848.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4848,
       "forecast_location_id": 4848,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1113,9 +1410,13 @@
       "lon": -58.5228,
       "file": "10657.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4750,
       "forecast_location_id": 10657,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SAN FERNANDO AERO"
     },
     {
@@ -1128,9 +1429,13 @@
       "lon": -58.73424911,
       "file": "4504.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4504,
       "forecast_location_id": 4504,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1143,9 +1448,13 @@
       "lon": -56.6833,
       "file": "10869.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 10869,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -1158,9 +1467,13 @@
       "lon": -60.3198967,
       "file": "4202.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4202,
       "forecast_location_id": 4202,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1173,9 +1486,13 @@
       "lon": -58.4805,
       "file": "4865.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4750,
       "forecast_location_id": 4865,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SAN FERNANDO AERO"
     },
     {
@@ -1188,9 +1505,13 @@
       "lon": -59.7755,
       "file": "4509.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4504,
       "forecast_location_id": 4509,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "TRES ARROYOS"
     },
     {
@@ -1203,9 +1524,13 @@
       "lon": -56.8757,
       "file": "4315.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4299,
       "forecast_location_id": 4315,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -1218,9 +1543,13 @@
       "lon": -61.89644241,
       "file": "3884.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3884,
       "forecast_location_id": 3884,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1233,9 +1562,13 @@
       "lon": -61.5484,
       "file": "4514.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4558,
       "forecast_location_id": 4514,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "BAHIA BLANCA AERO"
     },
     {
@@ -1248,9 +1581,13 @@
       "lon": -60.56956482,
       "file": "4617.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4617,
       "forecast_location_id": 4617,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1263,9 +1600,13 @@
       "lon": -62.4029007,
       "file": "4338.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4338,
       "forecast_location_id": 4338,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1278,9 +1619,13 @@
       "lon": -56.86851501,
       "file": "4298.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4298,
       "forecast_location_id": 4298,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1293,9 +1638,13 @@
       "lon": -57.25535583,
       "file": "3833.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3833,
       "forecast_location_id": 3833,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1308,9 +1657,13 @@
       "lon": -58.7043,
       "file": "4503.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4504,
       "forecast_location_id": 4503,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "MAR DEL PLATA AERO"
     },
     {
@@ -1323,9 +1676,13 @@
       "lon": -58.24424744,
       "file": "4863.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4863,
       "forecast_location_id": 4863,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1338,9 +1695,13 @@
       "lon": -58.3605,
       "file": "10581.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10581,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1353,9 +1714,13 @@
       "lon": -58.5668,
       "file": "10607.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10607,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1368,9 +1733,13 @@
       "lon": -58.3932,
       "file": "10614.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10614,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "BUENOS AIRES OBSERVATORIO"
     },
     {
@@ -1383,9 +1752,13 @@
       "lon": -60.3398,
       "file": "4454.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4504,
       "forecast_location_id": 4454,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "TRES ARROYOS"
     },
     {
@@ -1398,9 +1771,13 @@
       "lon": -58.541,
       "file": "10819.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10819,
       "forecast_location_id": 10819,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1413,9 +1790,13 @@
       "lon": -59.47258759,
       "file": "4771.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4771,
       "forecast_location_id": 4771,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1428,9 +1809,13 @@
       "lon": -56.67993927,
       "file": "4164.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4164,
       "forecast_location_id": 4164,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1443,9 +1828,13 @@
       "lon": -61.1148262,
       "file": "4176.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4176,
       "forecast_location_id": 4176,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1458,9 +1847,13 @@
       "lon": -56.72302246,
       "file": "4153.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4153,
       "forecast_location_id": 4153,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1473,9 +1866,13 @@
       "lon": -58.55633163,
       "file": "4750.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4750,
       "forecast_location_id": 4750,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1488,9 +1885,13 @@
       "lon": -58.51338959,
       "file": "4743.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4743,
       "forecast_location_id": 4743,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1503,9 +1904,13 @@
       "lon": -58.5482,
       "file": "10608.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10608,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1518,9 +1923,13 @@
       "lon": -58.74044037,
       "file": "4852.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4852,
       "forecast_location_id": 4852,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1533,9 +1942,13 @@
       "lon": -59.67208481,
       "file": "4569.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4569,
       "forecast_location_id": 4569,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1548,9 +1961,13 @@
       "lon": -57.5067,
       "file": "4312.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4317,
       "forecast_location_id": 4312,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "MAR DEL PLATA AERO"
     },
     {
@@ -1563,9 +1980,13 @@
       "lon": -56.69633102,
       "file": "4159.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4159,
       "forecast_location_id": 4159,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1578,9 +1999,13 @@
       "lon": -58.3451,
       "file": "10584.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10584,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "AEROPARQUE AERO"
     },
     {
@@ -1593,9 +2018,13 @@
       "lon": -59.13938522,
       "file": "4265.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4265,
       "forecast_location_id": 4265,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1608,9 +2037,13 @@
       "lon": -58.5138,
       "file": "10609.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 10609,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1623,9 +2056,13 @@
       "lon": -58.3973,
       "file": "10617.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10617,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1638,9 +2075,13 @@
       "lon": -58.59275436,
       "file": "4846.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4846,
       "forecast_location_id": 4846,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1653,9 +2094,13 @@
       "lon": -62.73426056,
       "file": "3864.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3864,
       "forecast_location_id": 3864,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1668,9 +2113,13 @@
       "lon": -60.27342987,
       "file": "4462.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4462,
       "forecast_location_id": 4462,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1683,9 +2132,13 @@
       "lon": -58.5467,
       "file": "4837.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 4837,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1698,9 +2151,13 @@
       "lon": -56.8922,
       "file": "4316.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4299,
       "forecast_location_id": 4316,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "VILLA GESELL AERO"
     },
     {
@@ -1713,9 +2170,13 @@
       "lon": -58.4737,
       "file": "10658.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4750,
       "forecast_location_id": 10658,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SAN FERNANDO AERO"
     },
     {
@@ -1728,9 +2189,13 @@
       "lon": -58.5578,
       "file": "10601.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4814,
       "forecast_location_id": 10601,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL PALOMAR AERO"
     },
     {
@@ -1743,9 +2208,13 @@
       "lon": -56.96981838,
       "file": "4299.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4299,
       "forecast_location_id": 4299,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1758,9 +2227,13 @@
       "lon": -58.6481,
       "file": "4831.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4841,
       "forecast_location_id": 4831,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EZEIZA AERO"
     },
     {
@@ -1773,9 +2246,13 @@
       "lon": -58.3113,
       "file": "10585.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4875,
       "forecast_location_id": 10585,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "AEROPARQUE AERO"
     },
     {
@@ -1788,9 +2265,13 @@
       "lon": -59.0237236,
       "file": "4749.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4749,
       "forecast_location_id": 4749,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1803,9 +2284,13 @@
       "lon": -58.416389,
       "file": "10821.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10821,
       "forecast_location_id": 10821,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1818,9 +2303,13 @@
       "lon": -58.42575836,
       "file": "4864.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4864,
       "forecast_location_id": 4864,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1833,9 +2322,13 @@
       "lon": -66.31768799,
       "file": "5026.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5026,
       "forecast_location_id": 5026,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1848,9 +2341,13 @@
       "lon": -67.02497864,
       "file": "5002.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5002,
       "forecast_location_id": 5002,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1863,9 +2360,13 @@
       "lon": -65.7408371,
       "file": "5149.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5149,
       "forecast_location_id": 5149,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1878,9 +2379,13 @@
       "lon": -66.04747009,
       "file": "4941.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 4941,
       "forecast_location_id": 4941,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1893,9 +2398,13 @@
       "lon": -67.5644455,
       "file": "5257.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5257,
       "forecast_location_id": 5257,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1908,9 +2417,13 @@
       "lon": -59.33821106,
       "file": "5548.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5548,
       "forecast_location_id": 5548,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1923,9 +2436,13 @@
       "lon": -60.44746017,
       "file": "5717.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5717,
       "forecast_location_id": 5717,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1938,9 +2455,13 @@
       "lon": -58.99566269,
       "file": "5648.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5648,
       "forecast_location_id": 5648,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1953,9 +2474,13 @@
       "lon": -60.72607803,
       "file": "5582.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5582,
       "forecast_location_id": 5582,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1968,9 +2493,13 @@
       "lon": -67.52872314,
       "file": "5874.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5874,
       "forecast_location_id": 5874,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -1983,9 +2512,13 @@
       "lon": -71.5187,
       "file": "10850.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10934,
       "forecast_location_id": 10850,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL BOLSON AERO"
     },
     {
@@ -1998,9 +2531,13 @@
       "lon": -71.31885529,
       "file": "5756.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5756,
       "forecast_location_id": 5756,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2013,9 +2550,13 @@
       "lon": -71.5953,
       "file": "5751.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10934,
       "forecast_location_id": 5751,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL BOLSON AERO"
     },
     {
@@ -2028,9 +2569,13 @@
       "lon": -69.04329681,
       "file": "5810.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5810,
       "forecast_location_id": 5810,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2043,9 +2588,13 @@
       "lon": -65.04391479,
       "file": "5884.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5884,
       "forecast_location_id": 5884,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2058,9 +2607,13 @@
       "lon": -65.09370422,
       "file": "5888.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5888,
       "forecast_location_id": 5888,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2073,9 +2626,13 @@
       "lon": -65.3081131,
       "file": "5886.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5886,
       "forecast_location_id": 5886,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2088,9 +2645,13 @@
       "lon": -71.4633,
       "file": "5796.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10910,
       "forecast_location_id": 5796,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "ESQUEL AERO"
     },
     {
@@ -2103,9 +2664,13 @@
       "lon": -64.25388336,
       "file": "6852.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6852,
       "forecast_location_id": 6852,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2118,9 +2683,13 @@
       "lon": -64.43473816,
       "file": "6387.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6387,
       "forecast_location_id": 6387,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2133,9 +2702,13 @@
       "lon": -62.68688202,
       "file": "6834.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6834,
       "forecast_location_id": 6834,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2148,9 +2721,13 @@
       "lon": -64.20745087,
       "file": "6425.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6425,
       "forecast_location_id": 6425,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2163,9 +2740,13 @@
       "lon": -64.60393524,
       "file": "7063.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7063,
       "forecast_location_id": 7063,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2178,9 +2759,13 @@
       "lon": -64.46657562,
       "file": "6370.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6370,
       "forecast_location_id": 6370,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2193,9 +2778,13 @@
       "lon": -64.80755615,
       "file": "6110.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6110,
       "forecast_location_id": 6110,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2208,9 +2797,13 @@
       "lon": -63.29754639,
       "file": "7015.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7015,
       "forecast_location_id": 7015,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2223,9 +2816,13 @@
       "lon": -63.38900757,
       "file": "7099.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7099,
       "forecast_location_id": 7099,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2238,9 +2835,13 @@
       "lon": -62.10639191,
       "file": "6826.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6826,
       "forecast_location_id": 6826,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2253,9 +2854,13 @@
       "lon": -64.99982965,
       "file": "6698.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6698,
       "forecast_location_id": 6698,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2268,9 +2873,13 @@
       "lon": -63.9,
       "file": "10820.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10820,
       "forecast_location_id": 10820,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2283,9 +2892,13 @@
       "lon": -64.35366821,
       "file": "7007.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7007,
       "forecast_location_id": 7007,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2298,9 +2911,13 @@
       "lon": -64.11588287,
       "file": "6887.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6887,
       "forecast_location_id": 6887,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2313,9 +2930,13 @@
       "lon": -62.08318329,
       "file": "6565.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6565,
       "forecast_location_id": 6565,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2328,9 +2949,13 @@
       "lon": -63.72361755,
       "file": "6002.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6002,
       "forecast_location_id": 6002,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2343,9 +2968,13 @@
       "lon": -65.19020844,
       "file": "6594.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6594,
       "forecast_location_id": 6594,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2358,9 +2987,13 @@
       "lon": -64.55392111,
       "file": "6706.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6706,
       "forecast_location_id": 6706,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2373,9 +3006,13 @@
       "lon": -64.58737946,
       "file": "7142.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7142,
       "forecast_location_id": 7142,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2388,9 +3025,13 @@
       "lon": -63.23983002,
       "file": "6901.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 6901,
       "forecast_location_id": 6901,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2403,9 +3044,13 @@
       "lon": -58.82712555,
       "file": "7236.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7236,
       "forecast_location_id": 7236,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2418,9 +3063,13 @@
       "lon": -58.05887222,
       "file": "7438.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7438,
       "forecast_location_id": 7438,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2433,9 +3082,13 @@
       "lon": -58.80745369,
       "file": "7223.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7223,
       "forecast_location_id": 7223,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2448,9 +3101,13 @@
       "lon": -59.25866318,
       "file": "7363.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7363,
       "forecast_location_id": 7363,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2463,9 +3120,13 @@
       "lon": -56.68310547,
       "file": "7151.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7151,
       "forecast_location_id": 7151,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2478,9 +3139,13 @@
       "lon": -58.07847214,
       "file": "7416.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7438,
       "forecast_location_id": 7416,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2493,9 +3158,13 @@
       "lon": -57.64074707,
       "file": "7499.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7499,
       "forecast_location_id": 7499,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2508,9 +3177,13 @@
       "lon": -57.09205246,
       "file": "7446.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7446,
       "forecast_location_id": 7446,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2523,9 +3196,13 @@
       "lon": -58.14226151,
       "file": "7836.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7836,
       "forecast_location_id": 7836,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2538,9 +3215,13 @@
       "lon": -58.24339294,
       "file": "7831.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7831,
       "forecast_location_id": 7831,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2553,9 +3234,13 @@
       "lon": -58.01988602,
       "file": "7706.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7706,
       "forecast_location_id": 7706,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2568,9 +3253,13 @@
       "lon": -59.31877518,
       "file": "7852.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7852,
       "forecast_location_id": 7852,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2583,9 +3272,13 @@
       "lon": -58.50944519,
       "file": "7851.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7851,
       "forecast_location_id": 7851,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2598,9 +3291,13 @@
       "lon": -59.64457321,
       "file": "7533.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7533,
       "forecast_location_id": 7533,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2613,9 +3310,13 @@
       "lon": -60.52070999,
       "file": "7641.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 7641,
       "forecast_location_id": 7641,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2628,9 +3329,13 @@
       "lon": -57.7201772,
       "file": "8247.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8247,
       "forecast_location_id": 8247,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2643,9 +3348,13 @@
       "lon": -58.172627,
       "file": "8296.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8296,
       "forecast_location_id": 8296,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2658,9 +3367,13 @@
       "lon": -60.60166982,
       "file": "8088.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8088,
       "forecast_location_id": 8088,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2673,9 +3386,13 @@
       "lon": -59.11330516,
       "file": "8207.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8207,
       "forecast_location_id": 8207,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2688,9 +3405,13 @@
       "lon": -65.35055542,
       "file": "8480.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8480,
       "forecast_location_id": 8480,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2703,9 +3424,13 @@
       "lon": -65.59802993,
       "file": "8368.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8368,
       "forecast_location_id": 8368,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2718,9 +3443,13 @@
       "lon": -64.79302216,
       "file": "8764.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8764,
       "forecast_location_id": 8764,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2733,9 +3462,13 @@
       "lon": -65.20394897,
       "file": "8578.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8578,
       "forecast_location_id": 8578,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2748,9 +3481,13 @@
       "lon": -65.11437967,
       "file": "8567.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8567,
       "forecast_location_id": 8567,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2763,9 +3500,13 @@
       "lon": -65.5014,
       "file": "8465.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8480,
       "forecast_location_id": 8465,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "JUJUY AERO"
     },
     {
@@ -2778,9 +3519,13 @@
       "lon": -64.85923004,
       "file": "8623.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8623,
       "forecast_location_id": 8623,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2793,9 +3538,13 @@
       "lon": -65.2943573,
       "file": "8618.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8618,
       "forecast_location_id": 8618,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2808,9 +3557,13 @@
       "lon": -65.3926,
       "file": "8491.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8480,
       "forecast_location_id": 8491,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "JUJUY AERO"
     },
     {
@@ -2823,9 +3576,13 @@
       "lon": -67.71451569,
       "file": "8866.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8866,
       "forecast_location_id": 8866,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2838,9 +3595,13 @@
       "lon": -64.29443359,
       "file": "8786.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8786,
       "forecast_location_id": 8786,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2853,9 +3614,13 @@
       "lon": -64.59938812,
       "file": "8873.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8873,
       "forecast_location_id": 8873,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2868,9 +3633,13 @@
       "lon": -63.75950241,
       "file": "8803.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8803,
       "forecast_location_id": 8803,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2883,9 +3652,13 @@
       "lon": -63.59208298,
       "file": "8808.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8808,
       "forecast_location_id": 8808,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2898,9 +3671,13 @@
       "lon": -64.29059601,
       "file": "8861.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8861,
       "forecast_location_id": 8861,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2913,9 +3690,13 @@
       "lon": -65.43605804,
       "file": "8817.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8786,
       "forecast_location_id": 8817,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2928,9 +3709,13 @@
       "lon": -66.80749512,
       "file": "9281.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9281,
       "forecast_location_id": 9281,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2943,9 +3728,13 @@
       "lon": -66.31256866,
       "file": "9117.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9117,
       "forecast_location_id": 9117,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2958,9 +3747,13 @@
       "lon": -66.59257507,
       "file": "9254.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9254,
       "forecast_location_id": 9254,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2973,9 +3766,13 @@
       "lon": -67.49515533,
       "file": "8969.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8969,
       "forecast_location_id": 8969,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -2988,9 +3785,13 @@
       "lon": -66.84742737,
       "file": "8994.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 8994,
       "forecast_location_id": 8994,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3003,9 +3804,13 @@
       "lon": -67.68930054,
       "file": "9560.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9560,
       "forecast_location_id": 9560,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3018,9 +3823,13 @@
       "lon": -69.5844391,
       "file": "9296.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9296,
       "forecast_location_id": 9296,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3033,9 +3842,13 @@
       "lon": -68.84480286,
       "file": "9378.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9378,
       "forecast_location_id": 9378,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3048,9 +3861,13 @@
       "lon": -69.76081085,
       "file": "9360.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9360,
       "forecast_location_id": 9360,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3063,9 +3880,13 @@
       "lon": -69.04284668,
       "file": "9534.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9534,
       "forecast_location_id": 9534,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3078,9 +3899,13 @@
       "lon": -68.46781158,
       "file": "9450.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9450,
       "forecast_location_id": 9450,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3093,9 +3918,13 @@
       "lon": -68.32798004,
       "file": "9553.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9553,
       "forecast_location_id": 9553,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3108,9 +3937,13 @@
       "lon": -69.02268982,
       "file": "9539.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9539,
       "forecast_location_id": 9539,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3123,9 +3956,13 @@
       "lon": -69.34659024,
       "file": "9352.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9352,
       "forecast_location_id": 9352,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3138,9 +3975,13 @@
       "lon": -55.75431442,
       "file": "9629.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9629,
       "forecast_location_id": 9629,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3153,9 +3994,13 @@
       "lon": -53.64705502,
       "file": "9589.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9589,
       "forecast_location_id": 9589,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3168,9 +4013,13 @@
       "lon": -54.62450409,
       "file": "9655.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9655,
       "forecast_location_id": 9655,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3183,9 +4032,13 @@
       "lon": -55.12044907,
       "file": "9743.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9743,
       "forecast_location_id": 9743,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3198,9 +4051,13 @@
       "lon": -55.89886856,
       "file": "9598.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9598,
       "forecast_location_id": 9598,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3213,9 +4070,13 @@
       "lon": -54.57235336,
       "file": "9585.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9585,
       "forecast_location_id": 9585,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3228,9 +4089,13 @@
       "lon": -71.0555,
       "file": "9886.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10827,
       "forecast_location_id": 9886,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "CHAPELCO AERO"
     },
     {
@@ -3243,9 +4108,13 @@
       "lon": -71.19941711,
       "file": "10025.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10025,
       "forecast_location_id": 10025,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3258,9 +4127,13 @@
       "lon": -69.22969055,
       "file": "9949.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9949,
       "forecast_location_id": 9949,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3273,9 +4146,13 @@
       "lon": -68.07512665,
       "file": "9903.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9903,
       "forecast_location_id": 9903,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3288,9 +4165,13 @@
       "lon": -71.353302,
       "file": "10026.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10026,
       "forecast_location_id": 10026,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3303,9 +4184,13 @@
       "lon": -71.64148846,
       "file": "10015.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10015,
       "forecast_location_id": 10015,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3318,9 +4203,13 @@
       "lon": -71.1691,
       "file": "9908.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10827,
       "forecast_location_id": 9908,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "CHAPELCO AERO"
     },
     {
@@ -3333,9 +4222,13 @@
       "lon": -70.06330872,
       "file": "9933.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 9933,
       "forecast_location_id": 9933,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3348,9 +4241,13 @@
       "lon": -65.65817703,
       "file": "30.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 30,
       "forecast_location_id": 30,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3363,9 +4260,13 @@
       "lon": -67.99762726,
       "file": "19.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 19,
       "forecast_location_id": 19,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3378,9 +4279,13 @@
       "lon": -71.53554535,
       "file": "133.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 133,
       "forecast_location_id": 133,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3393,9 +4298,13 @@
       "lon": -67.57389069,
       "file": "60.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 60,
       "forecast_location_id": 60,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3408,9 +4317,13 @@
       "lon": -65.0929,
       "file": "114.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 117,
       "forecast_location_id": 114,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SAN ANTONIO OESTE AERO"
     },
     {
@@ -3423,9 +4336,13 @@
       "lon": -68.70127869,
       "file": "169.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 169,
       "forecast_location_id": 169,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3438,9 +4355,13 @@
       "lon": -64.09385713,
       "file": "29.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 29,
       "forecast_location_id": 29,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3453,9 +4374,13 @@
       "lon": -64.94474792,
       "file": "117.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 117,
       "forecast_location_id": 117,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3468,9 +4393,13 @@
       "lon": -71.29316711,
       "file": "137.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 137,
       "forecast_location_id": 137,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3483,9 +4412,13 @@
       "lon": -62.99342346,
       "file": "132.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 132,
       "forecast_location_id": 132,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3498,9 +4431,13 @@
       "lon": -67.08444214,
       "file": "47.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 47,
       "forecast_location_id": 47,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3513,9 +4450,13 @@
       "lon": -66.1658,
       "file": "896.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 896,
       "forecast_location_id": 896,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SALTA AERO"
     },
     {
@@ -3528,9 +4469,13 @@
       "lon": -65.9825,
       "file": "1222.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 896,
       "forecast_location_id": 1222,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "METAN"
     },
     {
@@ -3543,9 +4488,13 @@
       "lon": -65.2188,
       "file": "204.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 204,
       "forecast_location_id": 204,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "LA QUIACA OBSERVATORIO"
     },
     {
@@ -3558,9 +4507,13 @@
       "lon": -64.97684479,
       "file": "1018.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1018,
       "forecast_location_id": 1018,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3573,9 +4526,13 @@
       "lon": -62.88651112,
       "file": "794.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 794,
       "forecast_location_id": 794,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3588,9 +4545,13 @@
       "lon": -65.42250824,
       "file": "454.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 454,
       "forecast_location_id": 454,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3603,9 +4564,13 @@
       "lon": -66.3205,
       "file": "765.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 765,
       "forecast_location_id": 765,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "SALTA AERO"
     },
     {
@@ -3618,9 +4583,13 @@
       "lon": -64.32727814,
       "file": "365.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 365,
       "forecast_location_id": 365,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3633,9 +4602,13 @@
       "lon": -63.79915237,
       "file": "291.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 291,
       "forecast_location_id": 291,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3648,9 +4621,13 @@
       "lon": -68.28041136,
       "file": "1449.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1449,
       "forecast_location_id": 1449,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3663,9 +4640,13 @@
       "lon": -68.74830627,
       "file": "1298.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1298,
       "forecast_location_id": 1298,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3678,9 +4659,13 @@
       "lon": -68.51115417,
       "file": "1425.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1425,
       "forecast_location_id": 1425,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3693,9 +4678,13 @@
       "lon": -65.18560028,
       "file": "1769.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1769,
       "forecast_location_id": 1769,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3708,9 +4697,13 @@
       "lon": -65.61416626,
       "file": "1758.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1758,
       "forecast_location_id": 1758,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3723,9 +4716,13 @@
       "lon": -65.01524353,
       "file": "1670.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1670,
       "forecast_location_id": 1670,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3738,9 +4735,13 @@
       "lon": -66.33309174,
       "file": "1712.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1712,
       "forecast_location_id": 1712,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3753,9 +4754,13 @@
       "lon": -65.19670868,
       "file": "1656.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1656,
       "forecast_location_id": 1656,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3768,9 +4773,13 @@
       "lon": -65.38409248,
       "file": "1754.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1754,
       "forecast_location_id": 1754,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3783,9 +4792,13 @@
       "lon": -67.5220871,
       "file": "1808.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1808,
       "forecast_location_id": 1808,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3798,9 +4811,13 @@
       "lon": -72.26842674,
       "file": "1840.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1840,
       "forecast_location_id": 1840,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3813,9 +4830,13 @@
       "lon": -72.8849,
       "file": "1830.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1840,
       "forecast_location_id": 1830,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "EL CALAFATE AERO"
     },
     {
@@ -3828,9 +4849,13 @@
       "lon": -70.24363708,
       "file": "1827.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1827,
       "forecast_location_id": 1827,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3843,9 +4868,13 @@
       "lon": -70.91318512,
       "file": "1795.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1795,
       "forecast_location_id": 1795,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3858,9 +4887,13 @@
       "lon": -65.89685059,
       "file": "1857.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1857,
       "forecast_location_id": 1857,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3873,9 +4906,13 @@
       "lon": -67.72885132,
       "file": "1860.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1860,
       "forecast_location_id": 1860,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3888,9 +4925,13 @@
       "lon": -68.52765656,
       "file": "1865.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1865,
       "forecast_location_id": 1865,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3903,9 +4944,13 @@
       "lon": -69.22193909,
       "file": "1868.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1868,
       "forecast_location_id": 1868,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3918,9 +4963,13 @@
       "lon": -72.33593163,
       "file": "1844.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1840,
       "forecast_location_id": 1844,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3933,9 +4982,13 @@
       "lon": -61.16872025,
       "file": "2368.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2368,
       "forecast_location_id": 2368,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3948,9 +5001,13 @@
       "lon": -61.94578934,
       "file": "1967.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1967,
       "forecast_location_id": 1967,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3963,9 +5020,13 @@
       "lon": -61.70098877,
       "file": "2250.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2250,
       "forecast_location_id": 2250,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3978,9 +5039,13 @@
       "lon": -61.58155441,
       "file": "2248.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2248,
       "forecast_location_id": 2248,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -3993,9 +5058,13 @@
       "lon": -61.45549774,
       "file": "2410.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2410,
       "forecast_location_id": 2410,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4008,9 +5077,13 @@
       "lon": -61.484478,
       "file": "2199.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2199,
       "forecast_location_id": 2199,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4023,9 +5096,13 @@
       "lon": -59.64865112,
       "file": "2006.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2006,
       "forecast_location_id": 2006,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4038,9 +5115,13 @@
       "lon": -60.64033508,
       "file": "2278.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2278,
       "forecast_location_id": 2278,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4053,9 +5134,13 @@
       "lon": -61.23562241,
       "file": "2077.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2077,
       "forecast_location_id": 2077,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4068,9 +5153,13 @@
       "lon": -59.93152237,
       "file": "2062.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2062,
       "forecast_location_id": 2062,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4083,9 +5172,13 @@
       "lon": -60.70919418,
       "file": "2195.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2195,
       "forecast_location_id": 2195,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4098,9 +5191,13 @@
       "lon": -61.82943726,
       "file": "2124.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2124,
       "forecast_location_id": 2124,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4113,9 +5210,13 @@
       "lon": -60.83609586,
       "file": "2168.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2195,
       "forecast_location_id": 2168,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4128,9 +5229,13 @@
       "lon": -61.56054306,
       "file": "2060.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2060,
       "forecast_location_id": 2060,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4143,9 +5248,13 @@
       "lon": -61.77229691,
       "file": "1960.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 1960,
       "forecast_location_id": 1960,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4158,9 +5267,13 @@
       "lon": -61.97003174,
       "file": "2317.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2317,
       "forecast_location_id": 2317,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4173,9 +5286,13 @@
       "lon": -62.82564163,
       "file": "3574.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3574,
       "forecast_location_id": 3574,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4188,9 +5305,13 @@
       "lon": -65.12717438,
       "file": "3327.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 3327,
       "forecast_location_id": 3327,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4203,9 +5324,13 @@
       "lon": -64.26761627,
       "file": "2954.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2954,
       "forecast_location_id": 2954,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4218,9 +5343,127 @@
       "lon": -64.86672211,
       "file": "2819.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 2819,
       "forecast_location_id": 2819,
       "used_reference": false,
+      "preserved_previous_file": false,
+      "station_name": null
+    },
+    {
+      "id": 10806,
+      "name": "Base Belgrano II",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "area": null,
+      "lat": -77.852,
+      "lon": -34.551,
+      "file": "10806.json",
+      "days": 0,
+      "has_forecast": false,
+      "has_current_conditions": true,
+      "data_status": "observation_only",
+      "forecast_reference_id": 10806,
+      "forecast_location_id": null,
+      "used_reference": false,
+      "preserved_previous_file": false,
+      "station_name": null
+    },
+    {
+      "id": 10811,
+      "name": "Base Carlini",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "area": null,
+      "lat": -62.233,
+      "lon": -58.667,
+      "file": "10811.json",
+      "days": 0,
+      "has_forecast": false,
+      "has_current_conditions": true,
+      "data_status": "observation_only",
+      "forecast_reference_id": 10811,
+      "forecast_location_id": null,
+      "used_reference": false,
+      "preserved_previous_file": false,
+      "station_name": null
+    },
+    {
+      "id": 10810,
+      "name": "Base Esperanza",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "area": null,
+      "lat": -63.4,
+      "lon": -56.984,
+      "file": "10810.json",
+      "days": 0,
+      "has_forecast": false,
+      "has_current_conditions": true,
+      "data_status": "observation_only",
+      "forecast_reference_id": 10810,
+      "forecast_location_id": null,
+      "used_reference": false,
+      "preserved_previous_file": false,
+      "station_name": null
+    },
+    {
+      "id": 10818,
+      "name": "Base Marambio",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "area": null,
+      "lat": -64.233333,
+      "lon": -56.633333,
+      "file": "10818.json",
+      "days": 0,
+      "has_forecast": false,
+      "has_current_conditions": true,
+      "data_status": "observation_only",
+      "forecast_reference_id": 10818,
+      "forecast_location_id": null,
+      "used_reference": false,
+      "preserved_previous_file": false,
+      "station_name": null
+    },
+    {
+      "id": 10814,
+      "name": "Base Orcadas",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "area": null,
+      "lat": -60.734,
+      "lon": -44.734,
+      "file": "10814.json",
+      "days": 0,
+      "has_forecast": false,
+      "has_current_conditions": true,
+      "data_status": "observation_only",
+      "forecast_reference_id": 10814,
+      "forecast_location_id": null,
+      "used_reference": false,
+      "preserved_previous_file": false,
+      "station_name": null
+    },
+    {
+      "id": 10817,
+      "name": "Base San Martín",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "area": null,
+      "lat": -68.133,
+      "lon": -67.1,
+      "file": "10817.json",
+      "days": 0,
+      "has_forecast": false,
+      "has_current_conditions": true,
+      "data_status": "observation_only",
+      "forecast_reference_id": 10817,
+      "forecast_location_id": null,
+      "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4233,9 +5476,13 @@
       "lon": -64.3909,
       "file": "10861.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5908,
       "forecast_location_id": 10861,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "RIO GRANDE B.A."
     },
     {
@@ -4248,9 +5495,13 @@
       "lon": -57.85905838,
       "file": "5971.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5971,
       "forecast_location_id": 5971,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4263,9 +5514,13 @@
       "lon": -67.70848083,
       "file": "5912.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5912,
       "forecast_location_id": 5912,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4278,9 +5533,13 @@
       "lon": -67.18571464,
       "file": "5905.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5905,
       "forecast_location_id": 5905,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4293,9 +5552,13 @@
       "lon": -68.32913208,
       "file": "5908.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 5908,
       "forecast_location_id": 5908,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4308,9 +5571,13 @@
       "lon": -65.61722565,
       "file": "10290.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10290,
       "forecast_location_id": 10290,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4323,9 +5590,13 @@
       "lon": -65.58698273,
       "file": "10287.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10287,
       "forecast_location_id": 10287,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4338,9 +5609,13 @@
       "lon": -65.20252991,
       "file": "10118.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10118,
       "forecast_location_id": 10118,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
@@ -4353,9 +5628,13 @@
       "lon": -65.7067,
       "file": "10059.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10835,
       "forecast_location_id": 10059,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": "TUCUMAN AERO"
     },
     {
@@ -4368,96 +5647,15 @@
       "lon": -65.25849152,
       "file": "10120.json",
       "days": 7,
+      "has_forecast": true,
+      "has_current_conditions": false,
+      "data_status": "forecast_available",
       "forecast_reference_id": 10120,
       "forecast_location_id": 10120,
       "used_reference": false,
+      "preserved_previous_file": false,
       "station_name": null
     }
   ],
-  "failed": [
-    {
-      "id": 10806,
-      "name": "Base Belgrano II",
-      "department": null,
-      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "forecast_reference_id": 10806,
-      "attempts": [
-        {
-          "id": 10806,
-          "error": "HTTP 404 para el ID 10806",
-          "cached": false
-        }
-      ]
-    },
-    {
-      "id": 10811,
-      "name": "Base Carlini",
-      "department": null,
-      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "forecast_reference_id": 10811,
-      "attempts": [
-        {
-          "id": 10811,
-          "error": "HTTP 404 para el ID 10811",
-          "cached": false
-        }
-      ]
-    },
-    {
-      "id": 10810,
-      "name": "Base Esperanza",
-      "department": null,
-      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "forecast_reference_id": 10810,
-      "attempts": [
-        {
-          "id": 10810,
-          "error": "HTTP 404 para el ID 10810",
-          "cached": false
-        }
-      ]
-    },
-    {
-      "id": 10818,
-      "name": "Base Marambio",
-      "department": null,
-      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "forecast_reference_id": 10818,
-      "attempts": [
-        {
-          "id": 10818,
-          "error": "HTTP 404 para el ID 10818",
-          "cached": false
-        }
-      ]
-    },
-    {
-      "id": 10814,
-      "name": "Base Orcadas",
-      "department": null,
-      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "forecast_reference_id": 10814,
-      "attempts": [
-        {
-          "id": 10814,
-          "error": "HTTP 404 para el ID 10814",
-          "cached": false
-        }
-      ]
-    },
-    {
-      "id": 10817,
-      "name": "Base San Martín",
-      "department": null,
-      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "forecast_reference_id": 10817,
-      "attempts": [
-        {
-          "id": 10817,
-          "error": "HTTP 404 para el ID 10817",
-          "cached": false
-        }
-      ]
-    }
-  ]
+  "failed": []
 }

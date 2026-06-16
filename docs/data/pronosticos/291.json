@@ -3,13 +3,10 @@
   "location": {
     "id": 291,
     "name": "Tartagal",
-    "department": "General José de San Martín",
+    "department": null,
     "province": "Salta",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -63.7992,
-      "lat": -22.5115
-    }
+    "lat": -22.51148033,
+    "lon": -63.79915237
   },
   "type": "location",
   "forecast": [
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 12.0,
-      "temp_max": 22.0,
+      "temp_max": 21.0,
       "humidity_min": 54.0,
       "humidity_max": 87.0,
       "early_morning": {
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 22.0,
+        "temperature": 21.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -160,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -184,7 +181,7 @@
       "temp_min": 12.0,
       "temp_max": 21.0,
       "humidity_min": 44.0,
-      "humidity_max": 76.0,
+      "humidity_max": 81.0,
       "early_morning": null,
       "morning": {
         "humidity": 76.0,
@@ -249,7 +246,7 @@
         "humidity": 78.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 15.0,
@@ -288,8 +285,8 @@
           "direction": "SE",
           "deg": 135.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -299,31 +296,31 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 14.0,
+      "temp_min": 11.0,
       "temp_max": 20.0,
       "humidity_min": 47.0,
-      "humidity_max": 47.0,
+      "humidity_max": 76.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 76.0,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            7,
-            12
+            0,
+            2
           ]
         },
         "river": null,
@@ -344,8 +341,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             7,
             12
@@ -403,8 +400,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "NE",
-          "deg": 67.5,
+          "direction": "SE",
+          "deg": 135.0,
           "speed_range": [
             7,
             12
@@ -418,12 +415,12 @@
     {
       "date": "2026-06-22",
       "temp_min": 12.0,
-      "temp_max": 23.0,
+      "temp_max": 21.0,
       "humidity_min": 63.0,
-      "humidity_max": 63.0,
+      "humidity_max": 92.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 92.0,
         "rain_prob_range": [
           0,
           0
@@ -431,17 +428,17 @@
         "gust_range": null,
         "temperature": 12.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.9,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "SO",
-          "deg": 225.0,
+          "direction": "SE",
+          "deg": 157.5,
           "speed_range": [
-            0,
-            2
+            7,
+            12
           ]
         },
         "river": null,
@@ -454,16 +451,16 @@
           0
         ],
         "gust_range": null,
-        "temperature": 23.0,
+        "temperature": 21.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 112.5,
+          "direction": "SE",
+          "deg": 157.5,
           "speed_range": [
             7,
             12
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 291,
+    "name": "Tartagal",
+    "department": "General José de San Martín",
+    "province": "Salta",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -63.7992,
+      "lat": -22.5115
+    }
+  },
   "catalog_location": {
     "id": 291,
     "name": "Tartagal",
@@ -489,7 +497,9 @@
     "forecast_location_id": 291,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/291",
-  "generated_at": "2026-06-16T17:22:01.588032+00:00"
+  "generated_at": "2026-06-16T20:15:16.471513+00:00"
 }

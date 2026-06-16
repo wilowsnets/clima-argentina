@@ -3,13 +3,10 @@
   "location": {
     "id": 8817,
     "name": "Victorica",
-    "department": "Loventue",
+    "department": null,
     "province": "La Pampa",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.4361,
-      "lat": -36.2186
-    }
+    "lat": -36.21860123,
+    "lon": -65.43605804
   },
   "type": "location",
   "forecast": [
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 2.0,
-      "temp_max": 15.0,
+      "temp_max": 14.0,
       "humidity_min": 41.0,
       "humidity_max": 54.0,
       "early_morning": {
@@ -114,8 +111,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NE",
@@ -138,7 +135,7 @@
           42,
           50
         ],
-        "temperature": 15.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -166,7 +163,7 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -189,7 +186,7 @@
       "date": "2026-06-18",
       "temp_min": 8.0,
       "temp_max": 15.0,
-      "humidity_min": 55.0,
+      "humidity_min": 32.0,
       "humidity_max": 78.0,
       "early_morning": null,
       "morning": {
@@ -290,15 +287,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "NE",
           "deg": 45.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -328,8 +325,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "SE",
+          "deg": 157.5,
           "speed_range": [
             13,
             22
@@ -353,8 +350,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
             13,
             22
@@ -376,7 +373,7 @@
         "humidity": 74.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 7.0,
@@ -387,11 +384,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -403,7 +400,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.1,
@@ -412,11 +412,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -428,11 +428,11 @@
       "date": "2026-06-22",
       "temp_min": 2.0,
       "temp_max": 11.0,
-      "humidity_min": 72.0,
+      "humidity_min": 46.0,
       "humidity_max": 72.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 46.0,
         "rain_prob_range": [
           0,
           0
@@ -440,17 +440,17 @@
         "gust_range": null,
         "temperature": 2.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -462,7 +462,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 1.9,
@@ -471,11 +474,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -484,6 +487,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 8817,
+    "name": "Victorica",
+    "department": "Loventue",
+    "province": "La Pampa",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.4361,
+      "lat": -36.2186
+    }
+  },
   "catalog_location": {
     "id": 8817,
     "name": "Victorica",
@@ -498,7 +512,9 @@
     "forecast_location_id": 8817,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8817",
-  "generated_at": "2026-06-16T17:21:41.725496+00:00"
+  "generated_at": "2026-06-16T20:14:57.088617+00:00"
 }

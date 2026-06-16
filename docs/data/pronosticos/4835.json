@@ -5,11 +5,8 @@
     "name": "Caseros",
     "department": "Tres de Febrero",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5792,
-      "lat": -34.6031
-    }
+    "lat": -34.6031,
+    "lon": -58.5792
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4835,
+    "name": "Caseros",
+    "department": "Tres de Febrero",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5792,
+      "lat": -34.6031
+    }
+  },
   "catalog_location": {
     "id": 4835,
     "name": "Caseros",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4835,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4835",
-  "generated_at": "2026-06-16T17:20:28.887973+00:00"
+  "generated_at": "2026-06-16T20:13:45.159907+00:00"
 }

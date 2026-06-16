@@ -3,13 +3,10 @@
   "location": {
     "id": 4617,
     "name": "Pergamino",
-    "department": "Pergamino",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -60.5696,
-      "lat": -33.8968
-    }
+    "lat": -33.89677429,
+    "lon": -60.56956482
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4617,
+    "name": "Pergamino",
+    "department": "Pergamino",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -60.5696,
+      "lat": -33.8968
+    }
+  },
   "catalog_location": {
     "id": 4617,
     "name": "Pergamino",
@@ -492,7 +500,9 @@
     "forecast_location_id": 4617,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4617",
-  "generated_at": "2026-06-16T17:20:55.693930+00:00"
+  "generated_at": "2026-06-16T20:14:11.531524+00:00"
 }

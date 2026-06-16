@@ -3,13 +3,10 @@
   "location": {
     "id": 5257,
     "name": "Tinogasta",
-    "department": "Tinogasta",
+    "department": null,
     "province": "Catamarca",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -67.5644,
-      "lat": -28.0619
-    }
+    "lat": -28.06189346,
+    "lon": -67.5644455
   },
   "type": "location",
   "forecast": [
@@ -53,7 +50,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 7.0,
-      "temp_max": 17.0,
+      "temp_max": 15.0,
       "humidity_min": 41.0,
       "humidity_max": 68.0,
       "early_morning": {
@@ -85,7 +82,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -160,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -181,7 +178,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 7.0,
+      "temp_min": 4.0,
       "temp_max": 17.0,
       "humidity_min": 42.0,
       "humidity_max": 61.0,
@@ -193,7 +190,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -300,7 +297,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 2.0,
-      "temp_max": 18.0,
+      "temp_max": 15.0,
       "humidity_min": 34.0,
       "humidity_max": 49.0,
       "early_morning": null,
@@ -336,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +356,7 @@
     {
       "date": "2026-06-21",
       "temp_min": 3.0,
-      "temp_max": 16.0,
+      "temp_max": 12.0,
       "humidity_min": 52.0,
       "humidity_max": 74.0,
       "early_morning": null,
@@ -395,7 +392,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -417,8 +414,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 9.0,
-      "temp_max": 16.0,
+      "temp_min": 3.0,
+      "temp_max": 12.0,
       "humidity_min": 52.0,
       "humidity_max": 52.0,
       "early_morning": null,
@@ -429,7 +426,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -454,7 +451,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5257,
+    "name": "Tinogasta",
+    "department": "Tinogasta",
+    "province": "Catamarca",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -67.5644,
+      "lat": -28.0619
+    }
+  },
   "catalog_location": {
     "id": 5257,
     "name": "Tinogasta",
@@ -489,7 +497,9 @@
     "forecast_location_id": 5257,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5257",
-  "generated_at": "2026-06-16T17:21:13.792244+00:00"
+  "generated_at": "2026-06-16T20:14:29.240865+00:00"
 }

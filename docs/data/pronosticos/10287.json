@@ -3,13 +3,10 @@
   "location": {
     "id": 10287,
     "name": "Concepción",
-    "department": "Chicligasta",
+    "department": null,
     "province": "Tucumán",
-    "type": "Localidad",
-    "coord": {
-      "lon": -65.587,
-      "lat": -27.3392
-    }
+    "lat": -27.33919716,
+    "lon": -65.58698273
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10287,
+    "name": "Concepción",
+    "department": "Chicligasta",
+    "province": "Tucumán",
+    "type": "Localidad",
+    "coord": {
+      "lon": -65.587,
+      "lat": -27.3392
+    }
+  },
   "catalog_location": {
     "id": 10287,
     "name": "Concepción",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10287,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10287",
-  "generated_at": "2026-06-16T17:22:22.967533+00:00"
+  "generated_at": "2026-06-16T20:15:43.593093+00:00"
 }

@@ -3,13 +3,10 @@
   "location": {
     "id": 29,
     "name": "Río Colorado",
-    "department": "Pichi Mahuida",
+    "department": null,
     "province": "Río Negro",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -64.0939,
-      "lat": -38.9968
-    }
+    "lat": -38.99683032,
+    "lon": -64.09385713
   },
   "type": "location",
   "forecast": [
@@ -502,6 +499,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 29,
+    "name": "Río Colorado",
+    "department": "Pichi Mahuida",
+    "province": "Río Negro",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -64.0939,
+      "lat": -38.9968
+    }
+  },
   "catalog_location": {
     "id": 29,
     "name": "Río Colorado",
@@ -516,7 +524,9 @@
     "forecast_location_id": 29,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/29",
-  "generated_at": "2026-06-16T17:21:56.076907+00:00"
+  "generated_at": "2026-06-16T20:15:11.209364+00:00"
 }

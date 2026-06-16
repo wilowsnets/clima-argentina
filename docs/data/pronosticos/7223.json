@@ -3,13 +3,10 @@
   "location": {
     "id": 7223,
     "name": "Empedrado",
-    "department": "Empedrado",
+    "department": null,
     "province": "Corrientes",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.8075,
-      "lat": -27.9535
-    }
+    "lat": -27.95345344,
+    "lon": -58.80745369
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7223,
+    "name": "Empedrado",
+    "department": "Empedrado",
+    "province": "Corrientes",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.8075,
+      "lat": -27.9535
+    }
+  },
   "catalog_location": {
     "id": 7223,
     "name": "Empedrado",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7223,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7223",
-  "generated_at": "2026-06-16T17:21:28.614930+00:00"
+  "generated_at": "2026-06-16T20:14:43.817411+00:00"
 }

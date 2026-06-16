@@ -5,11 +5,8 @@
     "name": "Remedios de Escalada",
     "department": "Lanús",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.3932,
-      "lat": -34.7253
-    }
+    "lat": -34.7253,
+    "lon": -58.3932
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10614,
+    "name": "Remedios de Escalada",
+    "department": "Lanús",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.3932,
+      "lat": -34.7253
+    }
+  },
   "catalog_location": {
     "id": 10614,
     "name": "Remedios de Escalada",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10614,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10614",
-  "generated_at": "2026-06-16T17:20:59.368132+00:00"
+  "generated_at": "2026-06-16T20:14:15.113054+00:00"
 }

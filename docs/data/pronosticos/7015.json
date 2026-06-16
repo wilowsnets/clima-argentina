@@ -3,13 +3,10 @@
   "location": {
     "id": 7015,
     "name": "La Carlota",
-    "department": "Juárez Celman",
+    "department": null,
     "province": "Córdoba",
-    "type": "Localidad",
-    "coord": {
-      "lon": -63.2975,
-      "lat": -33.4234
-    }
+    "lat": -33.42341232,
+    "lon": -63.29754639
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7015,
+    "name": "La Carlota",
+    "department": "Juárez Celman",
+    "province": "Córdoba",
+    "type": "Localidad",
+    "coord": {
+      "lon": -63.2975,
+      "lat": -33.4234
+    }
+  },
   "catalog_location": {
     "id": 7015,
     "name": "La Carlota",
@@ -492,7 +500,9 @@
     "forecast_location_id": 7015,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7015",
-  "generated_at": "2026-06-16T17:21:22.383690+00:00"
+  "generated_at": "2026-06-16T20:14:37.747670+00:00"
 }

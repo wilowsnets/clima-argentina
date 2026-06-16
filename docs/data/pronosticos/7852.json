@@ -3,13 +3,10 @@
   "location": {
     "id": 7852,
     "name": "Gualeguay",
-    "department": "Gualeguay",
+    "department": null,
     "province": "Entre Ríos",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -59.3188,
-      "lat": -33.1514
-    }
+    "lat": -33.15135193,
+    "lon": -59.31877518
   },
   "type": "location",
   "forecast": [
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 5.0,
-      "temp_max": 16.0,
+      "temp_max": 14.0,
       "humidity_min": 59.0,
       "humidity_max": 96.0,
       "early_morning": {
@@ -86,11 +83,11 @@
         ],
         "gust_range": null,
         "temperature": 7.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Niebla",
+          "id": 67
         },
         "wind": {
           "direction": "SE",
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -187,13 +184,13 @@
       "temp_min": 10.0,
       "temp_max": 13.0,
       "humidity_min": 46.0,
-      "humidity_max": 75.0,
+      "humidity_max": 96.0,
       "early_morning": null,
       "morning": {
         "humidity": 75.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 10.0,
@@ -217,16 +214,16 @@
       "afternoon": {
         "humidity": 46.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": 13.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Lluvias",
+          "id": 73
         },
         "wind": {
           "direction": "N",
@@ -252,15 +249,15 @@
         "humidity": 88.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 1.8,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -291,8 +288,8 @@
           "direction": "S",
           "deg": 202.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -302,7 +299,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 10.0,
+      "temp_min": 6.0,
       "temp_max": 15.0,
       "humidity_min": 77.0,
       "humidity_max": 92.0,
@@ -314,7 +311,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.5,
         "weather": {
@@ -322,11 +319,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            0,
+            2
           ]
         },
         "river": null,
@@ -347,11 +344,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -381,11 +378,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            7,
-            12
+            0,
+            2
           ]
         },
         "river": null,
@@ -423,10 +420,10 @@
       "temp_min": 5.0,
       "temp_max": 14.0,
       "humidity_min": 56.0,
-      "humidity_max": 56.0,
+      "humidity_max": 60.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 60.0,
         "rain_prob_range": [
           0,
           10
@@ -434,14 +431,14 @@
         "gust_range": null,
         "temperature": 5.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
             13,
             22
@@ -454,7 +451,7 @@
         "humidity": 56.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 14.0,
@@ -465,8 +462,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             7,
             12
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7852,
+    "name": "Gualeguay",
+    "department": "Gualeguay",
+    "province": "Entre Ríos",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -59.3188,
+      "lat": -33.1514
+    }
+  },
   "catalog_location": {
     "id": 7852,
     "name": "Gualeguay",
@@ -492,7 +500,9 @@
     "forecast_location_id": 7852,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7852",
-  "generated_at": "2026-06-16T17:21:32.314291+00:00"
+  "generated_at": "2026-06-16T20:14:47.490097+00:00"
 }

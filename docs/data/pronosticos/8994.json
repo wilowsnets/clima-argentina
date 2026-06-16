@@ -3,13 +3,10 @@
   "location": {
     "id": 8994,
     "name": "La Rioja",
-    "department": "Capital",
+    "department": null,
     "province": "La Rioja",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -66.8474,
-      "lat": -29.4132
-    }
+    "lat": -29.41323662,
+    "lon": -66.84742737
   },
   "type": "location",
   "forecast": [
@@ -53,7 +50,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 7.0,
-      "temp_max": 17.0,
+      "temp_max": 15.0,
       "humidity_min": 52.0,
       "humidity_max": 86.0,
       "early_morning": {
@@ -85,7 +82,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -181,7 +178,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 10.0,
+      "temp_min": 7.0,
       "temp_max": 16.0,
       "humidity_min": 57.0,
       "humidity_max": 96.0,
@@ -193,7 +190,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 7.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -300,7 +297,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 6.0,
-      "temp_max": 17.0,
+      "temp_max": 14.0,
       "humidity_min": 40.0,
       "humidity_max": 88.0,
       "early_morning": null,
@@ -336,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +356,7 @@
     {
       "date": "2026-06-21",
       "temp_min": 7.0,
-      "temp_max": 15.0,
+      "temp_max": 13.0,
       "humidity_min": 61.0,
       "humidity_max": 82.0,
       "early_morning": null,
@@ -395,7 +392,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -417,8 +414,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 12.0,
-      "temp_max": 16.0,
+      "temp_min": 7.0,
+      "temp_max": 13.0,
       "humidity_min": 74.0,
       "humidity_max": 74.0,
       "early_morning": null,
@@ -429,7 +426,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -454,7 +451,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 8994,
+    "name": "La Rioja",
+    "department": "Capital",
+    "province": "La Rioja",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -66.8474,
+      "lat": -29.4132
+    }
+  },
   "catalog_location": {
     "id": 8994,
     "name": "La Rioja",
@@ -489,7 +497,9 @@
     "forecast_location_id": 8994,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8994",
-  "generated_at": "2026-06-16T17:21:43.850444+00:00"
+  "generated_at": "2026-06-16T20:14:59.087353+00:00"
 }

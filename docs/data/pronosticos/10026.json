@@ -3,13 +3,10 @@
   "location": {
     "id": 10026,
     "name": "San Martín de Los Andes",
-    "department": "Lacar",
+    "department": null,
     "province": "Neuquén",
-    "type": "Localidad",
-    "coord": {
-      "lon": -71.3533,
-      "lat": -40.155
-    }
+    "lat": -40.15504074,
+    "lon": -71.353302
   },
   "type": "location",
   "forecast": [
@@ -493,6 +490,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10026,
+    "name": "San Martín de Los Andes",
+    "department": "Lacar",
+    "province": "Neuquén",
+    "type": "Localidad",
+    "coord": {
+      "lon": -71.3533,
+      "lat": -40.155
+    }
+  },
   "catalog_location": {
     "id": 10026,
     "name": "San Martín de Los Andes",
@@ -507,7 +515,9 @@
     "forecast_location_id": 10026,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10026",
-  "generated_at": "2026-06-16T17:21:51.941949+00:00"
+  "generated_at": "2026-06-16T20:15:07.144948+00:00"
 }

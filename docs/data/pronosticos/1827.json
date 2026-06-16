@@ -3,13 +3,10 @@
   "location": {
     "id": 1827,
     "name": "Gobernador Gregores",
-    "department": "Río Chico",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -70.2436,
-      "lat": -48.7517
-    }
+    "lat": -48.7517395,
+    "lon": -70.24363708
   },
   "type": "location",
   "forecast": [
@@ -74,7 +71,7 @@
     },
     {
       "date": "2026-06-17",
-      "temp_min": 1.0,
+      "temp_min": 2.0,
       "temp_max": 6.0,
       "humidity_min": 60.0,
       "humidity_max": 86.0,
@@ -113,7 +110,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -166,7 +163,7 @@
           51,
           59
         ],
-        "temperature": 2.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -187,8 +184,8 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": -1.0,
-      "temp_max": 8.0,
+      "temp_min": 2.0,
+      "temp_max": 9.0,
       "humidity_min": 64.0,
       "humidity_max": 88.0,
       "early_morning": null,
@@ -202,7 +199,7 @@
           60,
           69
         ],
-        "temperature": 0.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -230,7 +227,7 @@
           60,
           69
         ],
-        "temperature": 8.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -252,7 +249,7 @@
     },
     {
       "date": "2026-06-19",
-      "temp_min": 1.0,
+      "temp_min": 2.0,
       "temp_max": 7.0,
       "humidity_min": 78.0,
       "humidity_max": 85.0,
@@ -264,7 +261,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -382,7 +379,7 @@
       "temp_min": -1.0,
       "temp_max": 5.0,
       "humidity_min": 64.0,
-      "humidity_max": 81.0,
+      "humidity_max": 64.0,
       "early_morning": null,
       "morning": {
         "humidity": 81.0,
@@ -439,7 +436,7 @@
     {
       "date": "2026-06-22",
       "temp_min": -1.0,
-      "temp_max": 5.0,
+      "temp_max": 6.0,
       "humidity_min": 72.0,
       "humidity_max": 89.0,
       "early_morning": null,
@@ -475,7 +472,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -496,6 +493,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1827,
+    "name": "Gobernador Gregores",
+    "department": "Río Chico",
+    "province": "Santa Cruz",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -70.2436,
+      "lat": -48.7517
+    }
+  },
   "catalog_location": {
     "id": 1827,
     "name": "Gobernador Gregores",
@@ -510,7 +518,9 @@
     "forecast_location_id": 1827,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1827",
-  "generated_at": "2026-06-16T17:22:06.941735+00:00"
+  "generated_at": "2026-06-16T20:15:21.741140+00:00"
 }

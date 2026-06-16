@@ -3,13 +3,10 @@
   "location": {
     "id": 2006,
     "name": "Reconquista",
-    "department": "General Obligado",
+    "department": null,
     "province": "Santa Fe",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -59.6487,
-      "lat": -29.1463
-    }
+    "lat": -29.14628029,
+    "lon": -59.64865112
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 2006,
+    "name": "Reconquista",
+    "department": "General Obligado",
+    "province": "Santa Fe",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -59.6487,
+      "lat": -29.1463
+    }
+  },
   "catalog_location": {
     "id": 2006,
     "name": "Reconquista",
@@ -489,7 +497,9 @@
     "forecast_location_id": 2006,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2006",
-  "generated_at": "2026-06-16T17:22:12.202145+00:00"
+  "generated_at": "2026-06-16T20:15:27.030038+00:00"
 }

@@ -3,13 +3,10 @@
   "location": {
     "id": 2819,
     "name": "Termas de Río Hondo",
-    "department": "Río Hondo",
+    "department": null,
     "province": "Santiago del Estero",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -64.8667,
-      "lat": -27.4989
-    }
+    "lat": -27.49892807,
+    "lon": -64.86672211
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 2819,
+    "name": "Termas de Río Hondo",
+    "department": "Río Hondo",
+    "province": "Santiago del Estero",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -64.8667,
+      "lat": -27.4989
+    }
+  },
   "catalog_location": {
     "id": 2819,
     "name": "Termas de Río Hondo",
@@ -489,7 +497,9 @@
     "forecast_location_id": 2819,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2819",
-  "generated_at": "2026-06-16T17:22:17.618346+00:00"
+  "generated_at": "2026-06-16T20:15:32.311419+00:00"
 }

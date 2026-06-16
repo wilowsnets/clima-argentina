@@ -3,13 +3,10 @@
   "location": {
     "id": 60,
     "name": "General Roca",
-    "department": "General Roca",
+    "department": null,
     "province": "Río Negro",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -67.5739,
-      "lat": -39.028
-    }
+    "lat": -39.02801895,
+    "lon": -67.57389069
   },
   "type": "location",
   "forecast": [
@@ -499,6 +496,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 60,
+    "name": "General Roca",
+    "department": "General Roca",
+    "province": "Río Negro",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -67.5739,
+      "lat": -39.028
+    }
+  },
   "catalog_location": {
     "id": 60,
     "name": "General Roca",
@@ -513,7 +521,9 @@
     "forecast_location_id": 60,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/60",
-  "generated_at": "2026-06-16T17:21:54.791824+00:00"
+  "generated_at": "2026-06-16T20:15:09.977375+00:00"
 }

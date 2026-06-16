@@ -3,13 +3,10 @@
   "location": {
     "id": 6826,
     "name": "Marcos Juárez",
-    "department": "Marcos Juárez",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -62.1064,
-      "lat": -32.6991
-    }
+    "lat": -32.69905472,
+    "lon": -62.10639191
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6826,
+    "name": "Marcos Juárez",
+    "department": "Marcos Juárez",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -62.1064,
+      "lat": -32.6991
+    }
+  },
   "catalog_location": {
     "id": 6826,
     "name": "Marcos Juárez",
@@ -492,7 +500,9 @@
     "forecast_location_id": 6826,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6826",
-  "generated_at": "2026-06-16T17:21:23.180065+00:00"
+  "generated_at": "2026-06-16T20:14:38.560687+00:00"
 }

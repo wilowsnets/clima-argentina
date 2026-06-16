@@ -3,13 +3,10 @@
   "location": {
     "id": 9553,
     "name": "San Rafael",
-    "department": "San Rafael",
+    "department": null,
     "province": "Mendoza",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -68.328,
-      "lat": -34.6076
-    }
+    "lat": -34.60757828,
+    "lon": -68.32798004
   },
   "type": "location",
   "forecast": [
@@ -181,7 +178,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 7.0,
+      "temp_min": 4.0,
       "temp_max": 16.0,
       "humidity_min": 58.0,
       "humidity_max": 82.0,
@@ -193,7 +190,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 4.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -300,7 +297,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 1.0,
-      "temp_max": 15.0,
+      "temp_max": 12.0,
       "humidity_min": 44.0,
       "humidity_max": 54.0,
       "early_morning": null,
@@ -336,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +356,7 @@
     {
       "date": "2026-06-21",
       "temp_min": 3.0,
-      "temp_max": 13.0,
+      "temp_max": 11.0,
       "humidity_min": 63.0,
       "humidity_max": 85.0,
       "early_morning": null,
@@ -395,7 +392,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -417,8 +414,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 9.0,
-      "temp_max": 15.0,
+      "temp_min": 3.0,
+      "temp_max": 11.0,
       "humidity_min": 39.0,
       "humidity_max": 39.0,
       "early_morning": null,
@@ -429,7 +426,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -454,7 +451,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9553,
+    "name": "San Rafael",
+    "department": "San Rafael",
+    "province": "Mendoza",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -68.328,
+      "lat": -34.6076
+    }
+  },
   "catalog_location": {
     "id": 9553,
     "name": "San Rafael",
@@ -489,7 +497,9 @@
     "forecast_location_id": 9553,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9553",
-  "generated_at": "2026-06-16T17:21:46.645113+00:00"
+  "generated_at": "2026-06-16T20:15:01.906362+00:00"
 }

@@ -3,13 +3,10 @@
   "location": {
     "id": 5756,
     "name": "Esquel",
-    "department": "Futaleufú",
+    "department": null,
     "province": "Chubut",
-    "type": "Localidad",
-    "coord": {
-      "lon": -71.3189,
-      "lat": -42.9036
-    }
+    "lat": -42.90359116,
+    "lon": -71.31885529
   },
   "type": "location",
   "forecast": [
@@ -499,6 +496,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5756,
+    "name": "Esquel",
+    "department": "Futaleufú",
+    "province": "Chubut",
+    "type": "Localidad",
+    "coord": {
+      "lon": -71.3189,
+      "lat": -42.9036
+    }
+  },
   "catalog_location": {
     "id": 5756,
     "name": "Esquel",
@@ -513,7 +521,9 @@
     "forecast_location_id": 5756,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5756",
-  "generated_at": "2026-06-16T17:21:16.600199+00:00"
+  "generated_at": "2026-06-16T20:14:32.081231+00:00"
 }

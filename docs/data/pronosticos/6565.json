@@ -3,13 +3,10 @@
   "location": {
     "id": 6565,
     "name": "San Francisco",
-    "department": "San Justo",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -62.0832,
-      "lat": -31.432
-    }
+    "lat": -31.43204117,
+    "lon": -62.08318329
   },
   "type": "location",
   "forecast": [
@@ -75,7 +72,7 @@
     {
       "date": "2026-06-17",
       "temp_min": 6.0,
-      "temp_max": 19.0,
+      "temp_max": 18.0,
       "humidity_min": 55.0,
       "humidity_max": 91.0,
       "early_morning": {
@@ -135,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 19.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -160,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -299,7 +296,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 10.0,
+      "temp_min": 9.0,
       "temp_max": 17.0,
       "humidity_min": 68.0,
       "humidity_max": 88.0,
@@ -311,7 +308,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6565,
+    "name": "San Francisco",
+    "department": "San Justo",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -62.0832,
+      "lat": -31.432
+    }
+  },
   "catalog_location": {
     "id": 6565,
     "name": "San Francisco",
@@ -489,7 +497,9 @@
     "forecast_location_id": 6565,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6565",
-  "generated_at": "2026-06-16T17:21:25.303717+00:00"
+  "generated_at": "2026-06-16T20:14:40.570000+00:00"
 }

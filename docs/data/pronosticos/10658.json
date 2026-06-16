@@ -5,11 +5,8 @@
     "name": "Vicente López",
     "department": "Vicente López",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.4737,
-      "lat": -34.5221
-    }
+    "lat": -34.5221,
+    "lon": -58.4737
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10658,
+    "name": "Vicente López",
+    "department": "Vicente López",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.4737,
+      "lat": -34.5221
+    }
+  },
   "catalog_location": {
     "id": 10658,
     "name": "Vicente López",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10658,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10658",
-  "generated_at": "2026-06-16T17:21:08.852013+00:00"
+  "generated_at": "2026-06-16T20:14:24.434415+00:00"
 }

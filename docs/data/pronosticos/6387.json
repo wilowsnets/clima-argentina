@@ -3,13 +3,10 @@
   "location": {
     "id": 6387,
     "name": "Alta Gracia",
-    "department": "Santa María",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -64.4347,
-      "lat": -31.6544
-    }
+    "lat": -31.65444946,
+    "lon": -64.43473816
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6387,
+    "name": "Alta Gracia",
+    "department": "Santa María",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -64.4347,
+      "lat": -31.6544
+    }
+  },
   "catalog_location": {
     "id": 6387,
     "name": "Alta Gracia",
@@ -492,7 +500,9 @@
     "forecast_location_id": 6387,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6387",
-  "generated_at": "2026-06-16T17:21:19.936584+00:00"
+  "generated_at": "2026-06-16T20:14:35.307956+00:00"
 }

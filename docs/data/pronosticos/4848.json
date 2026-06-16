@@ -3,13 +3,10 @@
   "location": {
     "id": 4848,
     "name": "Morón",
-    "department": "Morón",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.6274,
-      "lat": -34.6346
-    }
+    "lat": -34.63464355,
+    "lon": -58.62742615
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4848,
+    "name": "Morón",
+    "department": "Morón",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.6274,
+      "lat": -34.6346
+    }
+  },
   "catalog_location": {
     "id": 4848,
     "name": "Morón",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4848,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4848",
-  "generated_at": "2026-06-16T17:20:51.512964+00:00"
+  "generated_at": "2026-06-16T20:14:07.444914+00:00"
 }

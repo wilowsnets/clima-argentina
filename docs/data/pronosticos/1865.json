@@ -3,13 +3,10 @@
   "location": {
     "id": 1865,
     "name": "Puerto Santa Cruz",
-    "department": "Corpen Aike",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Localidad",
-    "coord": {
-      "lon": -68.5277,
-      "lat": -50.0226
-    }
+    "lat": -50.02256012,
+    "lon": -68.52765656
   },
   "type": "location",
   "forecast": [
@@ -484,6 +481,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1865,
+    "name": "Puerto Santa Cruz",
+    "department": "Corpen Aike",
+    "province": "Santa Cruz",
+    "type": "Localidad",
+    "coord": {
+      "lon": -68.5277,
+      "lat": -50.0226
+    }
+  },
   "catalog_location": {
     "id": 1865,
     "name": "Puerto Santa Cruz",
@@ -498,7 +506,9 @@
     "forecast_location_id": 1865,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1865",
-  "generated_at": "2026-06-16T17:22:08.598049+00:00"
+  "generated_at": "2026-06-16T20:15:23.366483+00:00"
 }

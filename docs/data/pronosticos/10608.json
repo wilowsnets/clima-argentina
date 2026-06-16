@@ -5,11 +5,8 @@
     "name": "San Justo",
     "department": "La Matanza",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5482,
-      "lat": -34.678
-    }
+    "lat": -34.678,
+    "lon": -58.5482
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10608,
+    "name": "San Justo",
+    "department": "La Matanza",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5482,
+      "lat": -34.678
+    }
+  },
   "catalog_location": {
     "id": 10608,
     "name": "San Justo",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10608,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10608",
-  "generated_at": "2026-06-16T17:21:03.136179+00:00"
+  "generated_at": "2026-06-16T20:14:18.792772+00:00"
 }

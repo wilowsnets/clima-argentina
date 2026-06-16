@@ -3,13 +3,10 @@
   "location": {
     "id": 4851,
     "name": "Merlo",
-    "department": "Merlo",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.7159,
-      "lat": -34.6688
-    }
+    "lat": -34.66880417,
+    "lon": -58.71593094
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4851,
+    "name": "Merlo",
+    "department": "Merlo",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.7159,
+      "lat": -34.6688
+    }
+  },
   "catalog_location": {
     "id": 4851,
     "name": "Merlo",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4851,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4851",
-  "generated_at": "2026-06-16T17:20:49.947292+00:00"
+  "generated_at": "2026-06-16T20:14:05.825405+00:00"
 }

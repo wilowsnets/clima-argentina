@@ -3,13 +3,10 @@
   "location": {
     "id": 7836,
     "name": "Colón",
-    "department": "Colón",
+    "department": null,
     "province": "Entre Ríos",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.1423,
-      "lat": -32.2224
-    }
+    "lat": -32.22237396,
+    "lon": -58.14226151
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7836,
+    "name": "Colón",
+    "department": "Colón",
+    "province": "Entre Ríos",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.1423,
+      "lat": -32.2224
+    }
+  },
   "catalog_location": {
     "id": 7836,
     "name": "Colón",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7836,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7836",
-  "generated_at": "2026-06-16T17:21:31.088873+00:00"
+  "generated_at": "2026-06-16T20:14:46.299609+00:00"
 }

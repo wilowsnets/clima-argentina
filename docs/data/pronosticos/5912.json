@@ -3,13 +3,10 @@
   "location": {
     "id": 5912,
     "name": "Río Grande",
-    "department": "Río Grande",
+    "department": null,
     "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -67.7085,
-      "lat": -53.7895
-    }
+    "lat": -53.78948593,
+    "lon": -67.70848083
   },
   "type": "location",
   "forecast": [
@@ -91,7 +88,7 @@
           42,
           50
         ],
-        "temperature": 1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -166,7 +163,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.8,
         "weather": {
@@ -187,7 +184,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": -1.0,
+      "temp_min": 1.0,
       "temp_max": 3.0,
       "humidity_min": 72.0,
       "humidity_max": 94.0,
@@ -202,7 +199,7 @@
           42,
           50
         ],
-        "temperature": 2.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 1.9,
         "weather": {
@@ -308,7 +305,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 2.0,
+      "temp_min": 3.0,
       "temp_max": 7.0,
       "humidity_min": 70.0,
       "humidity_max": 88.0,
@@ -323,7 +320,7 @@
           51,
           59
         ],
-        "temperature": 2.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -373,9 +370,9 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": -2.0,
+      "temp_min": 2.0,
       "temp_max": 5.0,
-      "humidity_min": 66.0,
+      "humidity_min": 84.0,
       "humidity_max": 84.0,
       "early_morning": null,
       "morning": {
@@ -385,7 +382,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.4,
         "weather": {
@@ -432,7 +429,7 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": -2.0,
+      "temp_min": -4.0,
       "temp_max": 5.0,
       "humidity_min": 75.0,
       "humidity_max": 78.0,
@@ -444,7 +441,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": -4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -490,6 +487,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5912,
+    "name": "Río Grande",
+    "department": "Río Grande",
+    "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -67.7085,
+      "lat": -53.7895
+    }
+  },
   "catalog_location": {
     "id": 5912,
     "name": "Río Grande",
@@ -504,7 +512,9 @@
     "forecast_location_id": 5912,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5912",
-  "generated_at": "2026-06-16T17:22:21.337212+00:00"
+  "generated_at": "2026-06-16T20:15:41.967985+00:00"
 }

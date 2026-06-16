@@ -5,11 +5,8 @@
     "name": "Burzaco",
     "department": "Almirante Brown",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.3913,
-      "lat": -34.8224
-    }
+    "lat": -34.8224,
+    "lon": -58.3913
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10578,
+    "name": "Burzaco",
+    "department": "Almirante Brown",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.3913,
+      "lat": -34.8224
+    }
+  },
   "catalog_location": {
     "id": 10578,
     "name": "Burzaco",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10578,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10578",
-  "generated_at": "2026-06-16T17:20:26.912111+00:00"
+  "generated_at": "2026-06-16T20:13:43.139443+00:00"
 }

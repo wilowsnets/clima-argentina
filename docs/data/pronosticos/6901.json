@@ -3,13 +3,10 @@
   "location": {
     "id": 6901,
     "name": "Villa María",
-    "department": "General San Martín",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -63.2398,
-      "lat": -32.412
-    }
+    "lat": -32.41200256,
+    "lon": -63.23983002
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6901,
+    "name": "Villa María",
+    "department": "General San Martín",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -63.2398,
+      "lat": -32.412
+    }
+  },
   "catalog_location": {
     "id": 6901,
     "name": "Villa María",
@@ -492,7 +500,9 @@
     "forecast_location_id": 6901,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6901",
-  "generated_at": "2026-06-16T17:21:27.385026+00:00"
+  "generated_at": "2026-06-16T20:14:42.613270+00:00"
 }

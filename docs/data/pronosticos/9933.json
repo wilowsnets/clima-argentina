@@ -3,13 +3,10 @@
   "location": {
     "id": 9933,
     "name": "Zapala",
-    "department": "Zapala",
+    "department": null,
     "province": "Neuquén",
-    "type": "Localidad",
-    "coord": {
-      "lon": -70.0633,
-      "lat": -38.8979
-    }
+    "lat": -38.89790344,
+    "lon": -70.06330872
   },
   "type": "location",
   "forecast": [
@@ -493,6 +490,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 9933,
+    "name": "Zapala",
+    "department": "Zapala",
+    "province": "Neuquén",
+    "type": "Localidad",
+    "coord": {
+      "lon": -70.0633,
+      "lat": -38.8979
+    }
+  },
   "catalog_location": {
     "id": 9933,
     "name": "Zapala",
@@ -507,7 +515,9 @@
     "forecast_location_id": 9933,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9933",
-  "generated_at": "2026-06-16T17:21:53.166166+00:00"
+  "generated_at": "2026-06-16T20:15:08.339304+00:00"
 }

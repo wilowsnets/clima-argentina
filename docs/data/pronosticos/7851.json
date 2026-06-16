@@ -3,13 +3,10 @@
   "location": {
     "id": 7851,
     "name": "Gualeguaychú",
-    "department": "Gualeguaychú",
+    "department": null,
     "province": "Entre Ríos",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5094,
-      "lat": -33.0111
-    }
+    "lat": -33.0111084,
+    "lon": -58.50944519
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7851,
+    "name": "Gualeguaychú",
+    "department": "Gualeguaychú",
+    "province": "Entre Ríos",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5094,
+      "lat": -33.0111
+    }
+  },
   "catalog_location": {
     "id": 7851,
     "name": "Gualeguaychú",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7851,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7851",
-  "generated_at": "2026-06-16T17:21:32.743131+00:00"
+  "generated_at": "2026-06-16T20:14:47.885667+00:00"
 }

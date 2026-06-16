@@ -3,13 +3,10 @@
   "location": {
     "id": 4338,
     "name": "Pigüé",
-    "department": "Saavedra",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -62.4029,
-      "lat": -37.6055
-    }
+    "lat": -37.60546494,
+    "lon": -62.4029007
   },
   "type": "location",
   "forecast": [
@@ -487,6 +484,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4338,
+    "name": "Pigüé",
+    "department": "Saavedra",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -62.4029,
+      "lat": -37.6055
+    }
+  },
   "catalog_location": {
     "id": 4338,
     "name": "Pigüé",
@@ -501,7 +509,9 @@
     "forecast_location_id": 4338,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4338",
-  "generated_at": "2026-06-16T17:20:56.087952+00:00"
+  "generated_at": "2026-06-16T20:14:11.934815+00:00"
 }

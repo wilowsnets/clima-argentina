@@ -3,13 +3,10 @@
   "location": {
     "id": 1857,
     "name": "Puerto Deseado",
-    "department": "Deseado",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.8969,
-      "lat": -47.7516
-    }
+    "lat": -47.75159836,
+    "lon": -65.89685059
   },
   "type": "location",
   "forecast": [
@@ -505,6 +502,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1857,
+    "name": "Puerto Deseado",
+    "department": "Deseado",
+    "province": "Santa Cruz",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.8969,
+      "lat": -47.7516
+    }
+  },
   "catalog_location": {
     "id": 1857,
     "name": "Puerto Deseado",
@@ -519,7 +527,9 @@
     "forecast_location_id": 1857,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1857",
-  "generated_at": "2026-06-16T17:22:07.769523+00:00"
+  "generated_at": "2026-06-16T20:15:22.566270+00:00"
 }

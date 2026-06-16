@@ -3,13 +3,10 @@
   "location": {
     "id": 1449,
     "name": "Caucete",
-    "department": "Caucete",
+    "department": null,
     "province": "San Juan",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -68.2804,
-      "lat": -31.6511
-    }
+    "lat": -31.65113872,
+    "lon": -68.28041136
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1449,
+    "name": "Caucete",
+    "department": "Caucete",
+    "province": "San Juan",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -68.2804,
+      "lat": -31.6511
+    }
+  },
   "catalog_location": {
     "id": 1449,
     "name": "Caucete",
@@ -492,7 +500,9 @@
     "forecast_location_id": 1449,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1449",
-  "generated_at": "2026-06-16T17:22:01.987894+00:00"
+  "generated_at": "2026-06-16T20:15:16.872006+00:00"
 }

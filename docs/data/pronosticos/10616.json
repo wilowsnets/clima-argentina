@@ -5,11 +5,8 @@
     "name": "Llavallol",
     "department": "Lomas de Zamora",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.433,
-      "lat": -34.7967
-    }
+    "lat": -34.7967,
+    "lon": -58.433
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10616,
+    "name": "Llavallol",
+    "department": "Lomas de Zamora",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.433,
+      "lat": -34.7967
+    }
+  },
   "catalog_location": {
     "id": 10616,
     "name": "Llavallol",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10616,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10616",
-  "generated_at": "2026-06-16T17:20:44.509749+00:00"
+  "generated_at": "2026-06-16T20:14:00.546929+00:00"
 }

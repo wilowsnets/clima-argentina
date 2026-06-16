@@ -3,13 +3,10 @@
   "location": {
     "id": 8808,
     "name": "Intendente Alvear",
-    "department": "Chapaleufú",
+    "department": null,
     "province": "La Pampa",
-    "type": "Localidad",
-    "coord": {
-      "lon": -63.5921,
-      "lat": -35.2378
-    }
+    "lat": -35.23781967,
+    "lon": -63.59208298
   },
   "type": "location",
   "forecast": [
@@ -481,6 +478,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 8808,
+    "name": "Intendente Alvear",
+    "department": "Chapaleufú",
+    "province": "La Pampa",
+    "type": "Localidad",
+    "coord": {
+      "lon": -63.5921,
+      "lat": -35.2378
+    }
+  },
   "catalog_location": {
     "id": 8808,
     "name": "Intendente Alvear",
@@ -495,7 +503,9 @@
     "forecast_location_id": 8808,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8808",
-  "generated_at": "2026-06-16T17:21:40.921385+00:00"
+  "generated_at": "2026-06-16T20:14:56.262456+00:00"
 }

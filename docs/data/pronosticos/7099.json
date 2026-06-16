@@ -3,13 +3,10 @@
   "location": {
     "id": 7099,
     "name": "Laboulaye",
-    "department": "Presidente Roque Sáenz Peña",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -63.389,
-      "lat": -34.12
-    }
+    "lat": -34.12000656,
+    "lon": -63.38900757
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7099,
+    "name": "Laboulaye",
+    "department": "Presidente Roque Sáenz Peña",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -63.389,
+      "lat": -34.12
+    }
+  },
   "catalog_location": {
     "id": 7099,
     "name": "Laboulaye",
@@ -492,7 +500,9 @@
     "forecast_location_id": 7099,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7099",
-  "generated_at": "2026-06-16T17:21:22.785620+00:00"
+  "generated_at": "2026-06-16T20:14:38.156723+00:00"
 }

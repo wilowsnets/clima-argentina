@@ -3,13 +3,10 @@
   "location": {
     "id": 1795,
     "name": "Perito Moreno",
-    "department": "Lago Buenos Aires",
+    "department": null,
     "province": "Santa Cruz",
-    "type": "Localidad",
-    "coord": {
-      "lon": -70.9132,
-      "lat": -46.5996
-    }
+    "lat": -46.59955597,
+    "lon": -70.91318512
   },
   "type": "location",
   "forecast": [
@@ -496,6 +493,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1795,
+    "name": "Perito Moreno",
+    "department": "Lago Buenos Aires",
+    "province": "Santa Cruz",
+    "type": "Localidad",
+    "coord": {
+      "lon": -70.9132,
+      "lat": -46.5996
+    }
+  },
   "catalog_location": {
     "id": 1795,
     "name": "Perito Moreno",
@@ -510,7 +518,9 @@
     "forecast_location_id": 1795,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1795",
-  "generated_at": "2026-06-16T17:22:07.378530+00:00"
+  "generated_at": "2026-06-16T20:15:22.148706+00:00"
 }

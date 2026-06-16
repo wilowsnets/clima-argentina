@@ -3,13 +3,10 @@
   "location": {
     "id": 6706,
     "name": "Villa General Belgrano",
-    "department": "Calamuchita",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -64.5539,
-      "lat": -31.9677
-    }
+    "lat": -31.9677025,
+    "lon": -64.55392111
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6706,
+    "name": "Villa General Belgrano",
+    "department": "Calamuchita",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -64.5539,
+      "lat": -31.9677
+    }
+  },
   "catalog_location": {
     "id": 6706,
     "name": "Villa General Belgrano",
@@ -492,7 +500,9 @@
     "forecast_location_id": 6706,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6706",
-  "generated_at": "2026-06-16T17:21:26.558826+00:00"
+  "generated_at": "2026-06-16T20:14:41.810610+00:00"
 }

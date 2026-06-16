@@ -3,13 +3,10 @@
   "location": {
     "id": 30,
     "name": "Choele Choel",
-    "department": "Avellaneda",
+    "department": null,
     "province": "Río Negro",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.6582,
-      "lat": -39.2931
-    }
+    "lat": -39.29313955,
+    "lon": -65.65817703
   },
   "type": "location",
   "forecast": [
@@ -502,6 +499,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 30,
+    "name": "Choele Choel",
+    "department": "Avellaneda",
+    "province": "Río Negro",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.6582,
+      "lat": -39.2931
+    }
+  },
   "catalog_location": {
     "id": 30,
     "name": "Choele Choel",
@@ -516,7 +524,9 @@
     "forecast_location_id": 30,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/30",
-  "generated_at": "2026-06-16T17:21:53.552911+00:00"
+  "generated_at": "2026-06-16T20:15:08.755282+00:00"
 }

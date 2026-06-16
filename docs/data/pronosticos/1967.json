@@ -3,13 +3,10 @@
   "location": {
     "id": 1967,
     "name": "Ceres",
-    "department": "San Cristóbal",
+    "department": null,
     "province": "Santa Fe",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -61.9458,
-      "lat": -29.8795
-    }
+    "lat": -29.87953377,
+    "lon": -61.94578934
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1967,
+    "name": "Ceres",
+    "department": "San Cristóbal",
+    "province": "Santa Fe",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -61.9458,
+      "lat": -29.8795
+    }
+  },
   "catalog_location": {
     "id": 1967,
     "name": "Ceres",
@@ -489,7 +497,9 @@
     "forecast_location_id": 1967,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1967",
-  "generated_at": "2026-06-16T17:22:10.231867+00:00"
+  "generated_at": "2026-06-16T20:15:24.974625+00:00"
 }

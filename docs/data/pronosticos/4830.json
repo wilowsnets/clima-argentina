@@ -5,11 +5,8 @@
     "name": "Gregorio de Laferrere",
     "department": "La Matanza",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5885,
-      "lat": -34.7363
-    }
+    "lat": -34.7363,
+    "lon": -58.5885
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4830,
+    "name": "Gregorio de Laferrere",
+    "department": "La Matanza",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5885,
+      "lat": -34.7363
+    }
+  },
   "catalog_location": {
     "id": 4830,
     "name": "Gregorio de Laferrere",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4830,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4830",
-  "generated_at": "2026-06-16T17:20:39.191257+00:00"
+  "generated_at": "2026-06-16T20:13:55.280519+00:00"
 }

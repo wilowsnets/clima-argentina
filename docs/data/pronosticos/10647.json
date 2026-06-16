@@ -3,13 +3,10 @@
   "location": {
     "id": 10647,
     "name": "Ciudad Jardin Lomas del Palomar",
-    "department": "Tres de Febrero",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Localidad",
-    "coord": {
-      "lon": -58.5942,
-      "lat": -34.6031
-    }
+    "lat": -34.60309219,
+    "lon": -58.59416925
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10647,
+    "name": "Ciudad Jardin Lomas del Palomar",
+    "department": "Tres de Febrero",
+    "province": "Buenos Aires",
+    "type": "Localidad",
+    "coord": {
+      "lon": -58.5942,
+      "lat": -34.6031
+    }
+  },
   "catalog_location": {
     "id": 10647,
     "name": "Ciudad Jardin Lomas del Palomar",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10647,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10647",
-  "generated_at": "2026-06-16T17:20:31.348173+00:00"
+  "generated_at": "2026-06-16T20:13:47.608390+00:00"
 }

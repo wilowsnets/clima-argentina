@@ -3,13 +3,10 @@
   "location": {
     "id": 8480,
     "name": "Humahuaca",
-    "department": "Humahuaca",
+    "department": null,
     "province": "Jujuy",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.3506,
-      "lat": -23.2118
-    }
+    "lat": -23.21184349,
+    "lon": -65.35055542
   },
   "type": "location",
   "forecast": [
@@ -481,6 +478,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 8480,
+    "name": "Humahuaca",
+    "department": "Humahuaca",
+    "province": "Jujuy",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.3506,
+      "lat": -23.2118
+    }
+  },
   "catalog_location": {
     "id": 8480,
     "name": "Humahuaca",
@@ -495,7 +503,9 @@
     "forecast_location_id": 8480,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8480",
-  "generated_at": "2026-06-16T17:21:35.549225+00:00"
+  "generated_at": "2026-06-16T20:14:50.709943+00:00"
 }

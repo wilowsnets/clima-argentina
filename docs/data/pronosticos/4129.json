@@ -3,13 +3,10 @@
   "location": {
     "id": 4129,
     "name": "Las Flores",
-    "department": "Las Flores",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -59.1004,
-      "lat": -36.0164
-    }
+    "lat": -36.01638794,
+    "lon": -59.10038376
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4129,
+    "name": "Las Flores",
+    "department": "Las Flores",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -59.1004,
+      "lat": -36.0164
+    }
+  },
   "catalog_location": {
     "id": 4129,
     "name": "Las Flores",
@@ -492,7 +500,9 @@
     "forecast_location_id": 4129,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4129",
-  "generated_at": "2026-06-16T17:20:43.717297+00:00"
+  "generated_at": "2026-06-16T20:13:59.748783+00:00"
 }

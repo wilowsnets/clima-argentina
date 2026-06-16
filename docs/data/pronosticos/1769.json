@@ -3,13 +3,10 @@
   "location": {
     "id": 1769,
     "name": "Justo Daract",
-    "department": "General Pedernera",
+    "department": null,
     "province": "San Luis",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -65.1856,
-      "lat": -33.8582
-    }
+    "lat": -33.85821533,
+    "lon": -65.18560028
   },
   "type": "location",
   "forecast": [
@@ -86,11 +83,11 @@
         ],
         "gust_range": null,
         "temperature": 9.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NE",
@@ -111,11 +108,11 @@
         ],
         "gust_range": null,
         "temperature": 4.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -168,8 +165,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -184,21 +181,21 @@
       "temp_min": 8.0,
       "temp_max": 16.0,
       "humidity_min": 52.0,
-      "humidity_max": 91.0,
+      "humidity_max": 76.0,
       "early_morning": null,
       "morning": {
         "humidity": 76.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Regular",
+        "temperature": 8.0,
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -222,8 +219,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -260,11 +257,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            7,
-            12
+            0,
+            2
           ]
         },
         "river": null,
@@ -281,12 +278,12 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
-          "deg": 22.5,
+          "deg": 0.1,
           "speed_range": [
             13,
             22
@@ -344,8 +341,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
             13,
             22
@@ -374,8 +371,8 @@
         "visibility": "Buena",
         "rain06h": 4.6,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -399,12 +396,12 @@
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -428,7 +425,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": null,
@@ -437,8 +437,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
             13,
             22
@@ -462,11 +462,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -475,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 1769,
+    "name": "Justo Daract",
+    "department": "General Pedernera",
+    "province": "San Luis",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -65.1856,
+      "lat": -33.8582
+    }
+  },
   "catalog_location": {
     "id": 1769,
     "name": "Justo Daract",
@@ -489,7 +500,9 @@
     "forecast_location_id": 1769,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1769",
-  "generated_at": "2026-06-16T17:22:03.194409+00:00"
+  "generated_at": "2026-06-16T20:15:18.103774+00:00"
 }

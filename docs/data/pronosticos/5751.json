@@ -5,11 +5,8 @@
     "name": "Lago Puelo",
     "department": "Cushamen",
     "province": "Chubut",
-    "type": "Localidad",
-    "coord": {
-      "lon": -71.5953,
-      "lat": -42.0656
-    }
+    "lat": -42.0656,
+    "lon": -71.5953
   },
   "type": "location",
   "forecast": [
@@ -496,6 +493,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 5751,
+    "name": "Lago Puelo",
+    "department": "Cushamen",
+    "province": "Chubut",
+    "type": "Localidad",
+    "coord": {
+      "lon": -71.5953,
+      "lat": -42.0656
+    }
+  },
   "catalog_location": {
     "id": 5751,
     "name": "Lago Puelo",
@@ -510,7 +518,9 @@
     "forecast_location_id": 5751,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5751",
-  "generated_at": "2026-06-16T17:21:16.990820+00:00"
+  "generated_at": "2026-06-16T20:14:32.481556+00:00"
 }

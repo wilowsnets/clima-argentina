@@ -3,13 +3,10 @@
   "location": {
     "id": 7416,
     "name": "Mercedes",
-    "department": "Mercedes",
+    "department": null,
     "province": "Corrientes",
-    "type": "Localidad",
-    "coord": {
-      "lon": -58.0785,
-      "lat": -29.1822
-    }
+    "lat": -29.18217659,
+    "lon": -58.07847214
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 7416,
+    "name": "Mercedes",
+    "department": "Mercedes",
+    "province": "Corrientes",
+    "type": "Localidad",
+    "coord": {
+      "lon": -58.0785,
+      "lat": -29.1822
+    }
+  },
   "catalog_location": {
     "id": 7416,
     "name": "Mercedes",
@@ -489,7 +497,9 @@
     "forecast_location_id": 7416,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7416",
-  "generated_at": "2026-06-16T17:21:29.848183+00:00"
+  "generated_at": "2026-06-16T20:14:45.057322+00:00"
 }

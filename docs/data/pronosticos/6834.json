@@ -3,13 +3,10 @@
   "location": {
     "id": 6834,
     "name": "Bell Ville",
-    "department": "Unión",
+    "department": null,
     "province": "Córdoba",
-    "type": "Localidad",
-    "coord": {
-      "lon": -62.6869,
-      "lat": -32.6236
-    }
+    "lat": -32.62358093,
+    "lon": -62.68688202
   },
   "type": "location",
   "forecast": [
@@ -478,6 +475,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6834,
+    "name": "Bell Ville",
+    "department": "Unión",
+    "province": "Córdoba",
+    "type": "Localidad",
+    "coord": {
+      "lon": -62.6869,
+      "lat": -32.6236
+    }
+  },
   "catalog_location": {
     "id": 6834,
     "name": "Bell Ville",
@@ -492,7 +500,9 @@
     "forecast_location_id": 6834,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6834",
-  "generated_at": "2026-06-16T17:21:20.351834+00:00"
+  "generated_at": "2026-06-16T20:14:35.720828+00:00"
 }

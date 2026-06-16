@@ -3,13 +3,10 @@
   "location": {
     "id": 4743,
     "name": "San Isidro",
-    "department": "San Isidro",
+    "department": null,
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.5134,
-      "lat": -34.4721
-    }
+    "lat": -34.47210312,
+    "lon": -58.51338959
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 4743,
+    "name": "San Isidro",
+    "department": "San Isidro",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.5134,
+      "lat": -34.4721
+    }
+  },
   "catalog_location": {
     "id": 4743,
     "name": "San Isidro",
@@ -489,7 +497,9 @@
     "forecast_location_id": 4743,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4743",
-  "generated_at": "2026-06-16T17:21:02.750989+00:00"
+  "generated_at": "2026-06-16T20:14:18.395320+00:00"
 }

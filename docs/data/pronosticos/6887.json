@@ -3,13 +3,10 @@
   "location": {
     "id": 6887,
     "name": "Río Tercero",
-    "department": "Tercero Arriba",
+    "department": null,
     "province": "Córdoba",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -64.1159,
-      "lat": -32.1732
-    }
+    "lat": -32.17317581,
+    "lon": -64.11588287
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 6887,
+    "name": "Río Tercero",
+    "department": "Tercero Arriba",
+    "province": "Córdoba",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -64.1159,
+      "lat": -32.1732
+    }
+  },
   "catalog_location": {
     "id": 6887,
     "name": "Río Tercero",
@@ -489,7 +497,9 @@
     "forecast_location_id": 6887,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6887",
-  "generated_at": "2026-06-16T17:21:24.867190+00:00"
+  "generated_at": "2026-06-16T20:14:40.168120+00:00"
 }

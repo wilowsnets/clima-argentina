@@ -5,11 +5,8 @@
     "name": "Adrogué",
     "department": "Almirante Brown",
     "province": "Buenos Aires",
-    "type": "Ciudad",
-    "coord": {
-      "lon": -58.3959,
-      "lat": -34.7989
-    }
+    "lat": -34.7989,
+    "lon": -58.3959
   },
   "type": "location",
   "forecast": [
@@ -475,6 +472,17 @@
       "night": null
     }
   ],
+  "source_location": {
+    "id": 10552,
+    "name": "Adrogué",
+    "department": "Almirante Brown",
+    "province": "Buenos Aires",
+    "type": "Ciudad",
+    "coord": {
+      "lon": -58.3959,
+      "lat": -34.7989
+    }
+  },
   "catalog_location": {
     "id": 10552,
     "name": "Adrogué",
@@ -489,7 +497,9 @@
     "forecast_location_id": 10552,
     "used_reference": false
   },
+  "data_status": "forecast_available",
+  "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10552",
-  "generated_at": "2026-06-16T17:20:22.329494+00:00"
+  "generated_at": "2026-06-16T20:13:38.652135+00:00"
 }
