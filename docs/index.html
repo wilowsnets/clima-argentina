@@ -401,6 +401,23 @@
       box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
     }
 
+    .sin-pronostico {
+      grid-column: 1 / -1;
+      padding: 22px;
+      border: 1px solid rgba(158, 208, 255, 0.3);
+      border-radius: 19px;
+      color: var(--texto-secundario);
+      background: var(--panel);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+    }
+
+    .sin-pronostico strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--texto);
+      font-size: 1.05rem;
+    }
+
     .dia-encabezado {
       display: flex;
       align-items: center;
@@ -547,7 +564,7 @@
   <main class="pagina">
     <header class="encabezado">
       <h1>Clima Argentina</h1>
-      <p>Pronóstico meteorológico por localidad</p>
+      <p>Pronóstico y condiciones meteorológicas por localidad</p>
     </header>
 
     <section class="panel buscador-panel">
@@ -606,7 +623,7 @@
         role="status"
         aria-live="polite"
       >
-        Cargando pronóstico actualizado…
+        Cargando información meteorológica…
       </div>
 
       <div id="actual" class="actual oculto">
@@ -945,6 +962,93 @@
       actual.classList.remove("oculto");
     }
 
+    function valorDisponible(valor) {
+      return valor !== null && valor !== undefined && valor !== "";
+    }
+
+    function formatearNumero(valor, unidad = "") {
+      if (!valorDisponible(valor)) {
+        return "No informado";
+      }
+
+      return `${valor}${unidad}`;
+    }
+
+    function renderizarCondicionesActuales(condiciones) {
+      if (!condiciones || typeof condiciones !== "object") {
+        actual.classList.add("oculto");
+        return;
+      }
+
+      const descripcion =
+        condiciones.weather?.description ?? "Sin descripción";
+
+      actualPeriodo.textContent = "Condiciones observadas";
+      actualIcono.textContent = obtenerIcono(descripcion);
+      actualTemperatura.textContent = valorDisponible(
+        condiciones.temperature
+      )
+        ? `${condiciones.temperature}°`
+        : "--°";
+      actualDescripcion.textContent = descripcion;
+
+      const sensacion = valorDisponible(condiciones.feels_like)
+        ? `Sensación térmica ${condiciones.feels_like}°`
+        : "Sensación térmica no informada";
+
+      actualRango.textContent =
+        `${sensacion} · Observado ${formatearFechaHora(
+          condiciones.date
+        )}`;
+
+      const direccion = condiciones.wind?.direction;
+      const velocidad = condiciones.wind?.speed;
+      let viento = "No informado";
+
+      if (valorDisponible(velocidad) && direccion) {
+        viento = `${direccion} a ${velocidad} km/h`;
+      } else if (valorDisponible(velocidad)) {
+        viento = `${velocidad} km/h`;
+      } else if (direccion) {
+        viento = direccion;
+      }
+
+      actualDetalles.innerHTML = [
+        crearFilaDetalle(
+          "Humedad",
+          formatearNumero(condiciones.humidity, "%")
+        ),
+        crearFilaDetalle(
+          "Presión",
+          formatearNumero(condiciones.pressure, " hPa")
+        ),
+        crearFilaDetalle("Viento", viento),
+        crearFilaDetalle(
+          "Visibilidad",
+          formatearNumero(condiciones.visibility, " km")
+        ),
+        crearFilaDetalle(
+          "Estación",
+          valorDisponible(condiciones.station_id)
+            ? String(condiciones.station_id)
+            : "No informada"
+        )
+      ].join("");
+
+      actual.classList.remove("oculto");
+    }
+
+    function renderizarSinPronostico() {
+      contenedorPronostico.innerHTML = `
+        <article class="sin-pronostico">
+          <strong>Actualmente no hay un pronóstico extendido publicado.</strong>
+          Se muestran las últimas condiciones observadas disponibles.
+          Esta localidad continuará en el buscador y el pronóstico aparecerá
+          automáticamente cuando el SMN publique una nueva actualización.
+        </article>
+      `;
+    }
+
     function crearPeriodo(periodo, nombrePeriodo) {
       const descripcion =
         periodo.weather?.description ?? "Sin descripción";
@@ -1235,7 +1339,12 @@
           id: Number(localidad.id),
           name: String(localidad.name ?? "").trim(),
           province: String(localidad.province ?? "").trim(),
-          file: String(localidad.file ?? "")
+          file: String(localidad.file ?? ""),
+          hasForecast: Boolean(localidad.has_forecast),
+          hasCurrentConditions: Boolean(
+            localidad.has_current_conditions
+          ),
+          dataStatus: String(localidad.data_status ?? "")
         }))
         .filter(
           localidad =>
@@ -1253,12 +1362,30 @@
 
       if (localidadesDisponibles.length === 0) {
         throw new Error(
-          "El índice no contiene pronósticos disponibles."
+          "El índice no contiene localidades disponibles."
         );
       }
 
+      const conPronostico = Number(
+        datos.forecast_available_count ??
+        localidadesDisponibles.filter(
+          localidad => localidad.hasForecast
+        ).length
+      );
+
+      const soloObservaciones = Number(
+        datos.observation_only_count ??
+        localidadesDisponibles.filter(
+          localidad =>
+            !localidad.hasForecast &&
+            localidad.hasCurrentConditions
+        ).length
+      );
+
       contadorLocalidades.textContent =
-        `${localidadesDisponibles.length} localidades con pronóstico disponible.`;
+        `${localidadesDisponibles.length} localidades disponibles: ` +
+        `${conPronostico} con pronóstico y ` +
+        `${soloObservaciones} con observaciones actuales.`;
     }
 
     async function cargarPronostico(
@@ -1271,7 +1398,7 @@
       botonActualizar.textContent = "Actualizando…";
 
       mostrarEstado(
-        "Cargando pronóstico actualizado…",
+        "Cargando información meteorológica…",
         "cargando"
       );
 
@@ -1302,14 +1429,21 @@
         }
 
         const datos = await respuesta.json();
+        const pronostico = Array.isArray(datos.forecast)
+          ? datos.forecast
+          : [];
+        const condiciones =
+          datos.current_conditions &&
+          typeof datos.current_conditions === "object"
+            ? datos.current_conditions
+            : null;
 
-        if (
-          !datos.location ||
-          !Array.isArray(datos.forecast) ||
-          datos.forecast.length === 0
-        ) {
+        if (!datos.location || (
+          pronostico.length === 0 &&
+          !condiciones
+        )) {
           throw new Error(
-            "El archivo no contiene un pronóstico válido."
+            "El archivo no contiene información meteorológica válida."
           );
         }
 
@@ -1345,30 +1479,51 @@
           )
           .join(" · ");
 
-        const fechaHoy = obtenerFechaArgentina();
+        if (condiciones) {
+          renderizarCondicionesActuales(condiciones);
+        } else {
+          const fechaHoy = obtenerFechaArgentina();
+          const diaActual =
+            pronostico.find(
+              dia => dia.date === fechaHoy
+            ) ?? pronostico[0];
 
-        const diaActual =
-          datos.forecast.find(
-            dia => dia.date === fechaHoy
-          ) ?? datos.forecast[0];
+          renderizarActual(diaActual);
+        }
 
-        renderizarActual(diaActual);
-
-        contenedorPronostico.innerHTML =
-          datos.forecast
-            .map(crearDia)
-            .join("");
+        if (pronostico.length > 0) {
+          contenedorPronostico.innerHTML =
+            pronostico
+              .map(crearDia)
+              .join("");
+        } else {
+          renderizarSinPronostico();
+        }
 
         fechaGeneracion.textContent =
           `Archivo actualizado: ${formatearFechaHora(
             datos.generated_at
           )}`;
 
-        mostrarEstado(
-          `Pronóstico actualizado correctamente. ` +
-          `${datos.forecast.length} días disponibles.`,
-          "correcto"
-        );
+        if (pronostico.length > 0 && condiciones) {
+          mostrarEstado(
+            `Condiciones actuales y pronóstico disponibles. ` +
+            `${pronostico.length} días publicados.`,
+            "correcto"
+          );
+        } else if (pronostico.length > 0) {
+          mostrarEstado(
+            `Pronóstico actualizado correctamente. ` +
+            `${pronostico.length} días disponibles.`,
+            "correcto"
+          );
+        } else {
+          mostrarEstado(
+            "Últimas condiciones observadas disponibles. " +
+            "El SMN no publicó un pronóstico extendido para esta localidad.",
+            "correcto"
+          );
+        }
       } catch (error) {
         console.error(error);
 
@@ -1376,7 +1531,7 @@
         contenedorPronostico.innerHTML = "";
 
         mostrarEstado(
-          `No se pudo cargar el pronóstico: ${error.message}`,
+          `No se pudo cargar la información: ${error.message}`,
           "error"
         );
 
