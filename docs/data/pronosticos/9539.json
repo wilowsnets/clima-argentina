@@ -20,31 +20,7 @@
       "humidity_min": 22.0,
       "humidity_max": 52.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 48.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 135.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 22.0,
         "rain_prob_range": [
@@ -515,5 +491,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9539",
-  "generated_at": "2026-06-16T11:34:49.074251+00:00"
+  "generated_at": "2026-06-16T17:21:47.031555+00:00"
 }

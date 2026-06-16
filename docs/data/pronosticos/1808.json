@@ -20,34 +20,7 @@
       "humidity_min": 57.0,
       "humidity_max": 69.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 60.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          70,
-          78
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 58.0,
         "rain_prob_range": [
@@ -548,5 +521,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1808",
-  "generated_at": "2026-06-16T11:35:08.444561+00:00"
+  "generated_at": "2026-06-16T17:22:05.707596+00:00"
 }
