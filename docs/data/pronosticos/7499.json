@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 7499,
     "name": "Monte Caseros",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "temp_min": 4.0,
-      "temp_max": 16.0,
+      "temp_min": 3.0,
+      "temp_max": 17.0,
       "humidity_min": 63.0,
       "humidity_max": 88.0,
-      "early_morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Mala",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Niebla",
-          "id": 67
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 88.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -133,12 +109,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
+        "temperature": 7.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "SO",
@@ -304,8 +280,8 @@
         "visibility": "Regular",
         "rain06h": 21.3,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "S",
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7499",
-  "generated_at": "2026-06-16T05:31:54.450454+00:00"
+  "generated_at": "2026-06-16T11:34:31.820235+00:00"
 }

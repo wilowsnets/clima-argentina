@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 2317,
     "name": "Venado Tuerto",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "temp_min": 3.0,
-      "temp_max": 17.0,
+      "temp_min": 5.0,
+      "temp_max": 18.0,
       "humidity_min": 39.0,
       "humidity_max": 93.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 93.0,
         "rain_prob_range": [
@@ -51,12 +27,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
+        "temperature": 5.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "NO",
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -133,12 +109,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
+        "temperature": 8.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "SE",
@@ -307,8 +283,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
@@ -542,5 +518,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2317",
-  "generated_at": "2026-06-16T05:32:41.534763+00:00"
+  "generated_at": "2026-06-16T11:35:19.010495+00:00"
 }

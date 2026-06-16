@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 7533,
     "name": "La Paz",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "temp_min": 2.0,
-      "temp_max": 16.0,
+      "temp_min": 5.0,
+      "temp_max": 17.0,
       "humidity_min": 58.0,
       "humidity_max": 92.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 92.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -122,7 +98,7 @@
     },
     {
       "date": "2026-06-17",
-      "temp_min": 5.0,
+      "temp_min": 6.0,
       "temp_max": 18.0,
       "humidity_min": 56.0,
       "humidity_max": 84.0,
@@ -133,12 +109,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
+        "temperature": 7.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "SO",
@@ -158,7 +134,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
@@ -262,8 +238,8 @@
       "afternoon": {
         "humidity": 48.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": 14.0,
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7533",
-  "generated_at": "2026-06-16T05:31:57.314825+00:00"
+  "generated_at": "2026-06-16T11:34:34.658167+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 5884,
     "name": "Puerto Madryn",
@@ -15,43 +15,22 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "temp_min": 3.0,
-      "temp_max": 10.0,
+      "temp_min": 4.0,
+      "temp_max": 12.0,
       "humidity_min": 42.0,
       "humidity_max": 73.0,
-      "early_morning": {
-        "humidity": 58.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 61.0,
         "rain_prob_range": [
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": 3.0,
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -79,7 +58,7 @@
           42,
           50
         ],
-        "temperature": 9.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -104,7 +83,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -125,7 +104,7 @@
     },
     {
       "date": "2026-06-17",
-      "temp_min": 5.0,
+      "temp_min": 2.0,
       "temp_max": 13.0,
       "humidity_min": 35.0,
       "humidity_max": 67.0,
@@ -136,7 +115,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -164,7 +143,7 @@
           60,
           69
         ],
-        "temperature": 5.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -172,8 +151,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "NE",
-          "deg": 45.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             32,
             41
@@ -220,7 +199,7 @@
           70,
           78
         ],
-        "temperature": 13.0,
+        "temperature": 9.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -241,7 +220,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 8.0,
+      "temp_min": 6.0,
       "temp_max": 15.0,
       "humidity_min": 33.0,
       "humidity_max": 58.0,
@@ -256,7 +235,7 @@
           51,
           59
         ],
-        "temperature": 8.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -280,7 +259,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -292,8 +274,8 @@
           "direction": "SO",
           "deg": 247.5,
           "speed_range": [
-            13,
-            22
+            32,
+            41
           ]
         },
         "river": null,
@@ -303,8 +285,8 @@
     },
     {
       "date": "2026-06-19",
-      "temp_min": 6.0,
-      "temp_max": 11.0,
+      "temp_min": 4.0,
+      "temp_max": 12.0,
       "humidity_min": 57.0,
       "humidity_max": 68.0,
       "early_morning": null,
@@ -315,7 +297,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -343,7 +325,7 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -365,8 +347,8 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 6.0,
-      "temp_max": 11.0,
+      "temp_min": 4.0,
+      "temp_max": 13.0,
       "humidity_min": 64.0,
       "humidity_max": 70.0,
       "early_morning": null,
@@ -376,8 +358,11 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": 6.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -385,11 +370,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -402,19 +387,19 @@
           0
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
             23,
             31
@@ -427,8 +412,8 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 8.0,
-      "temp_max": 9.0,
+      "temp_min": 5.0,
+      "temp_max": 11.0,
       "humidity_min": 64.0,
       "humidity_max": 64.0,
       "early_morning": null,
@@ -436,10 +421,10 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -447,11 +432,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -460,20 +445,23 @@
       "afternoon": {
         "humidity": 64.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Buena",
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 11.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             23,
             31
@@ -486,8 +474,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 7.0,
-      "temp_max": 8.0,
+      "temp_min": 5.0,
+      "temp_max": 11.0,
       "humidity_min": 50.0,
       "humidity_max": 71.0,
       "early_morning": null,
@@ -498,7 +486,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -506,8 +494,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             23,
             31
@@ -523,7 +511,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -531,11 +519,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
-            13,
-            22
+            32,
+            41
           ]
         },
         "river": null,
@@ -560,5 +548,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5884",
-  "generated_at": "2026-06-16T05:31:42.187857+00:00"
+  "generated_at": "2026-06-16T11:34:19.313852+00:00"
 }

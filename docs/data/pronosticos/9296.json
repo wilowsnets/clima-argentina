@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 9296,
     "name": "Malargüe",
@@ -19,31 +19,7 @@
       "temp_max": 15.0,
       "humidity_min": 20.0,
       "humidity_max": 32.0,
-      "early_morning": {
-        "humidity": 26.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 32.0,
         "rain_prob_range": [
@@ -542,5 +518,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-06-16T05:32:08.730044+00:00"
+  "generated_at": "2026-06-16T11:34:46.608299+00:00"
 }

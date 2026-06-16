@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 2278,
     "name": "Rosario",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "temp_min": 3.0,
-      "temp_max": 16.0,
+      "temp_min": 4.0,
+      "temp_max": 17.0,
       "humidity_min": 41.0,
       "humidity_max": 93.0,
-      "early_morning": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 93.0,
         "rain_prob_range": [
@@ -51,12 +27,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
+        "temperature": 4.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "NO",
@@ -76,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -133,12 +109,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
+        "temperature": 7.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "SE",
@@ -542,5 +518,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2278",
-  "generated_at": "2026-06-16T05:32:38.219823+00:00"
+  "generated_at": "2026-06-16T11:35:15.545737+00:00"
 }

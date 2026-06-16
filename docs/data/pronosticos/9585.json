@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:41:40-03:00",
+  "updated": "2026-06-16T08:00:16-03:00",
   "location": {
     "id": 9585,
     "name": "Puerto Iguazú",
@@ -15,35 +15,11 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "temp_min": 5.0,
+      "temp_min": 6.0,
       "temp_max": 20.0,
       "humidity_min": 73.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Regular",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 73.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -133,7 +109,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 11.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -301,11 +277,11 @@
         ],
         "gust_range": null,
         "temperature": 15.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 0.9,
         "weather": {
-          "description": "Tormentas aisladas",
-          "id": 76
+          "description": "Tormentas",
+          "id": 81
         },
         "wind": {
           "direction": "NE",
@@ -321,16 +297,16 @@
       "afternoon": {
         "humidity": 100.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": 17.0,
         "visibility": "Regular",
         "rain06h": 6.6,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "S",
@@ -539,5 +515,5 @@
   },
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9585",
-  "generated_at": "2026-06-16T05:32:13.913135+00:00"
+  "generated_at": "2026-06-16T11:34:52.183348+00:00"
 }
