@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T08:00:16-03:00",
+  "updated": "2026-06-16T17:40:50-03:00",
   "location": {
     "id": 8817,
     "name": "Victorica",
@@ -18,31 +18,7 @@
       "humidity_max": 49.0,
       "early_morning": null,
       "morning": null,
-      "afternoon": {
-        "humidity": 27.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 19.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "afternoon": null,
       "night": {
         "humidity": 44.0,
         "rain_prob_range": [
@@ -50,7 +26,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -188,7 +164,31 @@
       "temp_max": 15.0,
       "humidity_min": 32.0,
       "humidity_max": 78.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 72.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 11.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Nublado",
+          "id": 43
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 22.5,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 78.0,
         "rain_prob_range": [
@@ -242,7 +242,31 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 32.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 13.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-06-19",
@@ -485,6 +509,71 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-06-23",
+      "temp_min": 1.0,
+      "temp_max": 10.0,
+      "humidity_min": 22.0,
+      "humidity_max": 22.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 1.0,
+        "visibility": "Buena",
+        "rain06h": null,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 22.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 10.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -516,5 +605,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8817",
-  "generated_at": "2026-06-16T20:24:20.438785+00:00"
+  "generated_at": "2026-06-16T21:20:00.562730+00:00"
 }
