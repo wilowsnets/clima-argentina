@@ -1,0 +1,193 @@
+{
+  "source": "Servicio Meteorológico Nacional - Estado del Tiempo",
+  "captured_at": "2026-06-15T19:00:00-03:00",
+  "note": "Datos iniciales de respaldo. El actualizador intenta primero obtener información nueva del SMN y solo usa estos registros cuando todavía no existe un archivo anterior ni una observación más reciente.",
+  "observations": {
+    "10806": {
+      "location": {
+        "id": 10806,
+        "name": "Base Belgrano II",
+        "department": "Antártida",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "lat": -77.852,
+        "lon": -34.551,
+        "station_id": 89034,
+        "station_code": "SAYB",
+        "station_name": "BASE BELGRANO II"
+      },
+      "observation": {
+        "date": "2026-06-15T18:00:00-03:00",
+        "weather": {
+          "description": "Parcialmente nublado con nevada",
+          "id": null
+        },
+        "temperature": -21.5,
+        "feels_like": -30.8,
+        "humidity": 60,
+        "pressure": 951.3,
+        "visibility": "5 km",
+        "visibility_km": 5.0,
+        "wind": {
+          "direction": "Sudeste",
+          "speed": 14,
+          "unit": "km/h"
+        }
+      }
+    },
+    "10811": {
+      "location": {
+        "id": 10811,
+        "name": "Base Carlini",
+        "department": "Antártida",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "lat": -62.233,
+        "lon": -58.667,
+        "station_id": 89053,
+        "station_code": "SAYJ",
+        "station_name": "BASE CARLINI"
+      },
+      "observation": {
+        "date": "2026-06-15T18:00:00-03:00",
+        "weather": {
+          "description": "Cubierto con nevada",
+          "id": null
+        },
+        "temperature": -12.2,
+        "feels_like": -23.3,
+        "humidity": 85,
+        "pressure": 979.7,
+        "visibility": "300 m",
+        "visibility_km": 0.3,
+        "wind": {
+          "direction": "Este",
+          "speed": 37,
+          "unit": "km/h"
+        }
+      }
+    },
+    "10810": {
+      "location": {
+        "id": 10810,
+        "name": "Base Esperanza",
+        "department": "Antártida",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "lat": -63.4,
+        "lon": -56.984,
+        "station_id": 88963,
+        "station_code": "SAYE",
+        "station_name": "BASE ESPERANZA"
+      },
+      "observation": {
+        "date": "2026-06-15T18:00:00-03:00",
+        "weather": {
+          "description": "Parcialmente nublado con nevada",
+          "id": null
+        },
+        "temperature": -19.9,
+        "feels_like": -37.1,
+        "humidity": 51,
+        "pressure": 980.0,
+        "visibility": "4 km",
+        "visibility_km": 4.0,
+        "wind": {
+          "direction": "Sudoeste",
+          "speed": 68,
+          "unit": "km/h"
+        }
+      }
+    },
+    "10818": {
+      "location": {
+        "id": 10818,
+        "name": "Base Marambio",
+        "department": "Antártida",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "lat": -64.2333,
+        "lon": -56.6333,
+        "station_id": 89055,
+        "station_code": "SAWB",
+        "station_name": "BASE MARAMBIO"
+      },
+      "observation": {
+        "date": "2026-06-15T19:00:00-03:00",
+        "weather": {
+          "description": "Cubierto con niebla",
+          "id": null
+        },
+        "temperature": -24.4,
+        "feels_like": -43.7,
+        "humidity": 16,
+        "pressure": 958.6,
+        "visibility": "200 m",
+        "visibility_km": 0.2,
+        "wind": {
+          "direction": "Sur",
+          "speed": 72,
+          "unit": "km/h"
+        }
+      }
+    },
+    "10814": {
+      "location": {
+        "id": 10814,
+        "name": "Base Orcadas",
+        "department": "Antártida",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "lat": -60.734,
+        "lon": -44.734,
+        "station_id": 88968,
+        "station_code": "SAYO",
+        "station_name": "BASE ORCADAS"
+      },
+      "observation": {
+        "date": "2026-06-15T18:00:00-03:00",
+        "weather": {
+          "description": "Cubierto con nevada",
+          "id": null
+        },
+        "temperature": -7.8,
+        "feels_like": -16.8,
+        "humidity": 94,
+        "pressure": 963.3,
+        "visibility": "3 km",
+        "visibility_km": 3.0,
+        "wind": {
+          "direction": "Sur",
+          "speed": 31,
+          "unit": "km/h"
+        }
+      }
+    },
+    "10817": {
+      "location": {
+        "id": 10817,
+        "name": "Base San Martín",
+        "department": "Antártida",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "lat": -68.133,
+        "lon": -67.1,
+        "station_id": 89066,
+        "station_code": "SAYS",
+        "station_name": "BASE SAN MARTIN"
+      },
+      "observation": {
+        "date": "2026-06-15T18:00:00-03:00",
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": null
+        },
+        "temperature": -13.8,
+        "feels_like": -25.9,
+        "humidity": 82,
+        "pressure": 981.4,
+        "visibility": "20 km",
+        "visibility_km": 20.0,
+        "wind": {
+          "direction": "Este",
+          "speed": 40,
+          "unit": "km/h"
+        }
+      }
+    }
+  }
+}
