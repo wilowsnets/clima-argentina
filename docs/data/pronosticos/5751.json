@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 5751,
     "name": "Lago Puelo",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-17",
-      "temp_min": 0.0,
-      "temp_max": 8.0,
+      "temp_min": -2.0,
+      "temp_max": 7.0,
       "humidity_min": 70.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
@@ -51,12 +24,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NO",
@@ -76,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -101,7 +74,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -136,7 +109,7 @@
           42,
           50
         ],
-        "temperature": 5.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -157,19 +130,19 @@
       "morning": {
         "humidity": 83.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": -1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -217,7 +190,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -366,26 +339,26 @@
     {
       "date": "2026-06-21",
       "temp_min": -1.0,
-      "temp_max": 7.0,
+      "temp_max": 6.0,
       "humidity_min": 86.0,
       "humidity_max": 86.0,
       "early_morning": null,
       "morning": {
         "humidity": null,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           60,
           69
         ],
         "temperature": -1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": null,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -408,7 +381,7 @@
           60,
           69
         ],
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -431,7 +404,7 @@
     {
       "date": "2026-06-22",
       "temp_min": -3.0,
-      "temp_max": 7.0,
+      "temp_max": 6.0,
       "humidity_min": 88.0,
       "humidity_max": 96.0,
       "early_morning": null,
@@ -473,7 +446,7 @@
           60,
           69
         ],
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -582,5 +555,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5751",
-  "generated_at": "2026-06-17T05:15:33.018930+00:00"
+  "generated_at": "2026-06-17T11:18:07.499866+00:00"
 }

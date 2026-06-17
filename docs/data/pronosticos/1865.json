@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 1865,
     "name": "Puerto Santa Cruz",
@@ -16,31 +16,7 @@
       "temp_max": 6.0,
       "humidity_min": 70.0,
       "humidity_max": 80.0,
-      "early_morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 80.0,
         "rain_prob_range": [
@@ -119,8 +95,8 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 3.0,
-      "temp_max": 8.0,
+      "temp_min": 2.0,
+      "temp_max": 7.0,
       "humidity_min": 65.0,
       "humidity_max": 88.0,
       "early_morning": {
@@ -130,7 +106,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -152,10 +128,13 @@
         "humidity": 79.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
-        "gust_range": null,
-        "temperature": 3.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -177,13 +156,13 @@
         "humidity": 88.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           51,
           59
         ],
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -243,7 +222,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -294,8 +276,8 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 2.0,
-      "temp_max": 8.0,
+      "temp_min": 1.0,
+      "temp_max": 7.0,
       "humidity_min": 84.0,
       "humidity_max": 93.0,
       "early_morning": null,
@@ -306,7 +288,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -331,7 +313,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 5.3,
         "weather": {
@@ -354,7 +336,7 @@
     {
       "date": "2026-06-21",
       "temp_min": 2.0,
-      "temp_max": 7.0,
+      "temp_max": 6.0,
       "humidity_min": 69.0,
       "humidity_max": 69.0,
       "early_morning": null,
@@ -393,7 +375,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -416,7 +398,7 @@
     {
       "date": "2026-06-22",
       "temp_min": 2.0,
-      "temp_max": 5.0,
+      "temp_max": 6.0,
       "humidity_min": 67.0,
       "humidity_max": 76.0,
       "early_morning": null,
@@ -455,7 +437,7 @@
           42,
           50
         ],
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -477,8 +459,8 @@
     },
     {
       "date": "2026-06-23",
-      "temp_min": 3.0,
-      "temp_max": 8.0,
+      "temp_min": 2.0,
+      "temp_max": 7.0,
       "humidity_min": 52.0,
       "humidity_max": 74.0,
       "early_morning": null,
@@ -492,7 +474,7 @@
           42,
           50
         ],
-        "temperature": 3.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -520,7 +502,7 @@
           42,
           50
         ],
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -570,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1865",
-  "generated_at": "2026-06-17T05:16:25.093968+00:00"
+  "generated_at": "2026-06-17T11:19:01.800697+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 5257,
     "name": "Tinogasta",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-17",
       "temp_min": 7.0,
-      "temp_max": 15.0,
+      "temp_max": 18.0,
       "humidity_min": 41.0,
       "humidity_max": 68.0,
-      "early_morning": {
-        "humidity": 59.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 68.0,
         "rain_prob_range": [
@@ -73,12 +49,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -98,12 +74,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -184,8 +160,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lloviznas",
+          "id": 71
         },
         "wind": {
           "direction": "S",
@@ -202,7 +178,7 @@
         "humidity": 42.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 8.0,
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5257",
-  "generated_at": "2026-06-17T05:15:29.541834+00:00"
+  "generated_at": "2026-06-17T11:18:03.417548+00:00"
 }

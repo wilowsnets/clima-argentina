@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 9598,
     "name": "Posadas",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-17",
-      "temp_min": 8.0,
+      "temp_min": 7.0,
       "temp_max": 22.0,
       "humidity_min": 31.0,
       "humidity_max": 73.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Mala",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Niebla",
-          "id": 67
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 58.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
@@ -98,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 20.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -134,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NE",
@@ -212,8 +188,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "NE",
@@ -297,15 +273,15 @@
         "humidity": 98.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 5.5,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "SO",
@@ -322,15 +298,15 @@
         "humidity": 99.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.9,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "N",
@@ -381,7 +357,7 @@
         "humidity": 64.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 23.0,
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9598",
-  "generated_at": "2026-06-17T05:16:05.059251+00:00"
+  "generated_at": "2026-06-17T11:18:41.734318+00:00"
 }

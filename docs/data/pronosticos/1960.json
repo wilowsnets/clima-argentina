@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 1960,
     "name": "Tostado",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-17",
-      "temp_min": 7.0,
-      "temp_max": 19.0,
+      "temp_min": 6.0,
+      "temp_max": 17.0,
       "humidity_min": 48.0,
       "humidity_max": 73.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 68.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -73,12 +49,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 19.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -98,12 +74,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -134,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "NE",
@@ -176,16 +152,16 @@
       "afternoon": {
         "humidity": 42.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": null,
         "temperature": 17.0,
-        "visibility": "Mala",
+        "visibility": "Muy mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Tormentas",
-          "id": 81
+          "description": "Tormentas fuertes",
+          "id": 89
         },
         "wind": {
           "direction": "NE",
@@ -201,16 +177,16 @@
       "night": {
         "humidity": 97.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": null,
         "temperature": 15.0,
-        "visibility": "Mala",
+        "visibility": "Muy mala",
         "rain06h": 4.1,
         "weather": {
-          "description": "Tormentas",
-          "id": 81
+          "description": "Tormentas fuertes",
+          "id": 89
         },
         "wind": {
           "direction": "SO",
@@ -235,15 +211,15 @@
         "humidity": 97.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.8,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "S",
@@ -301,8 +277,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NE",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1960",
-  "generated_at": "2026-06-17T05:16:31.801066+00:00"
+  "generated_at": "2026-06-17T11:19:08.897130+00:00"
 }

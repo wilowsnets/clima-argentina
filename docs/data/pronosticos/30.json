@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 30,
     "name": "Choele Choel",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-17",
-      "temp_min": 1.0,
+      "temp_min": -1.0,
       "temp_max": 13.0,
       "humidity_min": 20.0,
       "humidity_max": 88.0,
-      "early_morning": {
-        "humidity": 84.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 88.0,
         "rain_prob_range": [
@@ -51,12 +27,12 @@
           42,
           50
         ],
-        "temperature": 1.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "NE",
@@ -107,7 +83,7 @@
           60,
           69
         ],
-        "temperature": 10.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -129,7 +105,7 @@
     {
       "date": "2026-06-18",
       "temp_min": 6.0,
-      "temp_max": 16.0,
+      "temp_max": 15.0,
       "humidity_min": 37.0,
       "humidity_max": 69.0,
       "early_morning": {
@@ -192,7 +168,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -239,7 +215,7 @@
     {
       "date": "2026-06-19",
       "temp_min": 1.0,
-      "temp_max": 13.0,
+      "temp_max": 12.0,
       "humidity_min": 36.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -278,7 +254,7 @@
           51,
           59
         ],
-        "temperature": 13.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -365,7 +341,7 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 6.0,
+      "temp_min": 3.0,
       "temp_max": 12.0,
       "humidity_min": 37.0,
       "humidity_max": 44.0,
@@ -380,7 +356,7 @@
           51,
           59
         ],
-        "temperature": 6.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -430,8 +406,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 1.0,
-      "temp_max": 13.0,
+      "temp_min": 0.0,
+      "temp_max": 12.0,
       "humidity_min": 66.0,
       "humidity_max": 83.0,
       "early_morning": null,
@@ -442,7 +418,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -470,7 +446,7 @@
           51,
           59
         ],
-        "temperature": 13.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
@@ -493,7 +469,7 @@
     {
       "date": "2026-06-23",
       "temp_min": 1.0,
-      "temp_max": 13.0,
+      "temp_max": 12.0,
       "humidity_min": 28.0,
       "humidity_max": 32.0,
       "early_morning": null,
@@ -532,7 +508,7 @@
           51,
           59
         ],
-        "temperature": 13.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -582,5 +558,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/30",
-  "generated_at": "2026-06-17T05:16:09.762964+00:00"
+  "generated_at": "2026-06-17T11:18:46.718557+00:00"
 }

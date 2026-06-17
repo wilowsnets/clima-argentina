@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 1857,
     "name": "Puerto Deseado",
@@ -16,31 +16,7 @@
       "temp_max": 9.0,
       "humidity_min": 46.0,
       "humidity_max": 80.0,
-      "early_morning": {
-        "humidity": 67.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 80.0,
         "rain_prob_range": [
@@ -128,7 +104,7 @@
     },
     {
       "date": "2026-06-18",
-      "temp_min": 4.0,
+      "temp_min": 3.0,
       "temp_max": 9.0,
       "humidity_min": 53.0,
       "humidity_max": 91.0,
@@ -166,8 +142,11 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": 4.0,
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -223,7 +202,7 @@
           42,
           50
         ],
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -371,7 +350,7 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 5.0,
+      "temp_min": 2.0,
       "temp_max": 8.0,
       "humidity_min": 73.0,
       "humidity_max": 73.0,
@@ -386,7 +365,7 @@
           51,
           59
         ],
-        "temperature": 5.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -433,7 +412,7 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 4.0,
+      "temp_min": 3.0,
       "temp_max": 7.0,
       "humidity_min": 61.0,
       "humidity_max": 81.0,
@@ -445,7 +424,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -492,8 +471,8 @@
     },
     {
       "date": "2026-06-23",
-      "temp_min": 3.0,
-      "temp_max": 9.0,
+      "temp_min": 2.0,
+      "temp_max": 8.0,
       "humidity_min": 45.0,
       "humidity_max": 82.0,
       "early_morning": null,
@@ -507,7 +486,7 @@
           60,
           69
         ],
-        "temperature": 3.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
@@ -535,7 +514,7 @@
           51,
           59
         ],
-        "temperature": 9.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -585,5 +564,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1857",
-  "generated_at": "2026-06-17T05:16:24.322739+00:00"
+  "generated_at": "2026-06-17T11:19:01.042212+00:00"
 }

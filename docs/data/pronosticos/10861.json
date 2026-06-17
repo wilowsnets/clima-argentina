@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 10861,
     "name": "Isla de los Estados",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-17",
-      "temp_min": 0.0,
+      "temp_min": -1.0,
       "temp_max": 4.0,
       "humidity_min": 88.0,
       "humidity_max": 98.0,
-      "early_morning": {
-        "humidity": 88.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 92.0,
         "rain_prob_range": [
@@ -51,7 +24,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -123,7 +96,7 @@
     {
       "date": "2026-06-18",
       "temp_min": -1.0,
-      "temp_max": 3.0,
+      "temp_max": 2.0,
       "humidity_min": 77.0,
       "humidity_max": 99.0,
       "early_morning": {
@@ -133,7 +106,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 0.0,
         "visibility": "Regular",
         "rain06h": 0.4,
         "weather": {
@@ -154,19 +127,19 @@
       "morning": {
         "humidity": 99.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": -1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 1.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "S",
@@ -367,16 +340,16 @@
       "morning": {
         "humidity": null,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": null,
         "temperature": 0.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -477,8 +450,8 @@
     },
     {
       "date": "2026-06-23",
-      "temp_min": 3.0,
-      "temp_max": 3.0,
+      "temp_min": 1.0,
+      "temp_max": 4.0,
       "humidity_min": 79.0,
       "humidity_max": 95.0,
       "early_morning": null,
@@ -489,7 +462,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -517,7 +490,7 @@
           51,
           59
         ],
-        "temperature": 3.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -567,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10861",
-  "generated_at": "2026-06-17T05:16:43.751395+00:00"
+  "generated_at": "2026-06-17T11:19:20.154737+00:00"
 }

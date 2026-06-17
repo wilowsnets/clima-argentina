@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:40:50-03:00",
+  "updated": "2026-06-17T05:49:32-03:00",
   "location": {
     "id": 794,
     "name": "Rivadavia",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-17",
-      "temp_min": 12.0,
-      "temp_max": 21.0,
+      "temp_min": 9.0,
+      "temp_max": 18.0,
       "humidity_min": 50.0,
       "humidity_max": 79.0,
-      "early_morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 12.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 50.0,
         "rain_prob_range": [
@@ -48,12 +24,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "E",
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 21.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -98,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 19.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -127,7 +103,7 @@
         "humidity": 72.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 18.0,
@@ -179,7 +155,10 @@
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 22.0,
         "visibility": "Regular",
         "rain06h": 0.0,
@@ -201,16 +180,16 @@
       "night": {
         "humidity": 76.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 20.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.4,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "S",
@@ -242,8 +221,8 @@
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -326,8 +305,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "N",
@@ -549,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/794",
-  "generated_at": "2026-06-17T05:16:15.707117+00:00"
+  "generated_at": "2026-06-17T11:18:52.870698+00:00"
 }
