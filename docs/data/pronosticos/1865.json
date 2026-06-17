@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T10:30:47-03:00",
+  "updated": "2026-06-17T17:38:44-03:00",
   "location": {
     "id": 1865,
     "name": "Puerto Santa Cruz",
@@ -18,31 +18,7 @@
       "humidity_max": 80.0,
       "early_morning": null,
       "morning": null,
-      "afternoon": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "afternoon": null,
       "night": {
         "humidity": 73.0,
         "rain_prob_range": [
@@ -191,7 +167,31 @@
       "temp_max": 7.0,
       "humidity_min": 69.0,
       "humidity_max": 84.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 80.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 5.0,
+        "visibility": "Regular",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Neblina",
+          "id": 61
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 84.0,
         "rain_prob_range": [
@@ -248,7 +248,34 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 74.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 5.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Nublado",
+          "id": 43
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 0.1,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-06-20",
@@ -494,6 +521,68 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-06-24",
+      "temp_min": 5.0,
+      "temp_max": 6.0,
+      "humidity_min": 74.0,
+      "humidity_max": 74.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 6.0,
+        "visibility": "Buena",
+        "rain06h": null,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NE",
+          "deg": 45.0,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 74.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 5.0,
+        "visibility": "Buena",
+        "rain06h": 0.6,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NE",
+          "deg": 45.0,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -525,5 +614,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1865",
-  "generated_at": "2026-06-17T20:31:35.013560+00:00"
+  "generated_at": "2026-06-17T22:54:19.313263+00:00"
 }
