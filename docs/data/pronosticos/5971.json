@@ -11,44 +11,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-16",
-      "temp_min": -1.0,
-      "temp_max": 3.0,
-      "humidity_min": 65.0,
-      "humidity_max": 77.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 67.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          70,
-          78
-        ],
-        "temperature": 1.0,
-        "visibility": "Regular",
-        "rain06h": 0.4,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-17",
       "temp_min": 2.0,
       "temp_max": 4.0,
@@ -620,5 +582,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5971",
-  "generated_at": "2026-06-16T22:06:57.847068+00:00"
+  "generated_at": "2026-06-17T05:16:44.145258+00:00"
 }
