@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T05:49:32-03:00",
+  "updated": "2026-06-17T10:30:47-03:00",
   "location": {
     "id": 3989,
     "name": "9 de Julio",
@@ -17,31 +17,7 @@
       "humidity_min": 45.0,
       "humidity_max": 79.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 90.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 45.0,
         "rain_prob_range": [
@@ -531,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3989",
-  "generated_at": "2026-06-17T11:17:09.819918+00:00"
+  "generated_at": "2026-06-17T16:01:39.878974+00:00"
 }

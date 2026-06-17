@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T05:49:32-03:00",
+  "updated": "2026-06-17T10:30:47-03:00",
   "location": {
     "id": 10120,
     "name": "Tafí Viejo",
@@ -17,38 +17,17 @@
       "humidity_min": 54.0,
       "humidity_max": 92.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 89.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 54.0,
         "rain_prob_range": [
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -525,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10120",
-  "generated_at": "2026-06-17T11:19:24.397452+00:00"
+  "generated_at": "2026-06-17T16:03:50.411399+00:00"
 }

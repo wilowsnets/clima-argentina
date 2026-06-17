@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T05:49:32-03:00",
+  "updated": "2026-06-17T10:30:47-03:00",
   "location": {
     "id": 10615,
     "name": "Banfield",
@@ -17,31 +17,7 @@
       "humidity_min": 68.0,
       "humidity_max": 84.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 84.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 112.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 69.0,
         "rain_prob_range": [
@@ -525,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10615",
-  "generated_at": "2026-06-17T11:17:13.771752+00:00"
+  "generated_at": "2026-06-17T16:01:43.240540+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T05:49:32-03:00",
+  "updated": "2026-06-17T10:30:47-03:00",
   "location": {
     "id": 2077,
     "name": "San Cristóbal",
@@ -17,31 +17,7 @@
       "humidity_min": 48.0,
       "humidity_max": 73.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 68.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 48.0,
         "rain_prob_range": [
@@ -525,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2077",
-  "generated_at": "2026-06-17T11:19:06.354836+00:00"
+  "generated_at": "2026-06-17T16:03:32.473676+00:00"
 }

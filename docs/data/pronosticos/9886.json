@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T05:49:32-03:00",
+  "updated": "2026-06-17T10:30:47-03:00",
   "location": {
     "id": 9886,
     "name": "Caviahue",
@@ -17,31 +17,7 @@
       "humidity_min": 25.0,
       "humidity_max": 58.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 58.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 90.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 25.0,
         "rain_prob_range": [
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9886",
-  "generated_at": "2026-06-17T11:18:42.534465+00:00"
+  "generated_at": "2026-06-17T16:03:09.284306+00:00"
 }

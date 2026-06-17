@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T05:49:32-03:00",
+  "updated": "2026-06-17T10:30:47-03:00",
   "location": {
     "id": 6706,
     "name": "Villa General Belgrano",
@@ -17,31 +17,7 @@
       "humidity_min": 49.0,
       "humidity_max": 78.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 180.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 49.0,
         "rain_prob_range": [
@@ -531,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6706",
-  "generated_at": "2026-06-17T11:18:17.019620+00:00"
+  "generated_at": "2026-06-17T16:02:45.037075+00:00"
 }
