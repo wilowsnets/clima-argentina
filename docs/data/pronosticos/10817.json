@@ -9,20 +9,20 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-17T12:00:00-03:00",
-    "humidity": 65.0,
-    "pressure": 981.6,
-    "feels_like": null,
-    "temperature": -0.8,
-    "visibility": 5.0,
+    "date": "2026-06-17T15:00:00-03:00",
+    "humidity": 86.0,
+    "pressure": 983.0,
+    "feels_like": -5.7,
+    "temperature": -2.2,
+    "visibility": 2.0,
     "weather": {
-      "description": "Cubierto con neblina",
-      "id": 61
+      "description": "Cubierto con nevada",
+      "id": 79
     },
     "wind": {
-      "direction": "Noroeste",
-      "deg": 315.0,
-      "speed": 4.0
+      "direction": "Sur",
+      "deg": 180.0,
+      "speed": 10.0
     },
     "station_id": 89066
   },
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10817",
-  "generated_at": "2026-06-17T16:03:46.302314+00:00",
-  "previous_generated_at": "2026-06-17T11:19:19.498525+00:00",
+  "generated_at": "2026-06-17T20:31:52.838017+00:00",
+  "previous_generated_at": "2026-06-17T16:03:46.302314+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10817"
 }
