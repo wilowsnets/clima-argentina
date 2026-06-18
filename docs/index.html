@@ -26,6 +26,9 @@
       --texto-secundario: #b9d3ef;
       --verde: #6ee7a8;
       --rojo: #ff8d8d;
+      --alerta-amarillo: #ffcc35;
+      --alerta-naranja: #f67f15;
+      --alerta-rojo: #d62e42;
       --sombra: 0 20px 55px rgba(0, 0, 0, 0.3);
     }
 
@@ -378,6 +381,133 @@
       text-align: right;
     }
 
+
+    .seccion-alertas {
+      margin-top: 28px;
+    }
+
+    .alertas-contenedor {
+      display: grid;
+      gap: 14px;
+    }
+
+    .alertas-estado,
+    .alerta-tarjeta {
+      padding: 18px 20px;
+      border: 1px solid var(--borde);
+      border-radius: 18px;
+      background: var(--panel);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.16);
+    }
+
+    .alertas-estado strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--texto);
+    }
+
+    .alertas-estado {
+      color: var(--texto-secundario);
+    }
+
+    .alertas-estado.sin-alertas {
+      border-color: rgba(110, 231, 168, 0.45);
+      background: rgba(25, 112, 82, 0.12);
+    }
+
+    .alertas-estado.sin-cobertura {
+      border-color: rgba(158, 208, 255, 0.32);
+    }
+
+    .alertas-estado.error-alertas {
+      border-color: rgba(255, 141, 141, 0.45);
+      background: rgba(120, 38, 38, 0.14);
+    }
+
+    .alerta-tarjeta {
+      position: relative;
+      overflow: hidden;
+      padding-left: 24px;
+    }
+
+    .alerta-tarjeta::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 7px;
+      background: var(--alerta-amarillo);
+    }
+
+    .alerta-tarjeta.nivel-4::before {
+      background: var(--alerta-naranja);
+    }
+
+    .alerta-tarjeta.nivel-5::before {
+      background: var(--alerta-rojo);
+    }
+
+    .alerta-cabecera {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .alerta-nivel {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      color: #111827;
+      background: var(--alerta-amarillo);
+      font-size: 0.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .nivel-4 .alerta-nivel {
+      color: #ffffff;
+      background: var(--alerta-naranja);
+    }
+
+    .nivel-5 .alerta-nivel {
+      color: #ffffff;
+      background: var(--alerta-rojo);
+    }
+
+    .alerta-fecha {
+      color: var(--texto-secundario);
+      font-size: 0.9rem;
+      text-transform: capitalize;
+    }
+
+    .alerta-fenomeno {
+      margin: 13px 0 0;
+      font-size: 1.2rem;
+    }
+
+    .alerta-mensaje {
+      margin: 9px 0 0;
+      color: var(--texto-secundario);
+      line-height: 1.5;
+    }
+
+    .alerta-meta {
+      margin-top: 12px;
+      color: var(--texto-secundario);
+      font-size: 0.82rem;
+    }
+
+    .alerta-enlace {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--azul-claro);
+      font-weight: 800;
+    }
+
     .seccion-pronostico {
       margin-top: 28px;
     }
@@ -556,6 +686,11 @@
       .datos-periodo {
         grid-template-columns: 1fr;
       }
+
+      .alerta-cabecera {
+        flex-direction: column;
+        gap: 8px;
+      }
     }
   </style>
 </head>
@@ -653,6 +788,16 @@
       </div>
     </section>
 
+
+    <section class="seccion-alertas">
+      <h2 class="seccion-titulo">Alertas meteorológicas</h2>
+      <div id="alertas-localidad" class="alertas-contenedor">
+        <div class="alertas-estado">
+          Comprobando alertas vigentes para esta localidad…
+        </div>
+      </div>
+    </section>
+
     <section class="seccion-pronostico">
       <h2 class="seccion-titulo">Pronóstico extendido</h2>
       <div id="pronostico" class="pronostico"></div>
@@ -677,6 +822,9 @@
   <script>
     const URL_INDICE = "./data/pronosticos/index.json";
     const CARPETA_PRONOSTICOS = "./data/pronosticos";
+    const URL_ALERTAS = "./data/alertas.json";
+    const URL_LOCALIDADES_ALERTA = "./data/localidades_alerta.json";
+    const URL_ALERTAS_SMN = "https://www.smn.gob.ar/alertas";
     const ID_PREDETERMINADO = 4864;
     const CLAVE_LOCALIDAD = "climaArgentinaLocalidad";
 
@@ -711,12 +859,16 @@
     const actualRango = document.getElementById("actual-rango");
     const actualDetalles = document.getElementById("actual-detalles");
     const contenedorPronostico = document.getElementById("pronostico");
+    const alertasLocalidad = document.getElementById("alertas-localidad");
     const fechaGeneracion = document.getElementById("fecha-generacion");
 
     let localidadesDisponibles = [];
     let localidadActualId = ID_PREDETERMINADO;
     let resultadosActuales = [];
     let indiceActivo = -1;
+    let datosAlertas = null;
+    let mapaLocalidadesAlertas = null;
+    let errorCargaAlertas = null;
 
     function escaparHTML(valor) {
       return String(valor ?? "")
@@ -1280,6 +1432,187 @@
       }
     }
 
+
+    function mensajeNivelAlerta(nivel) {
+      if (nivel >= 5) {
+        return (
+          "Se esperan fenómenos meteorológicos excepcionales. " +
+          "Seguí las instrucciones oficiales."
+        );
+      }
+
+      if (nivel === 4) {
+        return (
+          "Se esperan fenómenos meteorológicos peligrosos. " +
+          "Tomá las precauciones indicadas por las autoridades."
+        );
+      }
+
+      return (
+        "Posibles fenómenos meteorológicos con capacidad de daño. " +
+        "Mantenete informado por los canales oficiales."
+      );
+    }
+
+    function nombreNivelAlerta(nivel) {
+      if (nivel >= 5) return "Rojo";
+      if (nivel === 4) return "Naranja";
+      return "Amarillo";
+    }
+
+    function renderizarEstadoAlertas(clase, titulo, texto) {
+      alertasLocalidad.innerHTML = `
+        <div class="alertas-estado ${clase}">
+          <strong>${escaparHTML(titulo)}</strong>
+          ${escaparHTML(texto)}
+        </div>
+      `;
+    }
+
+    function crearTarjetaAlerta(alerta) {
+      const nivel = Number(alerta.level ?? 3);
+      const eventos = Array.isArray(alerta.events)
+        ? alerta.events
+            .filter(evento => Number(evento.level ?? nivel) >= 3)
+            .map(evento => evento.name || `Fenómeno ${evento.id}`)
+        : [];
+
+      const nombresEventos = [...new Set(eventos)].join(" y ") ||
+        "Fenómeno meteorológico";
+      const fecha = alerta.date
+        ? formatearFecha(alerta.date)
+        : "Fecha no informada";
+      const actualizado = alerta.updated || datosAlertas?.smn_updated_at;
+
+      return `
+        <article class="alerta-tarjeta nivel-${nivel}">
+          <div class="alerta-cabecera">
+            <span class="alerta-nivel">
+              Alerta ${escaparHTML(nombreNivelAlerta(nivel))}
+            </span>
+            <span class="alerta-fecha">${escaparHTML(fecha)}</span>
+          </div>
+          <h3 class="alerta-fenomeno">${escaparHTML(nombresEventos)}</h3>
+          <p class="alerta-mensaje">
+            ${escaparHTML(mensajeNivelAlerta(nivel))}
+          </p>
+          <div class="alerta-meta">
+            Área oficial ${escaparHTML(alerta.area_id)}
+            ${actualizado
+              ? ` · Actualizada ${escaparHTML(formatearFechaHora(actualizado))}`
+              : ""}
+          </div>
+          <a
+            class="alerta-enlace"
+            href="${URL_ALERTAS_SMN}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver alertas oficiales del SMN
+          </a>
+        </article>
+      `;
+    }
+
+    function renderizarAlertas(localidadId) {
+      if (errorCargaAlertas) {
+        renderizarEstadoAlertas(
+          "error-alertas",
+          "No se pudieron comprobar las alertas",
+          "El pronóstico continúa disponible, pero la consulta de alertas falló temporalmente."
+        );
+        return;
+      }
+
+      if (!datosAlertas || !mapaLocalidadesAlertas) {
+        renderizarEstadoAlertas(
+          "",
+          "Comprobando alertas",
+          "Cargando la información oficial de alertas meteorológicas."
+        );
+        return;
+      }
+
+      const porLocalidad = mapaLocalidadesAlertas.by_locality_id || {};
+      const areas = Array.isArray(porLocalidad[String(localidadId)])
+        ? porLocalidad[String(localidadId)].map(Number)
+        : [];
+
+      if (areas.length === 0) {
+        renderizarEstadoAlertas(
+          "sin-cobertura",
+          "Localidad fuera del mapa de áreas",
+          "El mapa público de alertas del SMN no asigna un área a esta localidad. Consultá igualmente los avisos oficiales."
+        );
+        return;
+      }
+
+      const alertas = Array.isArray(datosAlertas.alerts)
+        ? datosAlertas.alerts
+            .filter(alerta =>
+              areas.includes(Number(alerta.area_id)) &&
+              Number(alerta.level) >= 3
+            )
+            .sort((a, b) =>
+              String(a.date ?? "").localeCompare(String(b.date ?? "")) ||
+              Number(b.level ?? 0) - Number(a.level ?? 0)
+            )
+        : [];
+
+      if (alertas.length === 0) {
+        const actualizacion = datosAlertas.smn_updated_at ||
+          datosAlertas.last_success_at ||
+          datosAlertas.generated_at;
+        const textoActualizacion = actualizacion
+          ? ` Información verificada ${formatearFechaHora(actualizacion)}.`
+          : "";
+
+        renderizarEstadoAlertas(
+          "sin-alertas",
+          "Sin alertas vigentes para esta localidad",
+          `No hay alertas amarillas, naranjas ni rojas asociadas a su área.${textoActualizacion}`
+        );
+        return;
+      }
+
+      alertasLocalidad.innerHTML = alertas
+        .map(crearTarjetaAlerta)
+        .join("");
+    }
+
+    async function cargarDatosAlertas(forzarActualizacion = false) {
+      errorCargaAlertas = null;
+      const version = forzarActualizacion ? Date.now() : "actual";
+
+      try {
+        const [respuestaAlertas, respuestaMapa] = await Promise.all([
+          fetch(`${URL_ALERTAS}?v=${version}`, { cache: "no-store" }),
+          fetch(`${URL_LOCALIDADES_ALERTA}?v=${version}`, { cache: "no-store" })
+        ]);
+
+        if (!respuestaAlertas.ok) {
+          throw new Error(`alertas.json respondió ${respuestaAlertas.status}`);
+        }
+
+        if (!respuestaMapa.ok) {
+          throw new Error(
+            `localidades_alerta.json respondió ${respuestaMapa.status}`
+          );
+        }
+
+        datosAlertas = await respuestaAlertas.json();
+        mapaLocalidadesAlertas = await respuestaMapa.json();
+      } catch (error) {
+        console.error(error);
+        errorCargaAlertas = error;
+        datosAlertas = null;
+        mapaLocalidadesAlertas = null;
+      }
+
+      renderizarAlertas(localidadActualId);
+    }
+
+
     function obtenerIdInicial() {
       const parametros = new URLSearchParams(window.location.search);
       const idURL = Number(parametros.get("id"));
@@ -1468,6 +1801,8 @@
         nombreLocalidad.textContent =
           datos.location.name ?? localidadIndice.name;
 
+        renderizarAlertas(localidadActualId);
+
         provinciaLocalidad.textContent = [
           datos.location.department,
           datos.location.province
@@ -1605,8 +1940,9 @@
       }
     });
 
-    botonActualizar.addEventListener("click", () => {
-      cargarPronostico(localidadActualId, true);
+    botonActualizar.addEventListener("click", async () => {
+      await cargarDatosAlertas(true);
+      await cargarPronostico(localidadActualId, true);
     });
 
     async function iniciar() {
@@ -1621,6 +1957,8 @@
           );
         }
 
+        localidadActualId = Number(idInicial);
+        await cargarDatosAlertas(false);
         await cargarPronostico(idInicial, false);
       } catch (error) {
         console.error(error);
