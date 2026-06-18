@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 6698,
     "name": "Mina Clavero",
@@ -16,31 +16,7 @@
       "temp_max": 13.0,
       "humidity_min": 61.0,
       "humidity_max": 89.0,
-      "early_morning": {
-        "humidity": 89.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 75.0,
         "rain_prob_range": [
@@ -52,8 +28,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lloviznas",
+          "id": 71
         },
         "wind": {
           "direction": "N",
@@ -159,8 +135,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "S",
@@ -388,8 +364,8 @@
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NO",
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6698",
-  "generated_at": "2026-06-18T05:01:45.459106+00:00"
+  "generated_at": "2026-06-18T10:47:17.247352+00:00"
 }

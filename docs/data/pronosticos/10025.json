@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 10025,
     "name": "Chapelco",
@@ -16,34 +16,7 @@
       "temp_max": 6.0,
       "humidity_min": 45.0,
       "humidity_max": 94.0,
-      "early_morning": {
-        "humidity": 89.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
@@ -65,8 +38,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -277,12 +250,12 @@
       "afternoon": {
         "humidity": 52.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
         "temperature": 5.0,
         "visibility": "Muy mala",
@@ -346,8 +319,8 @@
           40
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 0.0,
         "visibility": "Regular",
@@ -382,10 +355,7 @@
           0,
           10
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": -3.0,
         "visibility": "Buena",
         "rain06h": 0.7,
@@ -582,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10025",
-  "generated_at": "2026-06-18T05:02:15.381109+00:00"
+  "generated_at": "2026-06-18T10:47:44.124042+00:00"
 }

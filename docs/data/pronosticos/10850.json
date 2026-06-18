@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 10850,
     "name": "El Hoyo",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-18",
-      "temp_min": -2.0,
-      "temp_max": 4.0,
+      "temp_min": -1.0,
+      "temp_max": 5.0,
       "humidity_min": 83.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 93.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": -1.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 83.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           51,
           59
         ],
-        "temperature": -2.0,
+        "temperature": 1.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -82,7 +55,7 @@
           51,
           59
         ],
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -129,7 +102,7 @@
     {
       "date": "2026-06-19",
       "temp_min": 1.0,
-      "temp_max": 6.0,
+      "temp_max": 5.0,
       "humidity_min": 81.0,
       "humidity_max": 100.0,
       "early_morning": {
@@ -139,7 +112,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -271,8 +244,8 @@
       "afternoon": {
         "humidity": 97.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           60,
@@ -337,8 +310,8 @@
           40
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 2.0,
         "visibility": "Regular",
@@ -374,8 +347,8 @@
           10
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": -3.0,
         "visibility": "Buena",
@@ -573,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10850",
-  "generated_at": "2026-06-18T05:01:36.581140+00:00"
+  "generated_at": "2026-06-18T10:47:10.169161+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 9360,
     "name": "Punta de Vacas",
@@ -16,39 +16,12 @@
       "temp_max": 2.0,
       "humidity_min": 19.0,
       "humidity_max": 89.0,
-      "early_morning": {
-        "humidity": 60.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": -2.0,
-        "visibility": "Regular",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 89.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           51,
@@ -75,8 +48,8 @@
       "afternoon": {
         "humidity": 74.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
@@ -142,7 +115,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -10.0,
+        "temperature": -9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -167,7 +140,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -9.0,
+        "temperature": -10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -213,16 +186,16 @@
       "night": {
         "humidity": 33.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          0
         ],
         "gust_range": null,
-        "temperature": -7.0,
-        "visibility": "Mala",
+        "temperature": 1.0,
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nevadas",
-          "id": 79
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "O",
@@ -246,19 +219,19 @@
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          0
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": -11.0,
-        "visibility": "Mala",
+        "visibility": "Buena",
         "rain06h": 5.1,
         "weather": {
-          "description": "Nevadas",
-          "id": 79
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -278,8 +251,8 @@
           40
         ],
         "gust_range": [
-          42,
-          50
+          60,
+          69
         ],
         "temperature": -2.0,
         "visibility": "Regular",
@@ -311,16 +284,16 @@
       "morning": {
         "humidity": 90.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": -10.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.4,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nevadas",
+          "id": 79
         },
         "wind": {
           "direction": "SO",
@@ -337,15 +310,15 @@
         "humidity": 71.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -371,15 +344,15 @@
         "humidity": 38.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -403,8 +376,8 @@
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -422,7 +395,7 @@
     {
       "date": "2026-06-23",
       "temp_min": -10.0,
-      "temp_max": -4.0,
+      "temp_max": -2.0,
       "humidity_min": 56.0,
       "humidity_max": 56.0,
       "early_morning": null,
@@ -458,7 +431,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -4.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -480,7 +453,7 @@
     },
     {
       "date": "2026-06-24",
-      "temp_min": -9.0,
+      "temp_min": -8.0,
       "temp_max": 0.0,
       "humidity_min": 57.0,
       "humidity_max": 57.0,
@@ -492,7 +465,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -9.0,
+        "temperature": -8.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -567,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9360",
-  "generated_at": "2026-06-18T05:02:09.244056+00:00"
+  "generated_at": "2026-06-18T10:47:38.745378+00:00"
 }

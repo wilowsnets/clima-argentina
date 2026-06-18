@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 169,
     "name": "Maquinchao",
@@ -16,34 +16,7 @@
       "temp_max": 8.0,
       "humidity_min": 15.0,
       "humidity_max": 64.0,
-      "early_morning": {
-        "humidity": 47.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 40.0,
         "rain_prob_range": [
@@ -242,7 +215,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 0.0,
-      "temp_max": 4.0,
+      "temp_max": 5.0,
       "humidity_min": 46.0,
       "humidity_max": 80.0,
       "early_morning": null,
@@ -281,10 +254,10 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -295,8 +268,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -346,8 +319,8 @@
           10
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 4.0,
         "visibility": "Buena",
@@ -383,8 +356,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": -5.0,
         "visibility": "Buena",
@@ -511,8 +484,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -582,5 +555,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/169",
-  "generated_at": "2026-06-18T05:02:20.633037+00:00"
+  "generated_at": "2026-06-18T10:47:48.891881+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 8088,
     "name": "Las Lomitas",
@@ -16,31 +16,7 @@
       "temp_max": 22.0,
       "humidity_min": 63.0,
       "humidity_max": 96.0,
-      "early_morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 18.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 75.0,
         "rain_prob_range": [
@@ -123,7 +99,7 @@
     {
       "date": "2026-06-19",
       "temp_min": 15.0,
-      "temp_max": 20.0,
+      "temp_max": 19.0,
       "humidity_min": 69.0,
       "humidity_max": 98.0,
       "early_morning": {
@@ -186,7 +162,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 20.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -307,8 +283,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -555,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8088",
-  "generated_at": "2026-06-18T05:01:57.472669+00:00"
+  "generated_at": "2026-06-18T10:47:28.205028+00:00"
 }

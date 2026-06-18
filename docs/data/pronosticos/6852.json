@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 6852,
     "name": "Almafuerte",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-18",
       "temp_min": 10.0,
-      "temp_max": 17.0,
+      "temp_max": 15.0,
       "humidity_min": 39.0,
       "humidity_max": 88.0,
-      "early_morning": {
-        "humidity": 88.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 14.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 72.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -120,7 +96,7 @@
     {
       "date": "2026-06-19",
       "temp_min": 10.0,
-      "temp_max": 17.0,
+      "temp_max": 15.0,
       "humidity_min": 53.0,
       "humidity_max": 90.0,
       "early_morning": {
@@ -159,8 +135,8 @@
         "visibility": "Buena",
         "rain06h": 1.4,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "SO",
@@ -180,7 +156,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -385,8 +361,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "E",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6852",
-  "generated_at": "2026-06-18T05:01:40.229785+00:00"
+  "generated_at": "2026-06-18T10:47:13.389295+00:00"
 }

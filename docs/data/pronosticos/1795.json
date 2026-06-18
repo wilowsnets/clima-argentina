@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 1795,
     "name": "Perito Moreno",
@@ -16,34 +16,7 @@
       "temp_max": 6.0,
       "humidity_min": 81.0,
       "humidity_max": 85.0,
-      "early_morning": {
-        "humidity": 85.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 84.0,
         "rain_prob_range": [
@@ -79,8 +52,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 6.0,
         "visibility": "Buena",
@@ -129,7 +102,7 @@
     {
       "date": "2026-06-19",
       "temp_min": 0.0,
-      "temp_max": 6.0,
+      "temp_max": 5.0,
       "humidity_min": 81.0,
       "humidity_max": 89.0,
       "early_morning": {
@@ -139,7 +112,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -242,7 +215,7 @@
     {
       "date": "2026-06-20",
       "temp_min": -2.0,
-      "temp_max": 1.0,
+      "temp_max": 2.0,
       "humidity_min": 83.0,
       "humidity_max": 84.0,
       "early_morning": null,
@@ -284,7 +257,7 @@
           51,
           59
         ],
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -570,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1795",
-  "generated_at": "2026-06-18T05:02:32.727212+00:00"
+  "generated_at": "2026-06-18T10:47:59.999880+00:00"
 }

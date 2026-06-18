@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:42:21-03:00",
+  "updated": "2026-06-18T06:01:34-03:00",
   "location": {
     "id": 9933,
     "name": "Zapala",
@@ -16,34 +16,7 @@
       "temp_max": 10.0,
       "humidity_min": 16.0,
       "humidity_max": 57.0,
-      "early_morning": {
-        "humidity": 46.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 57.0,
         "rain_prob_range": [
@@ -65,8 +38,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -79,8 +52,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 10.0,
         "visibility": "Buena",
@@ -90,8 +63,8 @@
           "id": 19
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
             32,
             41
@@ -242,7 +215,7 @@
     {
       "date": "2026-06-20",
       "temp_min": 6.0,
-      "temp_max": 6.0,
+      "temp_max": 7.0,
       "humidity_min": 36.0,
       "humidity_max": 69.0,
       "early_morning": null,
@@ -278,13 +251,13 @@
         "humidity": 36.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -346,8 +319,8 @@
           10
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 8.0,
         "visibility": "Buena",
@@ -382,10 +355,7 @@
           0,
           0
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": -3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -582,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9933",
-  "generated_at": "2026-06-18T05:02:17.751790+00:00"
+  "generated_at": "2026-06-18T10:47:46.599051+00:00"
 }
