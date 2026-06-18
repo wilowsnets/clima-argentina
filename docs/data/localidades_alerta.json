@@ -1,13 +1,15 @@
 {
-  "generated_at": "2026-06-17T21:12:14-03:00",
+  "generated_at": "2026-06-18T02:02:58-03:00",
   "source": "Polígonos del mapa público de alertas del Servicio Meteorológico Nacional",
   "areas_file": "areas_alerta.geojson",
   "area_count": 168,
   "locality_count": 297,
-  "matched_locality_count": 284,
-  "unmatched_locality_count": 13,
+  "matched_locality_count": 289,
+  "unmatched_locality_count": 8,
   "without_coordinates_count": 0,
   "multiple_match_count": 0,
+  "proximity_match_count": 5,
+  "proximity_threshold_degrees": 0.005,
   "by_locality_id": {
     "3989": [
       776
@@ -195,7 +197,9 @@
     "4307": [
       774
     ],
-    "4165": [],
+    "4165": [
+      783
+    ],
     "4308": [
       789
     ],
@@ -250,7 +254,9 @@
     "3884": [
       778
     ],
-    "4514": [],
+    "4514": [
+      760
+    ],
     "4617": [
       769
     ],
@@ -287,11 +293,15 @@
     "4771": [
       790
     ],
-    "4164": [],
+    "4164": [
+      783
+    ],
     "4176": [
       778
     ],
-    "4153": [],
+    "4153": [
+      783
+    ],
     "4750": [
       763
     ],
@@ -358,7 +368,9 @@
     "4749": [
       790
     ],
-    "10821": [],
+    "10821": [
+      762
+    ],
     "4864": [
       762
     ],
@@ -877,46 +889,6 @@
   },
   "unmatched_localities": [
     {
-      "id": 4165,
-      "name": "Mar de Ajó",
-      "province": "Buenos Aires",
-      "lat": -36.7287,
-      "lon": -56.6794,
-      "area_ids": []
-    },
-    {
-      "id": 4514,
-      "name": "Pehuen Có",
-      "province": "Buenos Aires",
-      "lat": -39.0012,
-      "lon": -61.5484,
-      "area_ids": []
-    },
-    {
-      "id": 4164,
-      "name": "San Bernardo",
-      "province": "Buenos Aires",
-      "lat": -36.69836044,
-      "lon": -56.67993927,
-      "area_ids": []
-    },
-    {
-      "id": 4153,
-      "name": "San Clemente del Tuyú",
-      "province": "Buenos Aires",
-      "lat": -36.35927582,
-      "lon": -56.72302246,
-      "area_ids": []
-    },
-    {
-      "id": 10821,
-      "name": "Aeroparque Buenos Aires",
-      "province": "Capital Federal",
-      "lat": -34.558889,
-      "lon": -58.416389,
-      "area_ids": []
-    },
-    {
       "id": 10806,
       "name": "Base Belgrano II",
       "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -982,5 +954,67 @@
     }
   ],
   "without_coordinates": [],
-  "multiple_matches": []
+  "multiple_matches": [],
+  "proximity_matches": [
+    {
+      "id": 4165,
+      "name": "Mar de Ajó",
+      "province": "Buenos Aires",
+      "lat": -36.7287,
+      "lon": -56.6794,
+      "area_ids": [
+        783
+      ],
+      "match_method": "proximity",
+      "distance_degrees": 0.0006
+    },
+    {
+      "id": 4514,
+      "name": "Pehuen Có",
+      "province": "Buenos Aires",
+      "lat": -39.0012,
+      "lon": -61.5484,
+      "area_ids": [
+        760
+      ],
+      "match_method": "proximity",
+      "distance_degrees": 0.0012
+    },
+    {
+      "id": 4164,
+      "name": "San Bernardo",
+      "province": "Buenos Aires",
+      "lat": -36.69836044,
+      "lon": -56.67993927,
+      "area_ids": [
+        783
+      ],
+      "match_method": "proximity",
+      "distance_degrees": 0.00017739
+    },
+    {
+      "id": 4153,
+      "name": "San Clemente del Tuyú",
+      "province": "Buenos Aires",
+      "lat": -36.35927582,
+      "lon": -56.72302246,
+      "area_ids": [
+        783
+      ],
+      "match_method": "proximity",
+      "distance_degrees": 0.00117658
+    },
+    {
+      "id": 10821,
+      "name": "Aeroparque Buenos Aires",
+      "province": "Capital Federal",
+      "lat": -34.558889,
+      "lon": -58.416389,
+      "area_ids": [
+        762
+      ],
+      "match_method": "proximity",
+      "distance_degrees": 0.00219589
+    }
+  ]
 }

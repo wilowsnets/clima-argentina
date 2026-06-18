@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:38:44-03:00",
+  "updated": "2026-06-18T00:42:21-03:00",
   "location": {
     "id": 9360,
     "name": "Punta de Vacas",
@@ -10,44 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-17",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 63.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": -2.0,
-        "visibility": "Mala",
-        "rain06h": 0.4,
-        "weather": {
-          "description": "Nevadas",
-          "id": 79
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-18",
       "temp_min": -8.0,
@@ -605,5 +567,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9360",
-  "generated_at": "2026-06-18T00:11:30.339539+00:00"
+  "generated_at": "2026-06-18T05:02:09.244056+00:00"
 }

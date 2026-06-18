@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:38:44-03:00",
+  "updated": "2026-06-18T00:42:21-03:00",
   "location": {
     "id": 8567,
     "name": "Perico",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-17",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 75.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-18",
       "temp_min": 8.0,
@@ -59,11 +24,11 @@
         ],
         "gust_range": null,
         "temperature": 11.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Niebla",
+          "id": 67
         },
         "wind": {
           "direction": "N",
@@ -584,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8567",
-  "generated_at": "2026-06-18T00:11:22.283994+00:00"
+  "generated_at": "2026-06-18T05:02:00.800765+00:00"
 }

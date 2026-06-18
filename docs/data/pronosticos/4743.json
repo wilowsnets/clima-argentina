@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:38:44-03:00",
+  "updated": "2026-06-18T00:42:21-03:00",
   "location": {
     "id": 4743,
     "name": "San Isidro",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-17",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-18",
       "temp_min": 7.0,
@@ -584,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4743",
-  "generated_at": "2026-06-18T00:10:48.837607+00:00"
+  "generated_at": "2026-06-18T05:01:22.054379+00:00"
 }

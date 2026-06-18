@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:38:44-03:00",
+  "updated": "2026-06-18T00:42:21-03:00",
   "location": {
     "id": 1857,
     "name": "Puerto Deseado",
@@ -10,44 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-17",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 46.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-18",
       "temp_min": 4.0,
@@ -611,5 +573,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1857",
-  "generated_at": "2026-06-18T00:11:51.863010+00:00"
+  "generated_at": "2026-06-18T05:02:33.120928+00:00"
 }

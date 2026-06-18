@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:38:44-03:00",
+  "updated": "2026-06-18T00:42:21-03:00",
   "location": {
     "id": 10861,
     "name": "Isla de los Estados",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-17",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 98.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-18",
       "temp_min": -1.0,
@@ -596,5 +561,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10861",
-  "generated_at": "2026-06-18T00:12:10.606957+00:00"
+  "generated_at": "2026-06-18T05:02:54.139211+00:00"
 }
