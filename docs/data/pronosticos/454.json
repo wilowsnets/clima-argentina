@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 454,
     "name": "Salta",
@@ -12,36 +12,12 @@
   "forecast": [
     {
       "date": "2026-06-18",
-      "temp_min": 7.0,
+      "temp_min": 8.0,
       "temp_max": 19.0,
       "humidity_min": 46.0,
       "humidity_max": 82.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lloviznas",
-          "id": 71
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 60.0,
         "rain_prob_range": [
@@ -525,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/454",
-  "generated_at": "2026-06-18T10:47:53.270027+00:00"
+  "generated_at": "2026-06-18T15:53:13.071703+00:00"
 }

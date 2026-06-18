@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 10059,
     "name": "Tafí del Valle",
@@ -12,56 +12,35 @@
   "forecast": [
     {
       "date": "2026-06-18",
-      "temp_min": 2.0,
-      "temp_max": 14.0,
+      "temp_min": 5.0,
+      "temp_max": 10.0,
       "humidity_min": 26.0,
       "humidity_max": 65.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 26.0,
+      "morning": null,
+      "afternoon": {
+        "humidity": 33.0,
         "rain_prob_range": [
           0,
           10
         ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
-      "afternoon": {
-        "humidity": 33.0,
-        "rain_prob_range": [
-          10,
-          40
+        "gust_range": [
+          60,
+          69
         ],
-        "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 10.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Ventoso",
+          "id": 51
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            32,
+            41
           ]
         },
         "river": null,
@@ -73,7 +52,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 3.7,
@@ -82,11 +64,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            32,
+            41
           ]
         },
         "river": null,
@@ -525,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10059",
-  "generated_at": "2026-06-18T10:48:21.546881+00:00"
+  "generated_at": "2026-06-18T15:53:41.970329+00:00"
 }

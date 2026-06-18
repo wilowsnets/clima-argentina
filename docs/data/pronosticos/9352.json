@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 9352,
     "name": "Uspallata",
@@ -12,36 +12,12 @@
   "forecast": [
     {
       "date": "2026-06-18",
-      "temp_min": 1.0,
+      "temp_min": -1.0,
       "temp_max": 12.0,
       "humidity_min": 14.0,
       "humidity_max": 85.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 23.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 14.0,
         "rain_prob_range": [
@@ -78,8 +54,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -525,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9352",
-  "generated_at": "2026-06-18T10:47:40.948124+00:00"
+  "generated_at": "2026-06-18T15:53:00.518077+00:00"
 }

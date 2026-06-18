@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 1844,
     "name": "Yacimientos Río Turbio",
@@ -17,31 +17,7 @@
       "humidity_min": 79.0,
       "humidity_max": 86.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 86.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": -2.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 80.0,
         "rain_prob_range": [
@@ -543,5 +519,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1844",
-  "generated_at": "2026-06-18T10:48:01.938250+00:00"
+  "generated_at": "2026-06-18T15:53:21.970507+00:00"
 }

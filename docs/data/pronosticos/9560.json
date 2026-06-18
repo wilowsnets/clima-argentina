@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 9560,
     "name": "General Alvear",
@@ -12,36 +12,12 @@
   "forecast": [
     {
       "date": "2026-06-18",
-      "temp_min": 3.0,
+      "temp_min": 4.0,
       "temp_max": 17.0,
       "humidity_min": 58.0,
       "humidity_max": 82.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 62.0,
         "rain_prob_range": [
@@ -534,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9560",
-  "generated_at": "2026-06-18T10:47:37.527014+00:00"
+  "generated_at": "2026-06-18T15:52:56.991206+00:00"
 }

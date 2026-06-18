@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 5026,
     "name": "Andalgalá",
@@ -12,56 +12,35 @@
   "forecast": [
     {
       "date": "2026-06-18",
-      "temp_min": 4.0,
-      "temp_max": 17.0,
+      "temp_min": 2.0,
+      "temp_max": 20.0,
       "humidity_min": 42.0,
       "humidity_max": 61.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 61.0,
+      "morning": null,
+      "afternoon": {
+        "humidity": 44.0,
         "rain_prob_range": [
           0,
           10
         ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
-      "afternoon": {
-        "humidity": 44.0,
-        "rain_prob_range": [
-          10,
-          40
+        "gust_range": [
+          51,
+          59
         ],
-        "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 20.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Ventoso",
+          "id": 51
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -73,7 +52,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -85,8 +67,8 @@
           "direction": "S",
           "deg": 202.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -525,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5026",
-  "generated_at": "2026-06-18T10:47:06.166503+00:00"
+  "generated_at": "2026-06-18T15:52:25.688774+00:00"
 }

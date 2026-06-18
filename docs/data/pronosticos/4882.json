@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 4882,
     "name": "Chapadmalal",
@@ -17,34 +17,7 @@
       "humidity_min": 61.0,
       "humidity_max": 90.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 80.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 61.0,
         "rain_prob_range": [
@@ -540,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4882",
-  "generated_at": "2026-06-18T10:46:26.075349+00:00"
+  "generated_at": "2026-06-18T15:51:45.714737+00:00"
 }

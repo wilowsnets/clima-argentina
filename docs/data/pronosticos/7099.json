@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T06:01:34-03:00",
+  "updated": "2026-06-18T11:55:23-03:00",
   "location": {
     "id": 7099,
     "name": "Laboulaye",
@@ -17,44 +17,20 @@
       "humidity_min": 46.0,
       "humidity_max": 91.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 71.0,
+      "morning": null,
+      "afternoon": {
+        "humidity": 46.0,
         "rain_prob_range": [
           10,
           40
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 14.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
           "description": "Lluvias aisladas",
           "id": 72
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
-      "afternoon": {
-        "humidity": 46.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 14.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -525,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7099",
-  "generated_at": "2026-06-18T10:47:16.481720+00:00"
+  "generated_at": "2026-06-18T15:52:36.463314+00:00"
 }
