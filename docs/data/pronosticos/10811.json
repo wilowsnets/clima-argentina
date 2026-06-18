@@ -9,20 +9,20 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-18T12:00:00-03:00",
-    "humidity": 93.0,
-    "pressure": 988.2,
-    "feels_like": -13.9,
-    "temperature": -4.8,
-    "visibility": 2.0,
+    "date": "2026-06-18T15:00:00-03:00",
+    "humidity": 92.0,
+    "pressure": 991.2,
+    "feels_like": -16.1,
+    "temperature": -6.9,
+    "visibility": 4.0,
     "weather": {
-      "description": "Cubierto con nevada débil",
+      "description": "Mayormente nublado con nevada débil",
       "id": 78
     },
     "wind": {
       "direction": "Este",
       "deg": 90.0,
-      "speed": 41.0
+      "speed": 36.0
     },
     "station_id": 89053
   },
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10811",
-  "generated_at": "2026-06-18T15:53:32.761120+00:00",
-  "previous_generated_at": "2026-06-18T10:48:12.402239+00:00",
+  "generated_at": "2026-06-18T20:39:48.682877+00:00",
+  "previous_generated_at": "2026-06-18T15:53:32.761120+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10811"
 }
