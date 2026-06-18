@@ -39,6 +39,10 @@ jobs:
         run: |
           python scripts/actualizar_pronostico.py
 
+      - name: Vincular localidades con áreas de alerta
+        run: |
+          python scripts/generar_mapa_alertas.py
+
       - name: Actualizar alertas
         run: |
           python scripts/actualizar_alertas.py
@@ -49,6 +53,8 @@ jobs:
           test -f docs/data/pronostico.json
           test -f docs/data/pronosticos/index.json
           test -f docs/data/alertas.json
+          test -f docs/data/areas_alerta.geojson
+          test -f docs/data/localidades_alerta.json
 
           echo "Cantidad de archivos de pronóstico:"
           find docs/data/pronosticos -maxdepth 1 -type f | wc -l
@@ -65,6 +71,21 @@ jobs:
           print("Disponibles:", datos.get("available_count"))
           print("Fallidos:", datos.get("failed_count"))
           print("Solo observaciones:", datos.get("observation_only_count"))
+          PY
+
+          echo "Resumen de asociación de alertas:"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          ruta = Path("docs/data/localidades_alerta.json")
+          datos = json.loads(ruta.read_text(encoding="utf-8"))
+
+          print("Áreas:", datos.get("area_count"))
+          print("Localidades procesadas:", datos.get("locality_count"))
+          print("Localidades con área:", datos.get("matched_locality_count"))
+          print("Localidades sin área:", datos.get("unmatched_locality_count"))
+          print("Coincidencias múltiples:", datos.get("multiple_match_count"))
           PY
 
           echo "Resumen de alertas:"
