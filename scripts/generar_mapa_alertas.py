@@ -12,6 +12,7 @@ ARCHIVO_AREAS = Path("docs/data/areas_alerta.geojson")
 ARCHIVO_SALIDA = Path("docs/data/localidades_alerta.json")
 ZONA_ARGENTINA = ZoneInfo("America/Argentina/Buenos_Aires")
 EPSILON = 1e-9
+UMBRAL_PROXIMIDAD_GRADOS = 0.005
 
 
 def ahora_iso() -> str:
@@ -151,6 +152,102 @@ def dentro_de_limites(
     )
 
 
+
+
+def distancia_punto_segmento(
+    x: float,
+    y: float,
+    x1: float,
+    y1: float,
+    x2: float,
+    y2: float,
+) -> float:
+    dx = x2 - x1
+    dy = y2 - y1
+
+    if abs(dx) <= EPSILON and abs(dy) <= EPSILON:
+        return ((x - x1) ** 2 + (y - y1) ** 2) ** 0.5
+
+    proporcion = ((x - x1) * dx + (y - y1) * dy) / (dx * dx + dy * dy)
+    proporcion = max(0.0, min(1.0, proporcion))
+
+    cercano_x = x1 + proporcion * dx
+    cercano_y = y1 + proporcion * dy
+    return ((x - cercano_x) ** 2 + (y - cercano_y) ** 2) ** 0.5
+
+
+def distancia_a_anillo(x: float, y: float, anillo: list[list[float]]) -> float:
+    if len(anillo) < 2:
+        return float("inf")
+
+    distancia = float("inf")
+    anterior = anillo[-1]
+
+    for actual in anillo:
+        try:
+            distancia = min(
+                distancia,
+                distancia_punto_segmento(
+                    x,
+                    y,
+                    float(anterior[0]),
+                    float(anterior[1]),
+                    float(actual[0]),
+                    float(actual[1]),
+                ),
+            )
+        except (TypeError, ValueError, IndexError):
+            pass
+        anterior = actual
+
+    return distancia
+
+
+def distancia_a_poligono(x: float, y: float, poligono: list[Any]) -> float:
+    if not poligono:
+        return float("inf")
+
+    distancias = [
+        distancia_a_anillo(x, y, anillo)
+        for anillo in poligono
+        if isinstance(anillo, list)
+    ]
+    return min(distancias, default=float("inf"))
+
+
+def distancia_a_geometria(x: float, y: float, geometria: dict[str, Any]) -> float:
+    tipo = geometria.get("type")
+    coordenadas = geometria.get("coordinates")
+
+    if tipo == "Polygon" and isinstance(coordenadas, list):
+        return distancia_a_poligono(x, y, coordenadas)
+
+    if tipo == "MultiPolygon" and isinstance(coordenadas, list):
+        return min(
+            (
+                distancia_a_poligono(x, y, poligono)
+                for poligono in coordenadas
+                if isinstance(poligono, list)
+            ),
+            default=float("inf"),
+        )
+
+    return float("inf")
+
+
+def limites_ampliados(
+    limites: tuple[float, float, float, float],
+    margen: float,
+) -> tuple[float, float, float, float]:
+    minimo_x, minimo_y, maximo_x, maximo_y = limites
+    return (
+        minimo_x - margen,
+        minimo_y - margen,
+        maximo_x + margen,
+        maximo_y + margen,
+    )
+
+
 def cargar_localidades(datos: Any) -> list[dict[str, Any]]:
     if isinstance(datos, dict) and isinstance(datos.get("localities"), list):
         return [item for item in datos["localities"] if isinstance(item, dict)]
@@ -190,6 +287,7 @@ def main() -> int:
     sin_coordenadas: list[dict[str, Any]] = []
     sin_area: list[dict[str, Any]] = []
     coincidencias_multiples: list[dict[str, Any]] = []
+    coincidencias_por_proximidad: list[dict[str, Any]] = []
 
     for localidad in localidades:
         try:
@@ -219,6 +317,38 @@ def main() -> int:
                 coincidencias.append(area_id)
 
         coincidencias = sorted(set(coincidencias))
+        coincidencia_por_proximidad = False
+        distancia_proximidad = None
+
+        if not coincidencias:
+            candidatos: list[tuple[float, int]] = []
+
+            for area_id, geometria, limites in areas_preparadas:
+                if not dentro_de_limites(
+                    longitud,
+                    latitud,
+                    limites_ampliados(
+                        limites,
+                        UMBRAL_PROXIMIDAD_GRADOS,
+                    ),
+                ):
+                    continue
+
+                distancia = distancia_a_geometria(
+                    longitud,
+                    latitud,
+                    geometria,
+                )
+
+                if distancia <= UMBRAL_PROXIMIDAD_GRADOS:
+                    candidatos.append((distancia, area_id))
+
+            if candidatos:
+                candidatos.sort()
+                distancia_proximidad, area_proxima = candidatos[0]
+                coincidencias = [area_proxima]
+                coincidencia_por_proximidad = True
+
         por_localidad[str(localidad_id)] = coincidencias
 
         resumen = {
@@ -229,6 +359,14 @@ def main() -> int:
             "lon": longitud,
             "area_ids": coincidencias,
         }
+
+        if coincidencia_por_proximidad:
+            resumen["match_method"] = "proximity"
+            resumen["distance_degrees"] = round(
+                float(distancia_proximidad or 0),
+                8,
+            )
+            coincidencias_por_proximidad.append(resumen.copy())
 
         if not coincidencias:
             sin_area.append(resumen)
@@ -247,10 +385,13 @@ def main() -> int:
         "unmatched_locality_count": len(sin_area),
         "without_coordinates_count": len(sin_coordenadas),
         "multiple_match_count": len(coincidencias_multiples),
+        "proximity_match_count": len(coincidencias_por_proximidad),
+        "proximity_threshold_degrees": UMBRAL_PROXIMIDAD_GRADOS,
         "by_locality_id": por_localidad,
         "unmatched_localities": sin_area,
         "without_coordinates": sin_coordenadas,
         "multiple_matches": coincidencias_multiples,
+        "proximity_matches": coincidencias_por_proximidad,
     }
 
     escribir_json(ARCHIVO_SALIDA, salida)
@@ -262,6 +403,7 @@ def main() -> int:
     print(f"Localidades sin área: {salida['unmatched_locality_count']}")
     print(f"Localidades sin coordenadas: {salida['without_coordinates_count']}")
     print(f"Coincidencias múltiples: {salida['multiple_match_count']}")
+    print(f"Coincidencias por proximidad: {salida['proximity_match_count']}")
     return 0
 
 
