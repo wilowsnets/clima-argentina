@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T06:49:51-03:00",
+  "updated": "2026-06-19T09:02:04-03:00",
   "location": {
     "id": 454,
     "name": "Salta",
@@ -17,31 +17,7 @@
       "humidity_min": 66.0,
       "humidity_max": 90.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 89.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.9,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 68.0,
         "rain_prob_range": [
@@ -525,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/454",
-  "generated_at": "2026-06-19T10:58:07.371346+00:00"
+  "generated_at": "2026-06-19T15:42:08.947773+00:00"
 }

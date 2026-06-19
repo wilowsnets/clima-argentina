@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T06:49:51-03:00",
+  "updated": "2026-06-19T09:02:04-03:00",
   "location": {
     "id": 8866,
     "name": "25 de Mayo",
@@ -17,31 +17,7 @@
       "humidity_min": 19.0,
       "humidity_max": 83.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 83.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 19.0,
         "rain_prob_range": [
@@ -78,8 +54,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -537,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8866",
-  "generated_at": "2026-06-19T10:57:46.840240+00:00"
+  "generated_at": "2026-06-19T15:41:47.818320+00:00"
 }

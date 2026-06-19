@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T06:49:51-03:00",
+  "updated": "2026-06-19T09:02:04-03:00",
   "location": {
     "id": 8465,
     "name": "Purmamarca",
@@ -17,31 +17,7 @@
       "humidity_min": 19.0,
       "humidity_max": 36.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 34.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 32.0,
         "rain_prob_range": [
@@ -540,5 +516,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8465",
-  "generated_at": "2026-06-19T10:57:45.241269+00:00"
+  "generated_at": "2026-06-19T15:41:46.196690+00:00"
 }

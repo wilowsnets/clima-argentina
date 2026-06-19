@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-19T07:58:37-03:00",
-  "last_success_at": "2026-06-19T07:58:37-03:00",
+  "generated_at": "2026-06-19T12:42:39-03:00",
+  "last_success_at": "2026-06-19T12:42:39-03:00",
   "smn_updated_at": "2026-06-19T05:38:27-03:00",
   "status": "con_alertas",
   "source": "Servicio Meteorológico Nacional",
   "source_endpoint": "/v1/warning/alert/area?mode=alert&compact=true",
   "area_records_received": 171,
-  "active_count": 26,
-  "affected_area_count": 22,
+  "active_count": 22,
+  "affected_area_count": 18,
   "max_level": 3,
   "levels": {
     "1": "Sin alerta",
@@ -82,70 +82,6 @@
         {
           "id": 37,
           "name": "Lluvia",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 3390,
-      "date": "2026-06-19",
-      "updated": "2026-06-19T05:38:27-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 41,
-          "name": "Tormenta",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 3402,
-      "date": "2026-06-19",
-      "updated": "2026-06-19T05:38:27-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 41,
-          "name": "Tormenta",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 3420,
-      "date": "2026-06-19",
-      "updated": "2026-06-19T05:38:27-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 41,
-          "name": "Tormenta",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 3427,
-      "date": "2026-06-19",
-      "updated": "2026-06-19T05:38:27-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 41,
-          "name": "Tormenta",
           "level": 3,
           "level_name": "Amarillo"
         }
