@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 10120,
     "name": "Tafí Viejo",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-19",
-      "temp_min": 7.0,
-      "temp_max": 18.0,
+      "temp_min": 8.0,
+      "temp_max": 17.0,
       "humidity_min": 47.0,
       "humidity_max": 87.0,
-      "early_morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 87.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -81,8 +57,8 @@
           "id": 13
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -98,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -134,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -184,8 +160,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10120",
-  "generated_at": "2026-06-19T05:25:08.411152+00:00"
+  "generated_at": "2026-06-19T10:58:36.470602+00:00"
 }

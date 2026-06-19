@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 1860,
     "name": "Puerto San Julián",
@@ -13,37 +13,10 @@
     {
       "date": "2026-06-19",
       "temp_min": 2.0,
-      "temp_max": 8.0,
+      "temp_max": 6.0,
       "humidity_min": 68.0,
       "humidity_max": 82.0,
-      "early_morning": {
-        "humidity": 81.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 82.0,
         "rain_prob_range": [
@@ -52,11 +25,11 @@
         ],
         "gust_range": null,
         "temperature": 2.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -79,12 +52,12 @@
           60,
           69
         ],
-        "temperature": 8.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "N",
@@ -115,8 +88,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
             32,
             41
@@ -136,7 +109,7 @@
         "humidity": 69.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           51,
@@ -146,8 +119,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -206,8 +179,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             23,
             31
@@ -266,8 +239,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -588,5 +561,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1860",
-  "generated_at": "2026-06-19T05:24:46.932268+00:00"
+  "generated_at": "2026-06-19T10:58:15.003953+00:00"
 }

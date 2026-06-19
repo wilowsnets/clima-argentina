@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 8088,
     "name": "Las Lomitas",
@@ -13,45 +13,18 @@
     {
       "date": "2026-06-19",
       "temp_min": 15.0,
-      "temp_max": 19.0,
+      "temp_max": 20.0,
       "humidity_min": 69.0,
       "humidity_max": 98.0,
-      "early_morning": {
-        "humidity": 98.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 97.0,
         "rain_prob_range": [
           40,
           70
         ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 15.0,
-        "visibility": "Muy mala",
-        "rain06h": 55.8,
-        "weather": {
-          "description": "Tormentas fuertes",
-          "id": 89
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
-      "morning": {
-        "humidity": 97.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 15.0,
         "visibility": "Regular",
         "rain06h": 3.5,
         "weather": {
@@ -72,16 +45,16 @@
       "afternoon": {
         "humidity": 78.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
-        "temperature": 19.0,
-        "visibility": "Buena",
+        "temperature": 20.0,
+        "visibility": "Regular",
         "rain06h": 0.3,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lloviznas",
+          "id": 71
         },
         "wind": {
           "direction": "S",
@@ -122,7 +95,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 11.0,
+      "temp_min": 10.0,
       "temp_max": 20.0,
       "humidity_min": 55.0,
       "humidity_max": 90.0,
@@ -158,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -262,16 +235,16 @@
       "afternoon": {
         "humidity": 96.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 25.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "S",
@@ -552,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8088",
-  "generated_at": "2026-06-19T05:24:14.482486+00:00"
+  "generated_at": "2026-06-19T10:57:42.455449+00:00"
 }

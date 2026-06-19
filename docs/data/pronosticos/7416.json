@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 7416,
     "name": "Mercedes",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-19",
-      "temp_min": 14.0,
-      "temp_max": 18.0,
+      "temp_min": 12.0,
+      "temp_max": 19.0,
       "humidity_min": 92.0,
       "humidity_max": 98.0,
-      "early_morning": {
-        "humidity": 98.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": 14.0,
-        "visibility": "Muy mala",
-        "rain06h": 31.4,
-        "weather": {
-          "description": "Tormentas fuertes",
-          "id": 89
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 19.7,
         "weather": {
@@ -70,15 +46,15 @@
         "humidity": 98.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "S",
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 9.0,
+      "temp_min": 6.0,
       "temp_max": 17.0,
       "humidity_min": 87.0,
       "humidity_max": 95.0,
@@ -134,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -242,8 +218,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -259,16 +235,16 @@
       "afternoon": {
         "humidity": 74.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 18.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 1.4,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SE",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7416",
-  "generated_at": "2026-06-19T05:24:09.705201+00:00"
+  "generated_at": "2026-06-19T10:57:37.686344+00:00"
 }

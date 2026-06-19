@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 10025,
     "name": "Chapelco",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-19",
       "temp_min": 1.0,
-      "temp_max": 6.0,
+      "temp_max": 10.0,
       "humidity_min": 66.0,
       "humidity_max": 94.0,
-      "early_morning": {
-        "humidity": 86.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 66.0,
         "rain_prob_range": [
@@ -56,11 +32,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -76,7 +52,7 @@
           51,
           59
         ],
-        "temperature": 5.0,
+        "temperature": 10.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -101,10 +77,10 @@
           70
         ],
         "gust_range": [
-          51,
-          59
+          60,
+          69
         ],
-        "temperature": 2.0,
+        "temperature": 4.0,
         "visibility": "Muy mala",
         "rain06h": 1.6,
         "weather": {
@@ -112,11 +88,11 @@
           "id": 83
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            32,
-            41
+            42,
+            50
           ]
         },
         "river": null,
@@ -136,8 +112,8 @@
           70
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
         "temperature": 2.0,
         "visibility": "Muy mala",
@@ -160,8 +136,8 @@
       "morning": {
         "humidity": 95.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           79,
@@ -576,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10025",
-  "generated_at": "2026-06-19T05:24:29.974318+00:00"
+  "generated_at": "2026-06-19T10:57:58.247008+00:00"
 }

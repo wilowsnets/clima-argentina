@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 4158,
     "name": "Mar del Tuyú",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-19",
       "temp_min": 7.0,
-      "temp_max": 13.0,
+      "temp_max": 14.0,
       "humidity_min": 57.0,
       "humidity_max": 92.0,
-      "early_morning": {
-        "humidity": 92.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Regular",
-        "rain06h": 0.2,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 82.0,
         "rain_prob_range": [
@@ -48,12 +24,12 @@
           10
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -73,12 +49,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 5.0,
+      "temp_min": 4.0,
       "temp_max": 13.0,
       "humidity_min": 73.0,
       "humidity_max": 93.0,
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4158",
-  "generated_at": "2026-06-19T05:23:29.961828+00:00"
+  "generated_at": "2026-06-19T10:56:58.423156+00:00"
 }

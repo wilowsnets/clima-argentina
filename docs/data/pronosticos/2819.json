@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 2819,
     "name": "Termas de Río Hondo",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-19",
-      "temp_min": 13.0,
-      "temp_max": 19.0,
+      "temp_min": 9.0,
+      "temp_max": 20.0,
       "humidity_min": 44.0,
       "humidity_max": 79.0,
-      "early_morning": {
-        "humidity": 74.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 13.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 79.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 19.0,
+        "temperature": 20.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 9.0,
+      "temp_min": 8.0,
       "temp_max": 20.0,
       "humidity_min": 37.0,
       "humidity_max": 90.0,
@@ -158,7 +134,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -266,7 +242,7 @@
         "humidity": 57.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 17.0,
@@ -558,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2819",
-  "generated_at": "2026-06-19T05:24:55.981808+00:00"
+  "generated_at": "2026-06-19T10:58:24.158246+00:00"
 }

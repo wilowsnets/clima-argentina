@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 132,
     "name": "Viedma",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-19",
-      "temp_min": 6.0,
+      "temp_min": 2.0,
       "temp_max": 13.0,
       "humidity_min": 42.0,
       "humidity_max": 68.0,
-      "early_morning": {
-        "humidity": 68.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 62.0,
         "rain_prob_range": [
@@ -51,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -59,8 +32,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             13,
             22
@@ -84,11 +57,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -101,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -196,8 +169,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -214,7 +187,7 @@
         "humidity": 37.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           51,
@@ -224,8 +197,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -277,19 +250,19 @@
       "afternoon": {
         "humidity": 35.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           51,
           59
         ],
         "temperature": 14.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SO",
@@ -585,5 +558,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/132",
-  "generated_at": "2026-06-19T05:24:36.424383+00:00"
+  "generated_at": "2026-06-19T10:58:04.612369+00:00"
 }

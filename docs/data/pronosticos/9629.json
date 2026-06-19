@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 9629,
     "name": "Apóstoles",
@@ -12,46 +12,19 @@
   "forecast": [
     {
       "date": "2026-06-19",
-      "temp_min": 14.0,
+      "temp_min": 13.0,
       "temp_max": 17.0,
       "humidity_min": 73.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 14.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.2,
-        "weather": {
-          "description": "Tormentas fuertes",
-          "id": 89
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 96.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 13.0,
         "visibility": "Muy mala",
         "rain06h": 2.0,
         "weather": {
@@ -80,8 +53,8 @@
         "visibility": "Regular",
         "rain06h": 35.4,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lluvias",
+          "id": 73
         },
         "wind": {
           "direction": "S",
@@ -105,8 +78,8 @@
         "visibility": "Regular",
         "rain06h": 1.1,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lloviznas",
+          "id": 71
         },
         "wind": {
           "direction": "SO",
@@ -123,22 +96,22 @@
     {
       "date": "2026-06-20",
       "temp_min": 11.0,
-      "temp_max": 18.0,
+      "temp_max": 16.0,
       "humidity_min": 96.0,
       "humidity_max": 99.0,
       "early_morning": {
         "humidity": 96.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "SO",
@@ -158,7 +131,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 8.8,
         "weather": {
@@ -183,7 +156,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -552,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9629",
-  "generated_at": "2026-06-19T05:24:27.199653+00:00"
+  "generated_at": "2026-06-19T10:57:55.454448+00:00"
 }

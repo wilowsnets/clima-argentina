@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:02:49-03:00",
+  "updated": "2026-06-19T06:49:51-03:00",
   "location": {
     "id": 1844,
     "name": "Yacimientos Río Turbio",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-19",
-      "temp_min": -1.0,
-      "temp_max": 4.0,
+      "temp_min": 0.0,
+      "temp_max": 5.0,
       "humidity_min": 77.0,
       "humidity_max": 97.0,
-      "early_morning": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
@@ -48,12 +24,12 @@
           10
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "N",
@@ -76,7 +52,7 @@
           42,
           50
         ],
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
@@ -104,7 +80,7 @@
           42,
           50
         ],
-        "temperature": -1.0,
+        "temperature": 2.0,
         "visibility": "Mala",
         "rain06h": 0.1,
         "weather": {
@@ -164,8 +140,8 @@
           40
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": -1.0,
         "visibility": "Mala",
@@ -176,10 +152,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 292.5,
+          "deg": 270.0,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -260,8 +236,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -288,8 +264,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -576,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1844",
-  "generated_at": "2026-06-19T05:24:48.123366+00:00"
+  "generated_at": "2026-06-19T10:58:16.195367+00:00"
 }
