@@ -50,8 +50,8 @@
           0
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 9.0,
         "visibility": "Buena",
@@ -85,8 +85,8 @@
           10
         ],
         "gust_range": [
-          51,
-          59
+          60,
+          69
         ],
         "temperature": 9.0,
         "visibility": "Buena",
@@ -141,8 +141,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          70,
+          78
         ],
         "temperature": 15.0,
         "visibility": "Buena",
@@ -195,7 +195,7 @@
       "date": "2026-06-21",
       "temp_min": 4.0,
       "temp_max": 11.0,
-      "humidity_min": 57.0,
+      "humidity_min": 50.0,
       "humidity_max": 65.0,
       "early_morning": null,
       "morning": {
@@ -217,10 +217,10 @@
         },
         "wind": {
           "direction": "SO",
-          "deg": 247.5,
+          "deg": 225.0,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -269,10 +269,7 @@
           0,
           10
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 1.5,
@@ -282,10 +279,10 @@
         },
         "wind": {
           "direction": "SO",
-          "deg": 247.5,
+          "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -297,10 +294,7 @@
           0,
           10
         ],
-        "gust_range": [
-          60,
-          69
-        ],
+        "gust_range": null,
         "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 1.3,
@@ -309,11 +303,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 180.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -334,10 +328,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.2,
@@ -397,8 +388,8 @@
           0
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 2.0,
         "visibility": "Buena",
@@ -425,8 +416,8 @@
           0
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 12.0,
         "visibility": "Buena",
@@ -436,8 +427,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
             23,
             31
@@ -451,7 +442,7 @@
     {
       "date": "2026-06-25",
       "temp_min": 4.0,
-      "temp_max": 10.0,
+      "temp_max": 12.0,
       "humidity_min": 56.0,
       "humidity_max": 56.0,
       "early_morning": null,
@@ -487,7 +478,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -495,11 +486,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -537,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/114",
-  "generated_at": "2026-06-19T15:42:03.757146+00:00"
+  "generated_at": "2026-06-19T20:04:15.001140+00:00"
 }

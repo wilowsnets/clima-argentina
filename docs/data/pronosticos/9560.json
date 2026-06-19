@@ -71,7 +71,7 @@
     },
     {
       "date": "2026-06-20",
-      "temp_min": 2.0,
+      "temp_min": 1.0,
       "temp_max": 15.0,
       "humidity_min": 44.0,
       "humidity_max": 64.0,
@@ -107,7 +107,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -131,7 +131,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -180,7 +183,7 @@
       "date": "2026-06-21",
       "temp_min": 2.0,
       "temp_max": 15.0,
-      "humidity_min": 63.0,
+      "humidity_min": 40.0,
       "humidity_max": 85.0,
       "early_morning": null,
       "morning": {
@@ -190,7 +193,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -219,11 +222,11 @@
           50
         ],
         "temperature": 15.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ventoso",
+          "id": 51
         },
         "wind": {
           "direction": "SE",
@@ -315,8 +318,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SE",
@@ -340,8 +343,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -405,8 +408,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -510,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9560",
-  "generated_at": "2026-06-19T15:41:52.714050+00:00"
+  "generated_at": "2026-06-19T20:04:02.208219+00:00"
 }
