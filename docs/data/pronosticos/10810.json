@@ -9,20 +9,20 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-19T18:00:00-03:00",
-    "humidity": 82.0,
-    "pressure": 990.6,
-    "feels_like": -10.7,
-    "temperature": -7.8,
-    "visibility": 5.0,
+    "date": "2026-06-20T00:00:00-03:00",
+    "humidity": 69.0,
+    "pressure": 987.7,
+    "feels_like": -4.4,
+    "temperature": 1.7,
+    "visibility": 8.0,
     "weather": {
-      "description": "Cubierto con neblina",
-      "id": 61
+      "description": "Despejado con ventisca baja",
+      "id": 96
     },
     "wind": {
-      "direction": "Noroeste",
-      "deg": 315.0,
-      "speed": 6.0
+      "direction": "Oeste",
+      "deg": 270.0,
+      "speed": 32.0
     },
     "station_id": 88963
   },
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10810",
-  "generated_at": "2026-06-19T22:15:00.180713+00:00",
-  "previous_generated_at": "2026-06-19T20:04:45.432013+00:00",
+  "generated_at": "2026-06-20T04:41:42.687973+00:00",
+  "previous_generated_at": "2026-06-19T22:15:00.180713+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10810"
 }
