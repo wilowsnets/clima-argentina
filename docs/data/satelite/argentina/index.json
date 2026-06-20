@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "last_success_at": null,
+  "status": "sin_datos",
+  "source": "Servicio Meteorológico Nacional",
+  "product_id": "TOP_C13_ARG_ALTA",
+  "product": "Topes Nubosos",
+  "region": "Argentina",
+  "source_endpoint": "https://ws1.smn.gob.ar/v1/images/satellite/TOP_C13_ARG_ALTA",
+  "static_base_url": "https://estaticos.smn.gob.ar/vmsr/satelite/",
+  "storage_mode": "remote_urls_only",
+  "stored_image_count": 0,
+  "frame_count": 0,
+  "home_frame_count": 0,
+  "latest": null,
+  "home_frames": [],
+  "frames": []
+}
