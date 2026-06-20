@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T17:40:07-03:00",
+  "updated": "2026-06-20T06:20:59-03:00",
   "location": {
     "id": 5886,
     "name": "Trelew",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-20",
-      "temp_min": 5.0,
+      "temp_min": 4.0,
       "temp_max": 12.0,
       "humidity_min": 40.0,
       "humidity_max": 57.0,
-      "early_morning": {
-        "humidity": 52.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 57.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           60,
           69
         ],
-        "temperature": 5.0,
+        "temperature": 4.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -110,7 +83,7 @@
           70,
           78
         ],
-        "temperature": 9.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -588,5 +561,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5886",
-  "generated_at": "2026-06-20T04:40:39.119343+00:00"
+  "generated_at": "2026-06-20T09:37:56.801580+00:00"
 }

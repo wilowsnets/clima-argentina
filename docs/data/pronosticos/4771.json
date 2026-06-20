@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T17:40:07-03:00",
+  "updated": "2026-06-20T06:20:59-03:00",
   "location": {
     "id": 4771,
     "name": "San Antonio de Areco",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-20",
-      "temp_min": 4.0,
+      "temp_min": 3.0,
       "temp_max": 14.0,
       "humidity_min": 73.0,
       "humidity_max": 90.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 90.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -95,7 +71,7 @@
         "humidity": 83.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 11.0,
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 6.0,
+      "temp_min": 7.0,
       "temp_max": 14.0,
       "humidity_min": 63.0,
       "humidity_max": 92.0,
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -209,8 +185,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -226,8 +202,8 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 5.0,
-      "temp_max": 14.0,
+      "temp_min": 7.0,
+      "temp_max": 13.0,
       "humidity_min": 58.0,
       "humidity_max": 63.0,
       "early_morning": null,
@@ -238,7 +214,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -263,12 +239,12 @@
           10
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -360,8 +336,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -385,8 +361,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NO",
@@ -462,7 +438,7 @@
     },
     {
       "date": "2026-06-26",
-      "temp_min": 8.0,
+      "temp_min": 6.0,
       "temp_max": 15.0,
       "humidity_min": 64.0,
       "humidity_max": 90.0,
@@ -474,7 +450,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4771",
-  "generated_at": "2026-06-20T04:40:20.373672+00:00"
+  "generated_at": "2026-06-20T09:37:39.388004+00:00"
 }

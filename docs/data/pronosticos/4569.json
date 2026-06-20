@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T17:40:07-03:00",
+  "updated": "2026-06-20T06:20:59-03:00",
   "location": {
     "id": 4569,
     "name": "San Pedro",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-20",
-      "temp_min": 4.0,
+      "temp_min": 2.0,
       "temp_max": 15.0,
       "humidity_min": 67.0,
       "humidity_max": 91.0,
-      "early_morning": {
-        "humidity": 74.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 91.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -95,7 +71,7 @@
         "humidity": 84.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 11.0,
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-21",
-      "temp_min": 6.0,
+      "temp_min": 7.0,
       "temp_max": 14.0,
       "humidity_min": 54.0,
       "humidity_max": 93.0,
@@ -127,15 +103,15 @@
         "humidity": 88.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 7.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Neblina",
-          "id": 61
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -226,7 +202,7 @@
     },
     {
       "date": "2026-06-22",
-      "temp_min": 5.0,
+      "temp_min": 6.0,
       "temp_max": 14.0,
       "humidity_min": 55.0,
       "humidity_max": 92.0,
@@ -238,12 +214,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -272,7 +248,7 @@
         },
         "wind": {
           "direction": "SO",
-          "deg": 247.5,
+          "deg": 225.0,
           "speed_range": [
             13,
             22
@@ -301,8 +277,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4569",
-  "generated_at": "2026-06-20T04:40:24.034746+00:00"
+  "generated_at": "2026-06-20T09:37:42.551154+00:00"
 }

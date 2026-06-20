@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T17:40:07-03:00",
+  "updated": "2026-06-20T06:20:59-03:00",
   "location": {
     "id": 5796,
     "name": "Trevelín",
@@ -16,34 +16,7 @@
       "temp_max": 2.0,
       "humidity_min": 80.0,
       "humidity_max": 94.0,
-      "early_morning": {
-        "humidity": 89.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          70,
-          78
-        ],
-        "temperature": 2.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.2,
-        "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 91.0,
         "rain_prob_range": [
@@ -55,11 +28,11 @@
           87
         ],
         "temperature": -1.0,
-        "visibility": "Mala",
+        "visibility": "Muy mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nevadas",
-          "id": 79
+          "description": "Nevadas fuertes",
+          "id": 85
         },
         "wind": {
           "direction": "O",
@@ -75,8 +48,8 @@
       "afternoon": {
         "humidity": 80.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           79,
@@ -145,7 +118,7 @@
           42,
           50
         ],
-        "temperature": -2.0,
+        "temperature": -1.0,
         "visibility": "Regular",
         "rain06h": 0.3,
         "weather": {
@@ -173,7 +146,7 @@
           42,
           50
         ],
-        "temperature": -1.0,
+        "temperature": -2.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -582,5 +555,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5796",
-  "generated_at": "2026-06-20T04:40:39.552543+00:00"
+  "generated_at": "2026-06-20T09:37:57.177998+00:00"
 }
