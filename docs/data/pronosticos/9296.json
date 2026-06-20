@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T06:20:59-03:00",
+  "updated": "2026-06-20T17:21:58-03:00",
   "location": {
     "id": 9296,
     "name": "Malargüe",
@@ -13,39 +13,12 @@
     {
       "date": "2026-06-20",
       "temp_min": 2.0,
-      "temp_max": 13.0,
+      "temp_max": 14.0,
       "humidity_min": 20.0,
       "humidity_max": 47.0,
       "early_morning": null,
       "morning": null,
-      "afternoon": {
-        "humidity": 31.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 13.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "afternoon": null,
       "night": {
         "humidity": 42.0,
         "rain_prob_range": [
@@ -200,7 +173,31 @@
       "temp_max": 7.0,
       "humidity_min": 34.0,
       "humidity_max": 59.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 59.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": -4.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 47.0,
         "rain_prob_range": [
@@ -251,7 +248,31 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 48.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 2.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            0,
+            2
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-06-23",
@@ -491,6 +512,65 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-06-27",
+      "temp_min": 0.0,
+      "temp_max": 15.0,
+      "humidity_min": 23.0,
+      "humidity_max": 35.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 35.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 0.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "O",
+          "deg": 292.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 23.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 15.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 337.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -522,5 +602,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-06-20T19:56:49.907785+00:00"
+  "generated_at": "2026-06-20T22:23:23.874886+00:00"
 }

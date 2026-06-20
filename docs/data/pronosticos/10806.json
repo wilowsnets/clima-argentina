@@ -9,11 +9,11 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-20T15:00:00-03:00",
-    "humidity": 62.0,
-    "pressure": 935.4,
-    "feels_like": -23.6,
-    "temperature": -16.6,
+    "date": "2026-06-20T18:00:00-03:00",
+    "humidity": 56.0,
+    "pressure": 934.5,
+    "feels_like": -26.9,
+    "temperature": -20.9,
     "visibility": 20.0,
     "weather": {
       "description": "Despejado",
@@ -22,7 +22,7 @@
     "wind": {
       "direction": "Este",
       "deg": 90.0,
-      "speed": 12.0
+      "speed": 8.0
     },
     "station_id": 89034
   },
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10806",
-  "generated_at": "2026-06-20T19:57:23.939588+00:00",
-  "previous_generated_at": "2026-06-20T16:49:51.928789+00:00",
+  "generated_at": "2026-06-20T22:23:57.973709+00:00",
+  "previous_generated_at": "2026-06-20T19:57:23.939588+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10806"
 }
