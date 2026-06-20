@@ -180,8 +180,8 @@
       "date": "2026-06-22",
       "temp_min": 6.0,
       "temp_max": 14.0,
-      "humidity_min": 58.0,
-      "humidity_max": 65.0,
+      "humidity_min": 45.0,
+      "humidity_max": 69.0,
       "early_morning": null,
       "morning": {
         "humidity": 58.0,
@@ -190,7 +190,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -312,8 +312,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -364,15 +364,15 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -416,11 +416,11 @@
       "date": "2026-06-26",
       "temp_min": 10.0,
       "temp_max": 20.0,
-      "humidity_min": 33.0,
-      "humidity_max": 67.0,
+      "humidity_min": 31.0,
+      "humidity_max": 72.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 72.0,
         "rain_prob_range": [
           0,
           0
@@ -428,7 +428,7 @@
         "gust_range": null,
         "temperature": 10.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Despejado",
           "id": 3
@@ -445,7 +445,7 @@
         "border": null
       },
       "afternoon": {
-        "humidity": null,
+        "humidity": 31.0,
         "rain_prob_range": [
           0,
           0
@@ -501,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6002",
-  "generated_at": "2026-06-20T16:48:57.388455+00:00"
+  "generated_at": "2026-06-20T19:56:31.450466+00:00"
 }

@@ -184,7 +184,7 @@
       "temp_min": 3.0,
       "temp_max": 11.0,
       "humidity_min": 63.0,
-      "humidity_max": 66.0,
+      "humidity_max": 92.0,
       "early_morning": null,
       "morning": {
         "humidity": 63.0,
@@ -320,7 +320,7 @@
         "humidity": 88.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 1.0,
@@ -373,10 +373,10 @@
       "temp_min": 3.0,
       "temp_max": 11.0,
       "humidity_min": 46.0,
-      "humidity_max": 46.0,
+      "humidity_max": 91.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 91.0,
         "rain_prob_range": [
           0,
           0
@@ -386,8 +386,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "O",
@@ -431,41 +431,47 @@
       "date": "2026-06-26",
       "temp_min": 4.0,
       "temp_max": 13.0,
-      "humidity_min": 53.0,
-      "humidity_max": 82.0,
+      "humidity_min": 56.0,
+      "humidity_max": 68.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 68.0,
         "rain_prob_range": [
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 4.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
         "border": null
       },
       "afternoon": {
-        "humidity": null,
+        "humidity": 56.0,
         "rain_prob_range": [
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -474,11 +480,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -516,5 +522,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4462",
-  "generated_at": "2026-06-20T16:48:38.712018+00:00"
+  "generated_at": "2026-06-20T19:56:13.531067+00:00"
 }

@@ -85,7 +85,7 @@
         "humidity": 60.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           51,
@@ -110,7 +110,7 @@
         "border": null
       },
       "morning": {
-        "humidity": null,
+        "humidity": 63.0,
         "rain_prob_range": [
           10,
           40
@@ -121,7 +121,7 @@
         ],
         "temperature": 3.0,
         "visibility": "Regular",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Chaparrones",
           "id": 74
@@ -196,7 +196,7 @@
       "temp_min": 3.0,
       "temp_max": 9.0,
       "humidity_min": 57.0,
-      "humidity_max": 66.0,
+      "humidity_max": 76.0,
       "early_morning": null,
       "morning": {
         "humidity": 66.0,
@@ -271,8 +271,8 @@
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
@@ -292,8 +292,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 10.0,
         "visibility": "Buena",
@@ -326,7 +326,7 @@
         "humidity": 45.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           60,
@@ -336,8 +336,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "SO",
@@ -398,15 +398,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -418,13 +418,16 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NO",
@@ -534,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5886",
-  "generated_at": "2026-06-20T16:48:50.180000+00:00"
+  "generated_at": "2026-06-20T19:56:24.610297+00:00"
 }
