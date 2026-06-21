@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 114,
     "name": "Las Grutas",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-21",
-      "temp_min": 4.0,
+      "temp_min": 5.0,
       "temp_max": 10.0,
       "humidity_min": 50.0,
       "humidity_max": 65.0,
-      "early_morning": {
-        "humidity": 50.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 57.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           51,
           59
         ],
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -359,7 +332,7 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": 4.0,
+      "temp_min": 2.0,
       "temp_max": 12.0,
       "humidity_min": 56.0,
       "humidity_max": 79.0,
@@ -371,7 +344,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -570,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/114",
-  "generated_at": "2026-06-21T05:18:44.835675+00:00"
+  "generated_at": "2026-06-21T10:05:47.073939+00:00"
 }

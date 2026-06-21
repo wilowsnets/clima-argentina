@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 4161,
     "name": "Aguas Verdes",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-21",
-      "temp_min": 8.0,
+      "temp_min": 9.0,
       "temp_max": 13.0,
       "humidity_min": 46.0,
       "humidity_max": 81.0,
-      "early_morning": {
-        "humidity": 81.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 79.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -561,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4161",
-  "generated_at": "2026-06-21T05:17:14.617954+00:00"
+  "generated_at": "2026-06-21T10:04:17.372652+00:00"
 }

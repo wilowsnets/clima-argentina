@@ -9,20 +9,20 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-21T00:00:00-03:00",
-    "humidity": 96.0,
-    "pressure": 988.9,
-    "feels_like": -9.1,
-    "temperature": -1.0,
-    "visibility": 4.0,
+    "date": "2026-06-21T06:00:00-03:00",
+    "humidity": 75.0,
+    "pressure": 983.8,
+    "feels_like": -2.4,
+    "temperature": 3.2,
+    "visibility": 20.0,
     "weather": {
-      "description": "Cubierto con ventisca baja",
-      "id": 96
+      "description": "Cubierto",
+      "id": 43
     },
     "wind": {
       "direction": "Noroeste",
       "deg": 315.0,
-      "speed": 45.0
+      "speed": 32.0
     },
     "station_id": 88968
   },
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10814",
-  "generated_at": "2026-06-21T05:19:13.818140+00:00",
-  "previous_generated_at": "2026-06-20T22:24:03.440491+00:00",
+  "generated_at": "2026-06-21T10:06:15.632866+00:00",
+  "previous_generated_at": "2026-06-21T05:19:13.818140+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10814"
 }

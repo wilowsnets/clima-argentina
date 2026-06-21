@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 8247,
     "name": "Clorinda",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-21",
       "temp_min": 7.0,
-      "temp_max": 22.0,
+      "temp_max": 20.0,
       "humidity_min": 87.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 87.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 22.0,
+        "temperature": 20.0,
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8247",
-  "generated_at": "2026-06-21T05:18:24.028904+00:00"
+  "generated_at": "2026-06-21T10:05:25.757134+00:00"
 }

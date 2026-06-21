@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 1827,
     "name": "Gobernador Gregores",
@@ -16,31 +16,7 @@
       "temp_max": 5.0,
       "humidity_min": 64.0,
       "humidity_max": 86.0,
-      "early_morning": {
-        "humidity": 85.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 86.0,
         "rain_prob_range": [
@@ -126,7 +102,7 @@
     {
       "date": "2026-06-22",
       "temp_min": -2.0,
-      "temp_max": 8.0,
+      "temp_max": 7.0,
       "humidity_min": 49.0,
       "humidity_max": 89.0,
       "early_morning": {
@@ -192,7 +168,7 @@
           60,
           69
         ],
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -582,5 +558,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1827",
-  "generated_at": "2026-06-21T05:18:56.341545+00:00"
+  "generated_at": "2026-06-21T10:05:58.193349+00:00"
 }

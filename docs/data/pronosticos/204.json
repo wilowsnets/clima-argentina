@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 204,
     "name": "Iruyá",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-21",
-      "temp_min": 2.0,
+      "temp_min": 4.0,
       "temp_max": 18.0,
       "humidity_min": 8.0,
       "humidity_max": 14.0,
-      "early_morning": {
-        "humidity": 10.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 14.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           42,
           50
         ],
-        "temperature": 2.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -570,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/204",
-  "generated_at": "2026-06-21T05:18:48.432158+00:00"
+  "generated_at": "2026-06-21T10:05:50.598435+00:00"
 }

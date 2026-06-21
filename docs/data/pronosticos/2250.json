@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 2250,
     "name": "El Trebol",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-21",
-      "temp_min": 4.0,
+      "temp_min": 5.0,
       "temp_max": 16.0,
       "humidity_min": 72.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 95.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -184,8 +160,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "S",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2250",
-  "generated_at": "2026-06-21T05:18:59.945237+00:00"
+  "generated_at": "2026-06-21T10:06:01.788196+00:00"
 }

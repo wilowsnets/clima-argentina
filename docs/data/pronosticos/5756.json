@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 5756,
     "name": "Esquel",
@@ -16,34 +16,7 @@
       "temp_max": 8.0,
       "humidity_min": 60.0,
       "humidity_max": 96.0,
-      "early_morning": {
-        "humidity": 89.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 0.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 96.0,
         "rain_prob_range": [
@@ -570,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5756",
-  "generated_at": "2026-06-21T05:18:06.735730+00:00"
+  "generated_at": "2026-06-21T10:05:09.137889+00:00"
 }

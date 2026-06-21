@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 10026,
     "name": "San Martín de Los Andes",
@@ -16,34 +16,7 @@
       "temp_max": 5.0,
       "humidity_min": 68.0,
       "humidity_max": 91.0,
-      "early_morning": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": -1.0,
-        "visibility": "Muy mala",
-        "rain06h": 3.3,
-        "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 91.0,
         "rain_prob_range": [
@@ -129,7 +102,7 @@
     {
       "date": "2026-06-22",
       "temp_min": -1.0,
-      "temp_max": 7.0,
+      "temp_max": 6.0,
       "humidity_min": 82.0,
       "humidity_max": 96.0,
       "early_morning": {
@@ -189,7 +162,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -558,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10026",
-  "generated_at": "2026-06-21T05:18:41.643724+00:00"
+  "generated_at": "2026-06-21T10:05:43.530503+00:00"
 }

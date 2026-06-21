@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 4509,
     "name": "Orense",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-21",
-      "temp_min": 2.0,
+      "temp_min": 3.0,
       "temp_max": 12.0,
       "humidity_min": 47.0,
       "humidity_max": 89.0,
-      "early_morning": {
-        "humidity": 80.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 68.0,
         "rain_prob_range": [
@@ -182,8 +158,8 @@
       "afternoon": {
         "humidity": 63.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": [
           51,
@@ -210,8 +186,8 @@
       "night": {
         "humidity": 94.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": 5.0,
@@ -570,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4509",
-  "generated_at": "2026-06-21T05:17:45.133252+00:00"
+  "generated_at": "2026-06-21T10:04:47.925997+00:00"
 }

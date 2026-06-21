@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 9949,
     "name": "Cutral Co",
@@ -16,34 +16,7 @@
       "temp_max": 12.0,
       "humidity_min": 47.0,
       "humidity_max": 77.0,
-      "early_morning": {
-        "humidity": 48.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 50.0,
         "rain_prob_range": [
@@ -338,8 +311,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -356,8 +329,8 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": 0.0,
-      "temp_max": 14.0,
+      "temp_min": 1.0,
+      "temp_max": 12.0,
       "humidity_min": 22.0,
       "humidity_max": 69.0,
       "early_morning": null,
@@ -368,7 +341,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -393,7 +366,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -561,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9949",
-  "generated_at": "2026-06-21T05:18:40.854766+00:00"
+  "generated_at": "2026-06-21T10:05:42.723501+00:00"
 }

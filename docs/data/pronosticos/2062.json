@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 2062,
     "name": "San Javier",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-21",
-      "temp_min": 7.0,
-      "temp_max": 17.0,
+      "temp_min": 6.0,
+      "temp_max": 16.0,
       "humidity_min": 69.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -184,8 +160,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "S",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2062",
-  "generated_at": "2026-06-21T05:19:02.796472+00:00"
+  "generated_at": "2026-06-21T10:06:04.551404+00:00"
 }

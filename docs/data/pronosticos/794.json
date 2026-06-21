@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 794,
     "name": "Rivadavia",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-21",
       "temp_min": 9.0,
-      "temp_max": 24.0,
+      "temp_max": 23.0,
       "humidity_min": 42.0,
       "humidity_max": 84.0,
-      "early_morning": {
-        "humidity": 57.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 84.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 24.0,
+        "temperature": 23.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/794",
-  "generated_at": "2026-06-21T05:18:49.219211+00:00"
+  "generated_at": "2026-06-21T10:05:51.406842+00:00"
 }

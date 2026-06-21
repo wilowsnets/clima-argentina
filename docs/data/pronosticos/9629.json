@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 9629,
     "name": "Apóstoles",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-21",
       "temp_min": 8.0,
-      "temp_max": 22.0,
+      "temp_max": 21.0,
       "humidity_min": 58.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Mala",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Niebla",
-          "id": 67
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 95.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 22.0,
+        "temperature": 21.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
@@ -151,8 +127,8 @@
       "morning": {
         "humidity": 99.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": null,
         "temperature": 12.0,
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9629",
-  "generated_at": "2026-06-21T05:18:37.662940+00:00"
+  "generated_at": "2026-06-21T10:05:39.545746+00:00"
 }

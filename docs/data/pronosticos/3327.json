@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:21:58-03:00",
+  "updated": "2026-06-21T06:22:49-03:00",
   "location": {
     "id": 3327,
     "name": "Frias",
@@ -16,31 +16,7 @@
       "temp_max": 17.0,
       "humidity_min": 64.0,
       "humidity_max": 95.0,
-      "early_morning": {
-        "humidity": 95.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "E",
-          "deg": 90.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 91.0,
         "rain_prob_range": [
@@ -184,8 +160,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "S",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3327",
-  "generated_at": "2026-06-21T05:19:06.007207+00:00"
+  "generated_at": "2026-06-21T10:06:07.606236+00:00"
 }
