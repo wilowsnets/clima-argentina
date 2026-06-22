@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T00:56:10-03:00",
+  "updated": "2026-06-22T05:50:25-03:00",
   "location": {
     "id": 6370,
     "name": "Cosquin",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-22",
-      "temp_min": 4.0,
+      "temp_min": 2.0,
       "temp_max": 14.0,
       "humidity_min": 25.0,
       "humidity_max": 83.0,
-      "early_morning": {
-        "humidity": 80.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Regular",
-        "rain06h": 0.8,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 25.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -184,8 +160,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6370",
-  "generated_at": "2026-06-22T05:29:48.902896+00:00"
+  "generated_at": "2026-06-22T12:25:53.184580+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T00:56:10-03:00",
+  "updated": "2026-06-22T05:50:25-03:00",
   "location": {
     "id": 7236,
     "name": "Corrientes",
@@ -16,31 +16,7 @@
       "temp_max": 18.0,
       "humidity_min": 64.0,
       "humidity_max": 95.0,
-      "early_morning": {
-        "humidity": 95.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": 10.0,
-        "visibility": "Mala",
-        "rain06h": 2.8,
-        "weather": {
-          "description": "Tormentas",
-          "id": 81
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 180.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 90.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 10.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -77,8 +53,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7236",
-  "generated_at": "2026-06-22T05:29:54.826901+00:00"
+  "generated_at": "2026-06-22T12:25:59.125681+00:00"
 }

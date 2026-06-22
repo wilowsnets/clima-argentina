@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T00:56:10-03:00",
+  "updated": "2026-06-22T05:50:25-03:00",
   "location": {
     "id": 765,
     "name": "San Antonio de los Cobres",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-22",
-      "temp_min": -6.0,
+      "temp_min": -4.0,
       "temp_max": 8.0,
       "humidity_min": 6.0,
       "humidity_max": 17.0,
-      "early_morning": {
-        "humidity": 11.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": -4.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 15.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           60,
           69
         ],
-        "temperature": -6.0,
+        "temperature": -4.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -121,8 +94,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            51,
-            59
+            42,
+            50
           ]
         },
         "river": null,
@@ -319,8 +292,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "O",
@@ -378,8 +351,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -462,8 +435,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -496,8 +469,8 @@
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -567,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/765",
-  "generated_at": "2026-06-22T05:30:26.997405+00:00"
+  "generated_at": "2026-06-22T12:26:31.497594+00:00"
 }
