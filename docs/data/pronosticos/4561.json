@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:53:17-03:00",
+  "updated": "2026-06-22T00:56:10-03:00",
   "location": {
     "id": 4561,
     "name": "Benito Juárez",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-21",
-      "temp_min": 5.0,
-      "temp_max": 12.0,
-      "humidity_min": 43.0,
-      "humidity_max": 86.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 68.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-22",
       "temp_min": 3.0,
@@ -599,5 +564,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4561",
-  "generated_at": "2026-06-21T22:35:29.690411+00:00"
+  "generated_at": "2026-06-22T05:28:54.808421+00:00"
 }

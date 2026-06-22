@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:53:17-03:00",
+  "updated": "2026-06-22T00:56:10-03:00",
   "location": {
     "id": 7416,
     "name": "Mercedes",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-21",
-      "temp_min": 5.0,
-      "temp_max": 17.0,
-      "humidity_min": 74.0,
-      "humidity_max": 100.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 92.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 11.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Nublado",
-          "id": 43
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-22",
       "temp_min": 8.0,
@@ -584,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7416",
-  "generated_at": "2026-06-21T22:36:32.852511+00:00"
+  "generated_at": "2026-06-22T05:29:56.790367+00:00"
 }

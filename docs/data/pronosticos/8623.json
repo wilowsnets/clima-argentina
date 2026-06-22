@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:53:17-03:00",
+  "updated": "2026-06-22T00:56:10-03:00",
   "location": {
     "id": 8623,
     "name": "San Pedro de Jujuy",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-21",
-      "temp_min": 6.0,
-      "temp_max": 18.0,
-      "humidity_min": 41.0,
-      "humidity_max": 86.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 71.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 45.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-22",
       "temp_min": 3.0,
@@ -584,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8623",
-  "generated_at": "2026-06-21T22:36:40.892934+00:00"
+  "generated_at": "2026-06-22T05:30:04.668958+00:00"
 }

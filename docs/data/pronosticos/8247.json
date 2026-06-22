@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:53:17-03:00",
+  "updated": "2026-06-22T00:56:10-03:00",
   "location": {
     "id": 8247,
     "name": "Clorinda",
@@ -10,41 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-21",
-      "temp_min": 7.0,
-      "temp_max": 20.0,
-      "humidity_min": 87.0,
-      "humidity_max": 100.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 88.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 14.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "NE",
-          "deg": 67.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-22",
       "temp_min": 11.0,
@@ -584,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8247",
-  "generated_at": "2026-06-21T22:36:36.883692+00:00"
+  "generated_at": "2026-06-22T05:30:00.637612+00:00"
 }

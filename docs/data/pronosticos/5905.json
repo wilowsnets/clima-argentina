@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:53:17-03:00",
+  "updated": "2026-06-22T00:56:10-03:00",
   "location": {
     "id": 5905,
     "name": "Tolhuin",
@@ -10,44 +10,6 @@
   },
   "type": "location",
   "forecast": [
-    {
-      "date": "2026-06-21",
-      "temp_min": -1.0,
-      "temp_max": 4.0,
-      "humidity_min": 92.0,
-      "humidity_max": 97.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 96.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          70,
-          78
-        ],
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
     {
       "date": "2026-06-22",
       "temp_min": 1.0,
@@ -623,5 +585,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5905",
-  "generated_at": "2026-06-21T22:37:30.032322+00:00"
+  "generated_at": "2026-06-22T05:30:53.541930+00:00"
 }
