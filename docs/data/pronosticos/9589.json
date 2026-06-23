@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T17:56:55-03:00",
+  "updated": "2026-06-23T06:11:03-03:00",
   "location": {
     "id": 9589,
     "name": "Bernardo de Irigoyen",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-23",
-      "temp_min": 6.0,
-      "temp_max": 17.0,
+      "temp_min": 5.0,
+      "temp_max": 13.0,
       "humidity_min": 90.0,
       "humidity_max": 99.0,
-      "early_morning": {
-        "humidity": 99.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 99.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -98,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -119,8 +95,8 @@
     },
     {
       "date": "2026-06-24",
-      "temp_min": 5.0,
-      "temp_max": 16.0,
+      "temp_min": 2.0,
+      "temp_max": 12.0,
       "humidity_min": 43.0,
       "humidity_max": 97.0,
       "early_morning": {
@@ -130,7 +106,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -180,7 +156,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -377,16 +353,16 @@
       "afternoon": {
         "humidity": 66.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 22.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "N",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9589",
-  "generated_at": "2026-06-23T04:20:31.234461+00:00"
+  "generated_at": "2026-06-23T10:02:52.705511+00:00"
 }

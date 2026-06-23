@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T17:56:55-03:00",
+  "updated": "2026-06-23T06:11:03-03:00",
   "location": {
     "id": 133,
     "name": "El Bolsón",
@@ -12,43 +12,19 @@
   "forecast": [
     {
       "date": "2026-06-23",
-      "temp_min": -3.0,
+      "temp_min": -1.0,
       "temp_max": 6.0,
       "humidity_min": 85.0,
       "humidity_max": 98.0,
-      "early_morning": {
-        "humidity": 93.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 98.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": -3.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 1.0,
         "weather": {
@@ -95,7 +71,7 @@
         "humidity": 91.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 2.0,
@@ -109,8 +85,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -126,10 +102,13 @@
       "early_morning": {
         "humidity": 98.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": -1.0,
         "visibility": "Mala",
         "rain06h": 0.4,
@@ -139,10 +118,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -302,7 +281,10 @@
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          70,
+          78
+        ],
         "temperature": 0.0,
         "visibility": "Regular",
         "rain06h": 1.4,
@@ -311,11 +293,11 @@
           "id": 77
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -327,7 +309,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          70,
+          78
+        ],
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -339,8 +324,8 @@
           "direction": "O",
           "deg": 292.5,
           "speed_range": [
-            7,
-            12
+            32,
+            41
           ]
         },
         "river": null,
@@ -361,7 +346,10 @@
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": -3.0,
         "visibility": "Mala",
         "rain06h": 0.1,
@@ -373,8 +361,8 @@
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            0,
-            2
+            23,
+            31
           ]
         },
         "river": null,
@@ -386,7 +374,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 1.2,
@@ -395,11 +386,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "SO",
-          "deg": 225.0,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
-            0,
-            2
+            23,
+            31
           ]
         },
         "river": null,
@@ -555,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/133",
-  "generated_at": "2026-06-23T04:20:37.521555+00:00"
+  "generated_at": "2026-06-23T10:02:59.134899+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T17:56:55-03:00",
+  "updated": "2026-06-23T06:11:03-03:00",
   "location": {
     "id": 4265,
     "name": "Tandil",
@@ -16,34 +16,7 @@
       "temp_max": 8.0,
       "humidity_min": 63.0,
       "humidity_max": 90.0,
-      "early_morning": {
-        "humidity": 86.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 90.0,
         "rain_prob_range": [
@@ -106,10 +79,7 @@
           0,
           10
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -132,7 +102,7 @@
     {
       "date": "2026-06-24",
       "temp_min": 1.0,
-      "temp_max": 6.0,
+      "temp_max": 7.0,
       "humidity_min": 50.0,
       "humidity_max": 91.0,
       "early_morning": {
@@ -192,7 +162,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 7.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -217,7 +187,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -238,8 +208,8 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": 4.0,
-      "temp_max": 11.0,
+      "temp_min": 3.0,
+      "temp_max": 9.0,
       "humidity_min": 47.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -250,7 +220,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -275,7 +245,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -424,7 +394,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 4.0,
@@ -561,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4265",
-  "generated_at": "2026-06-23T04:19:49.361026+00:00"
+  "generated_at": "2026-06-23T10:02:11.028856+00:00"
 }

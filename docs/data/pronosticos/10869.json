@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T17:56:55-03:00",
+  "updated": "2026-06-23T06:11:03-03:00",
   "location": {
     "id": 10869,
     "name": "Nueva Atlantis",
@@ -16,34 +16,7 @@
       "temp_max": 9.0,
       "humidity_min": 49.0,
       "humidity_max": 90.0,
-      "early_morning": {
-        "humidity": 90.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 6.0,
-        "visibility": "Regular",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 87.0,
         "rain_prob_range": [
@@ -106,7 +79,10 @@
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 7.0,
         "visibility": "Regular",
         "rain06h": 0.3,
@@ -118,8 +94,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -129,7 +105,7 @@
     {
       "date": "2026-06-24",
       "temp_min": 2.0,
-      "temp_max": 8.0,
+      "temp_max": 9.0,
       "humidity_min": 53.0,
       "humidity_max": 96.0,
       "early_morning": {
@@ -189,7 +165,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -243,16 +219,16 @@
       "morning": {
         "humidity": 88.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 5.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "O",
@@ -558,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10869",
-  "generated_at": "2026-06-23T04:19:36.992712+00:00"
+  "generated_at": "2026-06-23T10:01:59.182918+00:00"
 }
