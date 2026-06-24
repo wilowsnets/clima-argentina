@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T13:00:47-03:00",
+  "updated": "2026-06-24T17:27:33-03:00",
   "location": {
     "id": 117,
     "name": "San Antonio Oeste",
@@ -18,34 +18,7 @@
       "humidity_max": 65.0,
       "early_morning": null,
       "morning": null,
-      "afternoon": {
-        "humidity": 39.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 10.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "afternoon": null,
       "night": {
         "humidity": 65.0,
         "rain_prob_range": [
@@ -53,8 +26,8 @@
           40
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 7.0,
         "visibility": "Regular",
@@ -67,8 +40,8 @@
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -194,7 +167,34 @@
       "temp_max": 15.0,
       "humidity_min": 56.0,
       "humidity_max": 65.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 65.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          60,
+          69
+        ],
+        "temperature": 5.0,
+        "visibility": "Regular",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Lluvias aisladas",
+          "id": 72
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 337.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 56.0,
         "rain_prob_range": [
@@ -251,7 +251,34 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 56.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 12.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-06-27",
@@ -503,6 +530,71 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-07-01",
+      "temp_min": 4.0,
+      "temp_max": 12.0,
+      "humidity_min": 62.0,
+      "humidity_max": 62.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 4.0,
+        "visibility": "Regular",
+        "rain06h": null,
+        "weather": {
+          "description": "Chaparrones",
+          "id": 74
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 62.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": 12.0,
+        "visibility": "Regular",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Chaparrones",
+          "id": 74
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -534,5 +626,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/117",
-  "generated_at": "2026-06-24T20:06:21.129614+00:00"
+  "generated_at": "2026-06-24T22:40:40.621194+00:00"
 }

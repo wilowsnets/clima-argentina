@@ -9,19 +9,19 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-24T15:00:00-03:00",
-    "humidity": 94.0,
-    "pressure": 999.8,
-    "feels_like": -28.0,
-    "temperature": -19.2,
-    "visibility": 8.0,
+    "date": "2026-06-24T18:00:00-03:00",
+    "humidity": 93.0,
+    "pressure": 1002.1,
+    "feels_like": -29.0,
+    "temperature": -20.0,
+    "visibility": 20.0,
     "weather": {
-      "description": "Parcialmente nublado con precipitación a la vista",
+      "description": "Parcialmente nublado",
       "id": 25
     },
     "wind": {
-      "direction": "Noroeste",
-      "deg": 315.0,
+      "direction": "Este",
+      "deg": 90.0,
       "speed": 15.0
     },
     "station_id": 88968
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10814",
-  "generated_at": "2026-06-24T20:06:49.571270+00:00",
-  "previous_generated_at": "2026-06-24T16:21:22.661994+00:00",
+  "generated_at": "2026-06-24T22:41:08.561352+00:00",
+  "previous_generated_at": "2026-06-24T20:06:49.571270+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10814"
 }
