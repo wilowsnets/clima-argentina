@@ -190,7 +190,7 @@
       "temp_min": 3.0,
       "temp_max": 16.0,
       "humidity_min": 37.0,
-      "humidity_max": 59.0,
+      "humidity_max": 64.0,
       "early_morning": null,
       "morning": {
         "humidity": 59.0,
@@ -199,7 +199,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -311,7 +311,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": -1.0,
+      "temp_min": 3.0,
       "temp_max": 10.0,
       "humidity_min": 25.0,
       "humidity_max": 70.0,
@@ -323,7 +323,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -432,10 +432,10 @@
       "temp_min": 1.0,
       "temp_max": 11.0,
       "humidity_min": 28.0,
-      "humidity_max": 28.0,
+      "humidity_max": 54.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 54.0,
         "rain_prob_range": [
           0,
           0
@@ -443,10 +443,10 @@
         "gust_range": null,
         "temperature": 1.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "O",
@@ -477,8 +477,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
             23,
             31
@@ -519,5 +519,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8817",
-  "generated_at": "2026-06-24T17:18:19.957105+00:00"
+  "generated_at": "2026-06-24T20:06:05.487216+00:00"
 }

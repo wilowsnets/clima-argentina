@@ -74,7 +74,7 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": 1.0,
+      "temp_min": 0.0,
       "temp_max": 11.0,
       "humidity_min": 36.0,
       "humidity_max": 90.0,
@@ -82,7 +82,7 @@
         "humidity": 77.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 2.0,
@@ -106,16 +106,16 @@
       "morning": {
         "humidity": 90.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
-        "temperature": 1.0,
-        "visibility": "Buena",
+        "temperature": 0.0,
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nevadas",
+          "id": 79
         },
         "wind": {
           "direction": "SO",
@@ -190,7 +190,7 @@
       "temp_min": 3.0,
       "temp_max": 14.0,
       "humidity_min": 41.0,
-      "humidity_max": 71.0,
+      "humidity_max": 78.0,
       "early_morning": null,
       "morning": {
         "humidity": 71.0,
@@ -202,7 +202,7 @@
           42,
           50
         ],
-        "temperature": 3.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -314,7 +314,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 0.0,
+      "temp_min": 4.0,
       "temp_max": 10.0,
       "humidity_min": 30.0,
       "humidity_max": 52.0,
@@ -326,7 +326,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -435,10 +435,10 @@
       "temp_min": 2.0,
       "temp_max": 12.0,
       "humidity_min": 34.0,
-      "humidity_max": 34.0,
+      "humidity_max": 68.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 68.0,
         "rain_prob_range": [
           0,
           0
@@ -446,7 +446,7 @@
         "gust_range": null,
         "temperature": 2.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -480,8 +480,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
             23,
             31
@@ -522,5 +522,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4350",
-  "generated_at": "2026-06-24T17:17:11.370430+00:00"
+  "generated_at": "2026-06-24T20:04:57.173812+00:00"
 }
