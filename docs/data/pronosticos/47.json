@@ -12,10 +12,10 @@
   "forecast": [
     {
       "date": "2026-06-23",
-      "temp_min": 3.0,
-      "temp_max": 12.0,
-      "humidity_min": 24.0,
-      "humidity_max": 61.0,
+      "temp_min": null,
+      "temp_max": null,
+      "humidity_min": null,
+      "humidity_max": null,
       "early_morning": null,
       "morning": null,
       "afternoon": null,
@@ -596,5 +596,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/47",
-  "generated_at": "2026-06-23T22:38:48.781633+00:00"
+  "generated_at": "2026-06-24T02:51:26.553103+00:00"
 }
