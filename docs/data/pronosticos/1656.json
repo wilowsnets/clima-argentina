@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:45:56-03:00",
+  "updated": "2026-06-24T13:00:47-03:00",
   "location": {
     "id": 1656,
     "name": "Santa Rosa del Conlara",
@@ -21,19 +21,19 @@
       "afternoon": {
         "humidity": 36.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 13.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "N",
@@ -513,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1656",
-  "generated_at": "2026-06-24T15:07:30.088308+00:00"
+  "generated_at": "2026-06-24T16:21:02.717886+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:45:56-03:00",
+  "updated": "2026-06-24T13:00:47-03:00",
   "location": {
     "id": 1425,
     "name": "San Juan",
@@ -33,11 +33,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -54,8 +54,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -504,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1425",
-  "generated_at": "2026-06-24T15:07:27.763905+00:00"
+  "generated_at": "2026-06-24T16:21:00.691745+00:00"
 }

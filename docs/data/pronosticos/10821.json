@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:45:56-03:00",
+  "updated": "2026-06-24T13:00:47-03:00",
   "location": {
     "id": 10821,
     "name": "Aeroparque Buenos Aires",
@@ -22,7 +22,7 @@
         "humidity": 45.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 12.0,
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10821",
-  "generated_at": "2026-06-24T15:06:34.788139+00:00"
+  "generated_at": "2026-06-24T16:20:09.253236+00:00"
 }

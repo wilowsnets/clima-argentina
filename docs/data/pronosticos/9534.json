@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:45:56-03:00",
+  "updated": "2026-06-24T13:00:47-03:00",
   "location": {
     "id": 9534,
     "name": "San Carlos",
@@ -33,11 +33,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -54,15 +54,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
-          "deg": 225.0,
+          "deg": 247.5,
           "speed_range": [
-            0,
-            2
+            7,
+            12
           ]
         },
         "river": null,
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9534",
-  "generated_at": "2026-06-24T15:07:10.599515+00:00"
+  "generated_at": "2026-06-24T16:20:43.699040+00:00"
 }

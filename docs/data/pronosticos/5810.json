@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:45:56-03:00",
+  "updated": "2026-06-24T13:00:47-03:00",
   "location": {
     "id": 5810,
     "name": "Paso de Indios",
@@ -64,8 +64,8 @@
           "direction": "SO",
           "deg": 247.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -522,5 +522,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5810",
-  "generated_at": "2026-06-24T15:06:41.418348+00:00"
+  "generated_at": "2026-06-24T16:20:15.495437+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:45:56-03:00",
+  "updated": "2026-06-24T13:00:47-03:00",
   "location": {
     "id": 10290,
     "name": "Aguilares",
@@ -33,11 +33,11 @@
           "id": 19
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -54,8 +54,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "SO",
@@ -501,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10290",
-  "generated_at": "2026-06-24T15:07:53.548044+00:00"
+  "generated_at": "2026-06-24T16:21:26.665979+00:00"
 }
