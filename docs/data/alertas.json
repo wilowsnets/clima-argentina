@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-23T23:52:00-03:00",
-  "last_success_at": "2026-06-23T23:52:00-03:00",
+  "generated_at": "2026-06-24T01:35:53-03:00",
+  "last_success_at": "2026-06-24T01:35:53-03:00",
   "smn_updated_at": "2026-06-23T17:32:12-03:00",
   "status": "con_alertas",
   "source": "Servicio Meteorológico Nacional",
   "source_endpoint": "/v1/warning/alert/area?mode=alert&compact=true",
   "area_records_received": 171,
-  "active_count": 20,
+  "active_count": 18,
   "affected_area_count": 17,
   "max_level": 3,
   "levels": {
@@ -24,38 +24,6 @@
     "47": "Viento Zonda"
   },
   "alerts": [
-    {
-      "area_id": 839,
-      "date": "2026-06-23",
-      "updated": "2026-06-23T17:32:12-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 42,
-          "name": "Nevada",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 842,
-      "date": "2026-06-23",
-      "updated": "2026-06-23T17:32:12-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 42,
-          "name": "Nevada",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
     {
       "area_id": 795,
       "date": "2026-06-24",

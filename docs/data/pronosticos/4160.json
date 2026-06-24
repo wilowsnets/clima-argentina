@@ -11,44 +11,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-23",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 86.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.3,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-24",
       "temp_min": 2.0,
       "temp_max": 9.0,
@@ -605,5 +567,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4160",
-  "generated_at": "2026-06-24T02:50:01.881522+00:00"
+  "generated_at": "2026-06-24T04:33:58.418976+00:00"
 }
