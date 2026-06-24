@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-24T06:51:58-03:00",
-  "last_success_at": "2026-06-24T06:51:58-03:00",
+  "generated_at": "2026-06-24T12:07:55-03:00",
+  "last_success_at": "2026-06-24T12:07:55-03:00",
   "smn_updated_at": "2026-06-24T05:57:11-03:00",
   "status": "con_alertas",
   "source": "Servicio Meteorológico Nacional",
   "source_endpoint": "/v1/warning/alert/area?mode=alert&compact=true",
   "area_records_received": 171,
-  "active_count": 14,
+  "active_count": 12,
   "affected_area_count": 10,
   "max_level": 3,
   "levels": {
@@ -36,12 +36,6 @@
           "name": "Viento",
           "level": 3,
           "level_name": "Amarillo"
-        },
-        {
-          "id": 42,
-          "name": "Nevada",
-          "level": 3,
-          "level_name": "Amarillo"
         }
       ],
       "reports": []
@@ -56,22 +50,6 @@
         {
           "id": 39,
           "name": "Viento",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 828,
-      "date": "2026-06-24",
-      "updated": "2026-06-24T05:57:11-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 42,
-          "name": "Nevada",
           "level": 3,
           "level_name": "Amarillo"
         }
@@ -104,22 +82,6 @@
         {
           "id": 39,
           "name": "Viento",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 832,
-      "date": "2026-06-24",
-      "updated": "2026-06-24T05:57:11-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 42,
-          "name": "Nevada",
           "level": 3,
           "level_name": "Amarillo"
         }
