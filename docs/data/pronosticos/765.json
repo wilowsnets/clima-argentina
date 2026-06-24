@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T17:33:18-03:00",
+  "updated": "2026-06-24T05:45:56-03:00",
   "location": {
     "id": 765,
     "name": "San Antonio de los Cobres",
@@ -16,31 +16,7 @@
       "temp_max": 8.0,
       "humidity_min": 6.0,
       "humidity_max": 21.0,
-      "early_morning": {
-        "humidity": 18.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 21.0,
         "rain_prob_range": [
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": -8.0,
+      "temp_min": -9.0,
       "temp_max": 10.0,
       "humidity_min": 8.0,
       "humidity_max": 16.0,
@@ -130,7 +106,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -8.0,
+        "temperature": -7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -6.0,
+        "temperature": -9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -380,7 +356,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -392,8 +371,8 @@
           "direction": "O",
           "deg": 292.5,
           "speed_range": [
-            7,
-            12
+            32,
+            41
           ]
         },
         "river": null,
@@ -555,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/765",
-  "generated_at": "2026-06-24T04:35:23.430795+00:00"
+  "generated_at": "2026-06-24T09:51:27.667291+00:00"
 }

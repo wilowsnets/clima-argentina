@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T17:33:18-03:00",
+  "updated": "2026-06-24T05:45:56-03:00",
   "location": {
     "id": 1449,
     "name": "Caucete",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-24",
       "temp_min": -1.0,
-      "temp_max": 16.0,
+      "temp_max": 15.0,
       "humidity_min": 25.0,
       "humidity_max": 50.0,
-      "early_morning": {
-        "humidity": 50.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 45.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -119,7 +95,7 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": 2.0,
+      "temp_min": 1.0,
       "temp_max": 14.0,
       "humidity_min": 21.0,
       "humidity_max": 38.0,
@@ -130,7 +106,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -209,8 +185,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NO",
@@ -271,11 +247,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -286,7 +262,7 @@
     {
       "date": "2026-06-27",
       "temp_min": 6.0,
-      "temp_max": 18.0,
+      "temp_max": 15.0,
       "humidity_min": 26.0,
       "humidity_max": 42.0,
       "early_morning": null,
@@ -322,7 +298,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -330,11 +306,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -353,22 +329,25 @@
         "humidity": 81.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "SO",
-          "deg": 225.0,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            0,
-            2
+            23,
+            31
           ]
         },
         "river": null,
@@ -385,15 +364,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -549,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1449",
-  "generated_at": "2026-06-24T04:35:24.627835+00:00"
+  "generated_at": "2026-06-24T09:51:28.950429+00:00"
 }

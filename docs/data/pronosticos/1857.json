@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T17:33:18-03:00",
+  "updated": "2026-06-24T05:45:56-03:00",
   "location": {
     "id": 1857,
     "name": "Puerto Deseado",
@@ -16,38 +16,17 @@
       "temp_max": 6.0,
       "humidity_min": 71.0,
       "humidity_max": 74.0,
-      "early_morning": {
-        "humidity": 73.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 71.0,
         "rain_prob_range": [
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.0,
@@ -72,7 +51,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -129,7 +111,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -138,11 +123,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "NE",
-          "deg": 45.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            32,
+            41
           ]
         },
         "river": null,
@@ -258,11 +243,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "N",
-          "deg": 0.1,
+          "direction": "NO",
+          "deg": 315.0,
           "speed_range": [
-            42,
-            50
+            23,
+            31
           ]
         },
         "river": null,
@@ -427,8 +412,8 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": 4.0,
-      "temp_max": 11.0,
+      "temp_min": 3.0,
+      "temp_max": 9.0,
       "humidity_min": 61.0,
       "humidity_max": 61.0,
       "early_morning": null,
@@ -442,7 +427,7 @@
           51,
           59
         ],
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -467,7 +452,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -490,7 +475,7 @@
     {
       "date": "2026-06-30",
       "temp_min": 2.0,
-      "temp_max": 3.0,
+      "temp_max": 5.0,
       "humidity_min": 60.0,
       "humidity_max": 83.0,
       "early_morning": null,
@@ -532,7 +517,7 @@
           51,
           59
         ],
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
@@ -582,5 +567,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1857",
-  "generated_at": "2026-06-24T04:35:30.292369+00:00"
+  "generated_at": "2026-06-24T09:51:35.094767+00:00"
 }

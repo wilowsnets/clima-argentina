@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T17:33:18-03:00",
+  "updated": "2026-06-24T05:45:56-03:00",
   "location": {
     "id": 6110,
     "name": "Cruz del Eje",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-24",
-      "temp_min": 3.0,
-      "temp_max": 16.0,
+      "temp_min": 1.0,
+      "temp_max": 15.0,
       "humidity_min": 40.0,
       "humidity_max": 62.0,
-      "early_morning": {
-        "humidity": 47.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 62.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -76,7 +52,7 @@
           42,
           50
         ],
-        "temperature": 16.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -122,7 +98,7 @@
     },
     {
       "date": "2026-06-25",
-      "temp_min": 3.0,
+      "temp_min": 2.0,
       "temp_max": 15.0,
       "humidity_min": 40.0,
       "humidity_max": 63.0,
@@ -133,7 +109,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -158,7 +134,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -281,7 +257,7 @@
         },
         "wind": {
           "direction": "N",
-          "deg": 0.1,
+          "deg": 22.5,
           "speed_range": [
             23,
             31
@@ -295,7 +271,7 @@
     {
       "date": "2026-06-27",
       "temp_min": 8.0,
-      "temp_max": 18.0,
+      "temp_max": 15.0,
       "humidity_min": 31.0,
       "humidity_max": 52.0,
       "early_morning": null,
@@ -331,7 +307,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -339,11 +315,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "E",
-          "deg": 112.5,
+          "direction": "SE",
+          "deg": 135.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -361,23 +337,26 @@
       "morning": {
         "humidity": 64.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 5.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -389,17 +368,20 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
             13,
             22
@@ -558,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6110",
-  "generated_at": "2026-06-24T04:34:45.243319+00:00"
+  "generated_at": "2026-06-24T09:50:50.036913+00:00"
 }

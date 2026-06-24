@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T17:33:18-03:00",
+  "updated": "2026-06-24T05:45:56-03:00",
   "location": {
     "id": 1827,
     "name": "Gobernador Gregores",
@@ -16,31 +16,7 @@
       "temp_max": 3.0,
       "humidity_min": 70.0,
       "humidity_max": 97.0,
-      "early_morning": {
-        "humidity": 97.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.5,
-        "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 75.0,
         "rain_prob_range": [
@@ -120,7 +96,7 @@
     {
       "date": "2026-06-25",
       "temp_min": -1.0,
-      "temp_max": 9.0,
+      "temp_max": 8.0,
       "humidity_min": 67.0,
       "humidity_max": 90.0,
       "early_morning": {
@@ -186,7 +162,7 @@
           42,
           50
         ],
-        "temperature": 9.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -208,13 +184,13 @@
         "humidity": 83.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": 6.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -271,19 +247,19 @@
       "afternoon": {
         "humidity": 71.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
           51,
           59
         ],
         "temperature": 5.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "O",
@@ -422,7 +398,7 @@
     {
       "date": "2026-06-29",
       "temp_min": 2.0,
-      "temp_max": 9.0,
+      "temp_max": 7.0,
       "humidity_min": 74.0,
       "humidity_max": 74.0,
       "early_morning": null,
@@ -458,7 +434,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -480,8 +456,8 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": -1.0,
-      "temp_max": 4.0,
+      "temp_min": -2.0,
+      "temp_max": 3.0,
       "humidity_min": 73.0,
       "humidity_max": 97.0,
       "early_morning": null,
@@ -492,7 +468,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
@@ -520,7 +496,7 @@
           42,
           50
         ],
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 2.6,
         "weather": {
@@ -570,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1827",
-  "generated_at": "2026-06-24T04:35:29.486947+00:00"
+  "generated_at": "2026-06-24T09:51:34.286334+00:00"
 }
