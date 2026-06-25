@@ -17,31 +17,7 @@
       "humidity_min": 16.0,
       "humidity_max": 51.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 16.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -9.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 51.0,
         "rain_prob_range": [
@@ -537,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9360",
-  "generated_at": "2026-06-25T09:44:29.904733+00:00"
+  "generated_at": "2026-06-25T15:12:22.248455+00:00"
 }
