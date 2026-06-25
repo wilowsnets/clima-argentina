@@ -77,7 +77,7 @@
     },
     {
       "date": "2026-06-26",
-      "temp_min": 5.0,
+      "temp_min": 2.0,
       "temp_max": 13.0,
       "humidity_min": 45.0,
       "humidity_max": 74.0,
@@ -91,7 +91,7 @@
           60,
           69
         ],
-        "temperature": 5.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -119,7 +119,7 @@
           70,
           78
         ],
-        "temperature": 5.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -140,19 +140,19 @@
       "afternoon": {
         "humidity": 45.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
           51,
           59
         ],
         "temperature": 13.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SO",
@@ -169,13 +169,13 @@
         "humidity": 74.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": 10.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -196,19 +196,19 @@
     },
     {
       "date": "2026-06-27",
-      "temp_min": 0.0,
-      "temp_max": 11.0,
+      "temp_min": 2.0,
+      "temp_max": 13.0,
       "humidity_min": 50.0,
-      "humidity_max": 53.0,
+      "humidity_max": 82.0,
       "early_morning": null,
       "morning": {
         "humidity": 53.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -236,7 +236,7 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -305,8 +305,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -323,7 +323,7 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": -1.0,
+      "temp_min": 0.0,
       "temp_max": 13.0,
       "humidity_min": 28.0,
       "humidity_max": 71.0,
@@ -335,12 +335,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "O",
@@ -364,8 +364,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "S",
@@ -382,7 +382,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": 2.0,
+      "temp_min": 1.0,
       "temp_max": 11.0,
       "humidity_min": 48.0,
       "humidity_max": 76.0,
@@ -397,7 +397,7 @@
           42,
           50
         ],
-        "temperature": 2.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/132",
-  "generated_at": "2026-06-25T15:12:34.379783+00:00"
+  "generated_at": "2026-06-25T17:24:05.514144+00:00"
 }

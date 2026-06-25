@@ -49,8 +49,8 @@
       "night": {
         "humidity": 90.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           60,
@@ -84,8 +84,8 @@
       "early_morning": {
         "humidity": 89.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           51,
@@ -140,8 +140,8 @@
       "afternoon": {
         "humidity": 80.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           70,
@@ -196,22 +196,22 @@
     },
     {
       "date": "2026-06-27",
-      "temp_min": 1.0,
+      "temp_min": 0.0,
       "temp_max": 6.0,
       "humidity_min": 66.0,
-      "humidity_max": 84.0,
+      "humidity_max": 88.0,
       "early_morning": null,
       "morning": {
         "humidity": 66.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           70,
           78
         ],
-        "temperature": 1.0,
+        "temperature": 0.0,
         "visibility": "Mala",
         "rain06h": 0.1,
         "weather": {
@@ -240,11 +240,11 @@
           78
         ],
         "temperature": 6.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Ventoso",
+          "id": 51
         },
         "wind": {
           "direction": "O",
@@ -301,8 +301,8 @@
           40
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
         "temperature": 5.0,
         "visibility": "Regular",
@@ -334,8 +334,8 @@
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           70,
@@ -391,7 +391,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": -3.0,
+      "temp_min": -4.0,
       "temp_max": 3.0,
       "humidity_min": 68.0,
       "humidity_max": 95.0,
@@ -406,7 +406,7 @@
           70,
           78
         ],
-        "temperature": -3.0,
+        "temperature": -4.0,
         "visibility": "Mala",
         "rain06h": 4.2,
         "weather": {
@@ -465,15 +465,15 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -543,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10861",
-  "generated_at": "2026-06-25T15:13:03.610108+00:00"
+  "generated_at": "2026-06-25T17:24:35.385663+00:00"
 }

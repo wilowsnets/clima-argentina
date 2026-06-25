@@ -208,7 +208,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.2,
         "weather": {
@@ -305,8 +305,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -323,7 +323,7 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": -2.0,
+      "temp_min": -1.0,
       "temp_max": 11.0,
       "humidity_min": 35.0,
       "humidity_max": 68.0,
@@ -335,12 +335,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "O",
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5886",
-  "generated_at": "2026-06-25T15:11:55.124788+00:00"
+  "generated_at": "2026-06-25T17:23:26.137228+00:00"
 }
