@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T17:27:33-03:00",
+  "updated": "2026-06-25T06:03:55-03:00",
   "location": {
     "id": 5884,
     "name": "Puerto Madryn",
@@ -16,41 +16,14 @@
       "temp_max": 9.0,
       "humidity_min": 57.0,
       "humidity_max": 86.0,
-      "early_morning": {
-        "humidity": 70.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.3,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 86.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -591,5 +564,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5884",
-  "generated_at": "2026-06-25T04:23:17.125047+00:00"
+  "generated_at": "2026-06-25T09:44:02.629370+00:00"
 }

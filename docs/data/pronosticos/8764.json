@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T17:27:33-03:00",
+  "updated": "2026-06-25T06:03:55-03:00",
   "location": {
     "id": 8764,
     "name": "Libertador Gral San Martín",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-25",
-      "temp_min": 4.0,
-      "temp_max": 14.0,
+      "temp_min": 3.0,
+      "temp_max": 18.0,
       "humidity_min": 34.0,
       "humidity_max": 81.0,
-      "early_morning": {
-        "humidity": 63.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 81.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -242,8 +218,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8764",
-  "generated_at": "2026-06-25T04:23:35.324193+00:00"
+  "generated_at": "2026-06-25T09:44:21.154686+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T17:27:33-03:00",
+  "updated": "2026-06-25T06:03:55-03:00",
   "location": {
     "id": 10026,
     "name": "San Martín de Los Andes",
@@ -16,31 +16,7 @@
       "temp_max": 7.0,
       "humidity_min": 53.0,
       "humidity_max": 94.0,
-      "early_morning": {
-        "humidity": 91.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
@@ -97,7 +73,10 @@
           40,
           70
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": 3.0,
         "visibility": "Muy mala",
         "rain06h": 0.2,
@@ -134,11 +113,11 @@
           78
         ],
         "temperature": 2.0,
-        "visibility": "Regular",
+        "visibility": "Muy mala",
         "rain06h": 7.1,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Nevadas fuertes",
+          "id": 85
         },
         "wind": {
           "direction": "O",
@@ -154,8 +133,8 @@
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           60,
@@ -570,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10026",
-  "generated_at": "2026-06-25T04:23:50.745767+00:00"
+  "generated_at": "2026-06-25T09:44:36.595947+00:00"
 }
