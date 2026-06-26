@@ -17,34 +17,7 @@
       "humidity_min": 61.0,
       "humidity_max": 93.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": -3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 0.1,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 61.0,
         "rain_prob_range": [
@@ -211,7 +184,7 @@
       "temp_min": 4.0,
       "temp_max": 9.0,
       "humidity_min": 40.0,
-      "humidity_max": 71.0,
+      "humidity_max": 82.0,
       "early_morning": null,
       "morning": {
         "humidity": 71.0,
@@ -223,7 +196,7 @@
           42,
           50
         ],
-        "temperature": 4.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -425,7 +398,7 @@
         "humidity": 73.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           42,
@@ -456,10 +429,10 @@
       "temp_min": 3.0,
       "temp_max": 8.0,
       "humidity_min": 52.0,
-      "humidity_max": 52.0,
+      "humidity_max": 84.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 84.0,
         "rain_prob_range": [
           0,
           10
@@ -467,7 +440,7 @@
         "gust_range": null,
         "temperature": 3.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -540,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4202",
-  "generated_at": "2026-06-26T14:46:20.988036+00:00"
+  "generated_at": "2026-06-26T17:07:19.495835+00:00"
 }
