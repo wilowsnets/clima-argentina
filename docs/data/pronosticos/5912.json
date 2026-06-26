@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T17:36:10-03:00",
+  "updated": "2026-06-26T05:39:35-03:00",
   "location": {
     "id": 5912,
     "name": "Río Grande",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-26",
-      "temp_min": 0.0,
+      "temp_min": 1.0,
       "temp_max": 5.0,
       "humidity_min": 62.0,
       "humidity_max": 85.0,
-      "early_morning": {
-        "humidity": 85.0,
-        "rain_prob_range": [
-          70,
-          100
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 2.0,
-        "visibility": "Regular",
-        "rain06h": 0.2,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 77.0,
         "rain_prob_range": [
@@ -51,10 +24,10 @@
           10
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
-        "temperature": 0.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -107,8 +80,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 1.0,
         "visibility": "Buena",
@@ -121,8 +94,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -142,15 +115,15 @@
           0
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -166,19 +139,19 @@
       "morning": {
         "humidity": 61.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": -2.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NO",
@@ -198,8 +171,8 @@
           0
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 6.0,
         "visibility": "Regular",
@@ -210,10 +183,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -226,8 +199,8 @@
           0
         ],
         "gust_range": [
-          70,
-          78
+          51,
+          59
         ],
         "temperature": 2.0,
         "visibility": "Regular",
@@ -240,8 +213,8 @@
           "direction": "NO",
           "deg": 315.0,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -297,8 +270,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "O",
@@ -597,5 +570,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5912",
-  "generated_at": "2026-06-26T04:40:27.685076+00:00"
+  "generated_at": "2026-06-26T09:52:46.650192+00:00"
 }

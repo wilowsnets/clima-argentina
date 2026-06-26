@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T17:36:10-03:00",
+  "updated": "2026-06-26T05:39:35-03:00",
   "location": {
     "id": 137,
     "name": "San Carlos de Bariloche",
@@ -16,34 +16,7 @@
       "temp_max": 7.0,
       "humidity_min": 93.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 2.0,
-        "visibility": "Regular",
-        "rain06h": 8.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 100.0,
         "rain_prob_range": [
@@ -160,8 +133,8 @@
       "morning": {
         "humidity": 91.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": -2.0,
@@ -271,16 +244,16 @@
       "afternoon": {
         "humidity": 71.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 6.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "O",
@@ -389,8 +362,8 @@
       "afternoon": {
         "humidity": 99.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
@@ -427,7 +400,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
@@ -570,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/137",
-  "generated_at": "2026-06-26T04:39:57.256391+00:00"
+  "generated_at": "2026-06-26T09:52:15.503983+00:00"
 }

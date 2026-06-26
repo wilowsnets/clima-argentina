@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T17:36:10-03:00",
+  "updated": "2026-06-26T05:39:35-03:00",
   "location": {
     "id": 5796,
     "name": "Trevelín",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-26",
-      "temp_min": -1.0,
+      "temp_min": -2.0,
       "temp_max": 6.0,
       "humidity_min": 90.0,
       "humidity_max": 99.0,
-      "early_morning": {
-        "humidity": 99.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Regular",
-        "rain06h": 0.4,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 99.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           51,
           59
         ],
-        "temperature": 1.0,
+        "temperature": -2.0,
         "visibility": "Regular",
         "rain06h": 0.5,
         "weather": {
@@ -72,8 +48,8 @@
       "afternoon": {
         "humidity": 90.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           51,
@@ -269,7 +245,7 @@
         "humidity": 77.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 4.0,
@@ -386,8 +362,8 @@
       "afternoon": {
         "humidity": 99.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
@@ -567,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5796",
-  "generated_at": "2026-06-26T04:39:19.432052+00:00"
+  "generated_at": "2026-06-26T09:51:37.077445+00:00"
 }

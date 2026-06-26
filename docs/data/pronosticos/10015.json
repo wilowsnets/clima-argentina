@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T17:36:10-03:00",
+  "updated": "2026-06-26T05:39:35-03:00",
   "location": {
     "id": 10015,
     "name": "Villa La Angostura",
@@ -16,34 +16,7 @@
       "temp_max": 7.0,
       "humidity_min": 93.0,
       "humidity_max": 99.0,
-      "early_morning": {
-        "humidity": 99.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          70,
-          78
-        ],
-        "temperature": 2.0,
-        "visibility": "Muy mala",
-        "rain06h": 11.1,
-        "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 99.0,
         "rain_prob_range": [
@@ -160,8 +133,8 @@
       "morning": {
         "humidity": 96.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": -2.0,
@@ -272,7 +245,7 @@
         "humidity": 78.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 6.0,
@@ -389,8 +362,8 @@
       "afternoon": {
         "humidity": 98.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
@@ -426,19 +399,19 @@
       "morning": {
         "humidity": null,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": -6.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": null,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "SO",
@@ -570,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10015",
-  "generated_at": "2026-06-26T04:39:52.723465+00:00"
+  "generated_at": "2026-06-26T09:52:10.724849+00:00"
 }
