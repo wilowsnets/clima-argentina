@@ -142,15 +142,15 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
           "deg": 202.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6002",
-  "generated_at": "2026-06-27T19:11:25.901627+00:00"
+  "generated_at": "2026-06-27T20:11:19.595868+00:00"
 }

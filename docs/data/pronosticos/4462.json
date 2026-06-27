@@ -240,7 +240,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": 0.0,
+      "temp_min": -1.0,
       "temp_max": 12.0,
       "humidity_min": 45.0,
       "humidity_max": 77.0,
@@ -252,7 +252,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4462",
-  "generated_at": "2026-06-27T19:11:07.103895+00:00"
+  "generated_at": "2026-06-27T20:11:01.336392+00:00"
 }

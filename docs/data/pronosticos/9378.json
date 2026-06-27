@@ -84,10 +84,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.1,
@@ -167,8 +164,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "N",
@@ -196,7 +193,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -304,11 +301,11 @@
       "date": "2026-07-01",
       "temp_min": 1.0,
       "temp_max": 2.0,
-      "humidity_min": 78.0,
+      "humidity_min": 86.0,
       "humidity_max": 86.0,
       "early_morning": null,
       "morning": {
-        "humidity": 78.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -319,7 +316,7 @@
         ],
         "temperature": 1.0,
         "visibility": "Buena",
-        "rain06h": 0.1,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -446,11 +443,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            0,
+            2
           ]
         },
         "river": null,
@@ -513,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9378",
-  "generated_at": "2026-06-27T19:11:46.397546+00:00"
+  "generated_at": "2026-06-27T20:11:39.232603+00:00"
 }

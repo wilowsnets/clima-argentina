@@ -184,7 +184,7 @@
       "temp_min": 2.0,
       "temp_max": 11.0,
       "humidity_min": 41.0,
-      "humidity_max": 50.0,
+      "humidity_max": 62.0,
       "early_morning": null,
       "morning": {
         "humidity": 50.0,
@@ -338,19 +338,19 @@
       "afternoon": {
         "humidity": 62.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           51,
           59
         ],
         "temperature": 8.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SE",
@@ -432,7 +432,7 @@
       "humidity_max": 63.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 62.0,
         "rain_prob_range": [
           0,
           0
@@ -443,7 +443,7 @@
         ],
         "temperature": -1.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -463,7 +463,7 @@
         "humidity": 63.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 8.0,
@@ -516,5 +516,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/114",
-  "generated_at": "2026-06-27T19:11:57.433567+00:00"
+  "generated_at": "2026-06-27T20:11:49.689879+00:00"
 }
