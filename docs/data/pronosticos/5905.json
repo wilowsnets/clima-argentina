@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T06:24:44-03:00",
+  "updated": "2026-06-27T17:49:02-03:00",
   "location": {
     "id": 5905,
     "name": "Tolhuin",
@@ -18,34 +18,7 @@
       "humidity_max": 84.0,
       "early_morning": null,
       "morning": null,
-      "afternoon": {
-        "humidity": 77.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "afternoon": null,
       "night": {
         "humidity": 84.0,
         "rain_prob_range": [
@@ -200,7 +173,34 @@
       "temp_max": 4.0,
       "humidity_min": 73.0,
       "humidity_max": 95.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 93.0,
+        "rain_prob_range": [
+          40,
+          70
+        ],
+        "gust_range": [
+          79,
+          87
+        ],
+        "temperature": -3.0,
+        "visibility": "Muy mala",
+        "rain06h": 0.2,
+        "weather": {
+          "description": "Nevadas fuertes",
+          "id": 85
+        },
+        "wind": {
+          "direction": "O",
+          "deg": 292.5,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 95.0,
         "rain_prob_range": [
@@ -257,7 +257,31 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 81.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": null,
+        "temperature": -1.0,
+        "visibility": "Mala",
+        "rain06h": 2.4,
+        "weather": {
+          "description": "Nevadas",
+          "id": 79
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-06-30",
@@ -518,6 +542,68 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-07-04",
+      "temp_min": -3.0,
+      "temp_max": 0.0,
+      "humidity_min": 84.0,
+      "humidity_max": 97.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": 97.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": -3.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            32,
+            41
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 84.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 0.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 247.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -549,5 +635,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5905",
-  "generated_at": "2026-06-27T20:12:23.206830+00:00"
+  "generated_at": "2026-06-27T21:12:18.595631+00:00"
 }
