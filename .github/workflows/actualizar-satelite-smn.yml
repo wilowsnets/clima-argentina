@@ -1,21 +1,21 @@
 name: Actualizar satélite SMN
 
+run-name: Satélite SMN · disparo externo
+
 on:
   workflow_dispatch:
-  schedule:
-    # Dos veces por hora. GitHub Actions puede ejecutarlo con demora.
-    - cron: "7,37 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: actualizar-satelite-smn
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
 
     steps:
       - name: Descargar repositorio
@@ -37,19 +37,14 @@ jobs:
 
       - name: Verificar JSON generado
         run: |
-          python -m json.tool \
-            docs/data/satelite/argentina/index.json
+          python -m json.tool docs/data/satelite/argentina/index.json
 
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            docs/data/satelite/argentina/index.json \
-            scripts/actualizar_satelite_smn.py \
-            .github/workflows/actualizar-satelite-smn.yml
+          git add docs/data/satelite/argentina/index.json
 
           if git diff --cached --quiet; then
             echo "No hay cambios satelitales para guardar."
