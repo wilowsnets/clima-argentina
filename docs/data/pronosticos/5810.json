@@ -11,44 +11,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-06-26",
-      "temp_min": 3.0,
-      "temp_max": 9.0,
-      "humidity_min": 44.0,
-      "humidity_max": 79.0,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 62.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-06-27",
       "temp_min": 1.0,
       "temp_max": 5.0,
@@ -596,5 +558,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5810",
-  "generated_at": "2026-06-26T22:23:26.515711+00:00"
+  "generated_at": "2026-06-27T04:16:03.020819+00:00"
 }
