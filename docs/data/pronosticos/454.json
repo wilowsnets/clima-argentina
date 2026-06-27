@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 2.0,
+      "temp_min": 0.0,
       "temp_max": 17.0,
       "humidity_min": 35.0,
       "humidity_max": 66.0,
-      "early_morning": {
-        "humidity": 66.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 66.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -95,15 +71,15 @@
         "humidity": 62.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -162,8 +138,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -555,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/454",
-  "generated_at": "2026-06-27T08:11:54.718849+00:00"
+  "generated_at": "2026-06-27T09:12:01.731186+00:00"
 }

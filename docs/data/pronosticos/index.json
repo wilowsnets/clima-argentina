@@ -1,6 +1,6 @@
 {
   "source": "Servicio Meteorológico Nacional",
-  "generated_at": "2026-06-27T08:12:25.759126+00:00",
+  "generated_at": "2026-06-27T09:12:34.056023+00:00",
   "catalog_count": 297,
   "available_count": 297,
   "forecast_available_count": 291,
@@ -5425,7 +5425,7 @@
       "forecast_reference_id": 10818,
       "forecast_location_id": null,
       "used_reference": false,
-      "preserved_previous_file": false,
+      "preserved_previous_file": true,
       "station_name": null
     },
     {
@@ -5463,7 +5463,7 @@
       "forecast_reference_id": 10817,
       "forecast_location_id": null,
       "used_reference": false,
-      "preserved_previous_file": true,
+      "preserved_previous_file": false,
       "station_name": null
     },
     {
