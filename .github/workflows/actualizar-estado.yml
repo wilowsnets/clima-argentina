@@ -2,11 +2,9 @@ name: Actualizar datos meteorológicos
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "15 */3 * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: actualizar-datos-meteorologicos
@@ -20,6 +18,10 @@ jobs:
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.REPO_PAT }}
+          persist-credentials: true
 
       - name: Preparar Python
         uses: actions/setup-python@v5
@@ -104,8 +106,8 @@ jobs:
 
       - name: Guardar todos los archivos actualizados
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Ramon Ibarra"
+          git config user.email "TU_EMAIL_VERIFICADO_EN_GITHUB"
 
           git add -A docs/data
 
@@ -115,5 +117,5 @@ jobs:
           fi
 
           git commit -m "Actualizar pronósticos, localidades y alertas"
-          git pull --rebase
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
