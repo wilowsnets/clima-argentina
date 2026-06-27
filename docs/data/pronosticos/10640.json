@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 10640,
     "name": "Martínez",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-27",
       "temp_min": 4.0,
-      "temp_max": 17.0,
+      "temp_max": 16.0,
       "humidity_min": 55.0,
       "humidity_max": 97.0,
       "early_morning": null,
@@ -25,11 +25,11 @@
         ],
         "gust_range": null,
         "temperature": 4.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "N",
@@ -49,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10640",
-  "generated_at": "2026-06-27T09:10:45.781383+00:00"
+  "generated_at": "2026-06-27T10:10:44.029620+00:00"
 }

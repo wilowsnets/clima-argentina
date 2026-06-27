@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 1712,
     "name": "San Luis",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 2.0,
+      "temp_min": 4.0,
       "temp_max": 16.0,
       "humidity_min": 29.0,
       "humidity_max": 59.0,
@@ -24,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -53,8 +53,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NE",
@@ -116,8 +116,8 @@
         "visibility": "Regular",
         "rain06h": 1.1,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "S",
@@ -141,8 +141,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "O",
@@ -208,7 +208,7 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": -1.0,
+      "temp_min": 0.0,
       "temp_max": 13.0,
       "humidity_min": 18.0,
       "humidity_max": 87.0,
@@ -220,7 +220,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -283,8 +283,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "N",
@@ -537,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1712",
-  "generated_at": "2026-06-27T09:12:06.254455+00:00"
+  "generated_at": "2026-06-27T10:12:05.456931+00:00"
 }

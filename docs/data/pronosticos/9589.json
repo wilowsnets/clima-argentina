@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 9589,
     "name": "Bernardo de Irigoyen",
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 9.0,
+      "temp_min": 11.0,
       "temp_max": 20.0,
       "humidity_min": 79.0,
       "humidity_max": 100.0,
@@ -131,7 +131,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 11.0,
         "visibility": "Regular",
         "rain06h": 6.1,
         "weather": {
@@ -157,11 +157,11 @@
         ],
         "gust_range": null,
         "temperature": 20.0,
-        "visibility": "Mala",
+        "visibility": "Muy mala",
         "rain06h": 0.2,
         "weather": {
-          "description": "Tormentas",
-          "id": 81
+          "description": "Tormentas fuertes",
+          "id": 89
         },
         "wind": {
           "direction": "NO",
@@ -182,11 +182,11 @@
         ],
         "gust_range": null,
         "temperature": 17.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 1.8,
         "weather": {
-          "description": "Tormentas aisladas",
-          "id": 76
+          "description": "Tormentas",
+          "id": 81
         },
         "wind": {
           "direction": "SO",
@@ -525,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9589",
-  "generated_at": "2026-06-27T09:11:48.405017+00:00"
+  "generated_at": "2026-06-27T10:11:47.757063+00:00"
 }

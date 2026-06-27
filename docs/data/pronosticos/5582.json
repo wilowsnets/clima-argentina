@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 5582,
     "name": "Villa Ángela",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 9.0,
-      "temp_max": 21.0,
+      "temp_min": 5.0,
+      "temp_max": 20.0,
       "humidity_min": 44.0,
       "humidity_max": 94.0,
       "early_morning": null,
@@ -24,12 +24,12 @@
           10
         ],
         "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Buena",
+        "temperature": 5.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "NE",
@@ -49,7 +49,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 21.0,
+        "temperature": 20.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -95,8 +95,8 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 11.0,
-      "temp_max": 17.0,
+      "temp_min": 13.0,
+      "temp_max": 18.0,
       "humidity_min": 56.0,
       "humidity_max": 99.0,
       "early_morning": {
@@ -110,8 +110,8 @@
         "visibility": "Regular",
         "rain06h": 0.6,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "E",
@@ -134,7 +134,7 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Regular",
         "rain06h": 6.7,
         "weather": {
@@ -162,7 +162,7 @@
           42,
           50
         ],
-        "temperature": 17.0,
+        "temperature": 18.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -327,7 +327,7 @@
     {
       "date": "2026-07-01",
       "temp_min": 7.0,
-      "temp_max": 15.0,
+      "temp_max": 18.0,
       "humidity_min": 71.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -363,7 +363,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5582",
-  "generated_at": "2026-06-27T09:11:13.657707+00:00"
+  "generated_at": "2026-06-27T10:11:11.832803+00:00"
 }

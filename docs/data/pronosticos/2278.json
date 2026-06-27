@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 2278,
     "name": "Rosario",
@@ -25,11 +25,11 @@
         ],
         "gust_range": null,
         "temperature": 5.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "N",
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 10.0,
+      "temp_min": 9.0,
       "temp_max": 14.0,
       "humidity_min": 35.0,
       "humidity_max": 79.0,
@@ -131,7 +131,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 9.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2278",
-  "generated_at": "2026-06-27T09:12:15.292275+00:00"
+  "generated_at": "2026-06-27T10:12:14.250059+00:00"
 }

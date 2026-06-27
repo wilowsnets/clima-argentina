@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 2062,
     "name": "San Javier",
@@ -25,11 +25,11 @@
         ],
         "gust_range": null,
         "temperature": 6.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "NE",
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 10.0,
+      "temp_min": 11.0,
       "temp_max": 16.0,
       "humidity_min": 44.0,
       "humidity_max": 98.0,
@@ -131,7 +131,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Regular",
         "rain06h": 6.3,
         "weather": {
@@ -206,7 +206,7 @@
     {
       "date": "2026-06-29",
       "temp_min": 6.0,
-      "temp_max": 14.0,
+      "temp_max": 15.0,
       "humidity_min": 43.0,
       "humidity_max": 92.0,
       "early_morning": null,
@@ -242,7 +242,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2062",
-  "generated_at": "2026-06-27T09:12:16.150736+00:00"
+  "generated_at": "2026-06-27T10:12:15.064975+00:00"
 }

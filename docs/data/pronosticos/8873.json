@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 8873,
     "name": "General Acha",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-27",
       "temp_min": 3.0,
-      "temp_max": 13.0,
+      "temp_max": 14.0,
       "humidity_min": 43.0,
       "humidity_max": 73.0,
       "early_morning": null,
@@ -46,13 +46,13 @@
         "humidity": 43.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": 13.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -73,16 +73,16 @@
       "night": {
         "humidity": 49.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 8.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "S",
@@ -99,7 +99,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 3.0,
-      "temp_max": 10.0,
+      "temp_max": 11.0,
       "humidity_min": 22.0,
       "humidity_max": 55.0,
       "early_morning": {
@@ -159,7 +159,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8873",
-  "generated_at": "2026-06-27T09:11:39.760329+00:00"
+  "generated_at": "2026-06-27T10:11:38.346056+00:00"
 }

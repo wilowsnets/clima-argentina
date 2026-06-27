@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 1960,
     "name": "Tostado",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 6.0,
+      "temp_min": 5.0,
       "temp_max": 19.0,
       "humidity_min": 44.0,
       "humidity_max": 90.0,
@@ -24,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -53,8 +53,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -166,8 +166,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "S",
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1960",
-  "generated_at": "2026-06-27T09:12:18.255110+00:00"
+  "generated_at": "2026-06-27T10:12:17.150409+00:00"
 }

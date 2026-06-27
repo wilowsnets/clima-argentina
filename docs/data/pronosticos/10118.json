@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 10118,
     "name": "San Miguel de Tucumán",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 5.0,
+      "temp_min": 6.0,
       "temp_max": 19.0,
       "humidity_min": 36.0,
       "humidity_max": 90.0,
@@ -24,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -71,7 +71,7 @@
         "humidity": 83.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 13.0,
@@ -106,7 +106,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -239,7 +239,7 @@
         "humidity": 38.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 15.0,
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10118",
-  "generated_at": "2026-06-27T09:12:33.045950+00:00"
+  "generated_at": "2026-06-27T10:12:31.568024+00:00"
 }

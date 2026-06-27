@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 7151,
     "name": "Ituzaingo",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 8.0,
-      "temp_max": 20.0,
+      "temp_min": 7.0,
+      "temp_max": 21.0,
       "humidity_min": 48.0,
       "humidity_max": 97.0,
       "early_morning": null,
@@ -24,7 +24,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -49,7 +49,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 20.0,
+        "temperature": 21.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -95,8 +95,8 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 10.0,
-      "temp_max": 17.0,
+      "temp_min": 13.0,
+      "temp_max": 18.0,
       "humidity_min": 57.0,
       "humidity_max": 99.0,
       "early_morning": {
@@ -106,12 +106,12 @@
           40
         ],
         "gust_range": null,
-        "temperature": 12.0,
-        "visibility": "Regular",
+        "temperature": 14.0,
+        "visibility": "Mala",
         "rain06h": 4.0,
         "weather": {
-          "description": "Tormentas aisladas",
-          "id": 76
+          "description": "Tormentas",
+          "id": 81
         },
         "wind": {
           "direction": "NE",
@@ -131,7 +131,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 13.0,
         "visibility": "Muy mala",
         "rain06h": 4.8,
         "weather": {
@@ -159,7 +159,7 @@
           42,
           50
         ],
-        "temperature": 17.0,
+        "temperature": 18.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -324,7 +324,7 @@
     {
       "date": "2026-07-01",
       "temp_min": 9.0,
-      "temp_max": 13.0,
+      "temp_max": 15.0,
       "humidity_min": 86.0,
       "humidity_max": 98.0,
       "early_morning": null,
@@ -360,7 +360,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7151",
-  "generated_at": "2026-06-27T09:11:29.055355+00:00"
+  "generated_at": "2026-06-27T10:11:26.602193+00:00"
 }

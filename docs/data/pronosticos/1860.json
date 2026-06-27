@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 1860,
     "name": "Puerto San Julián",
@@ -351,7 +351,7 @@
     {
       "date": "2026-07-01",
       "temp_min": 0.0,
-      "temp_max": 8.0,
+      "temp_max": 5.0,
       "humidity_min": 49.0,
       "humidity_max": 49.0,
       "early_morning": null,
@@ -387,7 +387,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -561,5 +561,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1860",
-  "generated_at": "2026-06-27T09:12:10.485225+00:00"
+  "generated_at": "2026-06-27T10:12:09.467975+00:00"
 }

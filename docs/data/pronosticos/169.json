@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 169,
     "name": "Maquinchao",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-27",
       "temp_min": -3.0,
-      "temp_max": 4.0,
+      "temp_max": 5.0,
       "humidity_min": 65.0,
       "humidity_max": 78.0,
       "early_morning": null,
@@ -49,7 +49,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -243,8 +243,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "O",
@@ -537,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/169",
-  "generated_at": "2026-06-27T09:11:56.666684+00:00"
+  "generated_at": "2026-06-27T10:11:56.320271+00:00"
 }

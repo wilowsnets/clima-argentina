@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 9585,
     "name": "Puerto Iguazú",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 8.0,
+      "temp_min": 10.0,
       "temp_max": 22.0,
       "humidity_min": 70.0,
       "humidity_max": 97.0,
@@ -24,7 +24,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 10.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -75,11 +75,11 @@
         ],
         "gust_range": null,
         "temperature": 17.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 0.1,
         "weather": {
-          "description": "Tormentas aisladas",
-          "id": 76
+          "description": "Tormentas",
+          "id": 81
         },
         "wind": {
           "direction": "NE",
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 10.0,
+      "temp_min": 11.0,
       "temp_max": 21.0,
       "humidity_min": 74.0,
       "humidity_max": 100.0,
@@ -106,7 +106,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 14.0,
         "visibility": "Muy mala",
         "rain06h": 6.1,
         "weather": {
@@ -131,7 +131,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Regular",
         "rain06h": 6.1,
         "weather": {
@@ -182,11 +182,11 @@
         ],
         "gust_range": null,
         "temperature": 17.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 1.6,
         "weather": {
-          "description": "Tormentas aisladas",
-          "id": 76
+          "description": "Tormentas",
+          "id": 81
         },
         "wind": {
           "direction": "SO",
@@ -525,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9585",
-  "generated_at": "2026-06-27T09:11:50.049676+00:00"
+  "generated_at": "2026-06-27T10:11:49.378255+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 3884,
     "name": "Pehuajó",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-27",
       "temp_min": 3.0,
-      "temp_max": 16.0,
+      "temp_max": 15.0,
       "humidity_min": 57.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -49,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -102,16 +102,16 @@
       "early_morning": {
         "humidity": 74.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 9.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "S",
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3884",
-  "generated_at": "2026-06-27T09:10:51.487333+00:00"
+  "generated_at": "2026-06-27T10:10:49.709546+00:00"
 }

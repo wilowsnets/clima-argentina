@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 8088,
     "name": "Las Lomitas",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-27",
       "temp_min": 10.0,
-      "temp_max": 23.0,
+      "temp_max": 21.0,
       "humidity_min": 44.0,
       "humidity_max": 98.0,
       "early_morning": null,
@@ -49,7 +49,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 23.0,
+        "temperature": 21.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-06-28",
-      "temp_min": 11.0,
+      "temp_min": 13.0,
       "temp_max": 21.0,
       "humidity_min": 42.0,
       "humidity_max": 98.0,
@@ -134,7 +134,7 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Regular",
         "rain06h": 1.9,
         "weather": {
@@ -534,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8088",
-  "generated_at": "2026-06-27T09:11:34.468685+00:00"
+  "generated_at": "2026-06-27T10:11:32.167979+00:00"
 }

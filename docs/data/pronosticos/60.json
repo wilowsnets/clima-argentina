@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:05:51-03:00",
+  "updated": "2026-06-27T06:24:44-03:00",
   "location": {
     "id": 60,
     "name": "General Roca",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-27",
-      "temp_min": 0.0,
+      "temp_min": 4.0,
       "temp_max": 12.0,
       "humidity_min": 42.0,
       "humidity_max": 65.0,
@@ -24,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -243,8 +243,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "O",
@@ -261,8 +261,8 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": -1.0,
-      "temp_max": 8.0,
+      "temp_min": 0.0,
+      "temp_max": 11.0,
       "humidity_min": 34.0,
       "humidity_max": 75.0,
       "early_morning": null,
@@ -273,7 +273,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -298,7 +298,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 8.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/60",
-  "generated_at": "2026-06-27T09:11:55.811293+00:00"
+  "generated_at": "2026-06-27T10:11:55.417513+00:00"
 }
