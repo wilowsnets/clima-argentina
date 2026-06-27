@@ -199,7 +199,7 @@
       "temp_min": 1.0,
       "temp_max": 5.0,
       "humidity_min": 72.0,
-      "humidity_max": 79.0,
+      "humidity_max": 83.0,
       "early_morning": null,
       "morning": {
         "humidity": 79.0,
@@ -211,12 +211,12 @@
           79,
           87
         ],
-        "temperature": 1.0,
-        "visibility": "Mala",
+        "temperature": 5.0,
+        "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
-          "description": "Nevadas",
-          "id": 79
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -236,8 +236,8 @@
           40
         ],
         "gust_range": [
-          70,
-          78
+          79,
+          87
         ],
         "temperature": 5.0,
         "visibility": "Regular",
@@ -273,8 +273,8 @@
           40
         ],
         "gust_range": [
-          51,
-          59
+          60,
+          69
         ],
         "temperature": -1.0,
         "visibility": "Regular",
@@ -458,11 +458,11 @@
       "date": "2026-07-03",
       "temp_min": 3.0,
       "temp_max": 6.0,
-      "humidity_min": 99.0,
+      "humidity_min": 75.0,
       "humidity_max": 99.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 75.0,
         "rain_prob_range": [
           0,
           0
@@ -473,7 +473,7 @@
         ],
         "temperature": 3.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -493,9 +493,12 @@
         "humidity": 99.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 1.8,
@@ -504,11 +507,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -546,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5912",
-  "generated_at": "2026-06-27T17:12:37.017378+00:00"
+  "generated_at": "2026-06-27T18:12:15.594538+00:00"
 }
