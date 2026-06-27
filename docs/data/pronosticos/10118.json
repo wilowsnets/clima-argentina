@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T17:49:02-03:00",
+  "updated": "2026-06-27T19:50:14-03:00",
   "location": {
     "id": 10118,
     "name": "San Miguel de Tucumán",
@@ -22,16 +22,16 @@
       "night": {
         "humidity": 83.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          0
         ],
         "gust_range": null,
         "temperature": 13.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -593,5 +593,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10118",
-  "generated_at": "2026-06-27T22:12:21.010363+00:00"
+  "generated_at": "2026-06-27T23:12:19.946438+00:00"
 }
