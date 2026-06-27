@@ -17,31 +17,7 @@
       "humidity_min": 50.0,
       "humidity_max": 90.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 81.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Mala",
-        "rain06h": 0.2,
-        "weather": {
-          "description": "Nevadas",
-          "id": 79
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 50.0,
         "rain_prob_range": [
@@ -537,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5756",
-  "generated_at": "2026-06-27T14:11:06.026965+00:00"
+  "generated_at": "2026-06-27T15:11:05.433822+00:00"
 }
