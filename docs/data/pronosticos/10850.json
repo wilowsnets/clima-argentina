@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 10850,
     "name": "El Hoyo",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": -2.0,
+      "temp_min": -1.0,
       "temp_max": 3.0,
       "humidity_min": 79.0,
       "humidity_max": 94.0,
@@ -27,7 +27,7 @@
           42,
           50
         ],
-        "temperature": -2.0,
+        "temperature": -1.0,
         "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
@@ -106,7 +106,7 @@
         "humidity": 96.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 1.0,
@@ -350,10 +350,10 @@
         },
         "wind": {
           "direction": "N",
-          "deg": 0.1,
+          "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -365,7 +365,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -374,11 +377,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -456,7 +459,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -5.0,
@@ -534,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10850",
-  "generated_at": "2026-06-28T09:11:09.819296+00:00"
+  "generated_at": "2026-06-28T10:11:04.850021+00:00"
 }

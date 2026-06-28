@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 10059,
     "name": "Tafí del Valle",
@@ -28,8 +28,8 @@
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -78,8 +78,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -110,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "O",
@@ -152,16 +152,16 @@
       "afternoon": {
         "humidity": 16.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 6.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "O",
@@ -178,7 +178,7 @@
         "humidity": 31.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 0.0,
@@ -422,7 +422,7 @@
         "humidity": 11.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           51,
@@ -469,8 +469,8 @@
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -487,7 +487,7 @@
         "humidity": 6.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           42,
@@ -543,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10059",
-  "generated_at": "2026-06-28T09:12:22.645381+00:00"
+  "generated_at": "2026-06-28T10:12:16.241903+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 8491,
     "name": "Tilcara",
@@ -28,8 +28,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -135,8 +135,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -218,8 +218,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -301,7 +301,7 @@
         "humidity": 6.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           60,
@@ -428,7 +428,7 @@
         "humidity": 14.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           60,
@@ -475,8 +475,8 @@
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -549,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8491",
-  "generated_at": "2026-06-28T09:11:32.279672+00:00"
+  "generated_at": "2026-06-28T10:11:26.815206+00:00"
 }

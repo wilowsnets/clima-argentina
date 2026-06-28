@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 4849,
     "name": "Hurlingham",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 5.0,
+      "temp_min": 6.0,
       "temp_max": 14.0,
       "humidity_min": 47.0,
       "humidity_max": 86.0,
@@ -27,7 +27,7 @@
           42,
           50
         ],
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": 1.0,
+      "temp_min": 2.0,
       "temp_max": 14.0,
       "humidity_min": 50.0,
       "humidity_max": 93.0,
@@ -137,7 +137,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 3.4,
         "weather": {
@@ -195,11 +195,11 @@
           "id": 19
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            7,
-            12
+            0,
+            2
           ]
         },
         "river": null,
@@ -208,7 +208,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": 2.0,
+      "temp_min": 1.0,
       "temp_max": 14.0,
       "humidity_min": 53.0,
       "humidity_max": 72.0,
@@ -220,12 +220,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
+        "temperature": 1.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "N",
@@ -467,8 +467,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -492,8 +492,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -534,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4849",
-  "generated_at": "2026-06-28T09:10:34.352357+00:00"
+  "generated_at": "2026-06-28T10:10:30.545495+00:00"
 }

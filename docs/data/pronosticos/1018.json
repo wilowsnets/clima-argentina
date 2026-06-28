@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 1018,
     "name": "Metán",
@@ -102,7 +102,7 @@
     {
       "date": "2026-06-29",
       "temp_min": 10.0,
-      "temp_max": 19.0,
+      "temp_max": 17.0,
       "humidity_min": 33.0,
       "humidity_max": 71.0,
       "early_morning": {
@@ -162,7 +162,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 19.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -301,7 +301,7 @@
         "humidity": 42.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 19.0,
@@ -464,8 +464,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -489,8 +489,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1018",
-  "generated_at": "2026-06-28T09:11:52.565840+00:00"
+  "generated_at": "2026-06-28T10:11:46.720706+00:00"
 }

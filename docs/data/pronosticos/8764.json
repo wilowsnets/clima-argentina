@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 8764,
     "name": "Libertador Gral San Martín",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 4.0,
+      "temp_min": 5.0,
       "temp_max": 16.0,
       "humidity_min": 30.0,
       "humidity_max": 78.0,
@@ -31,8 +31,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -49,15 +49,15 @@
         "humidity": 30.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SE",
@@ -134,7 +134,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
@@ -155,16 +155,16 @@
       "afternoon": {
         "humidity": 40.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 13.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lloviznas",
+          "id": 71
         },
         "wind": {
           "direction": "NO",
@@ -221,8 +221,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -264,7 +264,7 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": -3.0,
+      "temp_min": 5.0,
       "temp_max": 13.0,
       "humidity_min": 29.0,
       "humidity_max": 29.0,
@@ -276,7 +276,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -3.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -298,7 +298,7 @@
         "humidity": 29.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
@@ -419,7 +419,7 @@
         "humidity": 36.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 7.0,
@@ -460,8 +460,8 @@
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -534,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8764",
-  "generated_at": "2026-06-28T09:11:29.890531+00:00"
+  "generated_at": "2026-06-28T10:11:24.123634+00:00"
 }

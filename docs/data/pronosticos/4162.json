@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 4162,
     "name": "La Lucila del Mar",
@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 5.0,
+      "temp_min": 3.0,
       "temp_max": 11.0,
       "humidity_min": 56.0,
       "humidity_max": 91.0,
@@ -27,7 +27,7 @@
           42,
           50
         ],
-        "temperature": 5.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": 0.0,
+      "temp_min": 1.0,
       "temp_max": 11.0,
       "humidity_min": 56.0,
       "humidity_max": 90.0,
@@ -137,7 +137,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 1.9,
         "weather": {
@@ -208,7 +208,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": 1.0,
+      "temp_min": 0.0,
       "temp_max": 13.0,
       "humidity_min": 58.0,
       "humidity_max": 87.0,
@@ -220,12 +220,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
-        "visibility": "Buena",
+        "temperature": 0.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "NO",
@@ -249,8 +249,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NO",
@@ -267,8 +267,8 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": 3.0,
-      "temp_max": 12.0,
+      "temp_min": 2.0,
+      "temp_max": 11.0,
       "humidity_min": 55.0,
       "humidity_max": 92.0,
       "early_morning": null,
@@ -282,7 +282,7 @@
           42,
           50
         ],
-        "temperature": 3.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -310,7 +310,7 @@
           42,
           50
         ],
-        "temperature": 12.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -341,15 +341,15 @@
         "humidity": 63.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -470,8 +470,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
             13,
             22
@@ -491,12 +491,12 @@
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
             13,
             22
@@ -537,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4162",
-  "generated_at": "2026-06-28T09:10:36.772396+00:00"
+  "generated_at": "2026-06-28T10:10:33.171480+00:00"
 }

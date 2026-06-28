@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 8088,
     "name": "Las Lomitas",
@@ -99,7 +99,7 @@
     {
       "date": "2026-06-29",
       "temp_min": 11.0,
-      "temp_max": 18.0,
+      "temp_max": 19.0,
       "humidity_min": 37.0,
       "humidity_max": 85.0,
       "early_morning": {
@@ -159,7 +159,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -239,7 +239,7 @@
         "humidity": 67.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 17.0,
@@ -356,16 +356,16 @@
       "afternoon": {
         "humidity": 94.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": null,
         "temperature": 16.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -461,8 +461,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -486,8 +486,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8088",
-  "generated_at": "2026-06-28T09:11:28.286266+00:00"
+  "generated_at": "2026-06-28T10:11:22.574250+00:00"
 }

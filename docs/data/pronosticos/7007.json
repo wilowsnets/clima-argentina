@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 7007,
     "name": "Río Cuarto",
@@ -13,23 +13,23 @@
     {
       "date": "2026-06-28",
       "temp_min": 3.0,
-      "temp_max": 13.0,
+      "temp_max": 14.0,
       "humidity_min": 21.0,
       "humidity_max": 96.0,
       "early_morning": null,
       "morning": {
         "humidity": 78.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 3.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "S",
@@ -48,11 +48,8 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 13.0,
+        "gust_range": null,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -465,7 +462,7 @@
         },
         "wind": {
           "direction": "N",
-          "deg": 22.5,
+          "deg": 0.1,
           "speed_range": [
             13,
             22
@@ -489,8 +486,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
             13,
             22
@@ -531,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7007",
-  "generated_at": "2026-06-28T09:11:18.147739+00:00"
+  "generated_at": "2026-06-28T10:11:12.698349+00:00"
 }

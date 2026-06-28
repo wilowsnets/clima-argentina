@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 6110,
     "name": "Cruz del Eje",
@@ -188,8 +188,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -246,8 +246,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "N",
@@ -264,8 +264,8 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": -2.0,
-      "temp_max": 6.0,
+      "temp_min": 4.0,
+      "temp_max": 11.0,
       "humidity_min": 63.0,
       "humidity_max": 63.0,
       "early_morning": null,
@@ -279,7 +279,7 @@
           51,
           59
         ],
-        "temperature": -2.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -307,7 +307,7 @@
           42,
           50
         ],
-        "temperature": 6.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.8,
         "weather": {
@@ -363,7 +363,7 @@
         "humidity": 41.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 5.0,
@@ -397,7 +397,7 @@
         "humidity": 74.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -1.0,
@@ -422,15 +422,15 @@
         "humidity": 70.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -456,7 +456,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 0.0,
@@ -481,7 +481,7 @@
         "humidity": 45.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 12.0,
@@ -534,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6110",
-  "generated_at": "2026-06-28T09:11:15.722609+00:00"
+  "generated_at": "2026-06-28T10:11:10.399772+00:00"
 }

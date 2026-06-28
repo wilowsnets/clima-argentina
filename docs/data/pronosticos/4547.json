@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 4547,
     "name": "Carmen de Patagones",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 2.0,
-      "temp_max": 10.0,
+      "temp_max": 11.0,
       "humidity_min": 32.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -52,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -195,8 +195,8 @@
           "id": 19
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
             7,
             12
@@ -244,7 +244,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -253,11 +256,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -267,7 +270,7 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": 4.0,
+      "temp_min": 2.0,
       "temp_max": 9.0,
       "humidity_min": 43.0,
       "humidity_max": 51.0,
@@ -279,10 +282,10 @@
           10
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
-        "temperature": 4.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -303,19 +306,19 @@
       "afternoon": {
         "humidity": 43.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
           51,
           59
         ],
         "temperature": 9.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.2,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SE",
@@ -470,11 +473,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -495,11 +498,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -537,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4547",
-  "generated_at": "2026-06-28T09:10:22.798033+00:00"
+  "generated_at": "2026-06-28T10:10:19.442211+00:00"
 }

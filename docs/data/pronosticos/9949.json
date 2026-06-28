@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 9949,
     "name": "Cutral Co",
@@ -28,8 +28,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -284,11 +284,11 @@
           "id": 74
         },
         "wind": {
-          "direction": "E",
-          "deg": 112.5,
+          "direction": "SE",
+          "deg": 135.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -297,26 +297,26 @@
       "afternoon": {
         "humidity": 36.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 7.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "E",
-          "deg": 112.5,
+          "deg": 90.0,
           "speed_range": [
-            32,
-            41
+            13,
+            22
           ]
         },
         "river": null,
@@ -377,11 +377,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9949",
-  "generated_at": "2026-06-28T09:11:44.594530+00:00"
+  "generated_at": "2026-06-28T10:11:38.750374+00:00"
 }

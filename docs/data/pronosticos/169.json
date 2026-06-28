@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 169,
     "name": "Maquinchao",
@@ -235,19 +235,19 @@
       "afternoon": {
         "humidity": 56.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "SE",
@@ -276,8 +276,8 @@
           10
         ],
         "gust_range": [
-          70,
-          78
+          51,
+          59
         ],
         "temperature": -6.0,
         "visibility": "Buena",
@@ -287,11 +287,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "SE",
+          "deg": 135.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -304,8 +304,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 0.0,
         "visibility": "Buena",
@@ -318,8 +318,8 @@
           "direction": "E",
           "deg": 90.0,
           "speed_range": [
-            32,
-            41
+            13,
+            22
           ]
         },
         "river": null,
@@ -366,11 +366,11 @@
         "humidity": 74.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 2.0,
         "visibility": "Buena",
@@ -380,11 +380,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/169",
-  "generated_at": "2026-06-28T09:11:48.979144+00:00"
+  "generated_at": "2026-06-28T10:11:43.111145+00:00"
 }

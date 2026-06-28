@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 133,
     "name": "El Bolsón",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": -2.0,
-      "temp_max": 4.0,
+      "temp_min": 0.0,
+      "temp_max": 6.0,
       "humidity_min": 71.0,
       "humidity_max": 95.0,
       "early_morning": null,
@@ -21,10 +21,10 @@
         "humidity": 76.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -49,7 +49,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -103,7 +103,7 @@
         "humidity": 97.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 1.0,
@@ -362,23 +362,26 @@
       "afternoon": {
         "humidity": 78.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 2.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
-          "direction": "NE",
-          "deg": 45.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -534,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/133",
-  "generated_at": "2026-06-28T09:11:47.763022+00:00"
+  "generated_at": "2026-06-28T10:11:41.946635+00:00"
 }

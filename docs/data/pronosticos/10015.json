@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 10015,
     "name": "Villa La Angostura",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": -2.0,
-      "temp_max": 3.0,
+      "temp_max": 6.0,
       "humidity_min": 78.0,
       "humidity_max": 98.0,
       "early_morning": null,
@@ -49,7 +49,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -365,7 +365,10 @@
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 0.0,
         "visibility": "Regular",
         "rain06h": 0.2,
@@ -374,11 +377,11 @@
           "id": 77
         },
         "wind": {
-          "direction": "E",
-          "deg": 90.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -534,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10015",
-  "generated_at": "2026-06-28T09:11:45.780357+00:00"
+  "generated_at": "2026-06-28T10:11:39.980146+00:00"
 }

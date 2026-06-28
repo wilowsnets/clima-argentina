@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 5874,
     "name": "Comodoro Rivadavia",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 3.0,
-      "temp_max": 10.0,
+      "temp_min": 0.0,
+      "temp_max": 11.0,
       "humidity_min": 48.0,
       "humidity_max": 71.0,
       "early_morning": null,
@@ -55,7 +55,7 @@
           51,
           59
         ],
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -372,8 +372,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 8.0,
         "visibility": "Buena",
@@ -386,8 +386,8 @@
           "direction": "NO",
           "deg": 337.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -546,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5874",
-  "generated_at": "2026-06-28T09:11:09.412649+00:00"
+  "generated_at": "2026-06-28T10:11:04.474490+00:00"
 }

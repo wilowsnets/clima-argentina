@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 5756,
     "name": "Esquel",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": -2.0,
-      "temp_max": 6.0,
+      "temp_min": -1.0,
+      "temp_max": 8.0,
       "humidity_min": 55.0,
       "humidity_max": 93.0,
       "early_morning": null,
@@ -21,7 +21,7 @@
         "humidity": 86.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           60,
@@ -55,7 +55,7 @@
           51,
           59
         ],
-        "temperature": 6.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -350,10 +350,10 @@
         },
         "wind": {
           "direction": "N",
-          "deg": 0.1,
+          "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -366,8 +366,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 4.0,
         "visibility": "Buena",
@@ -380,8 +380,8 @@
           "direction": "N",
           "deg": 0.1,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -459,7 +459,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -3.0,
@@ -537,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5756",
-  "generated_at": "2026-06-28T09:11:10.227881+00:00"
+  "generated_at": "2026-06-28T10:11:05.234940+00:00"
 }

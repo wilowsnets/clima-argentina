@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 1844,
     "name": "Yacimientos Río Turbio",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": -3.0,
-      "temp_max": 3.0,
+      "temp_max": 5.0,
       "humidity_min": 69.0,
       "humidity_max": 82.0,
       "early_morning": null,
@@ -55,7 +55,7 @@
           70,
           78
         ],
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -105,7 +105,7 @@
     {
       "date": "2026-06-29",
       "temp_min": -4.0,
-      "temp_max": 3.0,
+      "temp_max": 4.0,
       "humidity_min": 63.0,
       "humidity_max": 86.0,
       "early_morning": {
@@ -155,10 +155,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 292.5,
+          "deg": 270.0,
           "speed_range": [
-            23,
-            31
+            42,
+            50
           ]
         },
         "river": null,
@@ -167,19 +167,19 @@
       "afternoon": {
         "humidity": 78.0,
         "rain_prob_range": [
-          70,
-          100
+          40,
+          70
         ],
         "gust_range": [
           70,
           78
         ],
-        "temperature": 3.0,
-        "visibility": "Mala",
+        "temperature": 4.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nevadas",
-          "id": 79
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -195,10 +195,13 @@
       "night": {
         "humidity": 86.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": -3.0,
         "visibility": "Mala",
         "rain06h": 0.0,
@@ -207,11 +210,11 @@
           "id": 79
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -228,19 +231,19 @@
       "morning": {
         "humidity": 74.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
-          42,
-          50
+          60,
+          69
         ],
         "temperature": -7.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.9,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -389,11 +392,11 @@
           "id": 13
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -549,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1844",
-  "generated_at": "2026-06-28T09:12:02.267429+00:00"
+  "generated_at": "2026-06-28T10:11:56.556885+00:00"
 }

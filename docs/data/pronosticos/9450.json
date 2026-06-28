@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 9450,
     "name": "San Martín",
@@ -78,8 +78,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "N",
@@ -96,7 +96,7 @@
     {
       "date": "2026-06-29",
       "temp_min": -1.0,
-      "temp_max": 10.0,
+      "temp_max": 13.0,
       "humidity_min": 24.0,
       "humidity_max": 88.0,
       "early_morning": {
@@ -110,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "E",
@@ -135,8 +135,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -156,12 +156,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -185,8 +185,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -261,7 +261,7 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": -2.0,
+      "temp_min": 1.0,
       "temp_max": 3.0,
       "humidity_min": 88.0,
       "humidity_max": 94.0,
@@ -273,10 +273,10 @@
           10
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
-        "temperature": -2.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.8,
         "weather": {
@@ -394,7 +394,7 @@
         "humidity": 74.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -1.0,
@@ -419,7 +419,7 @@
         "humidity": 54.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 6.0,
@@ -453,7 +453,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 0.0,
@@ -478,7 +478,7 @@
         "humidity": 55.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 8.0,
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9450",
-  "generated_at": "2026-06-28T09:11:39.802407+00:00"
+  "generated_at": "2026-06-28T10:11:33.982120+00:00"
 }

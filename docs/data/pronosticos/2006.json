@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 2006,
     "name": "Reconquista",
@@ -20,19 +20,19 @@
       "morning": {
         "humidity": 98.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 9.0,
-        "visibility": "Regular",
+        "visibility": "Mala",
         "rain06h": 6.3,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Tormentas",
+          "id": 81
         },
         "wind": {
           "direction": "S",
@@ -464,8 +464,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -489,8 +489,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2006",
-  "generated_at": "2026-06-28T09:12:05.065235+00:00"
+  "generated_at": "2026-06-28T10:11:59.359770+00:00"
 }

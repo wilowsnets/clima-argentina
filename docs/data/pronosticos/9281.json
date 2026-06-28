@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 9281,
     "name": "Aimogasta",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 4.0,
-      "temp_max": 13.0,
+      "temp_min": 5.0,
+      "temp_max": 19.0,
       "humidity_min": 27.0,
       "humidity_max": 71.0,
       "early_morning": null,
@@ -27,7 +27,7 @@
           42,
           50
         ],
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -52,7 +52,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -98,8 +98,8 @@
     },
     {
       "date": "2026-06-29",
-      "temp_min": 3.0,
-      "temp_max": 9.0,
+      "temp_min": 5.0,
+      "temp_max": 16.0,
       "humidity_min": 28.0,
       "humidity_max": 78.0,
       "early_morning": {
@@ -109,7 +109,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -159,7 +159,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -188,8 +188,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -246,8 +246,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NO",
@@ -264,8 +264,8 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": -3.0,
-      "temp_max": 8.0,
+      "temp_min": 4.0,
+      "temp_max": 13.0,
       "humidity_min": 63.0,
       "humidity_max": 72.0,
       "early_morning": null,
@@ -279,7 +279,7 @@
           51,
           59
         ],
-        "temperature": -3.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -307,7 +307,7 @@
           42,
           50
         ],
-        "temperature": 8.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -422,15 +422,15 @@
         "humidity": 47.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "E",
@@ -534,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9281",
-  "generated_at": "2026-06-28T09:11:35.510536+00:00"
+  "generated_at": "2026-06-28T10:11:29.960898+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 6698,
     "name": "Mina Clavero",
@@ -467,8 +467,8 @@
           "direction": "N",
           "deg": 0.1,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -489,8 +489,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
             13,
             22
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6698",
-  "generated_at": "2026-06-28T09:11:17.339113+00:00"
+  "generated_at": "2026-06-28T10:11:11.941339+00:00"
 }

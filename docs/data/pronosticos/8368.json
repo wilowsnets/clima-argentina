@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 8368,
     "name": "La Quiaca",
@@ -28,8 +28,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -53,8 +53,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -110,8 +110,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -138,8 +138,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "NO",
@@ -166,8 +166,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -184,15 +184,15 @@
         "humidity": 16.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "O",
@@ -245,8 +245,8 @@
           0
         ],
         "gust_range": [
-          70,
-          78
+          107,
+          115
         ],
         "temperature": 14.0,
         "visibility": "Regular",
@@ -310,8 +310,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          79,
+          87
         ],
         "temperature": 16.0,
         "visibility": "Regular",
@@ -406,7 +406,7 @@
         "humidity": 41.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           70,
@@ -434,7 +434,7 @@
         "humidity": 11.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           70,
@@ -555,5 +555,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8368",
-  "generated_at": "2026-06-28T09:11:29.512291+00:00"
+  "generated_at": "2026-06-28T10:11:23.745503+00:00"
 }

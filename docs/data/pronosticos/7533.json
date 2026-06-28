@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:50:14-03:00",
+  "updated": "2026-06-28T06:09:01-03:00",
   "location": {
     "id": 7533,
     "name": "La Paz",
@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 3.0,
-      "temp_max": 15.0,
+      "temp_min": 4.0,
+      "temp_max": 16.0,
       "humidity_min": 46.0,
       "humidity_max": 82.0,
       "early_morning": null,
@@ -27,7 +27,7 @@
           42,
           50
         ],
-        "temperature": 3.0,
+        "temperature": 4.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -55,7 +55,7 @@
           42,
           50
         ],
-        "temperature": 15.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -102,7 +102,7 @@
     {
       "date": "2026-06-29",
       "temp_min": 3.0,
-      "temp_max": 14.0,
+      "temp_max": 15.0,
       "humidity_min": 49.0,
       "humidity_max": 92.0,
       "early_morning": {
@@ -162,7 +162,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -464,11 +464,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -489,8 +489,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7533",
-  "generated_at": "2026-06-28T09:11:26.675721+00:00"
+  "generated_at": "2026-06-28T10:11:21.033991+00:00"
 }
