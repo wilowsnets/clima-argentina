@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:44:14-03:00",
+  "updated": "2026-06-28T17:21:02-03:00",
   "location": {
     "id": 4338,
     "name": "Pigüé",
@@ -182,7 +182,31 @@
       "temp_max": 12.0,
       "humidity_min": 34.0,
       "humidity_max": 78.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 78.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 0.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 0.1,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 68.0,
         "rain_prob_range": [
@@ -236,7 +260,31 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 54.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 9.0,
+        "visibility": "Regular",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Ventoso",
+          "id": 51
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            0,
+            2
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-07-01",
@@ -479,6 +527,65 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-07-05",
+      "temp_min": 5.0,
+      "temp_max": 8.0,
+      "humidity_min": 71.0,
+      "humidity_max": 71.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 5.0,
+        "visibility": "Buena",
+        "rain06h": null,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 315.0,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 71.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 8.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -510,5 +617,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4338",
-  "generated_at": "2026-06-28T19:30:55.532835+00:00"
+  "generated_at": "2026-06-28T20:30:53.345754+00:00"
 }

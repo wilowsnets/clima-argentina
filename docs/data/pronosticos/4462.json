@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:44:14-03:00",
+  "updated": "2026-06-28T17:21:02-03:00",
   "location": {
     "id": 4462,
     "name": "Tres Arroyos",
@@ -182,7 +182,31 @@
       "temp_max": 13.0,
       "humidity_min": 45.0,
       "humidity_max": 86.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 86.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 0.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 0.1,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 77.0,
         "rain_prob_range": [
@@ -233,7 +257,31 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 78.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 5.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 315.0,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-07-01",
@@ -476,6 +524,65 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-07-05",
+      "temp_min": 3.0,
+      "temp_max": 7.0,
+      "humidity_min": 98.0,
+      "humidity_max": 98.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 3.0,
+        "visibility": "Buena",
+        "rain06h": null,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "N",
+          "deg": 0.1,
+          "speed_range": [
+            7,
+            12
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 98.0,
+        "rain_prob_range": [
+          0,
+          10
+        ],
+        "gust_range": null,
+        "temperature": 7.0,
+        "visibility": "Buena",
+        "rain06h": 2.9,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            13,
+            22
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -507,5 +614,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4462",
-  "generated_at": "2026-06-28T19:31:07.647685+00:00"
+  "generated_at": "2026-06-28T20:31:04.652415+00:00"
 }

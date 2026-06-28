@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:44:14-03:00",
+  "updated": "2026-06-28T17:21:02-03:00",
   "location": {
     "id": 2954,
     "name": "Santiago del Estero",
@@ -76,10 +76,10 @@
       "date": "2026-06-29",
       "temp_min": 8.0,
       "temp_max": 18.0,
-      "humidity_min": 38.0,
+      "humidity_min": 41.0,
       "humidity_max": 79.0,
       "early_morning": {
-        "humidity": 55.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -139,8 +139,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -154,7 +154,7 @@
         "border": null
       },
       "night": {
-        "humidity": 38.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -162,7 +162,7 @@
         "gust_range": null,
         "temperature": 13.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -182,7 +182,7 @@
     {
       "date": "2026-06-30",
       "temp_min": 5.0,
-      "temp_max": 20.0,
+      "temp_max": 16.0,
       "humidity_min": 41.0,
       "humidity_max": 70.0,
       "early_morning": null,
@@ -218,7 +218,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 20.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -358,21 +358,21 @@
     },
     {
       "date": "2026-07-03",
-      "temp_min": 3.0,
-      "temp_max": 14.0,
-      "humidity_min": 64.0,
+      "temp_min": 9.0,
+      "temp_max": 15.0,
+      "humidity_min": 71.0,
       "humidity_max": 71.0,
       "early_morning": null,
       "morning": {
-        "humidity": 64.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 9.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -395,7 +395,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -417,21 +417,21 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": 2.0,
-      "temp_max": 14.0,
-      "humidity_min": 35.0,
-      "humidity_max": 72.0,
+      "temp_min": 8.0,
+      "temp_max": 16.0,
+      "humidity_min": null,
+      "humidity_max": null,
       "early_morning": null,
       "morning": {
-        "humidity": 72.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 8.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -448,15 +448,15 @@
         "border": null
       },
       "afternoon": {
-        "humidity": 35.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 16.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -504,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2954",
-  "generated_at": "2026-06-28T19:32:22.892668+00:00"
+  "generated_at": "2026-06-28T20:32:14.556718+00:00"
 }

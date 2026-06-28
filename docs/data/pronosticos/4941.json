@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:44:14-03:00",
+  "updated": "2026-06-28T17:21:02-03:00",
   "location": {
     "id": 4941,
     "name": "Santa María",
@@ -157,7 +157,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -180,8 +180,8 @@
       "date": "2026-06-30",
       "temp_min": -2.0,
       "temp_max": 10.0,
-      "humidity_min": 19.0,
-      "humidity_max": 70.0,
+      "humidity_min": 20.0,
+      "humidity_max": 53.0,
       "early_morning": null,
       "morning": {
         "humidity": 53.0,
@@ -190,7 +190,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -198,11 +198,11 @@
           "id": 19
         },
         "wind": {
-          "direction": "NE",
-          "deg": 45.0,
+          "direction": "SO",
+          "deg": 225.0,
           "speed_range": [
-            23,
-            31
+            0,
+            2
           ]
         },
         "river": null,
@@ -431,10 +431,7 @@
           0,
           0
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": null,
@@ -513,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4941",
-  "generated_at": "2026-06-28T19:31:13.886959+00:00"
+  "generated_at": "2026-06-28T20:31:10.393290+00:00"
 }

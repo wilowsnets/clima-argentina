@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:44:14-03:00",
+  "updated": "2026-06-28T17:21:02-03:00",
   "location": {
     "id": 4144,
     "name": "Maipú",
@@ -77,9 +77,9 @@
       "temp_min": -1.0,
       "temp_max": 11.0,
       "humidity_min": 57.0,
-      "humidity_max": 87.0,
+      "humidity_max": 83.0,
       "early_morning": {
-        "humidity": 81.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -154,7 +154,7 @@
         "border": null
       },
       "night": {
-        "humidity": 87.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -162,7 +162,7 @@
         "gust_range": null,
         "temperature": 9.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Algo nublado",
           "id": 19
@@ -182,7 +182,7 @@
     {
       "date": "2026-06-30",
       "temp_min": 0.0,
-      "temp_max": 13.0,
+      "temp_max": 12.0,
       "humidity_min": 58.0,
       "humidity_max": 87.0,
       "early_morning": null,
@@ -218,7 +218,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -305,7 +305,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": -1.0,
+      "temp_min": 0.0,
       "temp_max": 9.0,
       "humidity_min": 53.0,
       "humidity_max": 75.0,
@@ -317,7 +317,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -364,21 +364,21 @@
     },
     {
       "date": "2026-07-03",
-      "temp_min": -1.0,
-      "temp_max": 10.0,
+      "temp_min": 2.0,
+      "temp_max": 11.0,
       "humidity_min": 52.0,
-      "humidity_max": 78.0,
+      "humidity_max": 52.0,
       "early_morning": null,
       "morning": {
-        "humidity": 78.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 2.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -401,7 +401,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -423,21 +423,21 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": 3.0,
+      "temp_min": 1.0,
       "temp_max": 12.0,
-      "humidity_min": 74.0,
-      "humidity_max": 93.0,
+      "humidity_min": null,
+      "humidity_max": null,
       "early_morning": null,
       "morning": {
-        "humidity": 93.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 1.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -454,7 +454,7 @@
         "border": null
       },
       "afternoon": {
-        "humidity": 74.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -462,7 +462,7 @@
         "gust_range": null,
         "temperature": 12.0,
         "visibility": "Buena",
-        "rain06h": 0.1,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4144",
-  "generated_at": "2026-06-28T19:30:44.548826+00:00"
+  "generated_at": "2026-06-28T20:30:43.554104+00:00"
 }
