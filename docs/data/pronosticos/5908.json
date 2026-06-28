@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 1.0,
-      "temp_max": 4.0,
+      "temp_min": 3.0,
+      "temp_max": 6.0,
       "humidity_min": 60.0,
       "humidity_max": 78.0,
-      "early_morning": {
-        "humidity": 78.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 1.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 60.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           79,
           87
         ],
-        "temperature": 1.0,
+        "temperature": 5.0,
         "visibility": "Mala",
         "rain06h": 0.7,
         "weather": {
@@ -82,7 +55,7 @@
           70,
           78
         ],
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -110,7 +83,7 @@
           79,
           87
         ],
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -600,5 +573,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5908",
-  "generated_at": "2026-06-28T08:12:27.531633+00:00"
+  "generated_at": "2026-06-28T09:12:21.050585+00:00"
 }

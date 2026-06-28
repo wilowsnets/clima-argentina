@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-28",
-      "temp_min": 2.0,
-      "temp_max": 4.0,
+      "temp_min": 3.0,
+      "temp_max": 5.0,
       "humidity_min": 67.0,
       "humidity_max": 82.0,
-      "early_morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.3,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 67.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           79,
           87
         ],
-        "temperature": 2.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 1.0,
         "weather": {
@@ -82,7 +55,7 @@
           70,
           78
         ],
-        "temperature": 4.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -103,8 +76,8 @@
       "night": {
         "humidity": 82.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
           79,
@@ -114,8 +87,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ventoso",
-          "id": 51
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -138,8 +111,8 @@
       "early_morning": {
         "humidity": 83.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           79,
@@ -149,8 +122,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ventoso",
-          "id": 51
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -194,8 +167,8 @@
       "afternoon": {
         "humidity": 72.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           79,
@@ -222,10 +195,13 @@
       "night": {
         "humidity": 78.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.4,
@@ -234,11 +210,11 @@
           "id": 77
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
-            32,
-            41
+            42,
+            50
           ]
         },
         "river": null,
@@ -400,11 +376,11 @@
           "id": 13
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -428,8 +404,8 @@
           "id": 13
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
             32,
             41
@@ -597,5 +573,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5912",
-  "generated_at": "2026-06-28T08:12:26.709381+00:00"
+  "generated_at": "2026-06-28T09:12:20.253701+00:00"
 }
