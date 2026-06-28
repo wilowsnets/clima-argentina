@@ -183,8 +183,8 @@
           "id": 85
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
             42,
             50
@@ -198,7 +198,7 @@
       "date": "2026-06-30",
       "temp_min": -4.0,
       "temp_max": 3.0,
-      "humidity_min": 62.0,
+      "humidity_min": 68.0,
       "humidity_max": 95.0,
       "early_morning": null,
       "morning": {
@@ -211,7 +211,7 @@
           70,
           78
         ],
-        "temperature": -2.0,
+        "temperature": -4.0,
         "visibility": "Mala",
         "rain06h": 4.2,
         "weather": {
@@ -301,8 +301,8 @@
           40
         ],
         "gust_range": [
-          51,
-          59
+          60,
+          69
         ],
         "temperature": 4.0,
         "visibility": "Regular",
@@ -414,11 +414,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 180.0,
+          "direction": "E",
+          "deg": 112.5,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -465,11 +465,11 @@
         "humidity": 89.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 2.0,
         "visibility": "Buena",
@@ -479,11 +479,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -504,11 +504,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "O",
-          "deg": 270.0,
+          "direction": "SO",
+          "deg": 247.5,
           "speed_range": [
-            32,
-            41
+            7,
+            12
           ]
         },
         "river": null,
@@ -546,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5908",
-  "generated_at": "2026-06-28T17:12:31.394528+00:00"
+  "generated_at": "2026-06-28T17:32:17.204662+00:00"
 }
