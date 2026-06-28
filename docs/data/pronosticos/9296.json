@@ -86,8 +86,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SE",
@@ -181,7 +181,7 @@
       "temp_min": -5.0,
       "temp_max": 10.0,
       "humidity_min": 29.0,
-      "humidity_max": 64.0,
+      "humidity_max": 34.0,
       "early_morning": null,
       "morning": {
         "humidity": 29.0,
@@ -190,7 +190,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -325,8 +325,8 @@
           "id": 79
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
             13,
             22
@@ -428,11 +428,11 @@
       "date": "2026-07-04",
       "temp_min": -5.0,
       "temp_max": -2.0,
-      "humidity_min": 57.0,
+      "humidity_min": 78.0,
       "humidity_max": 78.0,
       "early_morning": null,
       "morning": {
-        "humidity": 57.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -440,7 +440,7 @@
         "gust_range": null,
         "temperature": -5.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -513,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-06-28T17:31:34.709164+00:00"
+  "generated_at": "2026-06-28T18:31:48.193501+00:00"
 }
