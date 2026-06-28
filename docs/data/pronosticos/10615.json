@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T06:09:01-03:00",
+  "updated": "2026-06-28T13:27:06-03:00",
   "location": {
     "id": 10615,
     "name": "Banfield",
@@ -21,19 +21,19 @@
       "afternoon": {
         "humidity": 51.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 13.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SO",
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10615",
-  "generated_at": "2026-06-28T16:10:18.717018+00:00"
+  "generated_at": "2026-06-28T17:10:19.456447+00:00"
 }

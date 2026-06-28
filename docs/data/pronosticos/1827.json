@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T06:09:01-03:00",
+  "updated": "2026-06-28T13:27:06-03:00",
   "location": {
     "id": 1827,
     "name": "Gobernador Gregores",
@@ -171,7 +171,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -180,11 +183,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -195,25 +198,25 @@
       "date": "2026-06-30",
       "temp_min": -5.0,
       "temp_max": 4.0,
-      "humidity_min": 73.0,
+      "humidity_min": 71.0,
       "humidity_max": 97.0,
       "early_morning": null,
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           60,
           69
         ],
         "temperature": -5.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.4,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nevadas",
+          "id": 79
         },
         "wind": {
           "direction": "S",
@@ -247,8 +250,8 @@
           "direction": "S",
           "deg": 180.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -379,10 +382,10 @@
       "temp_min": -1.0,
       "temp_max": 6.0,
       "humidity_min": 62.0,
-      "humidity_max": 62.0,
+      "humidity_max": 68.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 68.0,
         "rain_prob_range": [
           0,
           0
@@ -390,7 +393,7 @@
         "gust_range": null,
         "temperature": -1.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -483,8 +486,8 @@
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            0,
-            2
+            23,
+            31
           ]
         },
         "river": null,
@@ -522,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1827",
-  "generated_at": "2026-06-28T16:12:07.320653+00:00"
+  "generated_at": "2026-06-28T17:12:08.179434+00:00"
 }

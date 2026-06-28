@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T06:09:01-03:00",
+  "updated": "2026-06-28T13:27:06-03:00",
   "location": {
     "id": 9254,
     "name": "Chepes",
@@ -156,7 +156,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 9.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -190,7 +193,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -322,8 +325,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -370,7 +373,7 @@
         "humidity": 84.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": -1.0,
@@ -510,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9254",
-  "generated_at": "2026-06-28T16:11:39.485023+00:00"
+  "generated_at": "2026-06-28T17:11:42.475107+00:00"
 }
