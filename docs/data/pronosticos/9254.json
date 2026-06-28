@@ -162,8 +162,8 @@
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -212,8 +212,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -270,8 +270,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "N",
@@ -421,7 +421,7 @@
         "humidity": 84.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -1.0,
@@ -446,7 +446,7 @@
         "humidity": 80.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           42,
@@ -456,8 +456,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
@@ -483,7 +483,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 0.0,
@@ -508,7 +508,7 @@
         "humidity": 63.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 6.0,
@@ -561,5 +561,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9254",
-  "generated_at": "2026-06-28T07:11:33.550425+00:00"
+  "generated_at": "2026-06-28T08:11:40.675505+00:00"
 }

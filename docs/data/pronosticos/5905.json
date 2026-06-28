@@ -103,8 +103,8 @@
       "night": {
         "humidity": 75.0,
         "rain_prob_range": [
-          0,
-          10
+          40,
+          70
         ],
         "gust_range": [
           79,
@@ -114,8 +114,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ventoso",
-          "id": 51
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "O",
@@ -154,10 +154,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 292.5,
+          "deg": 270.0,
           "speed_range": [
-            32,
-            41
+            51,
+            59
           ]
         },
         "river": null,
@@ -194,8 +194,8 @@
       "afternoon": {
         "humidity": 73.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           79,
@@ -222,10 +222,13 @@
       "night": {
         "humidity": 81.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": -1.0,
         "visibility": "Mala",
         "rain06h": 2.4,
@@ -237,8 +240,8 @@
           "direction": "S",
           "deg": 202.5,
           "speed_range": [
-            23,
-            31
+            42,
+            50
           ]
         },
         "river": null,
@@ -400,11 +403,11 @@
           "id": 13
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -428,8 +431,8 @@
           "id": 13
         },
         "wind": {
-          "direction": "NO",
-          "deg": 337.5,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
             32,
             41
@@ -451,7 +454,7 @@
         "humidity": 84.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
@@ -597,5 +600,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5905",
-  "generated_at": "2026-06-28T07:12:18.680627+00:00"
+  "generated_at": "2026-06-28T08:12:27.140980+00:00"
 }

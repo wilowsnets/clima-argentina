@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 12.0,
-      "temp_max": 18.0,
+      "temp_max": 19.0,
       "humidity_min": 60.0,
       "humidity_max": 99.0,
       "early_morning": {
@@ -79,7 +79,7 @@
           42,
           50
         ],
-        "temperature": 18.0,
+        "temperature": 19.0,
         "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
@@ -100,16 +100,16 @@
       "night": {
         "humidity": 95.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": null,
         "temperature": 14.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 1.1,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -126,7 +126,7 @@
     {
       "date": "2026-06-29",
       "temp_min": 10.0,
-      "temp_max": 16.0,
+      "temp_max": 17.0,
       "humidity_min": 46.0,
       "humidity_max": 90.0,
       "early_morning": {
@@ -186,7 +186,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 16.0,
+        "temperature": 17.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -266,7 +266,7 @@
         "humidity": 55.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 16.0,
@@ -299,16 +299,16 @@
       "morning": {
         "humidity": 94.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 8.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SE",
@@ -488,8 +488,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -513,8 +513,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 202.5,
+          "direction": "NE",
+          "deg": 45.0,
           "speed_range": [
             13,
             22
@@ -555,5 +555,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5648",
-  "generated_at": "2026-06-28T07:11:06.126745+00:00"
+  "generated_at": "2026-06-28T08:11:12.230766+00:00"
 }
