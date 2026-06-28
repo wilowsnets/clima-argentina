@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 4547,
     "name": "Carmen de Patagones",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 2.0,
-      "temp_max": 11.0,
+      "temp_max": 13.0,
       "humidity_min": 32.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -25,7 +25,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -513,5 +513,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4547",
-  "generated_at": "2026-06-28T18:30:25.927732+00:00"
+  "generated_at": "2026-06-28T19:30:24.808362+00:00"
 }

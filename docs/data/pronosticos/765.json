@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 765,
     "name": "San Antonio de los Cobres",
@@ -165,11 +165,8 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 2.0,
+        "gust_range": null,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -193,7 +190,7 @@
       "temp_min": -7.0,
       "temp_max": 8.0,
       "humidity_min": 5.0,
-      "humidity_max": 34.0,
+      "humidity_max": 25.0,
       "early_morning": null,
       "morning": {
         "humidity": 25.0,
@@ -202,7 +199,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": -7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -255,10 +252,10 @@
       "temp_min": -8.0,
       "temp_max": 10.0,
       "humidity_min": 8.0,
-      "humidity_max": 29.0,
+      "humidity_max": 8.0,
       "early_morning": null,
       "morning": {
-        "humidity": 29.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -269,7 +266,7 @@
         ],
         "temperature": -8.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
@@ -419,8 +416,8 @@
           0
         ],
         "gust_range": [
-          107,
-          115
+          70,
+          78
         ],
         "temperature": 10.0,
         "visibility": "Regular",
@@ -456,8 +453,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          79,
+          87
         ],
         "temperature": -6.0,
         "visibility": "Regular",
@@ -484,8 +481,8 @@
           0
         ],
         "gust_range": [
-          116,
-          124
+          70,
+          78
         ],
         "temperature": 4.0,
         "visibility": "Regular",
@@ -537,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/765",
-  "generated_at": "2026-06-28T18:32:05.411432+00:00"
+  "generated_at": "2026-06-28T19:32:05.140565+00:00"
 }

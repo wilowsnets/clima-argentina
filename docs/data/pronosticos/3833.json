@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 3833,
     "name": "Punta Indio",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 5.0,
-      "temp_max": 12.0,
+      "temp_max": 14.0,
       "humidity_min": 49.0,
       "humidity_max": 89.0,
       "early_morning": null,
@@ -22,18 +22,18 @@
         "humidity": 49.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": 12.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -57,8 +57,8 @@
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "S",
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3833",
-  "generated_at": "2026-06-28T18:30:56.618712+00:00"
+  "generated_at": "2026-06-28T19:30:56.432458+00:00"
 }

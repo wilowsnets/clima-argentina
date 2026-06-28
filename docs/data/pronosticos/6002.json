@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 6002,
     "name": "Villa de María",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 6.0,
-      "temp_max": 16.0,
+      "temp_max": 18.0,
       "humidity_min": 23.0,
       "humidity_max": 85.0,
       "early_morning": null,
@@ -28,7 +28,7 @@
           42,
           50
         ],
-        "temperature": 16.0,
+        "temperature": 18.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6002",
-  "generated_at": "2026-06-28T18:31:27.540586+00:00"
+  "generated_at": "2026-06-28T19:31:27.262233+00:00"
 }

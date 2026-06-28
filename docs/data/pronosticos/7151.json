@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 7151,
     "name": "Ituzaingo",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 13.0,
-      "temp_max": 18.0,
+      "temp_max": 20.0,
       "humidity_min": 57.0,
       "humidity_max": 99.0,
       "early_morning": null,
@@ -28,12 +28,12 @@
           42,
           50
         ],
-        "temperature": 18.0,
-        "visibility": "Mala",
+        "temperature": 20.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Tormentas",
-          "id": 81
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "S",
@@ -49,16 +49,16 @@
       "night": {
         "humidity": 91.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          0
         ],
         "gust_range": null,
         "temperature": 14.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 1.0,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
@@ -504,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7151",
-  "generated_at": "2026-06-28T18:31:31.531747+00:00"
+  "generated_at": "2026-06-28T19:31:31.344144+00:00"
 }

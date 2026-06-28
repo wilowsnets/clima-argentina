@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 7446,
     "name": "Paso de Los Libres",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 8.0,
-      "temp_max": 18.0,
+      "temp_max": 20.0,
       "humidity_min": 56.0,
       "humidity_max": 99.0,
       "early_morning": null,
@@ -21,19 +21,19 @@
       "afternoon": {
         "humidity": 56.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": 18.0,
-        "visibility": "Mala",
+        "temperature": 20.0,
+        "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Tormentas",
-          "id": 81
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "S",
@@ -49,16 +49,16 @@
       "night": {
         "humidity": 92.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          0
         ],
         "gust_range": null,
         "temperature": 13.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
@@ -504,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7446",
-  "generated_at": "2026-06-28T18:31:32.884418+00:00"
+  "generated_at": "2026-06-28T19:31:32.695163+00:00"
 }

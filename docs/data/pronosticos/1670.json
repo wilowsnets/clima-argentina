@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 1670,
     "name": "Merlo",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 2.0,
-      "temp_max": 11.0,
+      "temp_max": 13.0,
       "humidity_min": 27.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -28,7 +28,7 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1670",
-  "generated_at": "2026-06-28T18:32:09.234851+00:00"
+  "generated_at": "2026-06-28T19:32:08.678647+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 4569,
     "name": "San Pedro",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 5.0,
-      "temp_max": 14.0,
+      "temp_max": 16.0,
       "humidity_min": 39.0,
       "humidity_max": 80.0,
       "early_morning": null,
@@ -22,18 +22,18 @@
         "humidity": 39.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": 14.0,
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "SO",
@@ -57,8 +57,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "S",
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4569",
-  "generated_at": "2026-06-28T18:31:03.618169+00:00"
+  "generated_at": "2026-06-28T19:31:03.678617+00:00"
 }

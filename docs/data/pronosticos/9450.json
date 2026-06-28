@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 9450,
     "name": "San Martín",
@@ -157,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -190,7 +190,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -322,8 +322,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             13,
             22
@@ -420,7 +420,7 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": 0.0,
+      "temp_min": -2.0,
       "temp_max": 8.0,
       "humidity_min": 55.0,
       "humidity_max": 55.0,
@@ -432,7 +432,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9450",
-  "generated_at": "2026-06-28T18:31:49.927039+00:00"
+  "generated_at": "2026-06-28T19:31:49.448351+00:00"
 }

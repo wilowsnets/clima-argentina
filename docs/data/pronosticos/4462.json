@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T13:27:06-03:00",
+  "updated": "2026-06-28T15:44:14-03:00",
   "location": {
     "id": 4462,
     "name": "Tres Arroyos",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-28",
       "temp_min": 1.0,
-      "temp_max": 11.0,
+      "temp_max": 13.0,
       "humidity_min": 35.0,
       "humidity_max": 79.0,
       "early_morning": null,
@@ -25,12 +25,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -289,7 +289,7 @@
         },
         "wind": {
           "direction": "SE",
-          "deg": 135.0,
+          "deg": 157.5,
           "speed_range": [
             32,
             41
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4462",
-  "generated_at": "2026-06-28T18:31:07.479111+00:00"
+  "generated_at": "2026-06-28T19:31:07.647685+00:00"
 }
