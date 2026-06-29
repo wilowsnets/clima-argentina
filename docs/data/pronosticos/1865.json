@@ -142,7 +142,7 @@
           70,
           78
         ],
-        "temperature": 5.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -170,7 +170,7 @@
           60,
           69
         ],
-        "temperature": 4.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -263,8 +263,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -570,5 +570,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1865",
-  "generated_at": "2026-06-29T07:32:10.205759+00:00"
+  "generated_at": "2026-06-29T08:32:03.746253+00:00"
 }

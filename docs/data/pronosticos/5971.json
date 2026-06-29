@@ -166,8 +166,8 @@
       "morning": {
         "humidity": 57.0,
         "rain_prob_range": [
-          10,
-          40
+          70,
+          100
         ],
         "gust_range": [
           60,
@@ -194,8 +194,8 @@
       "afternoon": {
         "humidity": 56.0,
         "rain_prob_range": [
-          10,
-          40
+          70,
+          100
         ],
         "gust_range": [
           70,
@@ -585,5 +585,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5971",
-  "generated_at": "2026-06-29T07:32:29.580323+00:00"
+  "generated_at": "2026-06-29T08:32:21.872253+00:00"
 }
