@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T05:46:05-03:00",
+  "updated": "2026-06-29T17:20:37-03:00",
   "location": {
     "id": 5971,
     "name": "Puerto Argentino",
@@ -18,34 +18,7 @@
       "humidity_max": 87.0,
       "early_morning": null,
       "morning": null,
-      "afternoon": {
-        "humidity": 87.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 6.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "afternoon": null,
       "night": {
         "humidity": 80.0,
         "rain_prob_range": [
@@ -200,7 +173,34 @@
       "temp_max": 5.0,
       "humidity_min": 54.0,
       "humidity_max": 78.0,
-      "early_morning": null,
+      "early_morning": {
+        "humidity": 54.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          60,
+          69
+        ],
+        "temperature": 0.0,
+        "visibility": "Mala",
+        "rain06h": 0.4,
+        "weather": {
+          "description": "Nevadas",
+          "id": 79
+        },
+        "wind": {
+          "direction": "SO",
+          "deg": 225.0,
+          "speed_range": [
+            42,
+            50
+          ]
+        },
+        "river": null,
+        "border": null
+      },
       "morning": {
         "humidity": 76.0,
         "rain_prob_range": [
@@ -257,7 +257,34 @@
         "river": null,
         "border": null
       },
-      "night": null
+      "night": {
+        "humidity": 78.0,
+        "rain_prob_range": [
+          10,
+          40
+        ],
+        "gust_range": [
+          60,
+          69
+        ],
+        "temperature": 5.0,
+        "visibility": "Regular",
+        "rain06h": 0.1,
+        "weather": {
+          "description": "Chaparrones",
+          "id": 74
+        },
+        "wind": {
+          "direction": "S",
+          "deg": 202.5,
+          "speed_range": [
+            42,
+            50
+          ]
+        },
+        "river": null,
+        "border": null
+      }
     },
     {
       "date": "2026-07-02",
@@ -506,6 +533,65 @@
         "border": null
       },
       "night": null
+    },
+    {
+      "date": "2026-07-06",
+      "temp_min": 3.0,
+      "temp_max": 6.0,
+      "humidity_min": 83.0,
+      "humidity_max": 83.0,
+      "early_morning": null,
+      "morning": {
+        "humidity": null,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 3.0,
+        "visibility": "Buena",
+        "rain06h": null,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 315.0,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "afternoon": {
+        "humidity": 83.0,
+        "rain_prob_range": [
+          0,
+          0
+        ],
+        "gust_range": null,
+        "temperature": 6.0,
+        "visibility": "Buena",
+        "rain06h": 0.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "NO",
+          "deg": 337.5,
+          "speed_range": [
+            23,
+            31
+          ]
+        },
+        "river": null,
+        "border": null
+      },
+      "night": null
     }
   ],
   "source_location": {
@@ -537,5 +623,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5971",
-  "generated_at": "2026-06-29T20:32:30.057969+00:00"
+  "generated_at": "2026-06-29T21:32:35.650240+00:00"
 }
