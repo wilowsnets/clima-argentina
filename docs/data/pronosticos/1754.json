@@ -50,7 +50,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -72,7 +72,7 @@
     {
       "date": "2026-06-30",
       "temp_min": -2.0,
-      "temp_max": 15.0,
+      "temp_max": 14.0,
       "humidity_min": 27.0,
       "humidity_max": 64.0,
       "early_morning": {
@@ -82,7 +82,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -107,7 +107,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -132,7 +132,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -157,7 +157,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -178,9 +178,9 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": 4.0,
-      "temp_max": 7.0,
-      "humidity_min": 70.0,
+      "temp_min": 3.0,
+      "temp_max": 9.0,
+      "humidity_min": 66.0,
       "humidity_max": 98.0,
       "early_morning": null,
       "morning": {
@@ -190,10 +190,10 @@
           10
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -221,7 +221,7 @@
           42,
           50
         ],
-        "temperature": 7.0,
+        "temperature": 9.0,
         "visibility": "Regular",
         "rain06h": 1.2,
         "weather": {
@@ -243,7 +243,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": -5.0,
+      "temp_min": 2.0,
       "temp_max": 5.0,
       "humidity_min": 72.0,
       "humidity_max": 90.0,
@@ -252,10 +252,10 @@
         "humidity": 90.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
-        "temperature": -5.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -284,8 +284,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "N",
@@ -302,8 +302,8 @@
     },
     {
       "date": "2026-07-03",
-      "temp_min": -4.0,
-      "temp_max": 8.0,
+      "temp_min": -2.0,
+      "temp_max": 11.0,
       "humidity_min": 58.0,
       "humidity_max": 82.0,
       "early_morning": null,
@@ -313,20 +313,23 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": -4.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "N",
           "deg": 22.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -342,7 +345,7 @@
           42,
           50
         ],
-        "temperature": 8.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -364,8 +367,8 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": -3.0,
-      "temp_max": 6.0,
+      "temp_min": 11.0,
+      "temp_max": 13.0,
       "humidity_min": 62.0,
       "humidity_max": 64.0,
       "early_morning": null,
@@ -376,7 +379,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -3.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -401,7 +404,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -423,21 +426,21 @@
     },
     {
       "date": "2026-07-05",
-      "temp_min": 5.0,
-      "temp_max": 11.0,
+      "temp_min": -1.0,
+      "temp_max": 12.0,
       "humidity_min": 33.0,
-      "humidity_max": 33.0,
+      "humidity_max": 65.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 65.0,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": -1.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -463,19 +466,19 @@
           42,
           50
         ],
-        "temperature": 11.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -513,5 +516,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1754",
-  "generated_at": "2026-06-29T19:31:58.972313+00:00"
+  "generated_at": "2026-06-29T20:32:07.212983+00:00"
 }
