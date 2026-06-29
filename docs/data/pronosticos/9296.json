@@ -132,8 +132,8 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 10.0,
         "visibility": "Buena",
@@ -184,10 +184,10 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": -2.0,
+      "temp_min": -4.0,
       "temp_max": 1.0,
       "humidity_min": 60.0,
-      "humidity_max": 71.0,
+      "humidity_max": 99.0,
       "early_morning": null,
       "morning": {
         "humidity": 71.0,
@@ -196,10 +196,10 @@
           70
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
-        "temperature": -2.0,
+        "temperature": 1.0,
         "visibility": "Muy mala",
         "rain06h": 3.1,
         "weather": {
@@ -320,22 +320,22 @@
         "humidity": 99.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": -6.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "NE",
-          "deg": 45.0,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -352,8 +352,8 @@
         "visibility": "Buena",
         "rain06h": 0.2,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NO",
@@ -516,5 +516,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-06-29T16:31:37.700299+00:00"
+  "generated_at": "2026-06-29T17:31:48.993116+00:00"
 }
