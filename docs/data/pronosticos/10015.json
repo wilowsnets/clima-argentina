@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 10015,
     "name": "Villa La Angostura",
@@ -16,31 +16,7 @@
       "temp_max": 7.0,
       "humidity_min": 89.0,
       "humidity_max": 99.0,
-      "early_morning": {
-        "humidity": 99.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 315.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 99.0,
         "rain_prob_range": [
@@ -98,7 +74,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -179,7 +155,10 @@
           40,
           70
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.1,
@@ -191,8 +170,8 @@
           "direction": "SE",
           "deg": 135.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -237,7 +216,10 @@
           10,
           40
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": -4.0,
         "visibility": "Regular",
         "rain06h": 0.4,
@@ -558,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10015",
-  "generated_at": "2026-06-29T08:31:47.539402+00:00"
+  "generated_at": "2026-06-29T09:31:59.544299+00:00"
 }

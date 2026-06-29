@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 8817,
     "name": "Victorica",
@@ -16,31 +16,7 @@
       "temp_max": 13.0,
       "humidity_min": 19.0,
       "humidity_max": 68.0,
-      "early_morning": {
-        "humidity": 45.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": null,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 68.0,
         "rain_prob_range": [
@@ -567,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8817",
-  "generated_at": "2026-06-29T08:31:36.985894+00:00"
+  "generated_at": "2026-06-29T09:31:47.589700+00:00"
 }

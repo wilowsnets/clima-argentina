@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 3833,
     "name": "Punta Indio",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-29",
-      "temp_min": 1.0,
+      "temp_min": 3.0,
       "temp_max": 13.0,
       "humidity_min": 51.0,
       "humidity_max": 93.0,
-      "early_morning": {
-        "humidity": 83.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 6.0,
-        "visibility": "Buena",
-        "rain06h": null,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 93.0,
         "rain_prob_range": [
@@ -48,12 +24,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
-        "visibility": "Buena",
+        "temperature": 3.0,
+        "visibility": "Regular",
         "rain06h": 3.3,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "SO",
@@ -77,8 +53,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SO",
@@ -98,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -120,7 +96,7 @@
     {
       "date": "2026-06-30",
       "temp_min": 1.0,
-      "temp_max": 12.0,
+      "temp_max": 13.0,
       "humidity_min": 54.0,
       "humidity_max": 92.0,
       "early_morning": {
@@ -131,11 +107,11 @@
         ],
         "gust_range": null,
         "temperature": 3.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "E",
@@ -180,12 +156,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "N",
@@ -205,7 +181,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -274,8 +250,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
             23,
             31
@@ -297,7 +273,7 @@
         "humidity": 73.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 1.0,
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/3833",
-  "generated_at": "2026-06-29T08:30:53.425980+00:00"
+  "generated_at": "2026-06-29T09:30:56.710256+00:00"
 }

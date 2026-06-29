@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 1670,
     "name": "Merlo",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-29",
-      "temp_min": 0.0,
+      "temp_min": 1.0,
       "temp_max": 13.0,
       "humidity_min": 25.0,
       "humidity_max": 90.0,
-      "early_morning": {
-        "humidity": 41.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 7.0,
-        "visibility": "Buena",
-        "rain06h": null,
-        "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 135.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 90.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -98,7 +74,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -184,8 +160,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "N",
@@ -209,8 +185,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "N",
@@ -260,11 +236,11 @@
         "humidity": 95.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 12.0,
         "visibility": "Buena",
@@ -274,8 +250,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
             23,
             31
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1670",
-  "generated_at": "2026-06-29T08:31:59.082534+00:00"
+  "generated_at": "2026-06-29T09:32:12.353265+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 60,
     "name": "General Roca",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-06-29",
-      "temp_min": 1.0,
-      "temp_max": 10.0,
+      "temp_min": 3.0,
+      "temp_max": 11.0,
       "humidity_min": 13.0,
       "humidity_max": 53.0,
-      "early_morning": {
-        "humidity": 53.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 44.0,
         "rain_prob_range": [
@@ -48,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -120,7 +96,7 @@
     {
       "date": "2026-06-30",
       "temp_min": 0.0,
-      "temp_max": 10.0,
+      "temp_max": 12.0,
       "humidity_min": 34.0,
       "humidity_max": 75.0,
       "early_morning": {
@@ -182,8 +158,11 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": 10.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -243,7 +222,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.1,
@@ -269,8 +251,8 @@
           0
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 7.0,
         "visibility": "Buena",
@@ -283,8 +265,8 @@
           "direction": "SE",
           "deg": 135.0,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -570,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/60",
-  "generated_at": "2026-06-29T08:31:49.949443+00:00"
+  "generated_at": "2026-06-29T09:32:02.360358+00:00"
 }

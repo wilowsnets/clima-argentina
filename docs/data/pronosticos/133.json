@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 133,
     "name": "El Bolsón",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-29",
       "temp_min": 0.0,
-      "temp_max": 7.0,
+      "temp_max": 6.0,
       "humidity_min": 92.0,
       "humidity_max": 97.0,
-      "early_morning": {
-        "humidity": 97.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -98,7 +74,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -155,7 +131,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -1.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -179,7 +155,10 @@
           40,
           70
         ],
-        "gust_range": null,
+        "gust_range": [
+          51,
+          59
+        ],
         "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.2,
@@ -191,8 +170,8 @@
           "direction": "SE",
           "deg": 135.0,
           "speed_range": [
-            7,
-            12
+            13,
+            22
           ]
         },
         "river": null,
@@ -237,7 +216,10 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          60,
+          69
+        ],
         "temperature": -3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -263,8 +245,8 @@
           10
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
         "temperature": 2.0,
         "visibility": "Buena",
@@ -558,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/133",
-  "generated_at": "2026-06-29T08:31:49.530655+00:00"
+  "generated_at": "2026-06-29T09:32:01.945532+00:00"
 }

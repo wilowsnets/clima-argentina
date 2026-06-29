@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 30,
     "name": "Choele Choel",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-29",
       "temp_min": 1.0,
-      "temp_max": 10.0,
+      "temp_max": 12.0,
       "humidity_min": 18.0,
       "humidity_max": 57.0,
-      "early_morning": {
-        "humidity": 57.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 2.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Algo nublado",
-          "id": 19
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 180.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 51.0,
         "rain_prob_range": [
@@ -73,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -120,7 +96,7 @@
     {
       "date": "2026-06-30",
       "temp_min": 2.0,
-      "temp_max": 10.0,
+      "temp_max": 11.0,
       "humidity_min": 33.0,
       "humidity_max": 68.0,
       "early_morning": {
@@ -157,7 +133,10 @@
           0,
           0
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -166,11 +145,11 @@
           "id": 37
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "N",
+          "deg": 0.1,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -182,8 +161,11 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": 10.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -243,13 +225,16 @@
           0,
           10
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -280,8 +265,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "S",
-          "deg": 180.0,
+          "direction": "SE",
+          "deg": 135.0,
           "speed_range": [
             23,
             31
@@ -564,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/30",
-  "generated_at": "2026-06-29T08:31:48.776677+00:00"
+  "generated_at": "2026-06-29T09:32:00.956912+00:00"
 }

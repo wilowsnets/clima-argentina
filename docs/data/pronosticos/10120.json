@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 10120,
     "name": "Tafí Viejo",
@@ -13,34 +13,10 @@
     {
       "date": "2026-06-29",
       "temp_min": 8.0,
-      "temp_max": 15.0,
+      "temp_max": 14.0,
       "humidity_min": 38.0,
       "humidity_max": 86.0,
-      "early_morning": {
-        "humidity": 86.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 8.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 86.0,
         "rain_prob_range": [
@@ -52,8 +28,8 @@
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -69,16 +45,16 @@
       "afternoon": {
         "humidity": 38.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
-        "temperature": 15.0,
-        "visibility": "Buena",
+        "temperature": 14.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "SO",
@@ -98,12 +74,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 9.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "SO",
@@ -119,8 +95,8 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": 5.0,
-      "temp_max": 14.0,
+      "temp_min": 7.0,
+      "temp_max": 15.0,
       "humidity_min": 42.0,
       "humidity_max": 71.0,
       "early_morning": {
@@ -130,12 +106,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
-        "visibility": "Buena",
+        "temperature": 7.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "N",
@@ -155,7 +131,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -180,7 +156,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -208,7 +184,7 @@
           42,
           50
         ],
-        "temperature": 12.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -262,19 +238,19 @@
       "afternoon": {
         "humidity": 50.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 13.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "S",
@@ -558,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10120",
-  "generated_at": "2026-06-29T08:32:25.132747+00:00"
+  "generated_at": "2026-06-29T09:32:41.889101+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:21:02-03:00",
+  "updated": "2026-06-29T05:46:05-03:00",
   "location": {
     "id": 1830,
     "name": "El Chaltén",
@@ -16,34 +16,7 @@
       "temp_max": 4.0,
       "humidity_min": 63.0,
       "humidity_max": 86.0,
-      "early_morning": {
-        "humidity": 72.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 2.0,
-        "visibility": "Mala",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventisca",
-          "id": 94
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 63.0,
         "rain_prob_range": [
@@ -103,8 +76,8 @@
       "night": {
         "humidity": 86.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": [
           60,
@@ -131,7 +104,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_min": -6.0,
+      "temp_min": -3.0,
       "temp_max": -2.0,
       "humidity_min": 62.0,
       "humidity_max": 82.0,
@@ -142,7 +115,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": -5.0,
+        "temperature": -3.0,
         "visibility": "Mala",
         "rain06h": 0.4,
         "weather": {
@@ -170,7 +143,7 @@
           60,
           69
         ],
-        "temperature": -6.0,
+        "temperature": -3.0,
         "visibility": "Buena",
         "rain06h": 0.9,
         "weather": {
@@ -260,8 +233,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "O",
@@ -567,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1830",
-  "generated_at": "2026-06-29T08:32:01.775156+00:00"
+  "generated_at": "2026-06-29T09:32:15.151415+00:00"
 }
