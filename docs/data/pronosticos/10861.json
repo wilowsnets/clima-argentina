@@ -53,8 +53,8 @@
           100
         ],
         "gust_range": [
-          70,
-          78
+          79,
+          87
         ],
         "temperature": 0.0,
         "visibility": "Muy mala",
@@ -102,8 +102,8 @@
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            42,
-            50
+            51,
+            59
           ]
         },
         "river": null,
@@ -546,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10861",
-  "generated_at": "2026-06-29T18:33:07.008256+00:00"
+  "generated_at": "2026-06-29T19:32:20.083620+00:00"
 }
