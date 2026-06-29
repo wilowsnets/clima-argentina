@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-29T11:32:30-03:00",
-  "last_success_at": "2026-06-29T11:32:30-03:00",
+  "generated_at": "2026-06-29T12:32:28-03:00",
+  "last_success_at": "2026-06-29T12:32:28-03:00",
   "smn_updated_at": "2026-06-29T05:49:13-03:00",
   "status": "con_alertas",
   "source": "Servicio Meteorológico Nacional",
   "source_endpoint": "/v1/warning/alert/area?mode=alert&compact=true",
   "area_records_received": 171,
-  "active_count": 27,
-  "affected_area_count": 18,
+  "active_count": 26,
+  "affected_area_count": 17,
   "max_level": 3,
   "levels": {
     "1": "Sin alerta",
@@ -26,22 +26,6 @@
   "alerts": [
     {
       "area_id": 840,
-      "date": "2026-06-29",
-      "updated": "2026-06-29T05:49:13-03:00",
-      "level": 3,
-      "level_name": "Amarillo",
-      "events": [
-        {
-          "id": 39,
-          "name": "Viento",
-          "level": 3,
-          "level_name": "Amarillo"
-        }
-      ],
-      "reports": []
-    },
-    {
-      "area_id": 841,
       "date": "2026-06-29",
       "updated": "2026-06-29T05:49:13-03:00",
       "level": 3,

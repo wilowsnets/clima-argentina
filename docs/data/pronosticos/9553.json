@@ -17,31 +17,7 @@
       "humidity_min": 13.0,
       "humidity_max": 85.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 85.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -1.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 202.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 13.0,
         "rain_prob_range": [
@@ -540,5 +516,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9553",
-  "generated_at": "2026-06-29T14:31:44.218695+00:00"
+  "generated_at": "2026-06-29T15:31:43.248231+00:00"
 }
