@@ -74,8 +74,8 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": 4.0,
-      "temp_max": 5.0,
+      "temp_min": 2.0,
+      "temp_max": 4.0,
       "humidity_min": 63.0,
       "humidity_max": 97.0,
       "early_morning": {
@@ -144,12 +144,12 @@
           51,
           59
         ],
-        "temperature": 5.0,
+        "temperature": 4.0,
         "visibility": "Regular",
         "rain06h": 5.7,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "S",
@@ -172,12 +172,12 @@
           42,
           50
         ],
-        "temperature": 4.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "S",
@@ -522,5 +522,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1712",
-  "generated_at": "2026-06-30T18:32:09.015135+00:00"
+  "generated_at": "2026-06-30T19:32:17.210475+00:00"
 }

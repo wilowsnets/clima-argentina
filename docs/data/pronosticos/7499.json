@@ -129,7 +129,7 @@
         "humidity": 65.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
         "temperature": 15.0,
@@ -178,7 +178,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": 5.0,
+      "temp_min": 6.0,
       "temp_max": 12.0,
       "humidity_min": 54.0,
       "humidity_max": 89.0,
@@ -219,8 +219,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SE",
@@ -253,8 +253,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -278,8 +278,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NE",
@@ -375,8 +375,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
             13,
             22
@@ -417,10 +417,10 @@
       "temp_min": 9.0,
       "temp_max": 13.0,
       "humidity_min": 45.0,
-      "humidity_max": 69.0,
+      "humidity_max": 45.0,
       "early_morning": null,
       "morning": {
-        "humidity": 69.0,
+        "humidity": null,
         "rain_prob_range": [
           0,
           0
@@ -428,7 +428,7 @@
         "gust_range": null,
         "temperature": 9.0,
         "visibility": "Buena",
-        "rain06h": 0.0,
+        "rain06h": null,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -459,8 +459,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "SE",
-          "deg": 157.5,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
             13,
             22
@@ -501,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7499",
-  "generated_at": "2026-06-30T18:31:32.348739+00:00"
+  "generated_at": "2026-06-30T19:31:37.775684+00:00"
 }
