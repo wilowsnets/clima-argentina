@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-30",
-      "temp_min": 10.0,
+      "temp_min": 8.0,
       "temp_max": 16.0,
       "humidity_min": 51.0,
       "humidity_max": 92.0,
@@ -24,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -135,8 +135,8 @@
         "visibility": "Regular",
         "rain06h": 0.9,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "SE",
@@ -181,12 +181,12 @@
           70
         ],
         "gust_range": null,
-        "temperature": 15.0,
-        "visibility": "Muy mala",
+        "temperature": 13.0,
+        "visibility": "Regular",
         "rain06h": 3.4,
         "weather": {
-          "description": "Tormentas fuertes",
-          "id": 89
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "SE",
@@ -202,7 +202,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": 14.0,
+      "temp_min": 12.0,
       "temp_max": 16.0,
       "humidity_min": 76.0,
       "humidity_max": 96.0,
@@ -214,7 +214,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -525,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7151",
-  "generated_at": "2026-06-30T09:31:24.024848+00:00"
+  "generated_at": "2026-06-30T10:31:21.887190+00:00"
 }

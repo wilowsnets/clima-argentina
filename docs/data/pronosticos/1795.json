@@ -13,15 +13,15 @@
     {
       "date": "2026-06-30",
       "temp_min": -3.0,
-      "temp_max": 2.0,
+      "temp_max": 4.0,
       "humidity_min": 62.0,
       "humidity_max": 93.0,
       "early_morning": null,
       "morning": {
         "humidity": 93.0,
         "rain_prob_range": [
-          40,
-          70
+          10,
+          40
         ],
         "gust_range": [
           79,
@@ -55,7 +55,7 @@
           42,
           50
         ],
-        "temperature": 2.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 1.4,
         "weather": {
@@ -265,8 +265,8 @@
           "direction": "O",
           "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -343,16 +343,16 @@
       "morning": {
         "humidity": 83.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": -5.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Nevadas",
+          "id": 79
         },
         "wind": {
           "direction": "O",
@@ -383,8 +383,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1795",
-  "generated_at": "2026-06-30T09:32:01.468008+00:00"
+  "generated_at": "2026-06-30T10:31:59.305014+00:00"
 }

@@ -12,8 +12,8 @@
   "forecast": [
     {
       "date": "2026-06-30",
-      "temp_min": 11.0,
-      "temp_max": 17.0,
+      "temp_min": 9.0,
+      "temp_max": 16.0,
       "humidity_min": 61.0,
       "humidity_max": 98.0,
       "early_morning": null,
@@ -24,7 +24,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 9.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -49,7 +49,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 17.0,
+        "temperature": 16.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -74,7 +74,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 13.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -95,8 +95,8 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": 10.0,
-      "temp_max": 18.0,
+      "temp_min": 11.0,
+      "temp_max": 16.0,
       "humidity_min": 86.0,
       "humidity_max": 97.0,
       "early_morning": {
@@ -106,7 +106,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 12.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -131,7 +131,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 10.0,
+        "temperature": 11.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -156,7 +156,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 16.0,
         "visibility": "Muy mala",
         "rain06h": 0.0,
         "weather": {
@@ -202,7 +202,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": 14.0,
+      "temp_min": 13.0,
       "temp_max": 16.0,
       "humidity_min": 97.0,
       "humidity_max": 98.0,
@@ -214,7 +214,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 13.0,
         "visibility": "Regular",
         "rain06h": 1.4,
         "weather": {
@@ -261,8 +261,8 @@
     },
     {
       "date": "2026-07-03",
-      "temp_min": 5.0,
-      "temp_max": 18.0,
+      "temp_min": 7.0,
+      "temp_max": 15.0,
       "humidity_min": 67.0,
       "humidity_max": 96.0,
       "early_morning": null,
@@ -273,7 +273,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -298,7 +298,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.6,
         "weather": {
@@ -320,8 +320,8 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": 3.0,
-      "temp_max": 20.0,
+      "temp_min": 5.0,
+      "temp_max": 19.0,
       "humidity_min": 49.0,
       "humidity_max": 79.0,
       "early_morning": null,
@@ -332,7 +332,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -357,7 +357,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 20.0,
+        "temperature": 19.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -525,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8296",
-  "generated_at": "2026-06-30T09:31:28.755442+00:00"
+  "generated_at": "2026-06-30T10:31:26.611135+00:00"
 }

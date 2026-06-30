@@ -12,7 +12,7 @@
   "forecast": [
     {
       "date": "2026-06-30",
-      "temp_min": 3.0,
+      "temp_min": 0.0,
       "temp_max": 15.0,
       "humidity_min": 36.0,
       "humidity_max": 77.0,
@@ -24,7 +24,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -106,7 +106,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -206,7 +206,7 @@
     {
       "date": "2026-07-02",
       "temp_min": 2.0,
-      "temp_max": 12.0,
+      "temp_max": 10.0,
       "humidity_min": 34.0,
       "humidity_max": 78.0,
       "early_morning": null,
@@ -242,7 +242,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -323,8 +323,8 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": -3.0,
-      "temp_max": 13.0,
+      "temp_min": 0.0,
+      "temp_max": 11.0,
       "humidity_min": 51.0,
       "humidity_max": 91.0,
       "early_morning": null,
@@ -335,7 +335,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": -3.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -360,7 +360,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 11.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/2368",
-  "generated_at": "2026-06-30T09:32:04.099027+00:00"
+  "generated_at": "2026-06-30T10:32:01.699253+00:00"
 }

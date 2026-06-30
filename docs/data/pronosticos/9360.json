@@ -31,8 +31,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "O",
@@ -187,7 +187,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": -11.0,
+        "temperature": -10.0,
         "visibility": "Mala",
         "rain06h": 0.3,
         "weather": {
@@ -326,7 +326,7 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": -5.0,
+      "temp_min": -12.0,
       "temp_max": -3.0,
       "humidity_min": 65.0,
       "humidity_max": 88.0,
@@ -338,7 +338,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": -5.0,
+        "temperature": -12.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -448,7 +448,7 @@
     {
       "date": "2026-07-06",
       "temp_min": -9.0,
-      "temp_max": -2.0,
+      "temp_max": -5.0,
       "humidity_min": 15.0,
       "humidity_max": 15.0,
       "early_morning": null,
@@ -463,8 +463,8 @@
         "visibility": "Buena",
         "rain06h": null,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "O",
@@ -481,15 +481,15 @@
         "humidity": 15.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": null,
-        "temperature": -2.0,
+        "temperature": -5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "SO",
@@ -534,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9360",
-  "generated_at": "2026-06-30T09:31:40.046552+00:00"
+  "generated_at": "2026-06-30T10:31:37.492911+00:00"
 }

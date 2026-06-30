@@ -20,16 +20,16 @@
       "morning": {
         "humidity": 98.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": -3.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.1,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nevadas",
+          "id": 79
         },
         "wind": {
           "direction": "SO",
@@ -73,12 +73,12 @@
       "night": {
         "humidity": 88.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
         "temperature": 0.0,
         "visibility": "Mala",
@@ -112,8 +112,8 @@
           40
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
         "temperature": -4.0,
         "visibility": "Mala",
@@ -123,11 +123,11 @@
           "id": 79
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "E",
+          "deg": 112.5,
           "speed_range": [
-            32,
-            41
+            42,
+            50
           ]
         },
         "river": null,
@@ -136,19 +136,19 @@
       "morning": {
         "humidity": 89.0,
         "rain_prob_range": [
-          10,
-          40
+          0,
+          10
         ],
         "gust_range": [
           60,
           69
         ],
         "temperature": -8.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "E",
@@ -193,12 +193,9 @@
         "humidity": 87.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -271,8 +268,8 @@
           "direction": "N",
           "deg": 22.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -389,8 +386,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -546,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10015",
-  "generated_at": "2026-06-30T09:31:46.825753+00:00"
+  "generated_at": "2026-06-30T10:31:44.266855+00:00"
 }
