@@ -225,10 +225,7 @@
           10,
           40
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 4.0,
         "visibility": "Regular",
         "rain06h": 0.1,
@@ -286,10 +283,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -301,8 +295,8 @@
           "direction": "N",
           "deg": 22.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -324,8 +318,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": -2.0,
         "visibility": "Buena",
@@ -336,7 +330,7 @@
         },
         "wind": {
           "direction": "N",
-          "deg": 22.5,
+          "deg": 0.1,
           "speed_range": [
             32,
             41
@@ -413,10 +407,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -428,8 +419,8 @@
           "direction": "SO",
           "deg": 247.5,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -448,12 +439,9 @@
         "humidity": 78.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 1.4,
@@ -588,5 +576,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/132",
-  "generated_at": "2026-06-30T07:31:53.282797+00:00"
+  "generated_at": "2026-06-30T08:32:06.082248+00:00"
 }

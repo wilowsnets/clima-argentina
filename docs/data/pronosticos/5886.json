@@ -107,8 +107,8 @@
           40
         ],
         "gust_range": [
-          60,
-          69
+          70,
+          78
         ],
         "temperature": 2.0,
         "visibility": "Regular",
@@ -139,7 +139,7 @@
         "humidity": 63.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           60,
@@ -280,10 +280,7 @@
           0,
           0
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -295,8 +292,8 @@
           "direction": "NO",
           "deg": 337.5,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -332,8 +329,8 @@
           "direction": "N",
           "deg": 0.1,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -407,10 +404,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -422,8 +416,8 @@
           "direction": "SO",
           "deg": 247.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -444,10 +438,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -582,5 +573,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5886",
-  "generated_at": "2026-06-30T07:31:15.010264+00:00"
+  "generated_at": "2026-06-30T08:31:23.869889+00:00"
 }
