@@ -77,8 +77,8 @@
     },
     {
       "date": "2026-07-01",
-      "temp_min": 0.0,
-      "temp_max": 13.0,
+      "temp_min": -2.0,
+      "temp_max": 16.0,
       "humidity_min": 8.0,
       "humidity_max": 88.0,
       "early_morning": {
@@ -88,7 +88,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -113,7 +113,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -138,10 +138,10 @@
           10
         ],
         "gust_range": [
-          60,
-          69
+          42,
+          50
         ],
-        "temperature": 13.0,
+        "temperature": 16.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -165,8 +165,11 @@
           0,
           10
         ],
-        "gust_range": null,
-        "temperature": 10.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 8.0,
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
@@ -190,7 +193,7 @@
       "temp_min": -2.0,
       "temp_max": 15.0,
       "humidity_min": 49.0,
-      "humidity_max": 77.0,
+      "humidity_max": 89.0,
       "early_morning": null,
       "morning": {
         "humidity": 77.0,
@@ -224,8 +227,8 @@
           10
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 15.0,
         "visibility": "Buena",
@@ -382,7 +385,7 @@
       "humidity_max": 21.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 21.0,
         "rain_prob_range": [
           0,
           0
@@ -390,7 +393,7 @@
         "gust_range": null,
         "temperature": 0.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Algo nublado",
           "id": 19
@@ -522,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/204",
-  "generated_at": "2026-06-30T16:32:00.247906+00:00"
+  "generated_at": "2026-06-30T17:32:53.920615+00:00"
 }
