@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 8578,
     "name": "Palpala",
@@ -20,11 +20,11 @@
       "morning": {
         "humidity": 73.0,
         "rain_prob_range": [
-          40,
-          70
+          10,
+          40
         ],
         "gust_range": null,
-        "temperature": 7.0,
+        "temperature": 9.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -73,10 +73,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -85,11 +82,11 @@
           "id": 25
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
-            23,
-            31
+            7,
+            12
           ]
         },
         "river": null,
@@ -534,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8578",
-  "generated_at": "2026-06-30T10:31:28.927651+00:00"
+  "generated_at": "2026-06-30T11:31:43.358326+00:00"
 }

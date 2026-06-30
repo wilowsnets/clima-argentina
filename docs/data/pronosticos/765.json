@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 765,
     "name": "San Antonio de los Cobres",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-30",
       "temp_min": -7.0,
-      "temp_max": 7.0,
+      "temp_max": 12.0,
       "humidity_min": 5.0,
       "humidity_max": 34.0,
       "early_morning": null,
@@ -49,10 +49,10 @@
           0
         ],
         "gust_range": [
-          107,
-          115
+          70,
+          78
         ],
-        "temperature": 7.0,
+        "temperature": 12.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -63,8 +63,8 @@
           "direction": "O",
           "deg": 292.5,
           "speed_range": [
-            51,
-            59
+            60,
+            69
           ]
         },
         "river": null,
@@ -77,22 +77,22 @@
           0
         ],
         "gust_range": [
-          79,
-          87
+          70,
+          78
         ],
         "temperature": 3.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Ventoso",
+          "id": 51
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            60,
+            69
           ]
         },
         "river": null,
@@ -570,5 +570,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/765",
-  "generated_at": "2026-06-30T10:31:52.634254+00:00"
+  "generated_at": "2026-06-30T11:32:09.356861+00:00"
 }

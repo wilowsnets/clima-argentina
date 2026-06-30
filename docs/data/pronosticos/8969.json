@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 8969,
     "name": "Chilecito",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-30",
       "temp_min": -3.0,
-      "temp_max": 11.0,
+      "temp_max": 14.0,
       "humidity_min": 21.0,
       "humidity_max": 46.0,
       "early_morning": null,
@@ -49,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -73,10 +73,7 @@
           0,
           0
         ],
-        "gust_range": [
-          51,
-          59
-        ],
+        "gust_range": null,
         "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -537,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8969",
-  "generated_at": "2026-06-30T10:31:35.505378+00:00"
+  "generated_at": "2026-06-30T11:31:50.317837+00:00"
 }

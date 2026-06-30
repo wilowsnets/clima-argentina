@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 9360,
     "name": "Punta de Vacas",
@@ -79,8 +79,11 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": -9.0,
+        "gust_range": [
+          51,
+          59
+        ],
+        "temperature": -10.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -88,11 +91,11 @@
           "id": 19
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            7,
-            12
+            23,
+            31
           ]
         },
         "river": null,
@@ -534,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9360",
-  "generated_at": "2026-06-30T10:31:37.492911+00:00"
+  "generated_at": "2026-06-30T11:31:52.492044+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 896,
     "name": "Cachi",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-30",
       "temp_min": -1.0,
-      "temp_max": 14.0,
+      "temp_max": 18.0,
       "humidity_min": 10.0,
       "humidity_max": 54.0,
       "early_morning": null,
@@ -52,7 +52,7 @@
           60,
           69
         ],
-        "temperature": 14.0,
+        "temperature": 18.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -60,11 +60,11 @@
           "id": 51
         },
         "wind": {
-          "direction": "NO",
-          "deg": 315.0,
+          "direction": "O",
+          "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -546,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/896",
-  "generated_at": "2026-06-30T10:31:50.164448+00:00"
+  "generated_at": "2026-06-30T11:32:06.404090+00:00"
 }

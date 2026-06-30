@@ -23,10 +23,7 @@
           0,
           0
         ],
-        "gust_range": [
-          42,
-          50
-        ],
+        "gust_range": null,
         "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
@@ -36,10 +33,10 @@
         },
         "wind": {
           "direction": "NO",
-          "deg": 315.0,
+          "deg": 337.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -63,8 +60,8 @@
           "direction": "NO",
           "deg": 337.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -543,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4504",
-  "generated_at": "2026-06-30T10:30:46.325053+00:00"
+  "generated_at": "2026-06-30T11:30:55.425163+00:00"
 }

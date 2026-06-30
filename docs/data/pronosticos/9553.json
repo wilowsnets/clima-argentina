@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 9553,
     "name": "San Rafael",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-30",
       "temp_min": -2.0,
-      "temp_max": 14.0,
+      "temp_max": 16.0,
       "humidity_min": 20.0,
       "humidity_max": 51.0,
       "early_morning": null,
@@ -48,8 +48,11 @@
           0,
           0
         ],
-        "gust_range": null,
-        "temperature": 14.0,
+        "gust_range": [
+          42,
+          50
+        ],
+        "temperature": 16.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -57,8 +60,8 @@
           "id": 25
         },
         "wind": {
-          "direction": "S",
-          "deg": 180.0,
+          "direction": "N",
+          "deg": 22.5,
           "speed_range": [
             23,
             31
@@ -77,12 +80,12 @@
           60,
           69
         ],
-        "temperature": 10.0,
-        "visibility": "Buena",
+        "temperature": 8.0,
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ventoso",
+          "id": 51
         },
         "wind": {
           "direction": "SE",
@@ -540,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9553",
-  "generated_at": "2026-06-30T10:31:38.616920+00:00"
+  "generated_at": "2026-06-30T11:31:53.840605+00:00"
 }

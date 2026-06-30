@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:18:11-03:00",
+  "updated": "2026-06-30T08:22:14-03:00",
   "location": {
     "id": 9378,
     "name": "Mendoza",
@@ -13,7 +13,7 @@
     {
       "date": "2026-06-30",
       "temp_min": -1.0,
-      "temp_max": 11.0,
+      "temp_max": 13.0,
       "humidity_min": 29.0,
       "humidity_max": 61.0,
       "early_morning": null,
@@ -49,7 +49,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 11.0,
+        "temperature": 13.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -82,11 +82,11 @@
           "id": 19
         },
         "wind": {
-          "direction": "S",
-          "deg": 180.0,
+          "direction": "SE",
+          "deg": 157.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -531,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9378",
-  "generated_at": "2026-06-30T10:31:37.072431+00:00"
+  "generated_at": "2026-06-30T11:31:52.072578+00:00"
 }
