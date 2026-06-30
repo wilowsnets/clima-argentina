@@ -243,8 +243,8 @@
     },
     {
       "date": "2026-07-03",
-      "temp_min": 3.0,
-      "temp_max": 13.0,
+      "temp_min": -1.0,
+      "temp_max": 7.0,
       "humidity_min": 46.0,
       "humidity_max": 83.0,
       "early_morning": null,
@@ -255,7 +255,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": -1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -280,7 +280,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 7.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/454",
-  "generated_at": "2026-06-30T17:32:55.324929+00:00"
+  "generated_at": "2026-06-30T18:32:04.631409+00:00"
 }
