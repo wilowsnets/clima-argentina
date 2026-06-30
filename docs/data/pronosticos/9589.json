@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 9589,
     "name": "Bernardo de Irigoyen",
@@ -16,31 +16,7 @@
       "temp_max": 18.0,
       "humidity_min": 66.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          70,
-          100
-        ],
-        "gust_range": null,
-        "temperature": 9.0,
-        "visibility": "Regular",
-        "rain06h": 3.5,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            0,
-            2
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 78.0,
         "rain_prob_range": [
@@ -549,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9589",
-  "generated_at": "2026-06-30T08:31:55.757461+00:00"
+  "generated_at": "2026-06-30T09:31:42.855433+00:00"
 }

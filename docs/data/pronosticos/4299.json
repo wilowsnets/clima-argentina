@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 4299,
     "name": "Villa Gesell",
@@ -16,31 +16,7 @@
       "temp_max": 12.0,
       "humidity_min": 62.0,
       "humidity_max": 88.0,
-      "early_morning": {
-        "humidity": 76.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Neblina",
-          "id": 61
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 270.0,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 87.0,
         "rain_prob_range": [
@@ -564,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4299",
-  "generated_at": "2026-06-30T08:31:14.285872+00:00"
+  "generated_at": "2026-06-30T09:31:04.558932+00:00"
 }

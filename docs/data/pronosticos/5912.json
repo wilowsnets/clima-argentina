@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 5912,
     "name": "Río Grande",
@@ -16,34 +16,7 @@
       "temp_max": 3.0,
       "humidity_min": 52.0,
       "humidity_max": 67.0,
-      "early_morning": {
-        "humidity": 52.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 0.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            51,
-            59
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 67.0,
         "rain_prob_range": [
@@ -195,7 +168,7 @@
         "humidity": 97.0,
         "rain_prob_range": [
           0,
-          10
+          0
         ],
         "gust_range": [
           60,
@@ -304,8 +277,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -431,8 +404,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            32,
-            41
+            23,
+            31
           ]
         },
         "river": null,
@@ -466,10 +439,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -494,10 +467,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -516,7 +489,7 @@
         "humidity": null,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 2.0,
@@ -541,7 +514,7 @@
         "humidity": 63.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 5.0,
@@ -594,5 +567,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5912",
-  "generated_at": "2026-06-30T08:32:39.184834+00:00"
+  "generated_at": "2026-06-30T09:32:22.218579+00:00"
 }

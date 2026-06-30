@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 1827,
     "name": "Gobernador Gregores",
@@ -16,39 +16,12 @@
       "temp_max": 2.0,
       "humidity_min": 71.0,
       "humidity_max": 97.0,
-      "early_morning": {
-        "humidity": 82.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          70,
-          78
-        ],
-        "temperature": -2.0,
-        "visibility": "Mala",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Nevadas",
-          "id": 79
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 97.0,
         "rain_prob_range": [
-          40,
-          70
+          10,
+          40
         ],
         "gust_range": [
           79,
@@ -292,8 +265,8 @@
           "direction": "O",
           "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -370,16 +343,16 @@
       "morning": {
         "humidity": 91.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": -5.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Nevadas",
+          "id": 79
         },
         "wind": {
           "direction": "O",
@@ -410,8 +383,8 @@
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -567,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1827",
-  "generated_at": "2026-06-30T08:32:16.526825+00:00"
+  "generated_at": "2026-06-30T09:32:01.057288+00:00"
 }

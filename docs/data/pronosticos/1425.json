@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 1425,
     "name": "San Juan",
@@ -16,31 +16,7 @@
       "temp_max": 12.0,
       "humidity_min": 22.0,
       "humidity_max": 50.0,
-      "early_morning": {
-        "humidity": 50.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 50.0,
         "rain_prob_range": [
@@ -558,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1425",
-  "generated_at": "2026-06-30T08:32:11.918702+00:00"
+  "generated_at": "2026-06-30T09:31:57.029611+00:00"
 }

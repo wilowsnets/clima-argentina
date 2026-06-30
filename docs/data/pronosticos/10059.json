@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 10059,
     "name": "Tafí del Valle",
@@ -16,31 +16,7 @@
       "temp_max": 5.0,
       "humidity_min": 12.0,
       "humidity_max": 47.0,
-      "early_morning": {
-        "humidity": 47.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": -3.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 12.0,
         "rain_prob_range": [
@@ -570,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10059",
-  "generated_at": "2026-06-30T08:32:41.824144+00:00"
+  "generated_at": "2026-06-30T09:32:24.576035+00:00"
 }

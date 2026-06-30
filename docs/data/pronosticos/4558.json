@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 4558,
     "name": "Bahía Blanca",
@@ -16,31 +16,7 @@
       "temp_max": 13.0,
       "humidity_min": 46.0,
       "humidity_max": 75.0,
-      "early_morning": {
-        "humidity": 75.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Despejado",
-          "id": 3
-        },
-        "wind": {
-          "direction": "NO",
-          "deg": 337.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 67.0,
         "rain_prob_range": [
@@ -570,5 +546,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4558",
-  "generated_at": "2026-06-30T08:30:24.314522+00:00"
+  "generated_at": "2026-06-30T09:30:19.872723+00:00"
 }

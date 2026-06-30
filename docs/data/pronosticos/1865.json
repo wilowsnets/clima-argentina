@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:20:37-03:00",
+  "updated": "2026-06-30T06:18:11-03:00",
   "location": {
     "id": 1865,
     "name": "Puerto Santa Cruz",
@@ -16,34 +16,7 @@
       "temp_max": 5.0,
       "humidity_min": 52.0,
       "humidity_max": 69.0,
-      "early_morning": {
-        "humidity": 67.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          79,
-          87
-        ],
-        "temperature": 3.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 247.5,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 69.0,
         "rain_prob_range": [
@@ -79,8 +52,8 @@
           10
         ],
         "gust_range": [
-          70,
-          78
+          79,
+          87
         ],
         "temperature": 5.0,
         "visibility": "Buena",
@@ -302,10 +275,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -422,8 +395,8 @@
           "direction": "SO",
           "deg": 225.0,
           "speed_range": [
-            23,
-            31
+            13,
+            22
           ]
         },
         "river": null,
@@ -579,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1865",
-  "generated_at": "2026-06-30T08:32:18.313208+00:00"
+  "generated_at": "2026-06-30T09:32:02.677593+00:00"
 }
