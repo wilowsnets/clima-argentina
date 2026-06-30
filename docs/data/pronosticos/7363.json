@@ -72,7 +72,7 @@
     {
       "date": "2026-07-01",
       "temp_min": 7.0,
-      "temp_max": 15.0,
+      "temp_max": 14.0,
       "humidity_min": 65.0,
       "humidity_max": 93.0,
       "early_morning": {
@@ -83,11 +83,11 @@
         ],
         "gust_range": null,
         "temperature": 8.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Neblina",
+          "id": 61
         },
         "wind": {
           "direction": "E",
@@ -132,7 +132,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -178,8 +178,8 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": 7.0,
-      "temp_max": 13.0,
+      "temp_min": 5.0,
+      "temp_max": 12.0,
       "humidity_min": 57.0,
       "humidity_max": 90.0,
       "early_morning": null,
@@ -194,8 +194,8 @@
         "visibility": "Buena",
         "rain06h": 0.3,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SE",
@@ -215,12 +215,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SE",
@@ -237,8 +237,8 @@
     },
     {
       "date": "2026-07-03",
-      "temp_min": 3.0,
-      "temp_max": 14.0,
+      "temp_min": 1.0,
+      "temp_max": 12.0,
       "humidity_min": 78.0,
       "humidity_max": 85.0,
       "early_morning": null,
@@ -249,12 +249,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 1.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "SE",
@@ -274,12 +274,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 14.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -297,7 +297,7 @@
     {
       "date": "2026-07-04",
       "temp_min": 3.0,
-      "temp_max": 15.0,
+      "temp_max": 14.0,
       "humidity_min": 57.0,
       "humidity_max": 85.0,
       "early_morning": null,
@@ -333,7 +333,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 15.0,
+        "temperature": 14.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -417,10 +417,10 @@
       "temp_min": 9.0,
       "temp_max": 13.0,
       "humidity_min": 46.0,
-      "humidity_max": 46.0,
+      "humidity_max": 76.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 76.0,
         "rain_prob_range": [
           0,
           0
@@ -428,7 +428,7 @@
         "gust_range": null,
         "temperature": 9.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Mayormente nublado",
           "id": 37
@@ -501,5 +501,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/7363",
-  "generated_at": "2026-06-30T19:31:36.312858+00:00"
+  "generated_at": "2026-06-30T20:31:34.922757+00:00"
 }

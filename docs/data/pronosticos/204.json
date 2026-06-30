@@ -317,8 +317,8 @@
     },
     {
       "date": "2026-07-04",
-      "temp_min": 0.0,
-      "temp_max": 12.0,
+      "temp_min": -4.0,
+      "temp_max": 15.0,
       "humidity_min": 16.0,
       "humidity_max": 28.0,
       "early_morning": null,
@@ -329,7 +329,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -357,7 +357,7 @@
           42,
           50
         ],
-        "temperature": 12.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -379,8 +379,8 @@
     },
     {
       "date": "2026-07-05",
-      "temp_min": 0.0,
-      "temp_max": 12.0,
+      "temp_min": -2.0,
+      "temp_max": 15.0,
       "humidity_min": 21.0,
       "humidity_max": 21.0,
       "early_morning": null,
@@ -391,7 +391,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -416,12 +416,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 12.0,
+        "temperature": 15.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "SO",
@@ -438,7 +438,7 @@
     },
     {
       "date": "2026-07-06",
-      "temp_min": 0.0,
+      "temp_min": -2.0,
       "temp_max": 11.0,
       "humidity_min": 31.0,
       "humidity_max": 45.0,
@@ -450,12 +450,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 0.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -525,5 +525,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/204",
-  "generated_at": "2026-06-30T19:32:11.200558+00:00"
+  "generated_at": "2026-06-30T20:32:07.789919+00:00"
 }
