@@ -53,12 +53,12 @@
           0
         ],
         "gust_range": null,
-        "temperature": 3.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "S",
@@ -74,7 +74,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": -3.0,
+      "temp_min": -2.0,
       "temp_max": 7.0,
       "humidity_min": 52.0,
       "humidity_max": 95.0,
@@ -107,22 +107,22 @@
         "humidity": 84.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": -3.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "E",
-          "deg": 112.5,
+          "direction": "S",
+          "deg": 202.5,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -132,7 +132,7 @@
         "humidity": 52.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": 7.0,
@@ -160,7 +160,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 2.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -184,7 +184,7 @@
       "temp_min": -4.0,
       "temp_max": 8.0,
       "humidity_min": 56.0,
-      "humidity_max": 78.0,
+      "humidity_max": 82.0,
       "early_morning": null,
       "morning": {
         "humidity": 78.0,
@@ -358,7 +358,7 @@
     },
     {
       "date": "2026-07-06",
-      "temp_min": 5.0,
+      "temp_min": 2.0,
       "temp_max": 6.0,
       "humidity_min": 61.0,
       "humidity_max": 91.0,
@@ -367,10 +367,10 @@
         "humidity": 91.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -404,7 +404,7 @@
         },
         "wind": {
           "direction": "SO",
-          "deg": 225.0,
+          "deg": 247.5,
           "speed_range": [
             13,
             22
@@ -417,21 +417,21 @@
     },
     {
       "date": "2026-07-07",
-      "temp_min": 5.0,
-      "temp_max": 6.0,
+      "temp_min": -1.0,
+      "temp_max": 12.0,
       "humidity_min": 48.0,
-      "humidity_max": 48.0,
+      "humidity_max": 66.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 66.0,
         "rain_prob_range": [
           0,
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": -1.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
           "description": "Algo nublado",
           "id": 19
@@ -454,7 +454,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 6.0,
+        "temperature": 12.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -504,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4202",
-  "generated_at": "2026-07-01T19:30:54.269075+00:00"
+  "generated_at": "2026-07-01T20:30:49.393564+00:00"
 }

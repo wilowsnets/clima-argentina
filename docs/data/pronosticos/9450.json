@@ -28,7 +28,7 @@
           51,
           59
         ],
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Muy mala",
         "rain06h": 2.7,
         "weather": {
@@ -57,11 +57,11 @@
           50
         ],
         "temperature": 2.0,
-        "visibility": "Regular",
+        "visibility": "Muy mala",
         "rain06h": 0.1,
         "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
+          "description": "Nevadas fuertes",
+          "id": 85
         },
         "wind": {
           "direction": "S",
@@ -185,7 +185,7 @@
     {
       "date": "2026-07-03",
       "temp_min": 0.0,
-      "temp_max": 8.0,
+      "temp_max": 7.0,
       "humidity_min": 54.0,
       "humidity_max": 74.0,
       "early_morning": null,
@@ -196,7 +196,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 0.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -224,7 +224,7 @@
           42,
           50
         ],
-        "temperature": 8.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9450",
-  "generated_at": "2026-07-01T19:31:48.099657+00:00"
+  "generated_at": "2026-07-01T20:31:41.060508+00:00"
 }
