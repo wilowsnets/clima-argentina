@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:51:25-03:00",
+  "updated": "2026-07-01T13:09:26-03:00",
   "location": {
     "id": 6594,
     "name": "Villa Dolores",
@@ -21,19 +21,19 @@
       "afternoon": {
         "humidity": 64.0,
         "rain_prob_range": [
-          40,
-          70
+          0,
+          10
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 9.0,
-        "visibility": "Regular",
+        "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "S",
@@ -49,8 +49,8 @@
       "night": {
         "humidity": 70.0,
         "rain_prob_range": [
-          40,
-          70
+          10,
+          40
         ],
         "gust_range": [
           42,
@@ -60,8 +60,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "S",
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6594",
-  "generated_at": "2026-07-01T15:31:20.678717+00:00"
+  "generated_at": "2026-07-01T16:31:26.610732+00:00"
 }

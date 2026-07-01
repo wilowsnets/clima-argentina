@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:51:25-03:00",
+  "updated": "2026-07-01T13:09:26-03:00",
   "location": {
     "id": 4232,
     "name": "Coronel Pringles",
@@ -21,19 +21,19 @@
       "afternoon": {
         "humidity": 41.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 7.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.8,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Chaparrones",
+          "id": 74
         },
         "wind": {
           "direction": "SE",
@@ -504,5 +504,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4232",
-  "generated_at": "2026-07-01T15:30:28.211258+00:00"
+  "generated_at": "2026-07-01T16:30:30.376075+00:00"
 }

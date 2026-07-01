@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:51:25-03:00",
+  "updated": "2026-07-01T13:09:26-03:00",
   "location": {
     "id": 8764,
     "name": "Libertador Gral San Martín",
@@ -49,8 +49,8 @@
       "night": {
         "humidity": 76.0,
         "rain_prob_range": [
-          40,
-          70
+          10,
+          40
         ],
         "gust_range": [
           42,
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8764",
-  "generated_at": "2026-07-01T15:31:30.825325+00:00"
+  "generated_at": "2026-07-01T16:31:37.382763+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:51:25-03:00",
+  "updated": "2026-07-01T13:09:26-03:00",
   "location": {
     "id": 10025,
     "name": "Chapelco",
@@ -22,7 +22,7 @@
         "humidity": 46.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           79,
@@ -32,8 +32,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "E",
@@ -60,8 +60,8 @@
         "visibility": "Buena",
         "rain06h": 0.4,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "E",
@@ -522,5 +522,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10025",
-  "generated_at": "2026-07-01T15:31:45.616883+00:00"
+  "generated_at": "2026-07-01T16:31:52.585986+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:51:25-03:00",
+  "updated": "2026-07-01T13:09:26-03:00",
   "location": {
     "id": 5888,
     "name": "Rawson",
@@ -21,19 +21,19 @@
       "afternoon": {
         "humidity": 58.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
           42,
           50
         ],
         "temperature": 6.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.8,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "S",
@@ -49,23 +49,26 @@
       "night": {
         "humidity": 49.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
-        "gust_range": null,
+        "gust_range": [
+          42,
+          50
+        ],
         "temperature": 1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Lluvias aisladas",
+          "id": 72
         },
         "wind": {
           "direction": "S",
           "deg": 202.5,
           "speed_range": [
-            13,
-            22
+            23,
+            31
           ]
         },
         "river": null,
@@ -519,5 +522,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5888",
-  "generated_at": "2026-07-01T15:31:13.006896+00:00"
+  "generated_at": "2026-07-01T16:31:18.419939+00:00"
 }

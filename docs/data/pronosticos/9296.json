@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:51:25-03:00",
+  "updated": "2026-07-01T13:09:26-03:00",
   "location": {
     "id": 9296,
     "name": "Malargüe",
@@ -49,16 +49,16 @@
       "night": {
         "humidity": 99.0,
         "rain_prob_range": [
-          40,
-          70
+          0,
+          10
         ],
         "gust_range": null,
         "temperature": -2.0,
-        "visibility": "Mala",
+        "visibility": "Buena",
         "rain06h": 0.8,
         "weather": {
-          "description": "Nevadas",
-          "id": 79
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "SE",
@@ -507,5 +507,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9296",
-  "generated_at": "2026-07-01T15:31:39.320513+00:00"
+  "generated_at": "2026-07-01T16:31:46.207099+00:00"
 }
