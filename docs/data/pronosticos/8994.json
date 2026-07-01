@@ -92,8 +92,8 @@
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
-          "description": "Lloviznas",
-          "id": 71
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "S",
@@ -117,8 +117,8 @@
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
           "direction": "S",
@@ -199,12 +199,12 @@
           42,
           50
         ],
-        "temperature": 2.0,
-        "visibility": "Buena",
+        "temperature": 6.0,
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Nublado",
-          "id": 43
+          "description": "Niebla helada",
+          "id": 69
         },
         "wind": {
           "direction": "N",
@@ -426,10 +426,10 @@
       "temp_min": 2.0,
       "temp_max": 14.0,
       "humidity_min": 26.0,
-      "humidity_max": 26.0,
+      "humidity_max": 67.0,
       "early_morning": null,
       "morning": {
-        "humidity": null,
+        "humidity": 67.0,
         "rain_prob_range": [
           0,
           0
@@ -437,10 +437,10 @@
         "gust_range": null,
         "temperature": 2.0,
         "visibility": "Buena",
-        "rain06h": null,
+        "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "S",
@@ -510,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8994",
-  "generated_at": "2026-07-01T16:31:45.308209+00:00"
+  "generated_at": "2026-07-01T17:31:42.887341+00:00"
 }
