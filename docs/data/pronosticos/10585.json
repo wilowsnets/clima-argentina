@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T05:51:17-03:00",
+  "updated": "2026-07-01T07:51:25-03:00",
   "location": {
     "id": 10585,
     "name": "Wilde",
@@ -25,11 +25,11 @@
         ],
         "gust_range": null,
         "temperature": -1.0,
-        "visibility": "Buena",
+        "visibility": "Mala",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Niebla",
+          "id": 67
         },
         "wind": {
           "direction": "SE",
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/10585",
-  "generated_at": "2026-07-01T10:31:11.177097+00:00"
+  "generated_at": "2026-07-01T11:31:13.642830+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T05:51:17-03:00",
+  "updated": "2026-07-01T07:51:25-03:00",
   "location": {
     "id": 5648,
     "name": "Resistencia",
@@ -28,8 +28,8 @@
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Lloviznas",
+          "id": 71
         },
         "wind": {
           "direction": "SE",
@@ -528,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5648",
-  "generated_at": "2026-07-01T10:31:16.399960+00:00"
+  "generated_at": "2026-07-01T11:31:18.703643+00:00"
 }

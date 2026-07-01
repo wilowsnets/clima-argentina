@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T05:51:17-03:00",
+  "updated": "2026-07-01T07:51:25-03:00",
   "location": {
     "id": 8786,
     "name": "Eduardo Castex",
@@ -20,8 +20,8 @@
       "morning": {
         "humidity": 81.0,
         "rain_prob_range": [
-          0,
-          0
+          10,
+          40
         ],
         "gust_range": [
           51,
@@ -537,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8786",
-  "generated_at": "2026-07-01T10:31:43.006769+00:00"
+  "generated_at": "2026-07-01T11:31:44.443245+00:00"
 }
