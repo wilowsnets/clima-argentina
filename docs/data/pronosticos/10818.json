@@ -9,11 +9,11 @@
   },
   "forecast": [],
   "current_conditions": {
-    "date": "2026-06-30T23:00:00-03:00",
-    "humidity": 32.0,
-    "pressure": 974.6,
-    "feels_like": -15.0,
-    "temperature": -8.0,
+    "date": "2026-07-01T00:00:00-03:00",
+    "humidity": 35.0,
+    "pressure": 974.0,
+    "feels_like": -14.3,
+    "temperature": -7.4,
     "visibility": 15.0,
     "weather": {
       "description": "Nublado",
@@ -44,7 +44,7 @@
   "observation_source_type": "ws1_current_weather_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/weather/location/10818",
-  "generated_at": "2026-07-01T02:32:17.975710+00:00",
-  "previous_generated_at": "2026-07-01T01:32:19.179409+00:00",
+  "generated_at": "2026-07-01T03:32:16.459180+00:00",
+  "previous_generated_at": "2026-07-01T02:32:17.975710+00:00",
   "previous_source_url": "https://ws1.smn.gob.ar/v1/weather/location/10818"
 }
