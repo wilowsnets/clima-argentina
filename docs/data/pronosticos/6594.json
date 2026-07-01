@@ -17,34 +17,7 @@
       "humidity_min": 59.0,
       "humidity_max": 70.0,
       "early_morning": null,
-      "morning": {
-        "humidity": 59.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 6.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lloviznas",
-          "id": 71
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "morning": null,
       "afternoon": {
         "humidity": 64.0,
         "rain_prob_range": [
@@ -537,5 +510,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/6594",
-  "generated_at": "2026-07-01T14:31:23.078220+00:00"
+  "generated_at": "2026-07-01T15:31:20.678717+00:00"
 }
