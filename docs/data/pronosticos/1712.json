@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 1712,
     "name": "San Luis",
@@ -13,37 +13,10 @@
     {
       "date": "2026-07-01",
       "temp_min": 2.0,
-      "temp_max": 4.0,
+      "temp_max": 8.0,
       "humidity_min": 63.0,
       "humidity_max": 97.0,
-      "early_morning": {
-        "humidity": 67.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 86.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           51,
           59
         ],
-        "temperature": 4.0,
+        "temperature": 7.0,
         "visibility": "Regular",
         "rain06h": 0.5,
         "weather": {
@@ -75,8 +48,8 @@
       "afternoon": {
         "humidity": 97.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           51,
@@ -93,8 +66,8 @@
           "direction": "S",
           "deg": 180.0,
           "speed_range": [
-            23,
-            31
+            32,
+            41
           ]
         },
         "river": null,
@@ -103,8 +76,8 @@
       "night": {
         "humidity": 63.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
@@ -164,7 +137,7 @@
         "humidity": 72.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": null,
         "temperature": -2.0,
@@ -175,8 +148,8 @@
           "id": 37
         },
         "wind": {
-          "direction": "N",
-          "deg": 22.5,
+          "direction": "NE",
+          "deg": 67.5,
           "speed_range": [
             13,
             22
@@ -247,7 +220,7 @@
         "humidity": 76.0,
         "rain_prob_range": [
           0,
-          0
+          10
         ],
         "gust_range": [
           42,
@@ -567,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1712",
-  "generated_at": "2026-07-01T08:31:58.701191+00:00"
+  "generated_at": "2026-07-01T09:32:05.074264+00:00"
 }

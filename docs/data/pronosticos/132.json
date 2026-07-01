@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 132,
     "name": "Viedma",
@@ -13,37 +13,10 @@
     {
       "date": "2026-07-01",
       "temp_min": 3.0,
-      "temp_max": 7.0,
+      "temp_max": 6.0,
       "humidity_min": 47.0,
       "humidity_max": 61.0,
-      "early_morning": {
-        "humidity": 49.0,
-        "rain_prob_range": [
-          10,
-          40
-        ],
-        "gust_range": [
-          51,
-          59
-        ],
-        "temperature": 4.0,
-        "visibility": "Regular",
-        "rain06h": 0.5,
-        "weather": {
-          "description": "Chaparrones",
-          "id": 74
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 135.0,
-          "speed_range": [
-            42,
-            50
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 47.0,
         "rain_prob_range": [
@@ -82,7 +55,7 @@
           51,
           59
         ],
-        "temperature": 7.0,
+        "temperature": 6.0,
         "visibility": "Regular",
         "rain06h": 1.2,
         "weather": {
@@ -110,7 +83,7 @@
           42,
           50
         ],
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.1,
         "weather": {
@@ -142,7 +115,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 5.0,
+        "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -570,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/132",
-  "generated_at": "2026-07-01T08:31:51.784818+00:00"
+  "generated_at": "2026-07-01T09:31:57.507814+00:00"
 }

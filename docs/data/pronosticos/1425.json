@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 1425,
     "name": "San Juan",
@@ -16,39 +16,12 @@
       "temp_max": 5.0,
       "humidity_min": 51.0,
       "humidity_max": 90.0,
-      "early_morning": {
-        "humidity": 51.0,
-        "rain_prob_range": [
-          0,
-          10
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 5.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 180.0,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 73.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           60,
@@ -75,14 +48,14 @@
       "afternoon": {
         "humidity": 79.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           51,
           59
         ],
-        "temperature": 3.0,
+        "temperature": 5.0,
         "visibility": "Regular",
         "rain06h": 3.9,
         "weather": {
@@ -103,8 +76,8 @@
       "night": {
         "humidity": 90.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": [
           42,
@@ -171,8 +144,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "N",
@@ -279,8 +252,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "NE",
@@ -561,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/1425",
-  "generated_at": "2026-07-01T08:31:57.124206+00:00"
+  "generated_at": "2026-07-01T09:32:03.521930+00:00"
 }

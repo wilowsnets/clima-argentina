@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 8817,
     "name": "Victorica",
@@ -12,38 +12,11 @@
   "forecast": [
     {
       "date": "2026-07-01",
-      "temp_min": 0.0,
+      "temp_min": 3.0,
       "temp_max": 8.0,
       "humidity_min": 47.0,
       "humidity_max": 69.0,
-      "early_morning": {
-        "humidity": 65.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          60,
-          69
-        ],
-        "temperature": 5.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Ventoso",
-          "id": 51
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 69.0,
         "rain_prob_range": [
@@ -54,7 +27,7 @@
           51,
           59
         ],
-        "temperature": 0.0,
+        "temperature": 3.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -107,7 +80,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 3.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -564,5 +537,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/8817",
-  "generated_at": "2026-07-01T08:31:36.067836+00:00"
+  "generated_at": "2026-07-01T09:31:39.448261+00:00"
 }

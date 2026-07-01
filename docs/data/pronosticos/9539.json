@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 9539,
     "name": "Tunuyan",
@@ -12,49 +12,22 @@
   "forecast": [
     {
       "date": "2026-07-01",
-      "temp_min": -1.0,
-      "temp_max": 1.0,
+      "temp_min": 0.0,
+      "temp_max": 6.0,
       "humidity_min": 42.0,
       "humidity_max": 96.0,
-      "early_morning": {
-        "humidity": 42.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 1.0,
-        "visibility": "Regular",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Lluvias y nevadas",
-          "id": 77
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            32,
-            41
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 84.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": [
-          42,
-          50
+          51,
+          59
         ],
-        "temperature": -1.0,
+        "temperature": 4.0,
         "visibility": "Muy mala",
         "rain06h": 0.4,
         "weather": {
@@ -75,14 +48,14 @@
       "afternoon": {
         "humidity": 50.0,
         "rain_prob_range": [
-          40,
-          70
+          70,
+          100
         ],
         "gust_range": [
           42,
           50
         ],
-        "temperature": -1.0,
+        "temperature": 2.0,
         "visibility": "Muy mala",
         "rain06h": 0.4,
         "weather": {
@@ -139,7 +112,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": -3.0,
+        "temperature": -2.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -558,5 +531,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9539",
-  "generated_at": "2026-07-01T08:31:41.272059+00:00"
+  "generated_at": "2026-07-01T09:31:45.234201+00:00"
 }

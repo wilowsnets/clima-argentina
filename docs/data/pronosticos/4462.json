@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 4462,
     "name": "Tres Arroyos",
@@ -13,37 +13,10 @@
     {
       "date": "2026-07-01",
       "temp_min": 1.0,
-      "temp_max": 7.0,
+      "temp_max": 8.0,
       "humidity_min": 72.0,
       "humidity_max": 83.0,
-      "early_morning": {
-        "humidity": 79.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": [
-          42,
-          50
-        ],
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 83.0,
         "rain_prob_range": [
@@ -82,7 +55,7 @@
           51,
           59
         ],
-        "temperature": 7.0,
+        "temperature": 8.0,
         "visibility": "Regular",
         "rain06h": 0.3,
         "weather": {
@@ -107,7 +80,7 @@
           0
         ],
         "gust_range": null,
-        "temperature": 4.0,
+        "temperature": 2.0,
         "visibility": "Buena",
         "rain06h": 0.1,
         "weather": {
@@ -128,7 +101,7 @@
     },
     {
       "date": "2026-07-02",
-      "temp_min": -1.0,
+      "temp_min": -2.0,
       "temp_max": 8.0,
       "humidity_min": 53.0,
       "humidity_max": 88.0,
@@ -164,7 +137,7 @@
           10
         ],
         "gust_range": null,
-        "temperature": -1.0,
+        "temperature": -2.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
@@ -561,5 +534,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4462",
-  "generated_at": "2026-07-01T08:31:02.440696+00:00"
+  "generated_at": "2026-07-01T09:31:04.439506+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 4302,
     "name": "Cariló",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-07-01",
-      "temp_min": 1.0,
+      "temp_min": 2.0,
       "temp_max": 9.0,
       "humidity_min": 55.0,
       "humidity_max": 84.0,
-      "early_morning": {
-        "humidity": 84.0,
-        "rain_prob_range": [
-          0,
-          0
-        ],
-        "gust_range": null,
-        "temperature": 4.0,
-        "visibility": "Buena",
-        "rain06h": 0.0,
-        "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
-        },
-        "wind": {
-          "direction": "N",
-          "deg": 22.5,
-          "speed_range": [
-            7,
-            12
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 81.0,
         "rain_prob_range": [
@@ -51,7 +27,7 @@
           42,
           50
         ],
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -139,7 +115,7 @@
           40
         ],
         "gust_range": null,
-        "temperature": 1.0,
+        "temperature": 2.0,
         "visibility": "Regular",
         "rain06h": 0.5,
         "weather": {
@@ -567,5 +543,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/4302",
-  "generated_at": "2026-07-01T08:30:24.003760+00:00"
+  "generated_at": "2026-07-01T09:30:23.001898+00:00"
 }

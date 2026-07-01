@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:44:42-03:00",
+  "updated": "2026-07-01T05:51:17-03:00",
   "location": {
     "id": 9585,
     "name": "Puerto Iguazú",
@@ -12,35 +12,11 @@
   "forecast": [
     {
       "date": "2026-07-01",
-      "temp_min": 13.0,
-      "temp_max": 19.0,
+      "temp_min": 15.0,
+      "temp_max": 25.0,
       "humidity_min": 87.0,
       "humidity_max": 100.0,
-      "early_morning": {
-        "humidity": 100.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": 15.0,
-        "visibility": "Regular",
-        "rain06h": 1.8,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "O",
-          "deg": 292.5,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      },
+      "early_morning": null,
       "morning": {
         "humidity": 87.0,
         "rain_prob_range": [
@@ -48,19 +24,19 @@
           70
         ],
         "gust_range": null,
-        "temperature": 13.0,
+        "temperature": 15.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "E",
+          "deg": 112.5,
           "speed_range": [
-            13,
-            22
+            7,
+            12
           ]
         },
         "river": null,
@@ -76,7 +52,7 @@
           42,
           50
         ],
-        "temperature": 19.0,
+        "temperature": 25.0,
         "visibility": "Muy mala",
         "rain06h": 3.0,
         "weather": {
@@ -101,7 +77,7 @@
           70
         ],
         "gust_range": null,
-        "temperature": 18.0,
+        "temperature": 19.0,
         "visibility": "Regular",
         "rain06h": 0.0,
         "weather": {
@@ -129,16 +105,16 @@
       "early_morning": {
         "humidity": 100.0,
         "rain_prob_range": [
-          10,
-          40
+          40,
+          70
         ],
         "gust_range": null,
         "temperature": 15.0,
         "visibility": "Regular",
         "rain06h": 1.2,
         "weather": {
-          "description": "Chaparrones",
-          "id": 74
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "SO",
@@ -154,16 +130,16 @@
       "morning": {
         "humidity": 100.0,
         "rain_prob_range": [
-          40,
-          70
+          10,
+          40
         ],
         "gust_range": null,
         "temperature": 14.0,
-        "visibility": "Mala",
+        "visibility": "Regular",
         "rain06h": 5.3,
         "weather": {
-          "description": "Tormentas",
-          "id": 81
+          "description": "Tormentas aisladas",
+          "id": 76
         },
         "wind": {
           "direction": "SE",
@@ -212,12 +188,12 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
-          "direction": "SE",
-          "deg": 135.0,
+          "direction": "S",
+          "deg": 180.0,
           "speed_range": [
             13,
             22
@@ -245,8 +221,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "SE",
@@ -552,5 +528,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9585",
-  "generated_at": "2026-07-01T08:31:44.038120+00:00"
+  "generated_at": "2026-07-01T09:31:48.306280+00:00"
 }
