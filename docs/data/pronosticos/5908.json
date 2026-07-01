@@ -47,26 +47,26 @@
       "morning": {
         "humidity": 93.0,
         "rain_prob_range": [
-          0,
-          10
+          10,
+          40
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 1.0,
-        "visibility": "Buena",
+        "visibility": "Regular",
         "rain06h": 1.4,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Lluvias y nevadas",
+          "id": 77
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -79,8 +79,8 @@
           10
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 6.0,
         "visibility": "Buena",
@@ -107,22 +107,22 @@
           10
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 5.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
-          "direction": "SO",
-          "deg": 247.5,
+          "direction": "O",
+          "deg": 270.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -142,8 +142,8 @@
           10
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 4.0,
         "visibility": "Buena",
@@ -154,10 +154,10 @@
         },
         "wind": {
           "direction": "O",
-          "deg": 270.0,
+          "deg": 292.5,
           "speed_range": [
-            42,
-            50
+            23,
+            31
           ]
         },
         "river": null,
@@ -170,8 +170,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 2.0,
         "visibility": "Buena",
@@ -198,8 +198,8 @@
           0
         ],
         "gust_range": [
-          60,
-          69
+          51,
+          59
         ],
         "temperature": 9.0,
         "visibility": "Buena",
@@ -212,8 +212,8 @@
           "direction": "NO",
           "deg": 315.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -226,8 +226,8 @@
           40
         ],
         "gust_range": [
-          70,
-          78
+          60,
+          69
         ],
         "temperature": 5.0,
         "visibility": "Regular",
@@ -240,8 +240,8 @@
           "direction": "O",
           "deg": 270.0,
           "speed_range": [
-            42,
-            50
+            32,
+            41
           ]
         },
         "river": null,
@@ -290,15 +290,15 @@
           0
         ],
         "gust_range": [
-          51,
-          59
+          42,
+          50
         ],
         "temperature": 4.0,
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "O",
@@ -421,8 +421,8 @@
         "visibility": "Buena",
         "rain06h": 0.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "NO",
@@ -588,5 +588,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5908",
-  "generated_at": "2026-07-01T07:32:22.215208+00:00"
+  "generated_at": "2026-07-01T08:32:21.546634+00:00"
 }
