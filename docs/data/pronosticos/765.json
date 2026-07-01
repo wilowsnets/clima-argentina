@@ -309,8 +309,8 @@
           "id": 3
         },
         "wind": {
-          "direction": "O",
-          "deg": 292.5,
+          "direction": "NO",
+          "deg": 337.5,
           "speed_range": [
             60,
             69
@@ -540,5 +540,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/765",
-  "generated_at": "2026-07-01T17:32:00.390173+00:00"
+  "generated_at": "2026-07-01T18:31:56.963655+00:00"
 }
