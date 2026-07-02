@@ -11,41 +11,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-07-01",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 95.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": 13.0,
-        "visibility": "Regular",
-        "rain06h": 1.5,
-        "weather": {
-          "description": "Lluvias aisladas",
-          "id": 72
-        },
-        "wind": {
-          "direction": "S",
-          "deg": 180.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-07-02",
       "temp_min": 8.0,
       "temp_max": 13.0,
@@ -587,5 +552,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/5648",
-  "generated_at": "2026-07-02T02:31:59.698846+00:00"
+  "generated_at": "2026-07-02T03:31:14.767448+00:00"
 }

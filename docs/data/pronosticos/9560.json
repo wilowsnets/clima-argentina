@@ -11,41 +11,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-07-01",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 87.0,
-        "rain_prob_range": [
-          70,
-          100
-        ],
-        "gust_range": null,
-        "temperature": 0.0,
-        "visibility": "Muy mala",
-        "rain06h": 0.1,
-        "weather": {
-          "description": "Nevadas fuertes",
-          "id": 85
-        },
-        "wind": {
-          "direction": "SE",
-          "deg": 157.5,
-          "speed_range": [
-            23,
-            31
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-07-02",
       "temp_min": -2.0,
       "temp_max": 2.0,
@@ -590,5 +555,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9560",
-  "generated_at": "2026-07-02T02:32:42.145178+00:00"
+  "generated_at": "2026-07-02T03:31:44.748628+00:00"
 }

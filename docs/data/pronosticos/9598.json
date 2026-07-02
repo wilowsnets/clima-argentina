@@ -11,41 +11,6 @@
   "type": "location",
   "forecast": [
     {
-      "date": "2026-07-01",
-      "temp_min": null,
-      "temp_max": null,
-      "humidity_min": null,
-      "humidity_max": null,
-      "early_morning": null,
-      "morning": null,
-      "afternoon": null,
-      "night": {
-        "humidity": 99.0,
-        "rain_prob_range": [
-          40,
-          70
-        ],
-        "gust_range": null,
-        "temperature": 16.0,
-        "visibility": "Mala",
-        "rain06h": 3.1,
-        "weather": {
-          "description": "Tormentas",
-          "id": 81
-        },
-        "wind": {
-          "direction": "SO",
-          "deg": 225.0,
-          "speed_range": [
-            13,
-            22
-          ]
-        },
-        "river": null,
-        "border": null
-      }
-    },
-    {
       "date": "2026-07-02",
       "temp_min": 7.0,
       "temp_max": 14.0,
@@ -584,5 +549,5 @@
   "forecast_source_type": "ws1_current_api",
   "source": "Servicio Meteorológico Nacional",
   "source_url": "https://ws1.smn.gob.ar/v1/forecast/location/9598",
-  "generated_at": "2026-07-02T02:32:57.951362+00:00"
+  "generated_at": "2026-07-02T03:31:50.161195+00:00"
 }
